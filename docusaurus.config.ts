@@ -12,7 +12,7 @@ const config: Config = {
   v4: true,
  },
 
- url: "https://elastic-docs.github.io",
+ url: "https://imatia-innovation.github.io/",
  baseUrl: "/",
 
  organizationName: "Imatia Innovation S.L.",
