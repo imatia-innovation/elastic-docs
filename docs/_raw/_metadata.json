@@ -1,0 +1,68 @@
+{
+  "almacen/elastic_business_modulo_almacen": {
+    "pages": 92,
+    "pdf_path": "docs\\assets\\source-pdfs\\almacen\\elastic_business_modulo_almacen.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "antifraude/elastic_business_cambios_ley_antifraude": {
+    "pages": 57,
+    "pdf_path": "docs\\assets\\source-pdfs\\antifraude\\elastic_business_cambios_ley_antifraude.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "calidad/elastic_business_modulo_calidad": {
+    "pages": 5,
+    "pdf_path": "docs\\assets\\source-pdfs\\calidad\\elastic_business_modulo_calidad.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "compras/elastic_business_modulo_compras": {
+    "pages": 141,
+    "pdf_path": "docs\\assets\\source-pdfs\\compras\\elastic_business_modulo_compras.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "crm/elastic_business_modulo_crm": {
+    "pages": 10,
+    "pdf_path": "docs\\assets\\source-pdfs\\crm\\elastic_business_modulo_crm.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "finanzas/elastic_business_modulo_finanzas": {
+    "pages": 38,
+    "pdf_path": "docs\\assets\\source-pdfs\\finanzas\\elastic_business_modulo_finanzas.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "guia_de_uso/elastic_business_guia_iniciacion": {
+    "pages": 68,
+    "pdf_path": "docs\\assets\\source-pdfs\\guia_de_uso\\elastic_business_guia_iniciacion.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "laboral/elastic_business_modulo_laboral": {
+    "pages": 22,
+    "pdf_path": "docs\\assets\\source-pdfs\\laboral\\elastic_business_modulo_laboral.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "produccion/elastic_business_modulo_produccion": {
+    "pages": 42,
+    "pdf_path": "docs\\assets\\source-pdfs\\produccion\\elastic_business_modulo_produccion.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "trazabilidad/elastic_business_modulo_trazabilidad": {
+    "pages": 39,
+    "pdf_path": "docs\\assets\\source-pdfs\\trazabilidad\\elastic_business_modulo_trazabilidad.pdf",
+    "has_images": false,
+    "image_pages": []
+  },
+  "ventas/elastic_business_modulo_ventas": {
+    "pages": 90,
+    "pdf_path": "docs\\assets\\source-pdfs\\ventas\\elastic_business_modulo_ventas.pdf",
+    "has_images": false,
+    "image_pages": []
+  }
+}

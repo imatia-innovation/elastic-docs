@@ -1,0 +1,8 @@
+{
+  "label": "Ventas",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentación del módulo de Ventas"
+  }
+}

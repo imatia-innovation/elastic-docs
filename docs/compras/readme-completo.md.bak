@@ -1,0 +1,4468 @@
+# COMPRAS - Contenido extraído de PDF
+
+> **Nota:** Esta es una extracción automática de PDF a Markdown. 
+> Requiere revisión y reorganización manual según estructura deseada.
+
+**Estadísticas:**
+- Páginas procesadas: 141
+- Tamaño del contenido: 170913 caracteres
+
+## Contenido extraído
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 1/15 www.imatia.com  
+Los Gastos Planificados  son gastos extras que incrementan el coste del conjunto de líneas . En este 
+documento vamos a explicar punto por punto como crear un Gasto planificado , sus detalles , como va 
+avanzando a través de los documentos  y como afecta a la contabilidad . 
+ 
+La imputación de gastos planificados comienza en el presupuesto de compras.  Para este ejemplo , 
+crearemos un presupuesto  desde Compras >> Presupuestos . Para conocer la estructura y en que 
+documentos/procesos influyen los gastos planificados  crearemos un ejemplo desde cero e iremos 
+creando apéndices de este, en función de las necesidades en la explicación. Una vez tengamos el 
+presupuesto creado y añadamos las líneas deseadas, nos iremos a la pestaña  de Gastos planificados .  
+Estas serán las líneas que nos acompañarán en la explicación más básica.  
+ 
+**Nota:  Los gastos planificados saldrían a cero, pero en este caso se muestra por que ya se han añadido 
+para el ejemplo  
+**Nota:  se pueden crear tantos gastos planificados como se necesiten  y con la descripción que nos 
+convenga .
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 1/10 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento de l a subcontratación en Elastic Business, 
+así como su configuración y preparación de datos para su carga.  
+ 
+La subcontratación en E lastic se define como una operación más en el proceso de fabricación de un 
+artículo.  
+Esta se definió pensando en la utilización de referencias distintas para los artículos implicados en este 
+proceso de subcontratación. Es decir, se envía a un proveedor la referencia A, se realiza el proceso 
+pertinente a la subcontratación, y vuelve al sist ema la referencia B.  
+Al entender esta en el sistema como una operación más, lo primero que se debe hacer es definir las 
+secciones y operaciones como de subcontratación.  
+Para ello se debe acceder a Producción >> Instalaciones >> Fabricas >> Líneas >> Secciones .  
+A continuación , se explican los  diferentes checks y campos a cubrir.  
+• Sección externa : check para indicar que es una sección externa, este check se trasladará 
+automáticamente a las operaciones creadas aquí.  
+• Proveedor : se indica si la sección pertenece a un proveedor específico. Esta información se 
+trasladará automáticamente a las operaciones creadas aquí.  
+• Familia de servicio/artículo de servicio : se especifica un artículo servicio para los trabajos de 
+subcontratación en esta sección. Esta información se trasladará automáticamente a las 
+operaciones creadas aquí.  El artículo servicio se puede asociar directamente a nivel de operación 
+e incluso a nivel de despiece de artículo.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+ 
+  Módulo  de  
+compras  
+ 
+elastic ® BUSINESS ® 
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 2/15 www.imatia.com  Tras conocer nuestro presupuesto nos iremos a la pestaña de Gastos planificados  y crearemos uno . En 
+este ejemplo hicimos un gasto de transporte de 100€  pero podría llamarse como quisiéramos (en el 
+punto 4 le cambiaremos el nombre)  
+ 
+Aquí podemos ver diversos campos  los cuales son: 
+• Artículo : este campo se usa para asig nar el gasto a l artículo de Servicio únicamente.  Para que 
+en el desplegable aparezcan artículos , la familia tiene que estar configurada como De servicio  
+• Proveedor : aquí podemos seleccionar el proveedor al que queramos  imputar el gasto 
+planificado.  Por ejemplo, si se quiere contratar una empresa de transporte , será a ella a quien 
+hay que pagarle la factura . 
+• Descripción : completaremos con el nombre que queremos que tenga nuestro gasto.  
+• Imputable : este check se marca cuando queremos imputarle el gasto planificado a los artículos , 
+incrementando así su coste.  
+• IVA: IVA que se le aplicará a dicha imputación de coste.  
+• Completo : este check se marca de forma manual cuando, aun no repartiendo los gastos en su 
+totalidad, queremos darlos por repartidos (por ejemplo  si el proveedor nos perdona una parte de 
+los gastos ) 
+• Portes  (Por ahora no existe campo) : Cuando se carga Importe de transporte en 
+Pedidos/Albaranes, se añade en los gastos planificados una nueva línea. Se diferencian de un 
+gasto planificado porque no es editable el campo de "Importe variable".  
+• Importe del gasto  
+o Fijo: es un importe en euros  (ejemplo)  
+o Variable : es un porcentaje  
+• Método de distribución  
+o Por importe: se reparte e l importe  del gasto  en proporción , al peso que tenga el artículo,  
+en la base imponible  
+o Por unidad: se reparte el porcentaje del gasto en proporción  al peso que tenga n las 
+cantidades  del artículo en la base imponible  
+o Manual: el importe o porcentaje se reparte como se necesite. Saltará un aviso si no se 
+ha repartido en su totalidad.  
+Para ver como son las posibles combinaciones , vamos a hacer unos ejemplos según los métodos de 
+distribución por importe , por unidades  o de forma manual  (tanto fijo, variable  y Mixto ).
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 2/10 www.imatia.com  
+Gestión de secciones  
+ 
+Gestión de operaciones
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 2 de 116 
+ 
+ 1. Introducción  ................................ ................................ ................................ ................................ ..........  7 
+2. Proveedores  ................................ ................................ ................................ ................................ ........  14 
+2.1 Cabecera del proveedor  ................................ ................................ ................................ ...............................  15 
+2.2 Pestaña Resumen  ................................ ................................ ................................ ................................ .........  15 
+2.3 Pestaña Agenda  ................................ ................................ ................................ ................................ ............  17 
+2.3.1  Subpestaña Contactos  ................................ ................................ ................................ ......................  17 
+2.3.2  Subpestaña Direcciones ................................ ................................ ................................ ....................  18 
+2.3.3  Subpestaña Interlocutores ................................ ................................ ................................ ................  19 
+2.4 Pestaña Política  ................................ ................................ ................................ ................................ .............  19 
+2.4.1  Subpestaña Artículos  ................................ ................................ ................................ .........................  20 
+2.4.2  Subpestaña Tarifas  ................................ ................................ ................................ ............................  21 
+2.4.3  Subpestaña Descuentos  ................................ ................................ ................................ ...................  21 
+2.4.4  Subpestaña Tarifas de transporte  ................................ ................................ ................................ ... 21 
+2.4.5 Subpestaña Rappels  ................................ ................................ ................................ ..............................  22 
+2.5 Pestaña Administración  ................................ ................................ ................................ ..............................  23 
+2.5.1  Subpestaña Configuración  ................................ ................................ ................................ ...............  23 
+2.5.2  Subpestaña Finanzas  ................................ ................................ ................................ ........................  24 
+2.5.3  Subpestaña Políticas de pago  ................................ ................................ ................................ ..........  25 
+2.6 Pestaña Empresas  ................................ ................................ ................................ ................................ ........  27 
+2.7 Pestaña Adicional  ................................ ................................ ................................ ................................ .........  28 
+2.8 Pestaña Ficheros  ................................ ................................ ................................ ................................ ..........  28 
+2.9 Pestaña Evaluaciones  ................................ ................................ ................................ ................................ .. 29 
+3. Gestión de documentos  ................................ ................................ ................................ .....................  31 
+3.1 Pestaña Resumen de situación  ................................ ................................ ................................ ..................  31 
+3.2 Pestaña Presupuestos  ................................ ................................ ................................ ................................ . 32 
+3.3 Pestaña Pedidos  ................................ ................................ ................................ ................................ ...........  32 
+3.4 Pestaña Albaranes  ................................ ................................ ................................ ................................ ........  32 
+3.5 Pestaña Facturas  ................................ ................................ ................................ ................................ ..........  33 
+3.6 Pestaña Recibos  ................................ ................................ ................................ ................................ ...........  33 
+3.7 Pestaña No conformidades  ................................ ................................ ................................ ........................  33 
+4. Presupuestos  ................................ ................................ ................................ ................................ ...... 36 
+4.1 Cabecera del presupuesto  ................................ ................................ ................................ ..........................  36 
+4.2 Pestaña Básico.  ................................ ................................ ................................ ................................ .............  38 
+4.3 Pestaña Gestión  ................................ ................................ ................................ ................................ ............  39 
+4.4 Pestaña Líneas  ................................ ................................ ................................ ................................ ..............  40 
+4.4.1  Cómo añadir una línea.  ................................ ................................ ................................ ......................  42 
+4.4.2  Como crear un artículo (Parámetros)  ................................ ................................ .............................  42
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 3/15 www.imatia.com  
+Aquí mostraremos un ejemplo de c ómo se reparte el importe de gasto tanto fijo , variable  y mixto  según 
+el importe de las  líneas mencionadas anteriormente.  
+ 
+Para repartir este importe tendremos que tener en cuenta lo siguiente:  
+- Base imponible  (A) 8.397€  
+- Base imponible (B): 3.216€  
+- Base imponible total  (A+B) : 11.613€ (8.397€ + 3.216€)  
+- Gasto fijo : 100€  
+ 
+Seguiremos una serie de pasos para llegar al importe:  
+1) Ponderaremos que peso tiene cada articulo en la Base imponible  
+Porcentaje (A): Base imponible (A) / Base imponible total = 8.397€/11.613€ =  72.3 1%  
+Porcentaje (B): Base imponible (B) / Base imponible total = 3.216€/11.613€ = 27.69%  
+ 
+2) Multiplicaremos el  Gasto fijo por los porcentajes  
+Importe (A): Gasto fijo  * Porcentaje (A) = 100€ * 72.31% = 72.31€  
+Importe (B): Gasto fijo * Porcentaje (B) = 100€ * 27.69% = 27.6 9€ 
+ 
+Para repartir este porcentaje  tendremos que tener en cuenta lo siguiente:  
+- Base imponible (A) 8.397€  
+- Base imponible (B): 3.216€  
+- Gasto variable : 10%  
+ 
+En este caso, es más sencillo. Solo tenemos que multiplicar el porcentaje por las bases imponibles :
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 3/10 www.imatia.com  
+Despiece  
+Operación  externa : este check sirve para indicar que es una operación de subcontratación. Las 
+operaciones de subcontratación, a diferencia del estándar , se completan cuando el albarán de compras 
+asociado al proceso subcontratado se da de alta en el almacén. Este apartado se explicará más adelante.  
+Una vez configuradas las operaciones de subcontratación, hay que definir el despiece de los artículos 
+que se van a ver afectadas por estas.  
+El estándar de Elastic contempla el uso de dos referencias según el estado del artículo. Una anterior al 
+proceso subcontratado y otra a posterior. Esto facilita la gestión del stock de los artículos, así como la 
+traza de este durante el proceso de subcontr atación.  
+A continuación, se especifica un ejemplo:  
+Artículo – 20000001  – Artículo sin cincar  
+Artículo – 20000001C – Artículo cincado  
+La configuración del despiece del artículo 20000001C – Artículo cincado debe ser la siguiente:  
+1. Se debe  añadir a este la operación de subcontratación, esta indicarse como Alta en producción. 
+Esto facilita la gestión de stock real del material.  
+2. Se debe añadir como material el artículo que se va a enviar al proveedor para realizar el proceso 
+productivo subcontratado .
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 3 de 116 
+ 
+ 4.5 Pestaña Gastos planificados  ................................ ................................ ................................ ......................  44 
+4.6 Pestaña Documentos asociados  ................................ ................................ ................................ ...............  44 
+4.7 Pestaña Adicional  ................................ ................................ ................................ ................................ .........  45 
+4.8 Pestaña Ficheros  ................................ ................................ ................................ ................................ ..........  46 
+4.9 Botones de acción (icono engranaje)  ................................ ................................ ................................ ....... 47 
+4.9.1  Nueva versión  ................................ ................................ ................................ ................................ ...... 47 
+4.9.2  Clonar un presupuesto  ................................ ................................ ................................ ......................  47 
+4.9.3  Imprimir versión  ................................ ................................ ................................ ................................ .. 47 
+4.9.4  Generar pedido (F2)  ................................ ................................ ................................ ...........................  48 
+5. Pedidos  ................................ ................................ ................................ ................................ ...............  50 
+5.1 Cabecera del pedido  ................................ ................................ ................................ ................................ ..... 51 
+5.2 Pestaña Básico  ................................ ................................ ................................ ................................ ..............  52 
+5.3 Pestaña Gestión  ................................ ................................ ................................ ................................ ............  52 
+5.4 Pestaña Líneas  ................................ ................................ ................................ ................................ ..............  53 
+5.5 Pestaña Gastos planificados  ................................ ................................ ................................ ......................  54 
+5.6 Pestaña Documentos asociados  ................................ ................................ ................................ ...............  55 
+5.7 Pestaña Adicional  ................................ ................................ ................................ ................................ .........  55 
+5.8 Pestaña Subcontratación  ................................ ................................ ................................ ............................  57 
+5.9 Pestaña Ficheros  ................................ ................................ ................................ ................................ ..........  57 
+5.10 Botones de acción (icono engranaje)  ................................ ................................ ................................ ....... 58 
+5.10.1  Descompletar  ................................ ................................ ................................ ................................ ...... 58 
+5.10.2  Generar albarán (F2)  ................................ ................................ ................................ ..........................  58 
+5.10.3  Generar albarán + alta (F3)  ................................ ................................ ................................ ...............  59 
+5.10.4  Generar albarán + factura (F4)  ................................ ................................ ................................ .........  59 
+5.10.5  Generar albarán + alta + factura (F6) ................................ ................................ ..............................  59 
+5.10.6  Clonar pedido  ................................ ................................ ................................ ................................ ...... 59 
+5.10.7  No conformidad  ................................ ................................ ................................ ................................ .. 60 
+5.10.8  Enviar materiales subcontratación  ................................ ................................ ................................ . 60 
+6. Albaranes (Pendiente de revisar)  ................................ ................................ ................................ ...... 62 
+6.1 Cabecera del albarán  ................................ ................................ ................................ ................................ .... 62 
+6.2 Pestaña Básico  ................................ ................................ ................................ ................................ ..............  63 
+6.3 Pestaña Gestión  ................................ ................................ ................................ ................................ ............  65 
+6.4 Pestaña Líneas  ................................ ................................ ................................ ................................ ..............  66 
+6.4.1  Líneas  ................................ ................................ ................................ ................................ ....................  66 
+6.4.2  Albaranes de devolución  ................................ ................................ ................................ ...................  69 
+6.5 Pestaña Documentos asociados  ................................ ................................ ................................ ...............  69 
+6.6 Pestaña Gastos planificados  ................................ ................................ ................................ ......................  70 
+6.7 Pestaña Adicional  ................................ ................................ ................................ ................................ .........  70
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 4/15 www.imatia.com  Importe  (A): Base imponible (A) * Gasto variable (%) = 8.397€  * 10%  = 839.70€  
+Importe  (B): Base imponible (B) * Gasto variable (%) = 3.216€  * 10% = 321.60€  
+ 
+Este caso es una mezcla de los dos anteriores y para repartir el importe y el porcentaje tendremos que 
+tener en cuenta  lo siguiente:  
+- Base imponible (A) 8.397€  
+- Base imponible (B): 3.216€  
+- Base imponible total (A+B): 11.613€ (8.397€ + 3.216€)  
+- Gasto fijo: 100€  
+- Gasto variable: 10%  
+ 
+1) Saber cómo se reparte el  Gasto fijo . (explicado en el punto 2.1.1)  
+Importe (A): Gasto fijo * Porcentaje (A) = 100€ * 72 ,31% = 72,31€ 
+Importe (B): Gasto fijo * Porcentaje (B) = 100€ * 27 ,69% = 27,69€ 
+ 
+2) Saber cómo se reparte el Gasto variable . (explicado en el punto 2.1 .2) 
+Importe (A): Base imponible (A) * Gasto variable (%) = 8 ,397€ * 10% = 839,70€  
+Importe (B): Base imponible (B) * Gasto variable (%) = 3 ,216€ * 10% = 321,60€ 
+ 
+3) Sumar Gasto fijo más el Gasto Variable.  
+Importe total (A): Reparto gasto fijo (A) + Reparto gasto variable (A)= 72,31€ + 839,70€ = 912,01€ 
+Importe total (B): Reparto gasto fijo (A) + Reparto gasto variable (A)= 27,69€ + 321,60€= 349,29 €
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 4/10 www.imatia.com  
+Operación de cincado  
+ 
+Despiece manual  
+Para la gestión del stock de los artículos involucrados en el proceso de subcontratación, en Elastic se 
+utiliza un almacén de consigna. De esta manera se mantiene la traza en el envío del material y el 
+proveedor poseedor de este.  
+Para configurar un almacén de consigna, lo que se debe hacer es marcar los checks de Consigna de 
+ventas. La ruta es Almacén >> Instalaciones.  
+Se indica que es Consigna de ventas porque el stock es propiedad de la empresa y se encuentra el 
+almacén del proveedor (se trata como un cliente al hacer la expedición del artículo enviado, ya que se 
+gestiona mediante documentos de ventas)  
+ 
+En Elastic, al gestionarse la subcontratación como una operación, esta actúa de la misma manera que 
+el estándar , es decir, al generar una programación para la fabricación de un artículo, se generan las 
+ordenes correspondientes.  
+Estás órdenes de subcontratación se consultan en el siguiente acceso, Compras >> Subcontratación.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 4 de 116 
+ 
+ 6.8 Pestaña Apuntes  ................................ ................................ ................................ ................................ ...........  71 
+6.9 Pestaña Ficheros  ................................ ................................ ................................ ................................ ..........  72 
+6.10 Pestaña Calidad  ................................ ................................ ................................ ................................ ............  72 
+6.11 Botones de acción (icono engranaje)  ................................ ................................ ................................ ....... 73 
+6.11.1  Nueva versión  ................................ ................................ ................................ ................................ ...... 73 
+6.11.2  Clonar un presupuesto  ................................ ................................ ................................ ......................  73 
+6.11.3  Imprimir versión  ................................ ................................ ................................ ................................ .. 73 
+6.11.4  Generar factura (F2)  ................................ ................................ ................................ ...........................  73 
+6.12 Botones de Acción  ................................ ................................ ................................ ................................ ........  74 
+6.12.1  Crear lotes/nº serie pregenerados  ................................ ................................ ................................ .. 74 
+6.12.2  Borrar lotes/nº de serie pregenerados  ................................ ................................ ...........................  74 
+6.12.3  Alta en almacén  ................................ ................................ ................................ ................................ .. 74 
+6.12.4  Deshacer alta en almacén  ................................ ................................ ................................ ................  74 
+6.12.5  Generar albarán de devolución  ................................ ................................ ................................ ........  74 
+6.12.6  Clonar albarán  ................................ ................................ ................................ ................................ ..... 74 
+6.12.7  Crear albarán parcial  ................................ ................................ ................................ ..........................  74 
+7. Facturas  ................................ ................................ ................................ ................................ ..............  76 
+8. SII ................................ ................................ ................................ ................................ .........................  78 
+8.1 Facturas  ................................ ................................ ................................ ................................ ..........................  78 
+8.2 Pagos  ................................ ................................ ................................ ................................ ..............................  80 
+9. Descuentos  ................................ ................................ ................................ ................................ .........  82 
+9.1 Configuración Rappels  ................................ ................................ ................................ ................................ . 82 
+9.1.1  Importes  ................................ ................................ ................................ ................................ ...............  82 
+9.1.2  Proveedor  ................................ ................................ ................................ ................................ .............  83 
+9.2 Rappels  ................................ ................................ ................................ ................................ ...........................  83 
+10. Gestión de pagos ................................ ................................ ................................ ................................  87 
+11. Gestión de apuntes  ................................ ................................ ................................ ............................  89 
+12. Licitaciones  ................................ ................................ ................................ ................................ .........  91 
+12.1 Crear una licitación  ................................ ................................ ................................ ................................ ....... 91 
+12.1.1  Subpestaña Básico ................................ ................................ ................................ .............................  91 
+12.1.2  Subpestaña Artículos  ................................ ................................ ................................ .........................  92 
+12.1.3  Subpestaña Presupuestos  ................................ ................................ ................................ ................  93 
+12.1.4  Subpestaña Pedidos  ................................ ................................ ................................ ..........................  93 
+12.1.5  Subpestaña Comparador  ................................ ................................ ................................ ..................  93 
+13. Seguimiento/control de compras  ................................ ................................ ................................ ..... 96 
+13.1 Cabecera  ................................ ................................ ................................ ................................ .........................  96 
+13.2 Información  ................................ ................................ ................................ ................................ ....................  96 
+13.2.1  Código  ................................ ................................ ................................ ................................ ...................  97
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 5/15 www.imatia.com  
+ 
+Aquí mostraremos un ejemplo de cómo  se reparte el importe de gasto tanto fij o, variable  y mixto  según 
+las unidades  de las líneas mencionadas anteriormente.  
+ 
+Para repartir est as unidades  tendremos que tener en cuenta lo siguiente:  
+- Cantidad  (A): 100 
+- Cantidad  (B): 50 
+- Gasto fijo: 100€  
+ 
+Seguiremos una serie de pasos para llegar al importe:  
+1) Ponderaremos que peso tiene cada artículo  en la Base imponible  
+Porcentaje (A): Cantidad  (A) / Cantidad  total = 100/150  = 66.67%  
+Porcentaje (B): Cantidad  (B) / Cantidad total = 50/150  = 33.33 %  
+ 
+2) Multiplicaremos el Gasto fijo por los porcentajes  
+Importe (A): Gasto fijo * Porcentaje (A) = 100€ * 66.67 % = 66.67 € 
+Importe (B): Gasto fijo * Porcentaje (B) = 100€ * 33.33 % = 33.33 €
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 5/10 www.imatia.com  Una vez visualizadas las órdenes de subcontratación se distinguen las siguientes columnas.  
+Seleccionado : check para seleccionar filas.  
+Proveedor : proveedor por defecto del artículo servicio asociado a la operación de subcontratación.  
+Familia : familia del artículo servicio  . 
+Servicio : artículo servicio asociado a la operación de subcontratación.  
+Programación : código de la programación donde se generó la orden de subcontratación.  
+Orden : código de la orden de subcontratación.  
+Estado : estado de la orden, este puede ser “generada”, “lanzada”, “completa”.  
+Cantidad : cantidad del servicio a contratar.  
+Ud. cant : unidad del servicio.  
+Tarifa : tarifa del servicio, esta puede estar configurada ya por defecto en el proveedor o en el propio 
+artículo.  
+Moneda : moneda de la tarifa.  
+Conversión : conversión entre la moneda por defecto del sistema y la moneda de la tarifa . 
+Precio unitario ME : precio unitario  en moneda extranjera  
+Unidad de tarifa : unidad asociada a la tarifa  
+F. prev. producción:  
+Artículo a recibir : artículo final que se recibe después del proceso de subcontratación.  
+ 
+Una vez  creada la programación, con el plan maestro  añadido y generadas las necesidades, se creará 
+una orden asociada a la operación de subcontratación.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 5 de 116 
+ 
+ 13.2.2  Proveedor por defecto  ................................ ................................ ................................ .......................  97 
+13.2.3  Stock  ................................ ................................ ................................ ................................ .....................  98 
+13.2.4  Cantidad reservada.  ................................ ................................ ................................ ...........................  98 
+13.2.5  Cantidad pendiente de recibir.  ................................ ................................ ................................ .........  98 
+14. Necesidades de compras  ................................ ................................ ................................ ................  101 
+15. Subcontratación  ................................ ................................ ................................ ...............................  103 
+16. Evaluación de proveedores  ................................ ................................ ................................ ..............  113 
+16.1 Configuración  ................................ ................................ ................................ ................................ .............  113 
+16.1.1  Crear Procesos ................................ ................................ ................................ ................................ . 113 
+16.1.2  Crear una fórmula  ................................ ................................ ................................ ............................  113 
+16.2 Evaluación  ................................ ................................ ................................ ................................ ...................  115 
+16.2.1  Nueva evaluación.  ................................ ................................ ................................ ...........................  115 
+16.2.2  Histórico de evaluaciones.  ................................ ................................ ................................ .............  116
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 6/15 www.imatia.com  
+ 
+Para repartir este porcentaje  tendremos que tener en cuenta lo siguiente:  
+- Cantidad (A): 100  
+- Cantidad (B): 50  
+- Base imponible (A) 8.397€  
+- Base imponible (B): 3.216€  
+- Base imponible total (A+B): 11.613€ (8.397€ + 3.216€)  
+- Gasto variable: 10%  
+ 
+Seguiremos una serie de pasos para llegar al importe:  
+1) Ponderaremos que peso tiene cada artículo en la Base imponible  
+Porcentaje (A): Cantidad (A) / Cantidad total = 100/150 = 66.67%  
+Porcentaje (B): Cantidad (B) / Cantidad total = 50/150 = 33.33%  
+ 
+2) Multiplicaremos la Base imponible total por los porcentajes  
+Importe  ponderado  (A): Base imponible total * Porcentaje (A) = 11.613€ * 66.67% = 7.742 € 
+Importe  ponderado  (B): Base imponible total * Porcentaje (B) = 11.613€ * 33.33% = 3.871 € 
+ 
+3) Multiplicamos el importe ponderado por porcentaje del Gasto variable  
+Importe (A): Importe ponderado (A) * Gasto variable (%) = 7.742€  * 10% = 774.20€  
+Importe (B): Importe ponderado (B) * Gasto variable (%) = 3.871€  * 10% = 387.10€
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 6/10 www.imatia.com  Órdenes  
+El código de la orden que se visualiza en la orden es el que aparecerá en la pantalla de Compras >> 
+Subcontratación.  
+ 
+Compras >> Subcontratación  
+ 
+A la hora de seleccionar la línea y darle a “Generar pedidos”, el sistema preguntará si se quiere hacer el 
+pedido de ventas de consigna.  
+Este pedido de venta sirve para generar un albarán de venta, que se utiliza para la gestión de salida de la 
+mercancía al proveedor.  
+El sistema creará los siguientes documentos:  
+• Pedido de compra a proveedor.  
+• Pedido de venta a cliente (mismo que el proveedor)  
+• Albarán de venta a cliente (mismo que el proveedor) expedido automáticamente.  
+El movimiento del artículo que se envía al proveedor se gestiona como un traspaso a un almacén de 
+consigna previamente configurado.  
+El pedido de compras se generará con una línea , esta hará referencia al artículo servicio asociado al 
+proceso de subcontratación.  
+En la descripción aparecerá concatenado tanto el artículo servicio como el artículo a recibir.  
+ 
+Pedido de compras
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 6 de 116
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 7/15 www.imatia.com  
+ 
+Este caso es una mezcla de los dos anteriores y para repartir el importe y el porcentaje tendremos que 
+tener en cuenta lo siguiente:  
+- Cantidad (A): 100  
+- Cantidad (B): 50  
+- Base imponible (A) 8.397€  
+- Base imponible (B): 3.216€  
+- Base imponible total (A+B): 11.613€ (8.397€ + 3.216€)  
+- Gasto fijo: 100€  
+- Gasto variable: 10%  
+ 
+1) Saber cómo se reparte el Gasto fijo. (explicado en el punto 2. 2.1) 
+Importe (A): Gasto fijo * Porcentaje (A) = 100€ * 66.67% = 66 ,67€ 
+Importe (B): Gasto fijo * Porcentaje (B) = 100€ * 33.33% = 33 ,33€ 
+ 
+2) Saber cómo se reparte el Gasto variable . (explicado en el punto 2. 2.2) 
+Importe (A): Importe ponderado (A) * Gasto variable (%) = 7 ,742€ * 10% = 774 ,20€ 
+Importe (B): Importe ponderado (B) * Gasto variable (%) = 3 ,871€ * 10% = 387 ,10€ 
+ 
+3) Sumar Gasto fijo más el Gasto Variable.  
+Importe total (A): Reparto gasto fijo (A) + Reparto gasto variable (A)= 66,67€ + 774,20€ = 840,87€  
+Importe total (B): Reparto gasto fijo (A) + Reparto gasto variable (A)= 33,33€ + 387,10€ = 420,43€
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 7/10 www.imatia.com  
+Movimiento del artículo  
+Dentro del pedido de compras, en la pestaña de Subcontratación se pueden visualizar los materiales a 
+enviar y el pedido de consigna de ventas asociado.  
+ 
+Materiales a enviar  
+En la pestaña de artículos a recibir, se visualiza el artículo final a recibir por parte del proveedor y su 
+asociación con la orden
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 7 de 116 
+ 
+El Módulo Compras  de elastic ® BUSINESS , administra las operaciones generadas en las adquisiciones 
+que surgen en el proceso productivo, de gestión comercial u otra necesidad de la empresa.  
+Este Módulo ofrece procesos automáticos que complementan las funciones de logística de 
+abastecimiento y planificación  definidas por la organización.  
+Desde este módulo se realiza todo el proceso relacionado con los pedidos de compra, desde la solicitud 
+de presupuestos  a proveedores hasta la gestión de recibos de compra pasando por pedidos, albaranes 
+y facturas.  
+El Módulo Compras  se encuentra perfectamente integrado con los Módulos Almacén  y Producción , dando 
+lugar a Órdenes de Compra  desde las necesidades detectadas como consecuencia del proceso 
+productivo, y provocando altas de material en los almacenes por compras.  
+En este manual se recogen las operaciones que se pueden realizar desde el Módulo Compras, explicando 
+detalladamente el funcionamiento de cada una de ellas, para que se obtenga el máximo rendimiento de 
+este Módulo.  
+ 
+ICONOS DE ACCESO A LOS FORMULARIOS
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 8/15 www.imatia.com  
+ 
+Para continuar con el flujo de compras , desde el presupuesto anterior, generaremos un pedido y este 
+arrastrará los gastos planificados.  En este momento pueden suce der varias cosas antes de que pase a 
+ser un albarán:  
+ 
+1) Podemos seguir añadiendo líneas al pedido . Esto hará que automáticamente se  repartan los 
+gastos planificados entre los 3 artículos.  
+ 
+2) Cambiar el importe del  gasto o cambiar el método de distribución  
+3) Generar un nuevo gasto planificado . 
+4) Eliminar el gasto planificado.  
+ 
+Por otro lado, en lugar de seguir con el flujo de compras, aquí también podemos generar un pedido 
+completamente nuevo y añadir gastos planificados. Que estemos haciendo el flujo completo no significa 
+que no se puedan crear nuevos pedidos y/o albaranes y se les pueda asignar un gasto planificado .
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 8/10 www.imatia.com  
+Artículos a recibir  
+ 
+Una vez que el proveedor envíe la mercancía terminada, debe generarse el albarán del pedido de compra.  
+Al generarse el albarán de compra, el sistema dará por fabricada la orden de subcontratación generada 
+en la programación original.  
+En esta orden, el material que se consume es el artículo  enviado al proveedor. Una vez dado de alta el 
+albarán , en el almacén de consigna se hará una baja del artículo enviado y un alta en al almacén 
+configurado como “alta por defecto”, del artículo final recibido.  
+ 
+Albarán de compras  
+Al dar de alta el albarán de compras, el sistema preguntará si se desean modificar las cantidades  
+consumidas en subcontratación.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 8 de 116 
+ 
+Representación 
+Gráfica  Formulario  Funcionalidad  
+ Proveedores  Gestión de la información referente a proveedores, 
+datos generales, gestión contable, tarifas 
+descuentos y pagos.  
+ 
+ Auxiliares  
+ 
+ Necesidades 
+de 
+producción  Configuración de los presupuestos o pedidos que 
+provienen de las necesidades calculadas a través 
+del Plan Maestro (PM).  
+ Presupuestos  Realización y gestión de las solicitudes de ofertas a 
+proveedores.  
+ Pedidos  Realización y gestión de los pedidos a proveedores.  
+ 
+ Albaranes  Gestión y control de los albaranes enviados por 
+proveedores.  
+ Facturas  Gestión de las facturas de proveedores.  
+ 
+Pagos  Configuración y gestión de los pagos a realizar a 
+proveedores.  
+ Informes  Consulta de informes  
+ 
+A 
+F
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 9/15 www.imatia.com  Cabe destacar que, si un pedido  que viene de un presupuesto sin gastos planificado , los creamos , no se 
+arrastrarán hacia atrás  (hacia el presupuesto) .  
+ 
+Tras haber explicado el apartado de Presupuestos  y Pedido  llegamos al de Albaranes . Este apartado es 
+el más  extenso , ya que aquí se puede empezar a contabilizar  e influye  el tipo de portes, el cual, no se 
+mencionó  anteriormente  (lo explicaremos más adelante).  
+Si continuamos con el flujo de compras  que explicamos al principio , tras realizar el pedido  pasamos a 
+los albaranes.  En este apartado tenemos la misma  información que el pedido del que procede  (en este 
+caso de  gasto planificado que es lo que nos atañe ) y al igual que en él, podemos  realizar lo siguiente:  
+1) Podemos seguir añadiendo líneas al pedido.  
+2) Cambiar el importe del gasto o cambiar el método de distribución . 
+3) Generar un nuevo gasto planificado.  
+4) Eliminar el gasto planificado.  
+**Nota : este es el ultimo apartado del flujo de compras donde se pueden añadir Gastos planificados , ya 
+que la información contable del albarán  es lo que pasará a la factura . 
+Como ya hemos hablado de como se imputan los gastos planificados y sus posibles combinaciones , 
+vamos a centrarnos en este apartado en los Tipos de portes  y los Apuntes . 
+ 
+En este punto vamos a explicar como funciona el tipo de portes, como se reparten y a que afectan . 
+ 
+**Nota:  Desde la pestaña de básicos , en presupuesto  y pedidos , también  se puede meter el tipo de portes . 
+En este documento no hemos explicado anteriormente los tipos de portes porque no afectaba a la 
+contabilización.
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 9/10 www.imatia.com  Si seleccionamos sí, el sistema abrirá una tabla donde se permite editar la Cantidad a cosumir.  
+Una vez ajustada esa cantidad, el albarán se dará de alta.  
+ 
+Albarán de compras  
+Al darse de alta el albarán, se hará un movimiento de entrada en el almacén del artículo final.  
+ 
+Movimientos de artículo final  
+Este aparecerá como una “Entrada de fabricación” y el “Documento” será el código de la orden de 
+subcontratación.  
+Para el artículo enviado aparecerá una salida de consumos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 9 de 116 
+ 
+ICONOS DE FUNCIONALIDAD DE LA APLICACIÓN  
+Representación 
+Gráfica  Formulario  Funcionalidad  
+ Selección de 
+columnas 
+para la vista 
+tabular de los 
+datos.  A la hora de utilizar la funcionalidad buscar -buscar 
+(pulsa dos veces sobre el icono de buscar) puedo 
+seleccionar previamente los campos por los que se 
+van a realizar el prefiltro en la búsqueda.  
+ 
+ Navegar al 
+primer 
+registro (Alt + 
+<-) En el resultado de  la búsqueda puedes utilizar este 
+icono para moverte al primero de todos los registros, 
+desde la posición en la que te encuentres.  
+ 
+ Navegar al 
+registro 
+anterior.  En el resultado de  la búsqueda puedes utilizar este 
+icono para moverte al registro inmediatamente 
+anterior a la posición en la que te encuentres.  
+ 
+ Imprimir 
+datos del 
+formulario.  Puedes imprimir una versión resumida del formulario.  
+ 
+ Navegar al 
+registro 
+siguiente.  En el resultado de  la búsqueda puedes utilizar este 
+icono para moverte al registro inmediatamente 
+posterior a la posición en la que te encuentres.  
+ 
+ Navegar al 
+último 
+registro (Alt+  
+->). En el resultado de  la búsqueda puedes utilizar este 
+icono para moverte al último de todos los registros, 
+desde la posición en la que te encuentres.  
+ 
+ Refrescar 
+datos del 
+formulario.  Cada vez que realices modificaciones sobre el 
+formulario, es conveniente que refresques la vista 
+para actualizarlas para que los datos visualizados 
+sean los correctos.  
+ 
+ Borrar 
+campos (Alt 
++ Supr)  Icono a utilizar cuando necesites limpiar el 
+formulario previamente a la creación o inserción de 
+datos en el formulario.  
+ 
+ Acciones  Icono donde se encuentran agrupadas todas las 
+funcionalidades específicas del formulario.  
+ Consultar (F7)  Activas la búsqueda por cualquiera de los campos 
+del formulario. Por defecto cuando entro en el 
+formulario está en modo edición preparado para la 
+búsqueda.  Si pulsas dos veces sobre este icono
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 10/15 www.imatia.com  
+Los Portes  hacen referencia  a los cost es asociados al transporte de mercancías  en el flujo de compras . 
+Estos cost es pueden ser diferentes, afectando a quién es responsable de pagar estos . En Elastic se 
+pueden configurar en Aplicación >> Configuración >> Modelos de portes  y los mas habituales en compras 
+son los siguientes:  
+- Portes Debidos : esto significa que los cost es de envío no se pagan al momento de realizar el pedido, 
+sino que se deben pagar al momento de recibir la mercancía. En este caso, el comprador es 
+responsable de pagar directamente al transportista o la empresa de envíos cuando recibe el 
+producto. En este caso debemos  cubrir correctamente los datos de transporte  en Elastic  
+ 
+- Portes Pagados : Aquí, el vendedor asume los cost es de envío y no se imputan al comprador . Por lo 
+genera  ya están incluidos en el precio de los productos, y el vendedor se encarga de pagar 
+directamente al transportista.  
+ 
+- Portes Cargados : En este caso, los cost es de envío se añaden a la factura al momento de la compra. 
+Es decir, el vendedor cobra al comprador por los cost es de envío . Este apartado será el que se 
+desarrolle a continuación ya que influye en el reparto de gastos en los artículos y la contabilidad.  
+ 
+Antes de continuar con la explicación de los portes,  vamos a hacer un pequeño cambio respecto al 
+ejemplo que pusimos al inicio  del documento. Al principio usamos como ejemplo en la descripción 
+Gastos de transporte  ahora pasará a llamarse Gastos excepcionales  (para no confundirlos con los 
+portes ). Una vez explicado esto , vamos a añadir portes y ver como afecta a  los Gatos planificados , las 
+líneas y las diferentes formas de contabilizarlos . 
+ 
+Para incluir portes en nuestros gastos planificados tenemos que irnos a la pestaña de Básico y en ella  a 
+tipo de portes donde pondremos Cargados compras  y guardaremos. Tras esto nos aparecerá una nueva 
+línea en la pestaña de gastos planificados.  
+Su funcionamiento es idéntico que cuando creamos un nuevo gasto planificado. Tendremos que poner 
+el importe del gasto y su método de distribución . En las líneas se repartirá este nuevo gasto.  Si por alguna 
+razón se cambia la descripción, i dentificaremos que es un porte ya que tendrá el check marcado por 
+defecto .
+
+---
+
+# Elastic_Módulo de Compras. Subcontratación - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Subcontratación.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 10/10 www.imatia.com  
+Movimientos de artículo enviado  
+El coste asociado a la operación de subcontratación viene determinado por el precio unitario que se 
+especifica en el pedido de compras. Este se arrastra al movimiento del artículo al campo de “Incremento 
+precio”.  
+ 
+Costes del movimiento
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 10 de 116 
+ 
+  realizas una búsqueda avanzada y te muestra todos 
+los resultados que encuentra en base a los filtros 
+aplicados previamente.  
+ 
+ Insertar (F9)  Botón de inserción o creación de formularios  
+ 
+ Guardar  Botón de guardado tras las modificaciones que 
+realices en el formulario. Determinadas 
+modificaciones se graban  de forma automática.  
+ 
+ Eliminar  Cuando quieras proceder a la eliminación del 
+formulario es este el icono a utilizar.  
+ 
+ Copiar a 
+portapapeles  Utilizando esta funcionalidad copias al 
+portapapeles toda la información contenida en la 
+tabla del formulario.  
+ Exportar a 
+Excel  Al igual que la funcionalidad anterior puedes 
+exportar directamente los datos de la tabla del 
+formulario a una hoja de cálculo.  
+ 
+ Exportar 
+como 
+página HTML  En este caso exportas todas las columnas incluso las 
+que no están visibles a formato Web.  
+ 
+ Añadir un 
+registro  En determinados formularios tienes la posibilidad de 
+añadir más información a las tablas y lo puedes 
+hacer a través de esta opción.  
+ 
+ Guardar  A través de esta funcionalidad puedes guardar una 
+configuración por defecto a visualizar cada vez que 
+accedes al formulario. Esta configuración afecta a 
+la  posición, ordenación y filtros de  la tabla del 
+formulario.  
+ 
+ Gráficas a la 
+carta  Puedes crear todo tipo de gráficos sobre la 
+información de las tablas según los modelos 
+predefinidos y guardarlo como predefinido para 
+recuperarlo a posteriori.  
+ 
+ Configurar 
+columnas 
+visibles  Puedes definir que columnas, por defecto, quieres 
+ver en las tablas. Si has ocultado alguna columna, el 
+icono se visualizará en rojo.  
+ Impresión de 
+informes  Puedes imprimir el formulario a través de la 
+impresión avanzada de informes.
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 11/15 www.imatia.com  
+**Nota : combinaciones explicadas en el punto 2  
+ 
+Otra forma de añadirlos es desde la pestaña de gestión . Cuando ponemos que los portes son cargados, 
+se desbloquea el campo de importes transporte  y aquí podemos añadir la Base que tengan nuestros 
+portes.  Este campo está relacionado con la pestaña de Gastos planificados y el cambio en cualquiera de 
+las dos pestañas afectará a la otra por igual.  Esta forma es menos detalla da.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 11 de 116 
+ 
+ Columnas a 
+sumar  Para facilitar la gestión de la información activando 
+esta funcionalidad defines que columnas quieres 
+sumar al final de la tabla.  
+ 
+ Borrar línea  Cuando estás en las tablas siempre que necesites 
+eliminar una línea,  este es el icono a utilizar.  
+ 
+ Añade línea 
+en blanco  Cuando estás en las tablas siempre que necesites 
+añadir una línea para editar de forma manual este 
+es el icono a utilizar.  
+ 
+ Adjuntar 
+fichero  A través de esta funcionalidad puedes añadir al 
+registro previamente creado cualquier archivo 
+(texto, imagen, etc.)  
+ Descartar  Resetea o pone a cero todos los campos de la 
+selección inicial.  
+ Mover 
+artículo a la 
+configuració
+n Provoca que los artículos seleccionados se incluyan 
+en la tabla del formulario.  
+ Quitar 
+artículo de la 
+configuració
+n Provoca que los artículos seleccionados se eliminen 
+de la tabla del formulario.  
+ Añadir 
+pedidos a 
+albarán  Es la opción que tienes para acceder a la ventana 
+emergente y añadir líneas de pedido al albarán.  
+ Borrar líneas 
+de pedidos 
+de albarán  A través de este icono borras directamente la/s 
+línea/s de pedido del albarán.  
+ 
+ Añadir un 
+albarán  Asocias directamente a través de la ventana 
+emergente albaranes para que puedan ser 
+facturados.  
+ 
+ Borrar 
+albarán  Eliminas los albaranes de la factura que no quieras 
+facturar.
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 12/15 www.imatia.com  
+Ahora que tenemos dos Gastos planificados, nuestros importes en las líneas han cambiado. A nuestro  
+primer gasto planificado (Gastos excepcionales) de 100€ tenemos que sumarle el segundo Gasto 
+planificado (Portes) de 60€, teniendo un total de 160€.  Donde se reparten de esta forma:  
+- Gasto planificado (1) : Articulo (A) y Articulo (B)  = 72 ,31€ y 27,69€  
+- Gasto planificado (2): Articulo (A) y Articulo (B) = 43,38€ y 16,62€  
+ 
+Una vez vistos todo lo relacionado con la creación y gestión de los Gastos planificados  y Portes , vamos 
+con su contabilización.  Lo que haremos será ir creando posibles escenarios  de cómo  puede ser , por 
+ejemplo, solo gastos planificados sin portes, con portes, varios gastos planificados … Todos estos 
+tendrá n un funcionamiento y una creación común,  pero explicaremos las diferencias.  
+ 
+Este es el modelo  de apuntes más simple  y contabilizaremos tan to albaranes como facturas . Hemos 
+creado  3 líneas de art ículos, 2 son materias primas (chapa y fleje) y 1 es un elemento incorporable  
+(cerradura) .
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 12 de 116 
+ 
+  Generar 
+recibos  Te aparece una ventana emergente para que 
+selecciones todos los datos referentes a la emisión 
+de los recibos.  
+ Eliminar 
+recibos  Eliminas los recibos ya generados.  
+ 
+ Fraccionar 
+recibos  Si a partir de un recibo ya generado quieres 
+redistribuir los importes a pagar hazlo a través de 
+esta opción. Te en cuanta que lo debes hacer de 
+forma manual, la aplicación no redistribuye de 
+forma automática los saldos.  
+ Establecer 
+como 
+pagado  Opción para establecer el recibo como pagado a 
+través de la ventana emergente.  
+ Establecer 
+como 
+devuelto  Opción para establecer el recibo como devuelto a 
+través de la ventana emergente.  
+ 
+X 2
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 13/15 www.imatia.com  También hemos creado un gasto planificado  de 100€ que se reparte entre las tres líneas.  
+ 
+Aquí tenemos un ejemplo de como se generan los apuntes  en el albarán . En primer lugar , se separan las 
+subcuentas de materias primas y elementos incorporables  y agrupan los importes dependiendo de ella.  
+Los gastos planificados que pertenecen a cada línea también se agrupan y se separan por subcuentas.  
+ 
+Tras esto vamos a contabilizar la factura. Para ello generaremos la factura y comprobaremos como se 
+muestran las líneas y como se contabiliza.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 13 de 116
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 14/15 www.imatia.com  A la hora de contabilizar los apuntes quedarían de esta manera . 
+ 
+Este caso es el mismo que el anterior a excepción  de que relacionaremos un artículo con el gasto 
+planificado.  
+ 
+El asiento del albarán se repartirá igual pero hay un único  cambio en la factura  y es en la línea de la 
+factura , en el cual aparecerá el código de la línea en los gastos planificados.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 14 de 116 
+ 
+El proveedor es la entidad en torno a la que gira todo el proceso de  compras . En esta entrada 
+se crean los proveedores y se gestionan sus datos generales. Para acceder  se tiene que ir a 
+la ruta Compras >> Proveedores.  
+En la pestaña principal se puede ver a la izquierda un desplegable con los proveedores, 
+dividido por Listado y Empresa .  
+En la zona central tenemos 3 pestañas donde se dividen los proveedores por su estado:  
+- Activos:  son proveedores de la  empresa  en la actualidad o en un período de tiempo 
+reciente.  
+- De baja:  proveedores que han sido dados de baja.  
+- Potenciales:  proveedores que no han sido dados de alta, pero a los que se les hizo un 
+presupuesto  
+ 
+En la tabla, nos aparece la información de cada uno de los proveedores ya creados.  
+ 
+Para crear un nuevo proveedor se tiene que pulsar el icono “Añadir registro” (cruz verde) y 
+nos desplegará una ventana dividida en 8 pestañas:  
+- Resumen  
+- Agenda  
+- Políticas  
+- Administración  
+- Empresas  
+- Adicional  
+- Ficheros  
+- Evaluaciones  
+La ventana del nuevo proveedor  se divide en dos secciones, en la parte superior, la cabecera 
+y en la parte inferior, un conjunto de 8 pestañas principales donde se muestran los datos
+
+---
+
+# Elastic_Módulo de Compras. Gastos planificados y portes - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras. Gastos planificados y portes.pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Pág. 15/15 www.imatia.com  
+En este apartado, a mayores de nuestro gasto planificado, insertaremos una línea de portes . 
+ 
+Como hemos visto antes, los apartados a tener en cuenta son  las líneas del albarán, los apuntes del 
+albarán, las líneas de la factura y los apuntes de la factura.  
+En este caso, en las líneas del  albar án tendrán todos los gastos planificados repartidos en las mismas  
+proporciones .  
+  
+En los apuntes del albarán vemos que  se reparten tanto los portes como los gastos planificados entre 
+las líneas  
+ 
+Las líneas  de factura reflejan los gastos planificados , los cuales aparecería un código si tuviese un 
+artículo relacionado.  
+En los apuntes aparece separado la  línea de IVA y de los portes, como líneas independientes.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 15 de 116 
+ 
+ identificativos  y toda la información referente al proveedor (esté activo o de baja) . Todas 
+estas pestañas se explicarán a continuación  
+ 
+Se pueden ver  los datos básicos  del proveedor, los cuales pasarán a ser fijos una vez se creen . 
+Los campos que compone n la cabecera son: 
+ 
+ Campo  Descripción  CABECERA  Código  El código es asignado por la aplicación de forma 
+secuencial según la configuración que se haya hecho 
+en los contadores para los proveedores.  
+NIF Número de identificación fiscal.  
+Razón social  Campo que se completa con la empresa.  
+Nombre comercial  Nombre comercial del proveedor.  
+Fecha creación  Fecha en la que se da de alta el proveedor.  
+Ult. modificación  Fecha de la última modificación en cualquier campo 
+del proveedor  
+Tipo de proveedor  Aquí se puede seleccionar el tipo de proveedor que 
+estamos dando de alta o podemos crearlo. Nacional, 
+internacional…  
+ 
+*Nota: Los tipos de proveedores estarán creados en el arranque por el equipo de Elastic. Para revisar 
+esta configuración nos iremos a Aplicación >> Configuración >> Configuración de proveedores.  Solo 
+podrán llegar hasta aquí los administradores.  
+ 
+Esta pestaña están los datos principales de contacto del proveedor,  la dirección del 
+proveedor,  los datos administrativos referentes a las cuentas y formas de pago, y otros datos 
+adicionales. Además, existe la opción de escribir comentarios que podrán aparecer después 
+en las  impresiones . En esta pestaña, también existe la opción de ver el estado del proveedor 
+en cuanto a si es acreedor , transportista  o está de baja . 
+Esta pestaña se irá completando a medida que añadimos datos en las posteriores ventanas
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 16 de 116 
+ 
+ Campo  Descripción  CONTACTO  Nombre  Nombre completo del contacto principal del 
+proveedor.  
+Teléfono  Número de teléfono del contacto principal . 
+Email  Dirección de correo electrónico del contacto principal 
+o del departamento correspondiente del proveedor.  DIRECCIÓN  Dirección  Dirección física completa del proveedor.  
+Localidad  Localidad del proveedor.  
+Provincia  Provincia del proveedor.  
+Email  Dirección de correo electrónico general del proveedor 
+(puede repetirse o diferir del contacto principal).  
+C. Postal  Código postal del proveedor  
+País País del proveedor.  
+Teléfono  Número de teléfono general de la empresa 
+proveedora.  ADMINISTRACIÓN  Cuenta contable  Se autocompleta con el tipo de proveedor  
+IVA Se autocompleta con el tipo de proveedor  
+Cuanta bancaria  
+Forma de pago  Se autocompleta con el tipo de proveedor  
+Acreedor  Check que indica si es un acreedor. Viene del tipo de 
+proveedor que hayamos marcado.  
+Trasportista  Check que indica si es un transportista. Viene del tipo 
+de proveedor que hayamos marcado.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 17 de 116 
+ 
+ De baja  Check que indica si está de baja el proveedor.  ADICIONAL  Idioma  Idioma principal de comunicación con el proveedor.  
+Sector  Sector o mercado al que pertenece el proveedor.  
+Transportista  Detalle específico del si el proveedor es un 
+transportista.  
+Evaluable  Indica si el proveedor es sujeto a evaluaciones de 
+desempeño.  
+Ámbito  Región geográfica o alcance de operación del 
+proveedor.  OBSERVACIONES  
+Observaciones  Campo libre para definir cualquier tipo de incidencia u 
+observación acerca del pedido. Sólo se puede 
+visualizar en el documento.  
+Observaciones 
+internas  Campo libre para definir cualquier tipo de incidencia u 
+observación de carácter interno acerca del pedido. 
+Se arrastran al albarán  
+ 
+Esta pestaña e stá dividida en tres subpestañas , todas ellas tienen que crearse para que la pestaña 
+Resumen muestre sus datos y quede debidamente preparada . En la subpestaña  Contactos , se muestra 
+una lista de contactos, que contienen información como el nombre, la página web, fecha de nacimiento, 
+el departamento, el teléfono, entre otros. En la subpestaña  Direcciones , se muestran una lista de 
+direcciones que contienen información referente a la localización del proveedor. Cada dirección 
+insertada debe clasif icarse con el tipo de dirección.  En la subpestaña Interlocutores muestra la persona 
+de contacto del proveedor.  
+*Nota:  Estas pestañas se retroalimentan entre ellas. Es importante seguir un orden riguroso con lo que 
+se completa . 
+ 
+En esta subpestaña va principalmente el contacto o contactos del proveedor y como poder contactar 
+con él. El contacto que metamos saldrá reflejado en la pestaña Resumen  
+Se divide a su vez en otras cuatro subpestañas:  
+- Email  
+- Números  
+- Direcciones  
+- Redes sociales  
+Estas subpestañas hacen referencia a la información personal del proveedor.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 18 de 116 
+ 
+En esta subpestaña va principalmente las direcciones del proveedor y se irá duplicando en sus futuros 
+documentos, por eso es tan importante dedicar un tiempo a cubrir estos campos.  La dirección que 
+metamos saldrá reflejada en la pestaña Resumen  
+Se divide a su vez en otras tres subpestañas:  
+- Números  
+- Emails  
+- Redes sociales  
+ 
+*Nota: Si la dirección es marcada como Fiscal, aparecerá en la pestaña Resumen
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 19 de 116 
+ 
+Esta subpestaña hace referencia a la persona o personas que se comunica con otros grupos o individuos 
+en nombre de la organización.  
+ 
+Esta pestaña  engloba todo lo que tiene que ver con las relaciones comerciales con el proveedor. Los 
+datos obligatorios son la moneda y el idioma. El resto de los datos se dividen entre Adicionales  e 
+Incoterm . 
+ 
+ Campo  Descripción  ADICIONAL  Moneda  Desplegable que muestra todas las monedas 
+disponibles. Hace referencia a la moneda con la que 
+trabajará el proveedor.  
+Idioma  Idioma predefinido de los documentos del proveedor.  
+Dto. P.P.  Porcentaje de descuento pronto pago si lo tiene el 
+proveedor  
+Rappel  Rappel por volumen de compras  
+Acreedor  Check que vendrá marcado si se puso en el tipo de 
+proveedor
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 20 de 116 
+ 
+ Transportista  Check que vendrá marcado si se puso en el tipo de 
+proveedor  INCOTERM  
+Incoterm  Desplegable que muestra los incoterms creados en las 
+tablas maestras. Se selecciona el negociado con el 
+proveedor  
+Punto de entrega  Lugar donde se recibe la mercancia  
+ 
+Esta pestaña está formada por 5 subpestañas  subpestañas: Artículos, Tarifas, Descuentos, Tarifas de 
+transporte y Rappels .  
+En la subpestaña Artículos, se crea el catálogo de artículos de un proveedor. Los artículos tienen 
+código y descripción, interno y  externo.  En la subpestaña  Tarifas , se permite la entrada en otras 
+monedas y aplica el factor de conversión.  En la subpestaña Descuentos se pueden añadir los 
+descuentos que aplica este proveedor. La subpestaña Tarifa de transporte  aparece bloqueada si el 
+proveedor no es transportista y la subpestaña de Rappels  nos permite añadir tramos de descuento por 
+importes.  
+ 
+En esta subpestaña se pueden añadir artículos relacionados directamente con un proveedor (esta 
+ventana se relaciona directamente con el módulo de almacén). También se pueden poner ciertas 
+particularidades que prevalecen sobre los artículos como:  
+- Plazo de entrega : plazo hasta la entrega de mercancía (informativo)  
+- % Desviación de compras : representa la desviación que se le acepta al proveedor. Cuando se 
+genera un pedido o un albarán y se introduce la cantidad, si esta supera el % de desviación, se 
+muestra en color rojo.  
+- Coste transporte : porcentaje que nos aplica el proveedor en cada compra  
+ 
+Para añadir un artículo, pulsaremos la cruz verde y nos desplegará una ventana. Aquí se podrán añadir 
+uno o varios artículos (que se hayan creado previamente) y se podrá añadir tanto un código externo, 
+como una descripción externa en cada uno.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 21 de 116 
+ 
+ Nota:  Si se marca un artículo como "por defecto", cuando el artículo está en varios proveedores, 
+primero propone el proveedor que lo tiene por defecto.  
+Nota:  Se permite establecer un coste de transporte en los proveedores. Este coste se trasladará a la 
+partida de coste de transporte de aquellos artículos del proveedor.  
+Nota:  El botón  "Establecer plazo de entrega" , se establece plazo de entrega para todos los artículos  que 
+seleccionemos .  
+ 
+En esta subpestaña se pueden añadir tarifas relacionados directamente con los artículos (esta ventana 
+se relaciona con los presupuestos a la hora de crear las líneas). Aquí se pueden crear las tarifas que 
+necesitemos, por ejemplo, por estaciones.  Los camp os vendrán cubiertos de forma predefinida 
+destacando:  
+- Código: campo libre.  
+- Descripción: campo obligatorio donde poner el titulo de la tarifa, el cual veremos en otras 
+pestañas.  
+- Moneda: en que divisa queremos la tarifa.  
+- Fechas: desde y hasta  
+ 
+Una vez creada, podemos añadir los artículos. Cuando pulsemos la cruz verde, se abrirá una ventana 
+donde podemos relacionar todos los artículos que hayamos asociado al proveedor previamente (punto 
+1.4.1).  
+Tras esta asociación, podemos poner el precio que queramos de esos artículos en la tarifa.  
+ 
+En esta subpestaña funciona cuando el proveedor es un transportista. Nos permite añadir tarifas de 
+transporte en función de las unidades que cargue.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 22 de 116 
+ 
+Una vez se introduce como va a medir la carga del transporte, podremos añadir divisiones según el 
+país y la provincia en la que trabaje.  
+ 
+En esta subpestaña permite añadir rappels en función del importe comprado al proveedor durante un 
+plazo definido. Puede hacerse de forma escalonada, añadiendo tantos escalones del rappel como 
+queramos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 23 de 116 
+ 
+Esta pestaña engloba los datos administrativos y está dividida en tres subpestañas . En la 
+subpestaña  Configuración  se muestran los datos administrativos necesarios para la compra, tales como 
+el IVA, el tipo de compra, tipo de recibo, etc  En la sub pestaña Finanzas  podemos ver dos pestañas tanto 
+de cuentas bancarias como cuentas contables del proveedor. Por último, está la subpestaña Políticas de 
+pago  dividida a su vez en 4 pestañas donde se muestra todo lo relacionado con como pagarle al 
+proveedor  
+ 
+En esta subpestaña Configuración se muestran los datos administrativos necesarios para la compra, 
+tales como el IVA, el tipo de compra, tipo de recibo, etc . También se puede configurar compras 
+automáticas al proveedor
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 24 de 116 
+ 
+  Campo  Descripción  CONFIGURACION  Tipo de operación  Desplegable con las operaciones que puede llevar a 
+cabo el proveedor  
+IVA IVA que llevará por defecto en albaranes y facturas.  
+Tipo de recibo  
+Importe mínimo 
+compras  Cantidad mínima que cobrará el proveedor por venta.  
+Tipo de compras  Compras que realiza el proveedor. Este campo se 
+arrastrará a facturas y albaranes por defecto.  
+De baja  Habrá que completar el campo de fecha para darlo 
+de baja.  
+Evaluable  Entrará en el grupo de proveedores sujetos a 
+evaluación.  
+En cuarentena  Habrá que completar el campo de fecha para que 
+este entre en cuarentena.  
+Criterio de caja  La liquidación del IVA se hace solo cuando el 
+proveedor cobra.  
+Agrupar facturación  Se agrupan los albaranes del proveedor al hacer una 
+facturación múltiple . 
+Proveedor de 
+consigna  Cuando se compra su mercancía entra en consigna.  
+Albarán no facturable  No se facturan los albaranes.  CONFIGURACION DE COMPRAS 
+AUTOMATICAS  Compras automáticas  Check para que lo incluya en proveedores a los que se 
+les pide de forma automática.  
+No enviar  Check para no enviarle compras automáticas.  
+Plantilla email  Plantilla para pedidos de compras.  
+Dividir pedidos por 
+fecha  El pedido se genera con agrupación de fechas 
+concretas  
+Cancelar 
+necesidades  Cancela las necesidades para producción, por lo que 
+no se generan pedidos en automático.  
+Emails de notificación  Emails para notificar situaciones.  
+Impresión  Impresión por defecto en el proveedor  
+ 
+En esta subpestaña se  añaden todas las cuentas bancarias y cuentas contables necesarias.  
+ 
+Para crear una nueva cuenta bancaria asociada a un proveedor, tendremos que clicar en la cruz verde. 
+Se nos despliega una ventana donde tendremos que cubrir tanto el IBAN como el SWIFT/BIC de dicho 
+proveedor. La moneda nos vendrá cubierta por defecto en eu ros.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 25 de 116 
+ 
+Por defecto en este apartado nos vendrá la cuenta contable de la empresa.  
+ 
+En esta subpestaña se establecen los términos y condiciones para realizar los pagos a 
+proveedores/acreedores. A su vez esta pestaña se divide en cuatro:  
+- Formas de pago  
+- Períodos de pago  
+- Períodos de no pago  
+- Riesgo  
+ 
+Para asignar la forma de pago que tendrá el proveedor, tendremos que clicar en la cruz verde y nos 
+mostrará una ventana donde aparecen las formas de pago configuradas en la empresa (Aplicación >> 
+Configuración >> Formas de pago). La forma de pago que ponga mos por defecto nos aparecerá en los 
+albaranes y facturas ya cubierto.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 26 de 116 
+ 
+*Nota : tanto en albaranes y facturas podremos cambiar la forma de pago.  
+ 
+Para asignar el período de pago que tendrá el proveedor, tendremos que clicar en la cruz verde y nos 
+mostrará una ventana donde aparecen los períodos de pago configurados en la empresa (Aplicación >> 
+Configuración >> Tablas maestras). El período de pago qu e pongamos por defecto nos aparecerá en los 
+albaranes y facturas ya cubierto.  
+ 
+*Nota : tanto en albaranes y facturas podremos cambiar el período de pago.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 27 de 116 
+ 
+En este apartado podemos poner una fecha de inicio y una final para que durante ese plazo no se pague 
+al proveedor. Hay un check donde podemos marcar que se repita anualmente  
+ 
+En este apartado podemos podremos poner hasta que riesgo nos acepta el proveedor. En la aplicación 
+saltará un aviso si nos pasamos de este. Tendremos que clicar en la cruz verde y nos mostrará una 
+ventana donde aparecen los campos que tendremos que cubrir,  obligatorios son el código y el límite.  
+El límite es el importe hasta lo que nos cubre el proveedor (vendrá dado por el código) y el código es con 
+quien gestiona el riesgo el proveedor, como por ejemplo CESCE. Para crear el código del riesgo 
+tendremos que ir a Aplicación >> Configuración >> Tabl as maestras.  
+ 
+Esta pestaña vendrá completada por defecto ya que coge la empresa donde se haya creado el proveedor. 
+Si hay multiempresa podrán añadirse las que se necesiten y relacionarlos mediante códigos
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 28 de 116 
+ 
+En esta pestaña se muestran principalmente datos relacionados con el transportista y los portes. El tipo 
+de identificación fiscal del proveedor es el dato obligatorio. También permite añadir una imagen.  
+ 
+En esta pestaña se asocian documentos digitalizados. Se pueden capturar directamente desde un origen 
+o arrastrarlos a la pestaña y se adjuntan directamente. Existe la posibilidad de escanear directamente un 
+documento y una vez escaneado que se adjunte dire ctamente a la pestaña.  
+Para adjuntar un fichero se tendrá que pulsar el icono del clip azul. Tras esto se elige el fichero (por 
+ejemplo, una word ) de nuestro ordenador.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 29 de 116 
+ 
+En esta pestaña aparece el historial de evaluaciones del proveedor. Para que un proveedor sea evaluable 
+tendremos que haberlo marcado como tal en la pestaña de Administración (punto 1.5). Estas 
+evaluaciones se mostrarán en puntos futuros (Para acceder a el los se ira a Compras >> Evaluación de 
+proveedores)
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 30 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 31 de 116 
+ 
+La gestión de los documentos permite consultar todos los documentos de compras 
+(presupuestos, pedidos, albaranes, facturas, etc.) de un proveedor. Para acceder  a la gestión 
+de documentos  tendremos que ir a Compras >> Gestión de documentos .  
+En la pestaña principal se puede ver en la cabecera una serie de información. Por un lado, 
+tenemos el filtro de proveedor y empresa, por el otro lado tenemos la información del 
+proveedor seleccionado. También podemos poner un rango de fechas para acotar 
+búsquedas.  
+Existen dos checks que nos indicarán si el proveedor está de baja o está en cuarentena.  
+  
+En la zona central tenemos 7 pestañas donde se dividen los documentos de compras:  
+• Resumen de situació n 
+• Presupuestos  
+• Pedidos  
+• Albaranes  
+• Facturas  
+• Recibos  
+• No conformidades  
+ 
+En esta pestaña se muestra el saldo de todas las  subcuentas  relacionadas con el proveedor. Para ello 
+deben ser creadas desde la ficha del proveedor. Las que se crean desde finanzas deben ser relacionadas 
+a través de la pestaña de datos del beneficiario. Haciendo doble clic sobre la línea se accede al mayor de 
+dich a subcuenta , aunque también se puede ver la subcuenta completa del proveedor.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 32 de 116 
+ 
+En esta pestaña se muestran todos los presupuestos de un proveedor. Desde aquí se puede acceder al 
+propio documento.  Saldrán todos los estados posibles del presupuesto, si está pendiente, no se marcará 
+ningún check.  
+ 
+En esta pestaña se muestran todos los pedidos, su estado (expedido, bloqueado o anulado), la fecha del 
+documento, la base total, el importe total, etc.  
+ 
+Se gestionan los documentos referentes a los albaranes, donde se muestra su estado (expedido, 
+facturado o no facturable), la fecha del documento, la base total, el importe total, si se dio en su totalidad 
+de alta en el almacén, etc.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 33 de 116 
+ 
+Al igual que los casos anteriores, en esta parte se gestionan los documentos de las facturas, 
+mostrándose su estado (contabilizada, cobrada), la fecha del documento, la base total, el importe total, 
+etc. 
+ 
+Hace referencia a la gestión de documentos de los recibos, mostrándose el tipo de cobro de cada uno 
+de ellos (anticipo, pagaré, cobro), el estado (cobrado, devuelto, impagado, contabilizado o contabilizado 
+en remesa) , el importe, etc.  
+ 
+ Se gestionan los documentos de las no conformidades creadas en el Módulo de  Calidad , mostrándose 
+la causa, las fechas de acuerdo y cierre, el albarán, etc.  
+También pueden añadirse en la misma pestaña. Al añadir un nuevo registro, nos despliega una ventana 
+donde se podrá poner de forma detallada que ocurre con dicho proveedor.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 34 de 116 
+ 
+*Nota:  Desde cualquiera de las pestañas , mediante doble clic, se puede acceder al documento de origen.  
+*Nota:  También se accede a la gestión de documentos desde el propio proveedor, ya con toda su 
+información filtrada.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 35 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 36 de 116 
+ 
+Para poder solicitar presupuesto s a proveedores, Elastic® BUSINESS dispone  del formulario 
+Presupuestos  de compra  al que se accede a través del menú desplegable, o directamente 
+a través del icono de acceso  rápido de la barra de botones.  
+El presupuesto  es el documento a partir del cual el  proveedor valora las referencias pedidas, 
+en circunstancias normales, genera del ciclo de compras.  
+La ventana del presupuesto  posee dos secciones perfectamente diferenciadas, en la parte 
+superior la cabecera  la cual muestra los datos básicos de identificación del documento, que 
+luego s irven para dar formato a la impresión de este. y en la parte inferior un conjunto de 
+cinco  pestañas donde se muestran los datos e información referentes a l presupuesto.  
+- Abiertos : se muestran presupuestos que se han recibido, pero todavía no se han 
+confirmado  
+- Aceptados : se muestran aquellos presupuestos que tienen generado un pedido.  
+- No aceptados : se muestran aquellos presupuestos rechazados.  
+- Anulados : se muestran los presupuestos anulados por parte del proveedor, etc. Se 
+permite controlar motivo de anulación.  
+- Todos : se muestran todos los presupuestos realizados independientemente del estado 
+en que se encuentre.  
+ 
+Una vez localizado el presupuesto, se puede acceder a él mediante doble clic sobre el 
+detalle. El formulario posee dos secciones perfectamente diferenciadas . 
+• En la parte superior se encuentra la cabecera del presupuesto.  
+ 
+• En la parte inferior se sitúan un conjunto de siete pestañas, donde se muestran los 
+datos e información referentes al presupuesto, agrupada por cierta analogía.  
+ 
+En la cabecera se encuentran los datos principales de identificación del proveedor, así como 
+otros datos importantes en la gestión del mismo. Una vez seleccionado el proveedor, según 
+la configuración existente, se precargan datos desde la ficha correspondi ente, tales como la
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 37 de 116 
+ 
+ moneda, la conversión, la fecha de documento, etc. Todos ellos editables según las 
+necesidades.  
+ 
+ Campo  Descripción  CABECERA DEL PRESUPUESTO  Empresa  Nombre de la empresa en la que se quieren ver los 
+presupuestos  
+Presupuesto  Código de identificación del documento.  
+Se puede crear un código a través del configurador 
+de contadores o , por el contrario , se genera un 
+autonumérico secuencial.  
+Versión  Indica el número de ofertas realizadas con el mismo 
+presupuesto  
+Pres. Proveedor  Número que el proveedor da al presupuesto.  
+Proveedor  Desplegable con todos los proveedores. Se 
+seleccionará el cual se quieren consultar presupuestos  
+Potencial  Indica si en un proveedor potencial, este campo se 
+cubre en la creación del presupuesto  
+Base total  Importe neto del presupuesto  
+Importe total  Suma de Base total e Impuestos totales  
+División  Indica las divisiones que tiene la empresa  
+Departamento  Indica a que departamento va dirigido el presupuesto  
+Tipo  
+F. Documento  Fecha de creación del documento.  Es generada 
+automáticamente por la aplicación.  
+Aceptado  Check que se marca cuando se acepta el 
+presupuesto  
+De licitación  Check que muestra si es un presupuesto para una 
+licitación  
+Moneda  Moneda en la que aparecerán los importes del 
+presupuesto  
+Conversión  Tipo de conversión en relación al euro
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 38 de 116 
+ 
+En esta pestaña s e muestran los datos de contacto del proveedor, los datos de la dirección 
+de recepción de mercancía, los datos del transporte , el incoterm  y observaciones.  Estos datos 
+vienen cargados por defecto del proveedor seleccionado.  
+ 
+ Campo  Descripción  DATOS DEL PROVEEDOR  Dir. Proveedor  Dirección completa del lugar desde donde el 
+proveedor opera.  
+Dirección  Calle, número, y detalles adicionales de la ubicación 
+del proveedor.  
+País País en el que se encuentra ubicado el proveedor.  
+Provincia  Provincia o estado donde está situado el proveedor.  
+Localidad  Ciudad o localidad donde opera el proveedor.  
+Contacto  Nombre y número de teléfono o email del punto de 
+contacto principal del proveedor.  DIRECCIÓN DE RECEPCIÓN  D. empresa/almacén  Nombre o código del almacén o empresa donde se 
+recibirán los bienes  
+Cargar dirección de 
+cliente  Opción para utilizar la dirección predeterminada del 
+cliente como dirección de recepción.  
+Cargar dirección de 
+proveedor  Opción para utilizar la dirección del proveedor como 
+dirección de recepción.  
+Dirección de 
+recepción  Dirección específica donde se recibirán los bienes.  
+C.P. Código postal de la dirección de recepción.  
+País País de la dirección de recepción.  
+Provincia  Provincia o estado de la dirección de recepción  
+Localidad  Ciudad o localidad de la dirección de recepción  
+Teléfono  Número de teléfono de contacto en la dirección de 
+recepción
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 39 de 116 
+ 
+DATOS DE TRANSPORTE  Tipos de portes  Describe si el transporte es pagado por el remitente, el 
+destinatario o compartido.  
+Modelo de portes  Método o modelo logístico utilizado para el envío  
+Transportista  Empresa o persona responsable de transportar los 
+bienes  
+Kilos Peso total del envío en kilogramos.  
+M3 Volumen total del envío en metros cúbicos  
+Bultos  Número total de paquetes o bultos en el envío  
+Palés  Número total de palés utilizados en el envío  INCOTERM  Incoterm  Término comercial internacional que define las 
+responsabilidades del comprador y del vendedor.  
+Punto de entrega  Lugar específico donde se completa la transferencia 
+de responsabilidades del vendedor al comprador 
+según el Incoterm acordado  
+ 
+Esta pestaña hace referencia a los importes que se necesitan para el presupuesto, tales 
+como los importes del transporte, los importes totales, los datos de pago, etc.  Es una 
+pestaña de información completa donde poder ver toda la información monetaria del 
+presupuesto.  
+ 
+ Campo  Descripción  Datos de 
+pago  Formas de pago  Método o medio a través del cual se realizará el pago  
+Período de pago  Intervalo de tiempo en el que se espera realizar el 
+pago (por ejemplo, mensual, trimestral, etc.).  Im
+por
+tes 
+det
+alle
+s Importe bruto  Importe total de la operación antes de aplicar 
+cualquier tipo de descuento o impuesto.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 40 de 116 
+ 
+ Importe neto  Importe total de la operación después de aplicar 
+descuentos, pero antes de añadir impuestos.  
+Base  Importe sobre el cual se calculan los impuestos (IVA). 
+Generalmente, es el importe neto.  
+Dto. Líneas  Descuento aplicado a una línea específica de la 
+factura o pedido.  
+Otros descuentos  Otro tipo de descuentos (Ej: pronto pago)  
+IVA Impuesto sobre el Valor Añadido. Porcentaje que se 
+añade a la base imponible.  Importes transporte  Facturar portes  Check que se activa dependiendo de la 
+configuración del modelo de porte, si está marcado, el 
+porte se facturará al propio cliente del presupuesto en 
+la factura.  
+Base  Gasto planificado imputado  
+Manual  Check para imputar costes de forma manual  
+Coste transporte  Campo donde se puede imputar el los costes  
+Tipo IVA  IVA imputado al transporte  
+IVA Porcentaje aplicado e importe resultante  Importes totales  Base total  Importe sobre el cual se calculan los impuestos (IVA). 
+Generalmente, es el importe neto.  
+Importe total  Base total + IVA  
+Impuestos totales  IVA aplicado a la base total  
+Importe total ME  Base total + IVA en moneda extranjera  
+ 
+En esta pestaña está formada por una tabla principal donde se añaden las líneas de 
+artículos que se van a incluir en el presupuesto  (en el siguiente punto explicaremos como 
+hacerlo), diferentes campos para añadir  descuento s o rappel s y por último una serie de 
+botones de acción que explicaremos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 41 de 116 
+ 
+ Campo  Descripción  Descuentos  Dto. Variable  Es un desplegable que muestra descuentos asociados 
+al proveedor  
+Dto. Rappel  Descuento por volumen de compras  
+Dto. P.P.  Descuento pronto pago  
+Dto. Variable  Se engloba en “Otros descuentos”.  
+Dto. fijo  Se engloba en “Otros descuentos”.  
+ 
+Ahora vamos a comentar los campos más destacables de la tabla.  
+ 
+ Campo  Descripción  Tabla  Cod. Artículo  Código del artículo. Al introducirlo, se completa la 
+información de forma automática. Campo editable  
+Descripción  Descripción completa de dicho artículo. Campo 
+editable  
+Cantidad  Campo que habrá que cubrir para indicar cuanto se 
+necesita de dicho artículo  
+Ud. Cant.  Unidad de medida del artículo. Campo editable  
+Importe tarifa  Campo que podemos editar a mano o que vendrá 
+cubierto por defecto si el artículo está relacionado con 
+el proveedor. Campo editable  
+Unidad de tarifa  Campo que podemos editar a mano o que vendrá 
+cubierto por defecto si el artículo está relacionado con 
+el proveedor. Campo editable  
+Descuento  Desplegable con descuentos del proveedor  
+% dto  Campo a cubrir de forma manual donde podemos 
+indicar un descuento
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 42 de 116 
+ 
+ IVA Porcentaje de IVA que podemos cambiar según 
+nuestra preferencia.  
+ 
+Existen diferente forma de añadir una línea, aunque al final se consigue el mismo resultado. En este caso 
+vamos a diferenciar varias situaciones:  
+1. Podemos crear líneas sin necesidad de enlazarlo con artículos. Funcionaría como si fuera un 
+campo de texto para realizar anotaciones.  
+ 
+2. Insertar artículos a través de su código, es decir, escribir en la columna código el código del 
+artículo y nos autocompletará toda la información.  
+ 
+3. Introducir un artículo mediante el icono “Artículos”. Al pulsar el icono nos aparece un desplegable 
+con tres subpestañas:  
+ 
+a. Artículos proveedor : los cuales hacen referencia a los artículos que tiene relacionado el 
+proveedor en su ficha.  
+b. Todos los artículos : muestra todos los artículos creados.  
+c. Cesta de artículos : muestra artículos añadidos.  
+En estas subpestañas solo tiene que cubrirse la cantidad de artículo y el precio si se necesita.  
+ 
+Para añadir un nuevo artículo que no existe en el almacén, tendremos que pulsar el icono de Configurar. 
+Este botón sirve permite la creación o selección de artículos paramétricos en el sistema. Si a la hora de 
+completar los parámetros de un artículo, este ya está creado, el sistema ya lo añadirá al documento, de 
+no ser así, preguntará si se desea crear.  
+Cuando pulsemos el icono, se nos desplegará una ventana donde tendremos que seleccionar una familia 
+(si queremos usar la configuración previa que tiene cada una. Esto se explicará en el módulo almacén) 
+o añadir valores para el artículo.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 43 de 116 
+ 
+**Nota:  lo más conveniente para crear un artículo es usar los parámetros que tienen configurados las 
+familias.  
+ 
+Tras crear el artículo nos mostrará una ventana donde podemos añadir tres campos fundamentales:  
+- Código externo.  
+- Descripción externa  
+- Precio unitario  
+ 
+Para finalizar se tiene que pulsar OBLIGATORIAMENTE  la cruz verde para añadirlo.  
+ 
+**Nota:  si solamente se conoce el comienzo del código del artículo, se puede escribir acompañado de 
+un “*”, de esta manera el sistema abrirá una ventana para la selección de los artículos que comiencen 
+con esos primeros dígitos indicados.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 44 de 116 
+ 
+En esta pestaña se pueden imputar gastos extras para que cuando entren en el almacén , 
+entre con los gastos insertados. Por ejemplo, los gastos extraordinarios  
+ 
+Para crear un nuevo gasto planificado, se pulsará el icono añadir registro y ahí se introducen 
+los datos para dar de alta un nuevo gasto a considerar en el presupuesto.  
+ 
+Para poder imputar un gasto planificado tenemos que saber si es un importe fijo o un 
+porcentaje variable y saber si se lo imputamos al importe total o por unidades de artículos. 
+Ambas distribuciones son ponderadas y se explicarán en el apartado de Albarane s. 
+ 
+En esta pestaña se mostrarán los documentos relacionados con el presupuesto, esta se divide en las 
+siguientes subpestañas.  
+- Pedidos  
+- Albaranes
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 45 de 116 
+ 
+ - Facturas  
+ 
+En esta pestaña se muestran datos adicionales como la información de fechas, información 
+del pedido, etc. Desde aquí se puede acceder directamente al pedido. Para eliminar un 
+presupuesto , tendremos que pasarlo a anulado. No se pueden eliminar los presupuestos 
+hechos.  
+En primer lugar, se debe ir a la pestaña adicional  y, a continuación, meterle una fecha de 
+anulación y guardar. En este momento pasará a la pestaña “Anulados”  
+ 
+ Campo  Descripción  D
+A
+T
+O
+S 
+D
+E 
+R
+E
+G
+IS
+TR
+O Fecha creación  Fecha en la que se creó el registro.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 46 de 116 
+ 
+ Creador  Usuario que creó el registro.  
+Ejercicio fiscal  Periodo contable o fiscal al que pertenece el registro.  
+F. últ. modificación  Fecha en la que se realizó la última modificación al 
+registro.  
+Usuario últ. mod.  Usuario que realizó la última modificación al registro.  Descuentos  F. max. respuest  Fecha límite para que contesten al presupuesto  
+F. aceptado  Fecha en la que se aceptó el presupuesto . 
+Recepción prevista  Fecha en la que se espera recibir la mercancía  
+F. no aceptado  Fecha en la que se rechazó el presupuesto . 
+F. anulado  Fecha en la que se anuló el presupuesto . 
+F. prev. recepción  Fecha prevista para la recepción  del artículo o 
+servicio.  
+Motivo no aceptado  Razón por la cual se rechazó el presupuesto . 
+Motivo anulación  Razón por la cual se anuló el presupuesto .  Pedido  Se completa de forma automática cuando se cree el 
+pedido  Oportunidad  Si los presupuestos se ligan a oportunidades  Interlocutor  Nombre del cliente que usamos como responsble  Concepto  Campo para apuntar observaciones.  
+ 
+En esta pestaña se asocian documentos digitalizados. Se pueden capturar directamente desde un 
+origen a destino o arrastrarlos a la pestaña y se adjuntan directamente. Existe la posibilidad de 
+escanear directamente un documento y una vez escaneado que se ad junte directamente a la pestaña.  
+Para adjuntar un fichero se tendrá que pulsar el icono del clip azul. Tras esto se elige el fichero (por 
+ejemplo, un  pdf) de nuestro ordenador.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 47 de 116 
+ 
+Una vez creado el cuerpo del presupuesto procede a definir el contenido de este. Para ello 
+hay que hacer los siguiente  
+1. Entra en un presupuesto creado anteriormente haciendo clic sobre él en la tabla de 
+presupuestos.  
+2. Pulsa el engranaje y haz clic en “Nueva versión”  
+3. La nueva versión ya está creada, ahora se puede modificar la información del 
+presupuesto sin perder la traza de la versión anterior.  
+ 
+La operación de clonado de un  presupuesto consiste en generar uno  nuev o exactamente 
+igual al anterior, con el mismo número de versiones, los mismos artículos,  etc. 
+1. Selecciona un presupuesto ya existente.  
+2. Pulsa en Acciones (icono de engranaje) y selecciona Clonar.  
+3. Automáticamente se genera un nuevo presupuesto.  
+4. Si quieres, puedes modificar los datos de la cabecera del formulario para asociar el 
+presupuesto a otro proveedor, o modificar las líneas de las versiones tal y como se ha 
+comentado en un apartado anterior.  
+ 
+Para realizar la impresión de una versión del presupuesto , sigue los pasos siguientes:  
+1. Selecciona el presupuesto.  
+2. Pulsa Imprimir documento.  (icono impresora)  
+3. En la ventana emergente selecciona el tipo de formulario a imprimir y pulsa Imprimir.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 48 de 116 
+ 
+Una vez que hayas  elegido un presupuesto, y una versión del mismo , de entre todas las 
+propuestas, tienes  la posibilidad de generar un pedido directamente sin tener que salir de 
+esta pestaña : 
+ 
+1. Selecciona un presupuesto.  
+2. Pulsa en Acciones (icono engranaje) y selecciona Generar Pedido (F2).  
+3. Se te abre una nueva ventana donde te pregunta si quieres acceder al pedido 
+directamente.  
+En ese momento s e da de alta en el formulario Pedidos,  el nuevo documento y el presupuesto  
+pasa automáticamente a la carpeta Cerrados . 
+Si quieres ver el pedido y deseas realizar alguna modificación debe s ir al formulario Pedidos .
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 49 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 50 de 116 
+ 
+Una vez que se han dado de alta proveedor es y se les ha asignado artículos y tarifas  (esto se 
+explica en el punto 1) , ya puede s realizar directamente el pedido desde la pestaña de 
+Pedidos  del formulario del proveedor , sin necesidad de pasar previamente por el presupuesto . 
+En este apartado vienen dado cubiertos por defecto ciertos datos y haremos una somera 
+descripción.  
+El pedido es el documento de confirmación de la compra.  En él se contemplan todos los 
+artículos, con sus cantidades, importes, descuentos … que se ha n decidido comprar; además 
+de los datos del proveedor, importes finales y toda la  información necesaria  para su gestión.  
+En la pestaña principal se puede ver a la izquierda un desplegable con todos los presupuestos, 
+dividido en Años , Estado  y Empresa .  
+En la zona central tenemos 4 pestañas donde se recogen los presupuestos por estado:  
+- Pendientes  (única pestaña donde se pueden crear pedidos).  
+- Recibidos.  
+- Anulados.  
+- Todos.  
+ 
+Para generar un nuevo pedido se tiene que pulsar el icono “Añadir registro” (cruz verde) y nos 
+desplegará una ventana dividida en 8 pestañas:  
+- Básico  
+- Gestión  
+- Líneas  
+- Gastos planificados  
+- Documentos asociados  
+- Adicional  
+- Subcontratación  
+- Ficheros  
+La ventana del pedido de compras se divide en dos secciones, en la parte superior, la 
+cabecera y en la parte inferior, un conjunto de 8 pestañas principales donde se muestran los 
+datos y la información referente al pedido.  Todas estas pestañas se explicarán a continuación
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 51 de 116 
+ 
+Se pueden ver  los datos básicos  del pe dido , los cuales pasarán a ser fijos una vez se pase a 
+albarán . Los campos que compone n la cabecera son: 
+ 
+ Campo  Descripción  CABECERA  Empresa  Nombre de la empresa contra la que se crea el 
+presupuesto. Si se trabaja en modo multiempresa 
+siempre aparecerá la que se tiene definida por 
+defecto.  
+División  División específica de la empresa donde se origina el 
+presupuesto.  
+Departamento  Departamento dentro de la división que solicita el 
+presupuesto.  
+Nº de pedido  Código de identificación del documento.  
+Se puede crear un código a través del configurador 
+de contadores o, por el contrario, se genera un 
+autonumérico secuencial.  
+Pedido proveedor  Campo abierto que hace referencia al nº del pedido 
+utilizado por el proveedor.  
+Tipo Tipo de documento de venta  
+Proveedor  Campo obligatorio. Viene cubierto si se genera desde 
+un presupuesto.  
+F. documento  Campo obligatorio. Fecha del documento, que puede 
+diferir de la fecha de creación.  
+Moneda  Tipo de moneda en la que se expresa el presupuesto.  
+Conversión  Tipo de cambio aplicado si el presupuesto está en una 
+moneda diferente a la moneda base de la empresa.  
+Enviado  Check que se marca si se envió el documento  
+Confirmado  Check que se marca si se confirmó el documento  
+Importe mínimo 
+compra  Importe mínimo requerido para proceder con la 
+compra.  
+Base total  Suma total de los importes base sin impuestos incluidos.  
+Importe total  Suma total de los importes incluidos los impuestos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 52 de 116 
+ 
+Esta pestaña se distribuye en dos bloques iniciales: Datos de localización  y Observaciones . Los 
+datos se cubren automáticamente  cuando  selecciona s un proveedor, arrastrando los que 
+figuran en su ficha.  
+En este apartado no nos pararemos demasiado ya que se explicó en el punto anterior. Los 
+datos vendrán cubiertos si vienen de presupuesto o se cubrirán al seleccionar el proveedor.  
+ 
+En esta pestaña se visualizan los datos de pago , así como un resumen económico del pedido, 
+incluyendo impuestos.  Esta pestaña se divide en 4 bloques:  
+- Datos de pago  
+- Importes detalles  
+- Importes transporte  
+- Importes totales  
+Este apartado ya que se explicó en el punto anterior. Los datos vendrán cubiertos si vienen 
+de presupuesto . Se pueden hacer cambios o modificaciones si se modifican las líneas.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 53 de 116 
+ 
+En esta pestaña es donde se define  las características del pedido . Se divide en una parte 
+superior de selección del posible descuento y una tabla inferior en la que se detallan las líneas 
+de pedido y donde se explica cada una de las columnas.  
+ 
+La única diferencia con el presupuesto es que hay un nuevo botón de acción para 
+seleccionar artículos que se recibirá si se llevan a subcontratar los de la línea. Esto se explicará 
+en el apartado de subcontratación
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 54 de 116 
+ 
+En esta pestaña se pueden imputar gastos extras para que cuando entren en el almacén , 
+entre con los gastos insertados. Por ejemplo, los gastos extraordinarios  
+ 
+Para crear un nuevo gasto planificado, se pulsará el icono añadir registro y ahí se introducen 
+los datos para dar de alta un nuevo gasto a considerar en el presupuesto.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 55 de 116 
+ 
+Para poder imputar un gasto planificado tenemos que saber si es un importe fijo o un 
+porcentaje variable y saber si se lo imputamos al importe total o por unidades de artículos. 
+Ambas distribuciones son ponderadas y se explicarán en el apartado de Albarane s. 
+ 
+En esta pestaña se mostrarán los documentos relacionados con el pedido, esta se divide en las 
+siguientes subpestañas.  
+• Presupuestos  
+• Órdenes de subcontratación.  
+• Albaranes  
+• Facturas  
+ 
+Cada una de las pestañas se muestra respectivamente una información básica  
+ 
+En esta pestaña se muestran datos adicionales como la información de fechas, información 
+del pedido , etc. Desde aquí se puede acceder directamente al presupuesto . Para eliminar 
+un pedido , tendremos que pasarlo a anulado. No se pueden eliminar los pedidos hechos, una 
+vez se anulan, si viene de un presupuesto, este se puede modificar.  
+En primer lugar, se debe ir a la pestaña adicional  y, a continuación, meterle una fecha de 
+anulación y guardar. En este momento pasará a la pestaña “Anulados”
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 56 de 116 
+ 
+ Campo  Descripción  DATOS DE REGISTRO  Fecha creación  Fecha en la que se creó el registro.  
+Creador  Usuario que creó el registro.  
+Ejercicio fiscal  Periodo contable o fiscal al que pertenece el registro.  
+F. últ. modificación  Fecha en la que se realizó la última modificación al 
+registro.  
+Usuario últ. mod.  Usuario que realizó la última modificación al registro.  INFORMACIÓN DE FECHAS  F. envío pedido  
+F. confirmación  
+F. recepción real  
+F. anulado  Fecha en la que se anuló el presupuesto . 
+Recepción prevista  Fecha en la que se espera recibir la mercancía  
+F. prev. recepción  Fecha prevista para la recepción  del artículo o 
+servicio.  
+F. expedido  
+Motivo anulación  Razón por la cual se anuló el presupuesto . DATOS DE 
+CONSIGNA  Consigna de 
+reposición  
+Consigna de pago  
+Subcontratación
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 57 de 116 
+ 
+INFO DEL 
+PRESUPUESTO  
+ 
+Presupuesto  
+ 
+Presupuesto del que viene el pedido.  INFO DEL PEDIDO 
+DE VENTAS  
+ 
+Pedido de ventas  
+ 
+Viene dado cuando se subcontrata  OTROS 
+DATOS  
+Interlocutor  
+Nombre del cliente que usamos como responsble  CONCEPTO  
+Concepto  
+Campo para apuntar observaciones.  
+ 
+En esta pestaña se asocian documentos digitalizados. Se pueden capturar directamente desde un 
+origen a destino o arrastrarlos a la pestaña y se adjuntan directamente. Existe la posibilidad de 
+escanear directamente un documento y una vez escaneado que se ad junte directamente a la pestaña.  
+Para adjuntar un fichero se tendrá que pulsar el icono del clip azul. Tras esto se elige el fichero (por 
+ejemplo, un  pdf) de nuestro ordenador.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 58 de 116 
+ 
+En el caso de que una línea de artículo no vaya a ser recibido tanto total como parcialmente, 
+para que no esté permanentemente el pedido en la pestaña de  Pendiente,  existe la opción de 
+marcar como completa esa línea. Con esta acción se consigue que el sistema interprete que no 
+van a servir las líneas marcadas a pesar de que quede cantidad pendiente de recibir.  
+En el caso de que el usuario se equivoque y marque líneas no deseadas como completas, 
+existe la acción de descompletar para revertir el problema. Esta acción se usa si todo el 
+pedido figura como recibido, si no se podría hacer manualmente sobre las mismas.  
+Si se selecciona la acción "Descompletar", el sistema muestra una ventana emergente con 
+todas las líneas que figuran en estado de completas para proceder a su desmarcado. En ese 
+momento el pedido es devuelto a la pestaña de  Pendientes  para continuar con la expedición de 
+la parte descompletada.  
+ 
+Cuando hemos finalizado el pedido, podremos generar el albarán, la cual nos mostrará una ventana 
+emergente donde podremos poner la referencia del albarán del proveedor.  Al final del proceso, el sistema 
+informará del nº de albarán generado y dará la posibilidad de ir al formulario a verlo.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 59 de 116 
+ 
+Esta acción permite dar de alta la mercancía en el almacén a la vez que se genera el albarán.  
+El sistema genera automáticamente los dos documentos.  
+ 
+Esta acción permite generar un albarán y la correspondiente factura simultáneamente. También 
+nos permite poner el Albarán del proveedor y la factura del proveedor si se quiere.  
+El sistema genera automáticamente los dos documentos.  
+ 
+Esta acción permite dar de alta la mercancía entrante a la vez que genera el albarán y la factura 
+correspondiente.  Como en el apartado anterior, nos permite poner el Albarán del proveedor y la 
+factura del proveedor si se quiere.  
+El sistema genera automáticamente los dos documentos.  
+ 
+El proceso de clonado permite crear una copia del mismo para un mismo proveedor u otro distinto. 
+En el proceso de clonado, replica el contenido de este en lo que a detalles se refiere, actualizando 
+las condiciones económicas en base al proveedor selecciona do. 
+Se actualizan las condiciones nuevas del proveedor si las hubiese y se recalcula así mismo las 
+condiciones de transporte si hubiese. Todo lo que afecta a condiciones de pago son actualizadas.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 60 de 116 
+ 
+Si se desea dar de alta una no conformidad sobre un pedido realizado.  
+*Nota:  La no conformidad de un pedido también se hace desde el módulo de calidad 
+seleccionando el proveedor y el pedido de compras indicado.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 61 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 62 de 116 
+ 
+En el flujo de compras, una vez generado el pedido, el siguiente paso es crear el albarán de 
+compras. Para acceder  a ello iremos a Compras >> Albaranes . 
+Es desde el albarán donde se da la mercancía de alta en el almacén.  
+Los albaranes se muestran agrupados por estados, donde aquellos que hacen referencia a 
+la recepción del pedido, muestran el estado desde el punto de vista del almacén, y los que 
+hacen referencia a la facturación desde el punto de vista de la facturación de l pedido.  
+En la pestaña principal se puede ver a la izquierda un desplegable con todos los presupuestos, 
+dividido en Años , Estado  y Empresa .  
+En la zona central tenemos 7 pestañas donde se recogen los presupuestos por estado:  
+- No recibidos  (pestaña donde se pueden crear albaranes).  
+- Recibidos  (pestaña donde se pueden crear albaranes).  
+- No facturados  (pestaña donde se pueden crear albaranes).  
+- Facturados.  
+- No facturables.  
+- Anulados.  
+- Todos.  
+ 
+En el formulario destacan dos partes: la cabecera, en la parte superior, y cuatro pestañas con 
+toda la información y funcionalidad necesarias.  
+ 
+En la cabecera se encuentran los datos principales del albarán. Una vez seleccionado el 
+albarán de compras, según la configuración existente, se precargan los datos, tales como el
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 63 de 116 
+ 
+ proveedor, la fecha del documento, la moneda, el albarán proveedor, etc. También indica 
+si está dado de alta en el almacén.  
+ 
+ Campo  Descripción  CABECERA DEL PRESUPUESTO  Empresa  Nombre de la empresa en la que se quieren ver los 
+presupuestos  
+Albarán  Código de identificación del documento.  
+Se puede crear un código a través del configurador 
+de contadores o , por el contrario , se genera un 
+autonumérico secuencial.  
+Albarán proveedor  Campo obligatorio para cubrir con el código de 
+albarán que tenga nuestro proveedor  
+Proveedor  Desplegable con todos los proveedores.  
+Moneda  Moneda en la que aparecerán los importes del 
+presupuesto  
+Conversión  Tipo de conversión en relación al euro  
+División  Indica las divisiones que tiene la empresa  
+Departamento  Indica a que departamento va dirigido el presupuesto  
+Tipo  
+Proveedor facturación  Este campo nos sirve para facturar al proveedor que 
+tenga por defecto un grupo.  
+F. Documento  Fecha de creación del documento.  Es generada 
+automáticamente por la aplicación.  
+Alta en almacén  Se marca de forma automática cuando se da de alta 
+la mercancía.  
+Base total  Importe neto del presupuesto  
+Importe total  Suma de Base total e Impuestos totales  
+ 
+Esta pestaña se distribuye en dos bloques iniciales: Datos de localización  y Observaciones . Los 
+datos se cubren automáticamente  cuando  selecciona s un proveedor, arrastrando los que 
+figuran en su ficha.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 64 de 116 
+ 
+ Campo  Descripción  DATOS DEL PROVEEDOR  Dir. Proveedor  Dirección completa del lugar desde donde el 
+proveedor opera.  
+Dirección  Calle, número, y detalles adicionales de la ubicación 
+del proveedor.  
+País País en el que se encuentra ubicado el proveedor.  
+Provincia  Provincia o estado donde está situado el proveedor.  
+Localidad  Ciudad o localidad donde opera el proveedor.  
+Contacto  Nombre y número de teléfono o email del punto de 
+contacto principal del proveedor.  DIRECCIÓN DE 
+RECEPCIÓN  Dirección de 
+recepción  Dirección específica donde se recibirán los bienes.  
+C.P. Código postal de la dirección de recepción.  
+País País de la dirección de recepción.  
+Provincia  Provincia o estado de la dirección de recepción  
+Localidad  Ciudad o localidad de la dirección de recepción  DATOS DE TRANSPORTE  Tipos de portes  Describe si el transporte es pagado por el remitente, el 
+destinatario o compartido.  
+Modelo de portes  Método o modelo logístico utilizado para el envío  
+Transportista  Empresa o persona responsable de transportar los 
+bienes  
+Matrícula  Matrícula del transportista  
+Ref. transportista  Referencia que se asigna al transportista
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 65 de 116 
+ 
+ Kilos Peso total del envío en kilogramos.  
+M3 Volumen total del envío en metros cúbicos  
+Bultos  Número total de paquetes o bultos en el envío  
+Palés  Número total de palés utilizados en el envío  
+Coste teórico 
+transporte  Coste teórico  
+Coste real transporte  Coste real  INCOTERM  Incoterm  Término comercial internacional que define las 
+responsabilidades del comprador y del vendedor.  
+Punto de entrega  Lugar específico donde se completa la transferencia 
+de responsabilidades del vendedor al comprador 
+según el Incoterm acordado  
+ 
+En esta pestaña se visualizan los datos de pago , así como un resumen económico del albarán , 
+incluyendo impuestos.  Esta pestaña se divide en 4 bloques:  
+- Datos de pago  
+- Importes detalles  
+- Importes transporte  
+- Importes totales  
+ 
+ Campo  Descripción  DATO
+S 
+PROV
+EEDO
+R Forma de pago  Método o medio a través del cual se realizará el pago 
+(por ejemplo, transferencia bancaria, tarjeta de 
+crédito, etc.).
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 66 de 116 
+ 
+ Período de pago  Intervalo de tiempo en el que se espera realizar el 
+pago (por ejemplo, mensual, trimestral, etc.).  
+Tipo de compra  Subcuenta asignada a la compra del albarán  
+Contabilizado  Check que se marca de forma automática cuando se 
+contabiliza  IMPORTES DETALLES  Importe bruto  Importe total de la operación antes de aplicar 
+cualquier tipo de descuento o impuesto.  
+Importe neto  Importe total de la operación después de aplicar 
+descuentos, pero antes de añadir impuestos.  
+Base  Importe sobre el cual se calculan los impuestos (IVA). 
+Generalmente, es el importe neto.  
+Dto. línea  Descuento aplicado a una línea específica de la 
+factura o pedido.  
+Otros descuentos  Descuento aplicado al total de la factura o pedido, no 
+a una línea específica.  
+IVA Impuesto sobre el Valor Añadido. Porcentaje que se 
+añade a la base imponible.  IMPORTES TRANSPORTES  Facturar portes  Check que se activa dependiendo de la 
+configuración del modelo de porte, si está marcado, el 
+porte se facturará al propio cliente del presupuesto en 
+la factura.  
+Base  Importe de los portes  
+Manual  Check que habilita el campo de “Base”, para añadir 
+manualmente el importe de transporte deseado  
+Tipo IVA  Campo que permite seleccionar el IVA asociado al 
+transporte  
+IVA Campo informativo del % y la cuota del IVA con 
+respecto a la base del transporte  IMPORTES TOTALES  
+Base total  Importe sobre el cual se calculan los impuestos (IVA). 
+Generalmente, es el importe neto.  
+Importe total  Base total + IVA  
+Impuestos totales  IVA aplicado a la base total  
+Importe total ME  Base total + IVA en moneda extranjera  
+ 
+En esta pestaña es donde se define  las características del albarán. A su vez se define en la 
+pestaña de Líneas  y Albaranes de devolución.  
+  
+Aquí se pueden añadir nuevos artículos al albarán. Se divide en una parte superior, donde se 
+seleccionan los posibles descuentos y en que almacén se dará de alta la mercancía y una 
+tabla inferior en la que se detallan las líneas del albarán y donde se expl ica cada una de las 
+columnas.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 67 de 116 
+ 
+ Campo  Descripción  DESCUENTOS  Dto. variable  Desplegable con los descuentos que tiene el 
+proveedor.  
+Dto. Rappel  Descuento por volumen de compras  
+Dto. P.P.  Descuento pronto pago  
+Dto. variable  Se engloba en “Otros descuentos”.  
+Dto. Fijo  Se engloba en “Otros descuentos”.  ALTA EN…  
+Almacén  Desplegable donde se selecciona el almacén donde 
+se dará de alta  
+Subalmacén  Desplegable donde se selecciona el subalmacén 
+donde se dará de alta  TABLA  Cod. artículo  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Texto que describe cualitativamente el artículo.  
+Cantidad  Indica la cantidad del artículo de la línea  
+Ud. cant  Unidad seleccionada o precargada para el pedido.  
+Cant. real  Cantidad inicialmente pedida por parte del cliente en 
+la unidad debajo mencionada. Si es otra, distinta de la 
+de gestión, hará la conversión directamente.  
+Ud. cant. real  Unidad del artículo si esta fuera diferente a la unidad 
+definida en el pedido.  
+Cant defectuosa  
+Precio unitario  Precio por cada unidad del artículo.  
+Precio unitario ME  Precio por cada unidad del artículo en moneda 
+extranjera.  
+Descuento  Tanto por ciento de descuento aplicado al artículo.  
+% dto  Descuento en porcentaje  
+Familia  Familia del artículo que se va a añadir a la línea.  
+Completa  Check que sirve para dar por completada una línea, 
+aun no habiendo enviado toda la cantidad a albarán.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 68 de 116 
+ 
+ Stock global  
+Cant. reservada  Cantidad del artículo que está reservada para pedidos 
+actuales.  
+Cant. pdte recibir  Cantidad pendiente de recibir de proveedores.  
+IVA Impuesto sobre el Valor Añadido aplicable al artículo.  
+Cant. disponible  Cantidad disponible para la venta después de 
+considerar reservas y pedidos pendientes.  
+Tarifa  Tarifa o precio base del artículo antes de aplicar 
+descuentos u otros ajustes.  
+Importe tarifa  Importe total resultante de aplicar la tarifa a la 
+cantidad de artículos solicitada.  
+Unidad de tarifa  
+% Desviación  
+Lote/Nº serie  
+Almacén  
+Subalmacén  
+Orden impresión  Número de orden que tendrá el artículo en la 
+impresión del documento de pedido.  
+Importe bruto  Importe total de la línea, una vez descontado el 
+descuento asociado a la línea.  
+Importe neto  Importe después de aplicar todos los descuentos y 
+antes de impuestos.  
+Base imponible  Importe sobre el que se aplicarán los impuestos.  
+Importe IVA  Valor total del Impuesto sobre el Valor Añadido 
+aplicado.  
+Tipo de IVA  Clasificación del IVA aplicable, dependiendo de la 
+normativa fiscal.  
+Importe total  Suma total de la línea, incluyendo todos los impuestos 
+y recargos.  
+Importe total ME  Importe total en moneda extranjera, si aplica.  
+Gastos planificados  Gastos planificados a dicho artículo  
+Pedido  Pedido del que proviene el albarán  
+ 
+ En las líneas de albaranes tenemos dos botones de acción nuevos. Uno para añadir pedidos y otros 
+para añadir detalles de pedidos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 69 de 116 
+ 
+En este apartado podemos conseguir que un solo albarán tenga relacionados varios pedidos. En este 
+caso el albarán solo mostrará los pedidos del mismo proveedor con el que estemos haciéndolo.  
+ 
+En este apartado podemos conseguir albaranes parciales, es decir, de un solo pedido con varias líneas 
+podemos ir creando albaranes en función de la recepción de estas.  
+ 
+Aquí se muestran los albaranes y las cantidades de líneas de artículos devueltas.  Para crear un albarán 
+de devolución habrá que clicar en los botones de acción y seleccionar Generar albarán de devolució n. (Se 
+explicará más adelante) . 
+ 
+En esta pestaña se mostrarán los documentos relacionados con el albarán, esta se divide en las 
+siguientes subpestañas.  
+• Presupuestos  
+• Pedidos  
+• Facturas  
+ 
+Cada una de las pestañas se muestra respectivamente una información básica del correspondiente 
+documento
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 70 de 116 
+ 
+Este apartado se explicará en un documento a parte debido a su importancia y tamaño.  
+ 
+En esta pestaña se muestran todos los datos referentes a fechas de envío, aceptación, etc.  
+ 
+ Campo  Descripción  DATOS DE 
+REGISTRO  F. creación  Fecha en la que se creó el registro.  
+Creador  Usuario que creó el registro.  
+Ejercicio fiscal  Periodo contable o fiscal al que pertenece el registro.  
+F. últ. modificación  Fecha en la que se realizó la última modificación al 
+registro.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 71 de 116 
+ 
+ Usuario últ. mod.  Usuario que realizó la última modificación al registro.  INFORMACIÓN DE 
+FECHAS  F. recepción 
+mercancía  
+F. alta almacén  
+F. anulado  Fecha en la que el pedido es anulado , si aplica.  
+F. movimiento  
+Motivo anulación  Razón específica por la cual el pedido fue anulado.  Datos de 
+consigna  Consigna de 
+reposición  
+Consigna de pago  
+Subcontratación  Otros datos  
+Bien de inversión  
+Interlocutor  
+Tipo operación  Información de la 
+factura  Pendiente factura  
+Factura  
+Notas factura  
+No facturable  
+Bloquear facturación  Concepto  
+ 
+-----------  explicación ----------------  
+Botones de acción  
+Crear  
+Borrar  
+Apuntes libres  
+Contabilizar  
+ 
+ Campo  Descripción  FECHAS  F. contable  
+F. contabilización  
+F. generación  
+Nº asiento  TABLA  Nº de asiento  Código de identificación del asiento.  
+Nº de apunte  Código de identificación del apunte.  
+Fecha  Fecha de realización del apunte.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 72 de 116 
+ 
+ Subcuenta  
+Descripción  Descripción del apunte.  
+Concepto  
+Cargo  Campo que indica dónde se carga el importe, al 
+Debe o al Haber.  
+Importe  Importe del apunte.  
+Debe  Importe cargado al Debe.  
+Haber  Importe cargado al Haber.  
+Debe M.E.  Importe cargado al Debe en moneda extranjera.  
+Haber M.E.  Importe cargado al Haber en moneda extranjera.  
+Conversión  
+Base imponible  
+Importe IVA  Importe del IVA.  
+Descripción IVA  
+Importe de recargo  
+Descripción recargo  
+Contrapartida  
+Nº asiento  
+ 
+En esta pestaña se asocian documentos digitalizados. Se pueden capturar directamente desde un 
+origen a destino o arrastrarlos a la pestaña y se adjuntan directamente. Existe la posibilidad de 
+escanear directamente un documento y una vez escaneado que se ad junte directamente a la pestaña.  
+Para adjuntar un fichero se tendrá que pulsar el icono del clip azul. Tras esto se elige el fichero (por 
+ejemplo, un  pdf) de nuestro ordenador.  
+ 
+ Campo  Descripción  CALIDAD  Código  
+Fecha apertura  
+Creador  
+Descripción no 
+conformidad
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 73 de 116 
+ 
+ Cod. artículo  
+Desc. Artículo  
+Nº lote  
+ 
+Una vez creado el cuerpo del presupuesto procede a definir el contenido de este. Para ello 
+hay que hacer los siguiente  
+4. Entra en un presupuesto creado anteriormente haciendo clic sobre él en la tabla de 
+presupuestos.  
+5. Pulsa el engranaje y haz clic en “Nueva versión”  
+6. La nueva versión ya está creada, ahora se puede modificar la información del 
+presupuesto sin perder la traza de la versión anterior.  
+ 
+La operación de clonado de un presupuesto consiste en generar uno nuevo exactamente 
+igual al anterior, con el mismo número de versiones, los mismos artículos, etc.  
+5. Selecciona un presupuesto ya existente.  
+6. Pulsa en Acciones (icono de engranaje) y selecciona Clonar.  
+7. Automáticamente se genera un nuevo presupuesto.  
+8. Si quieres, puedes modificar los datos de la cabecera del formulario para asociar el 
+presupuesto a otro proveedor, o modificar las líneas de las versiones tal y como se ha 
+comentado en un apartado anterior.  
+ 
+Para realizar la impresión de una versión del albarán , sigue los pasos siguientes:  
+4. Selecciona el albarán . 
+5. Pulsa Imprimir documento.  (icono impresora)  
+6. En la ventana emergente selecciona el tipo de formulario a imprimir y pulsa Imprimir.  
+ 
+Una vez que hayas  elegido un albarán , de entre tod os los propuest os, tienes  la posibilidad de 
+generar un a factura directamente sin tener que salir de esta pestaña : 
+ 
+4. Selecciona un albarán . 
+5. Pulsa en Acciones (icono engranaje) y selecciona Generar factura  (F2). 
+6. Se te abre una nueva  ventana donde poner la factura del proveedor y una fecha.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 74 de 116 
+ 
+En ese momento s e da de alta en el formulario facturas , el nuevo documento y el albarán 
+pasa  pasa automáticamente a la pestaña factura dos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 75 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 76 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 77 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 78 de 116 
+ 
+El SII hace referencia a la obligación, por parte de las empresas que cumplen con las condiciones 
+establecidas por parte de la Hacienda Pública, de enviar sistemáticamente la información sobre las 
+operaciones comerciales de venta / compra, registrada media nte factura. Esto viene a sustituir a medio 
+plazo, la necesidad de enviar cierta información contable mediante los modelos actuales, tal y como se 
+venía haciendo hasta la fecha.  
+Para facilitar dicha operación, elastic© BUSINESS incorpora una serie de funcionalidades que ayudan al 
+envío de los ficheros correspondientes generados a partir en este caso de facturas  (venta y compra ) y 
+pagos, y la posterior comprobación de que todo está correcto. Hacienda devuelve información para 
+verificar que todo está bien.  
+Para utilizar dicha funcionalidad:  
+• En la aplicación,  tenemos que ir a Laboral >> Empresas >> Certificados  y añadir mediante el 
+botón adjuntar, el certificado digital emitido por la FMNT u otros organismos autorizados. En 
+principio solo se acepta certificado con extensión " .pf2". El formato ".pfx no es válido, pero se 
+puede reconvertir.  
+• El sistema nunca pedirá la clave del certificado digital. Dicha clave será solicitada cada vez que 
+se genere un fichero desde la parte de ventas y compras para su envío al portal de Hacienda.  
+*Nota:  Aunque es un tema que compete a la empresa, lo recomendable es que las personas que vayan 
+a utilizar este sistema tengan un certificado digital propio en representación de la empresa, nunca 
+personal, para no compartir las claves entre varios usuarios.  
+ 
+El proceso es muy sencillo, se han automatizado al máximo los procesos para que al usuario no le 
+resulte tediosa caracterizar las facturas. Se procede  de la siguiente manera:  
+1. En la entrada del SII, se muestran todas las facturas emitidas, clasificadas en dos 
+pestañas,  "No enviadas"  y "Enviadas"  
+2. En la pantalla principal existe un código de colores:  
+ 
+• Blanco:  emitidas en el día o con fecha posterior al día y, que todavía no han entrado en 
+fecha de descuento de 4 días.  
+• Naranja:  todas aquellas facturas que han entrado en los 3 primeros días del tiempo de 
+descuento de 4 días (tiempo legal máximo permitido para enviar la información).  
+• Rojo:  aquellas facturas que están en el último día en plazo del tiempo, y además, 
+aquellas que han excedido el plazo máximo de envío.  
+*Nota:  Los días de control de elastic© BUSINESS, son días naturales y no días laborales como 
+recomienda Hacienda. Hemos establecido un control conservador para mayor seguridad. En el caso de 
+compras la fecha se hace a partir de la la fecha contable, por lo que l a factura debe estar 
+contabilizada.  
+3. Para enviar el fichero se procederá de la siguiente manera. Se seleccionan una o varias 
+facturas, aquellas que se quieran enviar. Una vez seleccionadas, se le dará a enviar y el sistema 
+creará automáticamente el fichero y lo enviará a la plataforma de Haci enda. Previamente 
+solicitará la clave del certificado digital. Se establece la comunicación, y a medida que vayan 
+entrando las facturas en el sistema y sean Ok, pasan automáticamente a la pestaña de 
+enviadas con código CVS asociado. Si la factura no es cor recta devuelve un no OK con un
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 79 de 116 
+ 
+ código de error y permanece en la pestaña de no enviadas. El usuario deberá corregir y volver a 
+enviar las facturas correspondientes. No existe un proceso de cancelación, de envío.  
+ 
+Ahora hay que tener en cuenta una serie de consideraciones:  
+• Se debe recordar, que hasta el 1 de Enero de 2018 Hacienda ha dado un plazo para el envío de 
+las facturas de 8 días. Elastic© BUSINESS a partir del cuarto día lo considera fuera de plazo 
+por lo que lo marca en rojo.  
+ 
+• Las facturas deben ir clasificadas por lo que, elastic © BUSINESS establece una clasificación 
+por defecto para facilitar su usabilidad. El tipo de factura se clasifica automáticamente por 
+serie, facturas normales o rectificativas. Cualquier otra casuística debe ser seleccionada 
+manualmente a través del combo p or el usuario.  
+ 
+• El tipo de operación lo coge automáticamente del tipo de operación asociado al IVA. Existe una 
+excepción, si la factura es de arrendamiento, aunque sea de tipo "Régimen General", existe un 
+tipo específico que además obliga posteriormente a indicar el tipo de activo y su referencia 
+catastral.  
+ 
+• La descripción es un campo obligatorio, por el momento no existe la posibilidad de 
+preconfigurar un valor por defecto ni seleccionar de una tabla. Se esperará a obtener más 
+información al respecto para automatizar este campo.  
+ 
+• No cabe la posibilidad de que en una misma factura, vayan tipos de operaciones distintas. 
+Existe una excepción en la que se puede mezclar "Tipo Régimen General" con operaciones "No 
+sujetas". El fichero comunica dicha información en el fichero. Cualquier ot ra combinación no es 
+posible, ni operativamente ni técnicamente.  
+ 
+• Aunque el portal de Hacienda devuelve información suficiente al sistema para establecer un 
+control de estado real de las facturas, se puede acceder directamente al portal para consultar 
+más información. Bajo ningún concepto se debe editar la información en  dicho portal, ya que el 
+sistema no devolverá información a elastic© BUSINESS, por lo que dejará de existir correlación 
+entre la información depositada en ambos sistemas. La ruta de acceso a dicho portal es la 
+siguiente:  
+• La información del primer semestre, según la tipología de empresa será o no necesario 
+enviarla. A priori en el tipo de factura habría que seleccionar "Primer semestre de 2017". En
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 80 de 116 
+ 
+ realidad no es necesario ya que el sistema por la fecha sabe que pertenece al primer semestre 
+y reconvierte dicha información en el momento que se envía a la Hacienda pública.  
+ 
+• Como bien se ha indicado, a diferencia de ventas, en este caso las facturas que aparecen en el 
+formulario serán las que estén contabilizadas. En automático, sólo se transmiten si 
+previamente están contabilizadas.  
+ 
+• Hay una excepción en todo el sistema que está explicado en el documento adjunto de la AET, 
+las facturas de aduanas que puedan incluir el IVA de exportaciones y el IVA de servicios 
+asociados. En este caso, los conceptos deben ir separados en distintas factu ras de elastic© 
+BUSINESS y clasificadas como tal.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 81 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 82 de 116 
+ 
+En este apartado vamos a ver como configurar descuentos por volumen de compras, conocidos como 
+Rappels. L os Rappels por compras  son descuentos que los proveedores ofrecen a cambio de comprar 
+una cierta cantidad de un producto. En este caso primero vamos a la pestaña de Configuración de 
+Rappels  y luego a la propia pestaña de los Rappels .  
+ 
+Para poder gestionar los descuentos por rappel, es necesario hacer la configuración primero. Para ello 
+nos iremos a Compras >> Descuentos >> Configuración rappels.  
+Las configuraciones de rappel se muestran clasificadas según el estado en que se encuentren:  
+Activas : se muestran todas las configuraciones creadas que están en uso en ese momento. Pasarán a 
+la pestaña "Inactivas" al marcar el check de "Inactivo"  en el detalle . 
+Inactivas : se muestran aquellas configuraciones de rappel que están marcadas como inactivas y por 
+tanto no están en uso.  
+ 
+Para crear una configuración de rappel tendremos que añadir un nuevo registro. Se nos desplegará una 
+ventana donde se diferencia una cabecera y dos subpestañas, Importes  y Proveedor . 
+ 
+En esta subpestaña se muestran los rangos de importes para los que se aplican los descuentos.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 83 de 116 
+ 
+  Campo  Descripción  CONFIGURACIÓN  Descripción  Nombre que tendrá el rappel (obligatorio)  
+Fecha inicio  Fecha de inicio del rappel (obligatorio)  
+Fecha fin  Fecha fin del rappel  
+Empresa  Campo que viene cubierto por defecto  
+Inactivo  Check para marcarlos si queremos dar de baja dicho 
+rappel  TABLA  Desde importe (>)  Importe mínimo donde empezará el rappel  
+Hasta importe (<=)  Importe máximo hasta donde llegará el rappel  
+Descuento  Descuento aplicado si el volumen está entre el rango  
+ 
+En esta subpestaña se muestran  todos los proveedores asociados a un rappel.  Una vez se selecciona el 
+proveedor se podrá ver su código, nombre comercial, razón social y NIF  
+ 
+En esta pestaña  se exponen las funcionalidades básicas relacionadas con los descuentos de rappel. 
+Para ello nos iremos a Compras >> Descuentos >> Rappels.  
+Los rappels se muestran agrupadas en función del estado en el que se encuentran.  
+Abiertos : se muestran los rappels en uso en ese momento.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 84 de 116 
+ 
+ Cerrados : se muestran los rappels que ya no están vigentes.  
+ 
+Para crear un rappel bastará con insertar  (en la cruz verde)  la cabecera de este . 
+Para cerrar el rappel se debe marcar con un check la casilla "Cerrado". Pasará a la pestaña de  "Cerrados" .  
+Desde el formulario de búsqueda, una vez localizado el rappel, se accede a él mediante doble clic sobre 
+el detalle. El formulario posee dos secciones . En la parte superior se encuentra la cabecera del rappel. 
+Los datos obligatorios son el proveedor, y las fechas de inicio y fin.  En la parte inferior se sitúa el listado 
+de facturas asociadas al rappel seleccionado.  
+Una vez asociemos la factura deseada solo hay que pulsar el engranaje y crear la factura de rappel.  
+ 
+Para que sea posible crear una factura del rappel, es imprescindible que en la empresa se cree un articulo 
+de servicio para los rappels. Para ello nos vamos a Laboral >> Empresas y centros de trabajo >> 
+Configuración >> Adicional  y en compras introducimos el servicio creado únicamente para ello.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 85 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 86 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 87 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 88 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 89 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 90 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 91 de 116 
+ 
+En este apartado vamos a ver como configurar las Licitaciones , las cuales se basan en crear 
+masivamente presupuestos a distintos proveedores, de los mismos artículos.  Por tanto, se permite 
+comprar diferentes artículos, a diferentes precios y a diferentes proveedores . Para acceder  a ellas nos 
+iremos a Compras >> Licitaciones . 
+Las licitaciones se muestran agrupadas por estados:  
+• Abiertas:  se muestran todas aquellas licitaciones que todavía están en proceso.  
+• Cerradas:  se muestran todas aquellas licitaciones que ya no están en activas por tanto están 
+cerradas.  
+El formulario que aparece cuando creamos una nueva licitación posee dos secciones perfectamente 
+diferenciadas  
+• En la parte superior se encuentra la cabecera de la licitación.  
+• En la parte inferior se sitúa un conjunto de pestañas, donde se muestran los datos e información 
+referentes a la licitación.  
+ 
+Para crear una Licitación se tiene que seguir una serie de pasos  Ningún dato de la cabecera es 
+obligatorio, basta con insertar la empresa para que se crea a licitación y los datos necesarios para 
+identificar y crearla.  
+En la cabecera se encuentran los datos principales de las licitaciones, tales como, la empresa, el código, 
+la descripción, la división y las fechas necesarias.  
+Si entramos en el detalle de las licitaciones  veremos 5 pestañas diferenciadas.  
+ 
+En esta subpestaña se muestran datos de entrega, tales como la dirección de empresa/almacén, la 
+dirección de recepción. Si el cliente tiene cargada la dirección en su ficha, esta se carga automáticamente 
+seleccionando el botón "Cargar dirección de cliente".
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 92 de 116 
+ 
+En esta subpestaña se muestran todos los artículos para los que se pide presupuesto en la licitación . 
+Para ello añadiremos un registro que nos desplegará la siguiente pestaña  
+ 
+En esta ventana añadiremos las cantidades de cada artículo que queramos comparar entre distintos 
+proveedores. Una vez seleccionado el artículo a comparar, para que aparezcan los proveedores que 
+queremos, tendremos que clickar encima de dicho artículo.  
+Hay dos opciones para añadir el proveedor, seleccionando cada artículo añadido ya que al pinchar en el 
+aparecen los proveedores que tiene asociado  o de forma manual añadiendo el proveedor al que se quiere 
+realizar el presupuesto de ese artículo.  
+ 
+Como podemos ver por el recuadro rojo, se pueden Generar presupuestos de esa línea para cada uno de 
+los diferentes proveedores, solo tendríamos que marcarlos en el recuadro. Vemos así que se han 
+generado los presupuestos de compras en el apartado Presupuestos  ya que aparecen marcados como 
+“De licitación”
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 93 de 116 
+ 
+*Nota:  No se permite eliminar el proveedor que viene asociado al artículo, solo los insertados 
+manualmente. Con no marcar el check de seleccionado no se generará presupuesto para él.  
+*Nota:  Cuando se hace clic en el artículo, nos muestra el/los proveedores que sirven ese artículo y nos 
+indica mediante tres conceptos porque nos lo pueden servir.  
+ 
+En esta subpestaña se muestran los presupuestos generados para la licitación . 
+ 
+*Nota : como indicamos en el punto anterior, también aparecerán en la pestaña de presupuestos.  
+ 
+En esta subpestaña se muestran los pedidos generados para la licitación.  También podrán verse en la 
+pestaña de pedidos.  
+ 
+En esta subpestaña  se muestra la comparativa de precios de los distintos artículos en cada uno  
+de los presupuestos solicitados.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 94 de 116 
+ 
+Una vez generado el presupuesto, existe un comparador de precios, donde el mejor precio unitario se 
+muestran en color verde, así como el mejor precio total de todos los presupuestos.  
+Una vez que se tiene claro cual es la mejor combinación a solicitar, se debe generar el pedido.  
+ 
+* Nota:  El % que se muestra en el comprador corresponde al % que se incrementa con respecto al más 
+barato.  
+* Nota:  Seleccionando el "Incluir gastos planificados", se incluyen los gastos planificados que pudiera 
+tener el artículo (por ejemplo: gastos de portes, etc.) , los cuales se han asociado a la línea del artículo. 
+Por tanto  cambia el valor del presupuesto.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 95 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 96 de 116 
+ 
+En este apartado podemos ver el control de todos los artículos en función de sus compras.  
+Tiene dos partes diferenciadas, la cabecera y la tabla principal.  
+ 
+Este apartado es clave para filtrar de forma eficiente y que no tengamos información inútil. (En este caso 
+usaremos de ejemplo un proveedor para poder ver de forma clara la información). Una vez seleccionado 
+el proveedor o articulo que se desee, habrá que pulsar el icono de la lupa situado en la esquina superior 
+derecha.  
+ 
+Una vez seleccionado el proveedor, podremos ver la información que arrojan todos los artículos 
+relacionados con los documentos de compras. Por ejemplo, si tiene 8 documentos de compras con el 
+artículo MICHELIN  Energy Saver ECO 195/55 R16 87V , este artículo solo aparecerá una vez pero tendrá 
+la información de esos 8 documentos de compras  
+Explicaremos la tabla paso a paso, deteniéndonos especialmente en aquellos campos grises que arrojen 
+información extra.  
+ 
+Los campos de dicha tabla son:  
+• Familia  
+• Código  
+• Descripción  
+• Proveedor por defecto  
+• Stock  
+• Cant. reservada  
+• Cant. pdte. recibir  
+• Stock disponible con pdte  
+• Stock disponible sin pdte  
+• Nec. Bruta  
+• Disponible final con pdte.  
+• Disponible final sin pdte.  
+• Mínimo  
+• Máximo  
+• Lote  
+Ahora explicaremos los más importantes
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 97 de 116 
+ 
+Muestra el código del artículo. Es un botón con sombreado gris que nos mostrará, si hacemos doble 
+click, los detalles de dicho artículo. La información del artículo la podemos encontrar también en Almacén 
+>> Familias de artículos >> Artículos.  
+ 
+Este campo muestra el proveedor por defecto que tiene el artículo, es decir, el articulo puede ser vendido 
+por diferentes proveedores sin embargo solo uno de ellos puede tener marcado dicho artículo por 
+defecto.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 98 de 116 
+ 
+En este campo vemos las existencias disponibles de dicho artículo. Veríamos lo mismo que si entramos 
+en Almacén >> Familias de artículos >> Artículos  >> Almacén. No se tendrían la posibilidad de usar los 
+checks que tendríamos en el almacén, pero nos da una visión clara de su situación actual.  
+ 
+En este campo se muestran las líneas de pedido donde aparece dicho artículo y sus documentos 
+relacionados. En esta pestaña podemos ver a que cliente se le vende dicho artículo, por eso aparece 
+reservada cierta cantidad, ya que le corresponde.  
+ 
+En este campo se muestran las líneas de pedido donde aparece dicho artículo y sus documentos 
+relacionados. En esta pestaña podemos ver que pedidos están pendientes de recibir, en que cantidad 
+cada uno y a que proveedor le realizamos dicho pedido.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 99 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 100 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 101 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 102 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 103 de 116 
+ 
+En esta ventana se va a detallar el funcionamiento de la subcontratación en Elastic, así como su 
+configuración y preparación de datos para su carga. Este apartado tiene relación con diferentes módulos 
+de Elastic, así que nos iremos desplazando entre ellos y podremos encontrar más información en sus 
+respectivos manuales.  
+ 
+La subcontratación en Elastic se define como una operación más en el proceso de fabricación de un 
+artículo.  
+Esta se definió pensando en la utilización de referencias distintas para los artículos implicados en este 
+proceso de subcontratación. Es decir, se envía a un proveedor la referencia A, se realiza el proceso 
+pertinente a la subcontratación, y vuelve al sist ema la referencia B.  
+Al entender esta en el sistema como una operación más, lo primero que se debe hacer es definir las 
+secciones y operaciones como de subcontratación.  
+Para ello se debe acceder a Producción >> Instalaciones >> Fabricas >> Líneas >> Secciones.  
+A continuación, se explican los diferentes checks y campos a cubrir.  
+• Sección externa : check para indicar que es una sección externa, este check se trasladará 
+automáticamente a las operaciones creadas aquí.  
+• Proveedor : se indica si la sección pertenece a un proveedor específico. Esta información se 
+trasladará automáticamente a las operaciones creadas aquí.  
+• Familia de servicio/artículo de servicio : se especifica un artículo servicio para los trabajos de 
+subcontratación en esta sección. Esta información se trasladará automáticamente a las 
+operaciones creadas aquí. El artículo servicio se puede asociar directamente a nivel de operación 
+e incluso a ni vel de despiece de artículo.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 104 de 116 
+ 
+Operación  externa : este check sirve para indicar que es una operación de subcontratación. Las 
+operaciones de subcontratación, a diferencia del estándar, se completan cuando el albarán de compras 
+asociado al proceso subcontratado se da de alta en el almacén. Este apartado s e explicará más adelante.  
+Una vez configuradas las operaciones de subcontratación, hay que definir el despiece de los artículos 
+que se van a ver afectadas por estas.  
+El estándar de Elastic contempla el uso de dos referencias según el estado del artículo. Una anterior al 
+proceso subcontratado y otra a posterior. Esto facilita la gestión del stock de los artículos, así como la 
+traza de este durante el proceso de subcontr atación.  
+A continuación, se especifica un ejemplo:  
+Artículo – 20000001 – Artículo sin cincar  
+Artículo – 20000001C – Artículo cincado
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 105 de 116 
+ 
+ La configuración del despiece del artículo 20000001C – Artículo cincado debe ser la siguiente:  
+1. Se debe añadir a este la operación de subcontratación, esta indicarse como Alta en producción. 
+Esto facilita la gestión de stock real del material.  
+2. Se debe añadir como material el artículo que se va a enviar al proveedor para realizar el proceso 
+productivo subcontratado.  
+ 
+Para la gestión del stock de los artículos involucrados en el proceso de subcontratación, en Elastic se 
+utiliza un almacén de consigna. De esta manera se mantiene la traza en el envío del material y el 
+proveedor poseedor de este.  
+Para configurar un almacén de consigna, lo que se debe hacer es marcar los checks de Consigna de 
+ventas. La ruta es Almacén >> Instalaciones.  
+Se indica que es Consigna de ventas porque el stock es propiedad de la empresa y se encuentra el 
+almacén del proveedor (se trata como un cliente al hacer la expedición del artículo enviado, ya que se 
+gestiona mediante documentos de ventas)  
+ 
+En Elastic, al gestionarse la subcontratación como una operación, esta actúa de la misma manera que 
+el estándar, es decir, al generar una programación para la fabricación de un artículo, se generan las 
+ordenes correspondientes.  
+Estás órdenes de subcontratación se consultan en el siguiente acceso, Compras >> Subcontratación.  
+Una vez visualizadas las órdenes de subcontratación se distinguen las siguientes columnas.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 106 de 116 
+ 
+ Seleccionado : check para seleccionar filas.  
+Proveedor : proveedor por defecto del artículo servicio asociado a la operación de subcontratación.  
+Familia : familia del artículo servicio  . 
+Servicio : artículo servicio asociado a la operación de subcontratación.  
+Programación : código de la programación donde se generó la orden de subcontratación.  
+Orden : código de la orden de subcontratación.  
+Estado : estado de la orden, este puede ser “generada”, “lanzada”, “completa”.  
+Cantidad : cantidad del servicio a contratar.  
+Ud. cant : unidad del servicio.  
+Tarifa : tarifa del servicio, esta puede estar configurada ya por defecto en el proveedor o en el propio 
+artículo.  
+Moneda : moneda de la tarifa.  
+Conversión : conversión entre la moneda por defecto del sistema y la moneda de la tarifa.  
+Precio unitario ME : precio unitario en moneda extranjera  
+Unidad de tarifa : unidad asociada a la tarifa  
+F. prev. producción:  
+Artículo a recibir : artículo final que se recibe después del proceso de subcontratación.  
+ 
+Una vez creada la programación, con el plan maestro añadido y generadas las necesidades, se creará 
+una orden asociada a la operación de subcontratación.  
+ 
+El código de la orden que se visualiza en la orden es el que aparecerá en la pantalla de Compras >> 
+Subcontratación.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 107 de 116 
+ 
+A la hora de seleccionar la línea y darle a “Generar pedidos”, el sistema preguntará si se quiere hacer el 
+pedido de ventas de consigna.  
+Este pedido de venta sirve para generar un albarán de venta, que se utiliza para la gestión de salida de la 
+mercancía al proveedor.  
+El sistema creará los siguientes documentos:  
+• Pedido de compra a proveedor.  
+• Pedido de venta a cliente (mismo que el proveedor)  
+• Albarán de venta a cliente (mismo que el proveedor) expedido automáticamente.  
+El movimiento del artículo que se envía al proveedor se gestiona como un traspaso a un almacén de 
+consigna previamente configurado.  
+El pedido de compras se generará con una línea, esta hará referencia al artículo servicio asociado al 
+proceso de subcontratación.  
+En la descripción aparecerá concatenado tanto el artículo servicio como el artículo a recibir.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 108 de 116 
+ 
+Dentro del pedido de compras, en la pestaña de Subcontratación se pueden visualizar los materiales a 
+enviar y el pedido de consigna de ventas asociado.  
+ 
+En la pestaña de artículos a recibir, se visualiza el artículo final a recibir por parte del proveedor y su 
+asociación con la orden
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 109 de 116 
+ 
+Una vez que el proveedor envíe la mercancía terminada, debe generarse el albarán del pedido de compra.  
+Al generarse el albarán de compra, el sistema dará por fabricada la orden de subcontratación generada 
+en la programación original.  
+En esta orden, el material que se consume es el artículo enviado al proveedor. Una vez dado de alta el 
+albarán, en el almacén de consigna se hará una baja del artículo enviado y un alta en al almacén 
+configurado como “alta por defecto”, del artículo final recibido.  
+ 
+Al dar de alta el albarán de compras, el sistema preguntará si se desean modificar las cantidades 
+consumidas en subcontratación.  
+Si seleccionamos sí, el sistema abrirá una tabla donde se permite editar la Cantidad a cosumir.  
+Una vez ajustada esa cantidad, el albarán se dará de alta.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 110 de 116 
+ 
+Al darse de alta el albarán, se hará un movimiento de entrada en el almacén del artículo final.  
+ 
+Este aparecerá como una “Entrada de fabricación” y el “Documento” será el código de la orden de 
+subcontratación.  
+Para el artículo enviado aparecerá una salida de consumos.  
+ 
+El coste asociado a la operación de subcontratación viene determinado por el precio unitario que se 
+especifica en el pedido de compras. Este se arrastra al movimiento del artículo al campo de “Incremento 
+precio”.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 111 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 112 de 116
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 113 de 116 
+ 
+En este apartado vamos a ver cómo es posible crear una valoración para los proveedores en forma de 
+nota numérica y en que nos podemos basar. En primer lugar, s e configura n previamente con los 
+parámetros necesarios a tener en cuenta en dicha evaluación  y luego pasaremos a evaluarlos.  
+ 
+En esta parte de la aplicación se configuran todos los parámetros que se deben tener en cuenta a la hora 
+de poner una nota a un proveedor.  Para llegar aquí nos iremos a Compras >> Evaluación de proveedores 
+>> Configuración.  
+La pantalla está dividida en las siguient es pestañas:  
+• Fórmulas:  se crean y se muestran todas las fórmulas creadas para la evaluación de 
+proveedores.  
+• Procesos:  se crean y consultan todos los procesos necesarios para la aplicación de las fórmulas.  
+ 
+Para que funcionen las evaluaciones a proveedores, se deben crear primero los procesos.  
+Una vez en la pantalla de inserción  podemos ver que hay dos subpestañas (consulta y puntuaciones)  se 
+debe añadir un código , una descripción del proceso  y una consulta SQL para que tengamos un proceso .  
+ 
+Para crear la fórmula en la que se basa la evaluación se deben seguir una serie de pasos:
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 114 de 116 
+ 
+ 1. Insertar los datos obligatorios de la cabecera. Estos datos son el código de la fórmula, una 
+descripción y la nota de corte por la cual el proveedor aprobaría la evaluación.  
+ 
+2. Una vez insertada la cabecera de datos, se deben asignar los procesos a  tener en cuenta en 
+la fórmula (para esto deben estar creados previamente en la pestaña de  Procesos ).  
+ 
+3. Una vez asociados los procesos, se debe insertar el peso que tiene ese proceso sobre la 
+fórmula.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 115 de 116 
+ 
+*Nota:  El sumatorio de pesos que tiene cada proceso no debe sumar más del 100% entre todos.  
+  
+En esta entrada se muestran las evaluaciones y notas de los proveedores.  Esta pantalla se encuentra 
+dividida en dos pestañas:  
+• Nueva evaluación:  En esta pestaña es donde se añaden los proveedores y se ejecuta la 
+evaluación en función de la configuración seleccionada.  
+• Histórico de evaluaciones:  En esta pestaña se consultan todas las evaluaciones llevadas a 
+cabo.  
+ 
+En la pestaña de "Nueva evaluación" se muestran todos los proveedores del sistema. Para ejecutar una 
+evaluación de proveedores se debe seleccionar una fórmula en el combo, así como el rango de fechas 
+en el que se va a aplicar. Si se desea ejecutar la evalu ación sobre todos los proveedores del sistema 
+existe u botón sobre la tabla llamado "Seleccionar todo". También se permite la operación a la inversa 
+con el botón "Deseleccionar todo" . 
+Una vez seleccionados los proveedores se debe pulsar el botón "Ejecutar". Se abre una pantalla donde 
+en función de la configuración previa se muestran los resultados y detalles de dicha evaluación.
+
+---
+
+# Elastic_Módulo de Compras. - 
+
+**Origen:** `build\sources\compras\Elastic_Módulo de Compras..pdf`
+**Módulo:** compras
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Compras  
+  
+elastic® B USINESS   Pág. 116 de 116 
+ 
+En esta pestaña podemos seleccionar que evaluación queremos ver y al hacer doble click  y entrar a los 
+detalles veremos que proveedores la pasaron y cuales no. Se mostrarán en rojo todos aquellos 
+proveedores que no hayan superado la nota.  
+Una vez visto los proveedores podemos enviar a cuarentena o darlos de baja.
+
+---
+
+## Próximos pasos
+
+1. ✓ Revisar y corriegir el texto
+2. ⏳ Reorganizar en secciones temáticas
+3. ⏳ Extraer tablas y formatear correctamente
+4. ⏳ Agregar imágenes desde `docs/assets/pdf-images/compras/`
+5. ⏳ Crear estructura final con archivos temáticos
+6. ⏳ Actualizar tabla de contenidos
+
+## Módulo: compras
+
+**PDF original:** `build/sources/compras/`
+**Raw files:** `docs/_raw/compras/`
+**Assets:** `docs/assets/pdf-images/compras/`

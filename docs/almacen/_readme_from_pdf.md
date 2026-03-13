@@ -1,0 +1,5897 @@
+# ALMACEN - Contenido extraído de PDF
+
+> **Nota:** Esta es una extracción automática de PDF a Markdown. 
+> Requiere revisión y reorganización manual según estructura deseada.
+
+**Estadísticas:**
+- Páginas procesadas: 184
+- Tamaño del contenido: 221615 caracteres
+
+## Contenido extraído
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+ 
+  Módulo  de  
+almacén  
+ 
+elastic ® BUSINESS ® 
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+ 
+  Módulo  de  
+almacén  
+ 
+elastic ® BUSINESS ® 
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 1/15 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento de los parámetros en Elastic Business, así 
+como su configuración y preparación de datos para su carga.  
+ 
+Los parámetros se definen como identificadores  que permiten generar configuraciones únicas en los 
+artículos.  La creación de artículos mediante parámetros sirve para generar el código interno y descripción 
+de este.  
+En Elastic se accede mediante la siguiente ruta: Almacén >> Parámetros  y éstos se establecen por 
+FAMILIAS . 
+ 
+Cada parámetro está formado por una serie de valores . Antes de añadir éstos, primero hay que definir la 
+configuración básica del parámetro.  
+En cabecera se muestran los siguientes campos:  
+• Código : codificación  del parámetro.  
+• Acrónimo : se utiliza como abreviatura de la descripción.  
+• Descripción : descripción  del parámetro.  
+• Unidades : permite asociar una unidad al parámetro.  
+• Tipo : este puede ser expl ícito ( el parámetro  no está formado por una lista de valores, sino que 
+estos son libres durante la creación del artículo , estos solo pueden ser numéricos ) o implícito 
+(uno de los valores del parámetro es el que forma parte de la configuración del artículo) . 
+Si seleccionamos el tipo implícito, se habilitarán los botones de inserción, donde permitirá añadir los 
+valores de los parámetros.  Estos valores de parámetros tiene n tres columnas : 
+• Valor : indica el valor  del parámetro, este aparecerá en el código del artículo si así lo 
+configuramos.  
+• Descripción : indica la descripción  del valor del parámetro, aparecerá en la descripción del 
+artículo.  
+• Acrónimo : si el valor tiene acrónimo, este se usará en lugar de la descripción .
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 1/14 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento y configuración de los modelos de costes 
+en Elastic.  
+ 
+1. Modelo básico : la empresa establece un coste estándar para cada uno de los artículos y un 
+periodo de tiempo determinado. Es responsabilidad del cliente mantenerlo y actualizarlo cuando 
+sea necesario. Este modelo consiste en que el coste estándar se calcula en base a un a 
+configuración sobre los costes de materia prima, mano de obra y maquinaria dependiendo del 
+proceso productivo de la empresa. El coste de materia prima se puede configurar para que sea 
+uno concreto, una media de las entradas, o que sea la tarifa de un pro veedor y que se actualice 
+según se modifique dicha tarifa.  
+  
+2. Modelo con sobrecostes : para las empresas que necesiten un modelo que contemple costes 
+más allá de los básicos de materia prima, mano de obra o coste máquina, el sistema permite 
+configurar un modelo de costes con la posibilidad de añadir sobrecostes configurables por la 
+empresa . Estos modelos de costes extras pueden ser partidas fijas o variables, calculado sobre 
+materia prima, mano de obra y maquinaria.  
+ 
+Para crear cualquier modelo de costes nos iremos a Almacén >> Modelo de costes y una vez ahí 
+añadiremos un nuevo registro, donde por ahora solo tenemos que cubrir los campos que están en la 
+cabecera.  
+ 
+En la cabecera tenemos tres campos:  
+• Descripción: nombre del modelo  
+• Fecha inicio: fecha de inicio del modelo  
+• Fecha fin: fecha hasta que tendrá vigencia el modelo  
+Las pestañas en las que se divide son:  
+Partidas : aquí se añaden los costes que necesitemos para el modelo con sobrecostes.
+
+---
+
+# Elastic_Módulo de Almacén. Stock de seguridad - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Stock de seguridad.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 1/2 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento del cálculo  de stock de s eguridad  en elastic 
+Business, así como su configuración y preparación de datos para su carga.  
+ 
+Para reali zar el cálculo de stock de s eguridad, se debe acceder a : Módulo Almacén >>> Procesos >>> 
+Stock de seguridad  
+Utilizando esta funcionalidad podemos hacer que elastic Business nos calcule los stocks mínimos de 
+nuestro almacén en base a los datos de los que dispone.  
+En este caso, el stock mínimo se calcula en base a las ventas/consumos diarios del período que el 
+usuario decida, el plazo de entrega del proveedor y el coeficiente de la tasa de servicio del artículo. Este 
+coeficiente es opcional, y en caso de no tenerlo se utilizará el valor 1.  
+Ejemplo: Vamos a utilizar el artículo 60108001 EFILUX  360 FT y utilizamos las ventas del año 2017 
+(7647 ud.) y suponiendo que el proveedor tiene un plazo de entrega de 30 días.  
+Seleccionamos el artículo sobre el que queremos realizar el cálculo  
+ 
+Pulsamos el botón calcular y nos pide que seleccionemos el período que queremos utilizar para el 
+cálculo, en este caso el 2017. Tenemos la opción de decidir descartar ciertos meses para que no los 
+tenga en cuenta.  
+ 
+Una vez seleccionado el período, pulsamos el botón calcular y nos da un stock de seguridad de 629. Y 
+en este momento podemos decidir volcar ese valor sobre la configuración del artículo o editar el 
+resultado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 2 de 61 
+ 
+ 1. Introducción  ................................ ................................ ................................ ................................ ..........  3 
+2. Familias de artículos  ................................ ................................ ................................ ............................  9
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 2 de 61 
+ 
+ 1. Introducción  ................................ ................................ ................................ ................................ ..........  3 
+2. Familias de artículos  ................................ ................................ ................................ ............................  9
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 2/15 www.imatia.com  
+Tabla de parámetro s 
+ 
+Tabla de valores de parámetro s 
+ 
+Adicionalmente,  se permite configurar grupos  de parámetros : es útil cuando existe un uso compartido  
+de valores , agilizando creación de éstos.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 2/14 www.imatia.com  Familias : en esta pestaña vemos todas las familias que usan este modelo de costes  
+Artículos : en esta pestaña vemos todos los artículos que usan este modelo de costes  
+ 
+Para crear el modelo de costes básicos, nos iremos a la pestaña familias. Al añadir una familia a este 
+modelo, nos desplegará una ventana donde podremos seleccionar que familia queremos añadir.  
+ 
+Nota : esto también se puede hacer dentro de cada familia en Almacén >> Familia de artículos >> 
+Activas  
+Una vez añadida la familia deseada, marcaremos el check Activo para usar por defecto est e modelo de 
+costes . Pueden añadirse tantas familias como queramos  y tantos modelos de costes a las familias.  
+ 
+Tras esto, entraremos en los detalles de la familia y añadiremos los artículos  de la familia al modelo de 
+costes.
+
+---
+
+# Elastic_Módulo de Almacén. Stock de seguridad - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Stock de seguridad.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 2/2 www.imatia.com  
+Por lo tanto, la fórmula que se utiliza para el cálculo es (ventas_consumos_periodo / días_periodo) * 
+plazo_entrega * coeficiente, en este caso (7647 ud./365 días) * 30 días * 1=629  
+Mediante la propiedad CALCULAR_STOCKS_MINIMOS_DESGLOSANDO_POR_MES se muestran unos 
+filtros u otros para el formulario de calcular el stock de seguridad de los artículos seleccionados.  
+Si la propiedad está activada se muestran checks con los meses a tener en cuenta para calcular el 
+stock de seguridad (como se puede en las imágenes anteriores) - Si la propiedad está desactivada se 
+muestran un campo "Nº de meses" para indicar cuantos meses a  tener en cuenta para el cálculo y dos 
+checks para indicar si excluir los meses con más o menos consumos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 3 de 61 
+ 
+El Módulo Almacén  de elastic ® BUSINESS  administra toda la información relativa al 
+control de existencias, tanto de materias primas como de productos terminados o 
+intermedios .  
+En este manual se detallan las operaciones que se pueden realizar desde el Módulo 
+Almacén , explicando el funcionamiento de cada un a de ellas , para obtener  el 
+máximo  rendimiento de este Módulo.  
+De forma específica, se explicarán los siguientes aspectos:  
+ 
+• Cómo obtener información útil del estado de cada una de las instalaciones 
+de almacenamiento.  
+ 
+• Cómo realizar movimientos manuales de mercancía entre las instalaciones 
+de almacenamiento.  
+ 
+• Cómo obtener información útil del nivel de stock de cada una de las familias 
+con las que se trabaja.  
+ 
+• Cómo confeccionar los envíos de mercancía a los clientes, descontando 
+automáticamente las cantidades del stock.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 3 de 61 
+ 
+El Módulo Almacén  de elastic ® BUSINESS  administra toda la información relativa al 
+control de existencias, tanto de materias primas como de productos terminados o 
+intermedios .  
+En este manual se detallan las operaciones que se pueden realizar desde el Módulo 
+Almacén , explicando el funcionamiento de cada un a de ellas , para obtener  el 
+máximo  rendimiento de este Módulo.  
+De forma específica, se explicarán los siguientes aspectos:  
+ 
+• Cómo obtener información útil del estado de cada una de las instalaciones 
+de almacenamiento.  
+ 
+• Cómo realizar movimientos manuales de mercancía entre las instalaciones 
+de almacenamiento.  
+ 
+• Cómo obtener información útil del nivel de stock de cada una de las familias 
+con las que se trabaja.  
+ 
+• Cómo confeccionar los envíos de mercancía a los clientes, descontando 
+automáticamente las cantidades del stock.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 3/15 www.imatia.com  
+ 
+Las familias pueden  marcarse con el check “Código por  parámetros” o “Sin parámetros”.  
+Al seleccionar “Código por parámetros” se establece que la creación de los artículos vendrá definida por 
+la configuración de los parámetros asociados a dicha familia.  
+ 
+Parámetros de familia  
+Nota: Por defecto todas las familias independientemente del check marcado, tiene n por defecto el parámetro “familia ” 
+por requerimientos  de estructura de datos.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 3/14 www.imatia.com  
+Al haber añadido el artículo buscado, podemos imputarle un coste, aunque la mejor manera de hacerlo 
+es desde la pestaña de artículos.  
+ 
+En la pestaña de artículos nos aparecerán todos los artículos que tienen el modelo de costes asignado. 
+Para imputarle un coste puede hacerse desde la propia tabla, aunque es mejor hacerlo desde sus 
+detalles ya que se ve más claro.  
+Al entrar en los detalles se nos despliega una ventana con los costes principales y otros costes 
+(modelo sobrecostes).
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 4 de 61 
+ 
+ ICONOS DE ACCESO A LOS FORMULARIOS  
+Representación 
+Gráfica  Formulario  Funcionalidad  
+ Instalaciones  Definición de las instalaciones de almacenamiento.  
+ Gestión 
+cuarentena  Definición de las familias afectadas y de las ubicaciones a 
+donde se moverán los artículos una vez liberados de 
+cuarentena.  
+ 
+Gestión de 
+almacén  Gestión de la información referente a cada una de las 
+instalaciones de almacenaje: stocks, movimientos, 
+alarmas,...  
+ Gestión de 
+stocks  Gestión de la información referente a las existencias de 
+cada una de las familias de artículos.  
+ Gestión 
+bultos  Formulario de consulta y gestión de los bultos 
+generados en al aplicación.  
+ Envíos  Realización y gestión de los envíos de mercancías a 
+clientes.  
+ Informes  Consulta de informes  
+ 
+*Nota:  el menú no tiene por qué corresponderse al que tiene cada empresa ya que depende:  
+1. De los módulos contratados.  
+2. De la configuración personalizada del menú.  
+3. De los perfiles de los distintos usuarios.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 4 de 61 
+ 
+ ICONOS DE ACCESO A LOS FORMULARIOS  
+Representación 
+Gráfica  Formulario  Funcionalidad  
+ Instalaciones  Definición de las instalaciones de almacenamiento.  
+ Gestión 
+cuarentena  Definición de las familias afectadas y de las ubicaciones a 
+donde se moverán los artículos una vez liberados de 
+cuarentena.  
+ 
+Gestión de 
+almacén  Gestión de la información referente a cada una de las 
+instalaciones de almacenaje: stocks, movimientos, 
+alarmas,...  
+ Gestión de 
+stocks  Gestión de la información referente a las existencias de 
+cada una de las familias de artículos.  
+ Gestión 
+bultos  Formulario de consulta y gestión de los bultos 
+generados en al aplicación.  
+ Envíos  Realización y gestión de los envíos de mercancías a 
+clientes.  
+ Informes  Consulta de informes  
+ 
+*Nota:  el menú no tiene por qué corresponderse al que tiene cada empresa ya que depende:  
+1. De los módulos contratados.  
+2. De la configuración personalizada del menú.  
+3. De los perfiles de los distintos usuarios.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 4/15 www.imatia.com  Una vez asociados los parámetros a una familia, configuramos el comportamiento de cada uno ellos en 
+esa familia . Para cada uno veremos los siguientes campos : 
+ 
+Configuración de parámetros en familia  
+• Valor por defecto : dentro de los valores se puede definir por defecto uno de ellos.  Por ejemplo, 
+para el parámetro “longitud” puede establecerse un valor por defecto de 20 cm . Si la longitud es 
+otra, se modifica  en el momento de la creación del artículo.  
+• Obligatorio : indicar si este parámetro es  obligatorio o no cuando se crea el artículo . 
+• En código:  indica que el “Valor del parámetro” aparecerá en el código  interno  del artículo creado.  
+• En descripción:  indica que el “Acrónimo” del valor del parámetro aparecerá en la descripción del 
+artículo  o, en su defecto”, la “Descripción” del valor del parámetro.  
+• Atributo:  check para indicar que se va a utilizar el campo “Comodín atributo” . Aplicable  sólo a  los 
+parámetros explícitos.  No aplica en los  implícitos.  Esto check indica que el parámetro podrá ser 
+seleccionada en pedidos y programaciones a la hora de añadir el artículo. Sirve para simplicar la 
+creación de artículos ya que solamente se crearán según necesidad.  
+• Comodín atributo:  campo alfanumérico  para utilizar  en la generación del  código interno 
+generado  si se desea poner una información adicional al contador numérico de artículos , por 
+ejemplo, un sufijo . 
+• Bloquear en configuración : bloquea la edición de “valor” y “descripción” del parámetro durante la 
+creación del artículo.  
+• Valores predefinidos : campo numérico donde se establece un valor por defecto. Solo se utiliza 
+en parámetros  explícitos.  
+• Multiplicador : multipli cador  del campo  “valor es predeterminado s”. El resultado  se aplica al 
+código interno del artículo generado.  
+• Símbolo anterior : campo para añadir lo que se desee antes del valor del parámetro  en la 
+descripción del artículo . 
+• Símbolo posterior : campo para añadir lo que se desee después del valor del parámetro  en la 
+descripción del artículo .  
+• Dígitos en código : número de dígitos que conforman el valor del parámetro.  
+• Orden en código : posición del valor del parámetro en el código del artículo.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 4/14 www.imatia.com  
+ 
+Costes principales  
+• El coste estándar  es la suma de "coste materia prima" + "coste mano de obra" + "coste 
+máquina" + "coste fijo operaciones" + "otros costes"  
+• Coste fijo operaciones : un valor fijo que se puede configurar a mano.  
+• Coste máquina : valor fijo que se puede configurar.  
+• Coste mano de obra : valor fijo que se puede configurar.  
+• Coste materia prima : valor fijo que se puede configurar.  Varía en función de la propiedad 
+configurada para su cálculo.  
+• Otros costes : es la suma de lo que haya configurado en la tabla de "Otros costes". Son las 
+partidas del modelo de coste.  
+Los siguientes dos campos son meramente informativos y forman parte del coste de materia prima, 
+estos aplican a productos intermedios y finales.  
+• Costes materia prima subproductos : es la suma de los costes de materia prima de los 
+subproductos.  
+• Otros costes subproductos : es la suma de los otros costes de los subproductos.  
+Costes en almacén:  
+• Promedio:  se calcula como el coste medio de los movimientos de entrada (entrada por 
+proveedor o por fabricación) realizados vista un año para atrás desde la fecha actual.  
+• Última entrada : coste de última entrada del material.  
+ 
+En esta pestaña se configuran diferentes valores de costes que queremos añadir al artículo en función 
+de diferentes variables. Sirve para la configuración de modelos con sobrecoste.  Los diferentes tipos y
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 5 de 61 
+ 
+ICONOS DE ACCESO A LOS FORMULARIOS  
+Representación 
+Gráfica  Formulario  Funcionalidad  
+ Selección de 
+columnas para la 
+vista tabular de los 
+datos.  A la hora de utilizar la funcionalidad buscar -
+buscar (pulsa dos veces sobre el icono de 
+buscar) puedo seleccionar previamente los 
+campos por los que debe realizar el prefiltro 
+en la búsqueda.  
+ 
+ Navegar al primer 
+registro (Alt + < -) En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al primero de todos 
+los registros, desde la posición en la que te 
+encuentres.  
+ 
+ Navegar al registro 
+anterior.  En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al registro 
+inmediatamente anterior a la posición en la 
+que te encuentres.  
+ 
+ Imprimir datos del 
+formulario.  Puedes imprimir una versión resumida del 
+formulario.  
+ 
+ Navegar al registro 
+siguiente.  En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al registro 
+inmediatamente posterior a la posición en la 
+que te encuentres.  
+ 
+ Navegar al último 
+registro (Alt+  ->). En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al último de todos 
+los registros, desde la posición en la que te 
+encuentres.  
+ 
+ Refrescar datos del 
+formulario.  Cada vez que realices modificaciones sobre 
+el formulario, es conveniente que refresques 
+la vista para actualizarlas para que los datos 
+visualizados sean los correctos.  
+ 
+ Borrar campos (Alt 
++ Supr)  Icono a utilizar  cuando necesites limpiar el 
+formulario previamente a la creación o 
+inserción de datos en el formulario.  
+ 
+ Consultar (F7)  Activas la búsqueda por cualquiera de los 
+campos del formulario. Por defecto cuando 
+entro en el formulario está en modo edición 
+preparado para la búsqueda.  Si pulsas dos 
+veces sobre este icono realizas una 
+búsqueda avanzada y te muestra todos los 
+resultad os que encuentra en base a los filtros 
+aplicados previamente.  
+ 
+ Insertar (F9)  Botón de inserción o creación de formularios.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 5 de 61 
+ 
+ICONOS DE ACCESO A LOS FORMULARIOS  
+Representación 
+Gráfica  Formulario  Funcionalidad  
+ Selección de 
+columnas para la 
+vista tabular de los 
+datos.  A la hora de utilizar la funcionalidad buscar -
+buscar (pulsa dos veces sobre el icono de 
+buscar) puedo seleccionar previamente los 
+campos por los que debe realizar el prefiltro 
+en la búsqueda.  
+ 
+ Navegar al primer 
+registro (Alt + < -) En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al primero de todos 
+los registros, desde la posición en la que te 
+encuentres.  
+ 
+ Navegar al registro 
+anterior.  En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al registro 
+inmediatamente anterior a la posición en la 
+que te encuentres.  
+ 
+ Imprimir datos del 
+formulario.  Puedes imprimir una versión resumida del 
+formulario.  
+ 
+ Navegar al registro 
+siguiente.  En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al registro 
+inmediatamente posterior a la posición en la 
+que te encuentres.  
+ 
+ Navegar al último 
+registro (Alt+  ->). En el resultado de la búsqueda puedes utilizar 
+este icono para moverte al último de todos 
+los registros, desde la posición en la que te 
+encuentres.  
+ 
+ Refrescar datos del 
+formulario.  Cada vez que realices modificaciones sobre 
+el formulario, es conveniente que refresques 
+la vista para actualizarlas para que los datos 
+visualizados sean los correctos.  
+ 
+ Borrar campos (Alt 
++ Supr)  Icono a utilizar  cuando necesites limpiar el 
+formulario previamente a la creación o 
+inserción de datos en el formulario.  
+ 
+ Consultar (F7)  Activas la búsqueda por cualquiera de los 
+campos del formulario. Por defecto cuando 
+entro en el formulario está en modo edición 
+preparado para la búsqueda.  Si pulsas dos 
+veces sobre este icono realizas una 
+búsqueda avanzada y te muestra todos los 
+resultad os que encuentra en base a los filtros 
+aplicados previamente.  
+ 
+ Insertar (F9)  Botón de inserción o creación de formularios.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 5/15 www.imatia.com  • Orden en descripción : posición del valor del parámetro en la descripción del artículo.  
+• Mostrar unidades : muestra la unidad de medida de l parámetro después de su valor en la 
+descripción del artículo . 
+• Separar descripción : añade un espacio al final del valor del parámetro  en la descripción del 
+artículo . 
+Dentro de una familia se pueden asociar valores específicos de un parámetro  general , por ejemplo:  
+El parámetro general  “Tipo de madera ” está compuesto por los siguientes valores:  
+• Pino  
+• Eucalipto  
+• Roble  
+• Castaño  
+La familia definida como “Puertas de comedor” solamente lleva en sus puertas el tipo de madera “Pino ”, 
+por lo tanto , a la hora de configurar ese parámetro en la familia, se debe añadir en la parte inferior , como 
+se ve en  la imagen.  
+ 
+Parámetros de familia.  
+Esto permite reducir el número de parámetros, ya que permite seleccionar únicamente los valores 
+deseados en función de la configuración de la familia.  
+ 
+Las restricciones sirven para poder definir la creación de artículos de una manera más precisa.  
+Si un parámetro es dependiente del valor de otro parámetro, esto se puede configurar mediante 
+restricciones de uso.  
+A continuación, un ejemplo:
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 5/14 www.imatia.com  subtipos se configuran en las Tablas maestras >> Tipo de partida de costes y Subtipo de partidas de 
+coste. Son simplemente campos informativos y clasificatorios.  
+Por ejemplo, si queremos imputar un % del coste de la materia prima al artículo en función del 
+transporte, debemos crear la partida “Transporte”, esta configurarla con un % en función del Campo 
+porcentaje  “Materia prima”.  
+ 
+Cuando actualizamos un modelo de costes, para que los cambios se apliquen sobre los artículos que 
+utilizan dicho modelo ejecutaremos el proceso "Actualizar artículos" pulsando sobre la acción en la 
+rueda de acciones. Posteriormente refrescaremos la tabla.  
+ 
+Este proceso actualizará las partidas de los artículos con los nuevos valores y las recalculará para que 
+los nuevos cambios imputen en el coste total del artículo. Desde la entrada de familias de producción 
+dentro de la versión también cabe la posibilidad en recalcular costes de artículos.  
+ 
+Para imputar “Otros costes” tenemos que añadirlos en la tabla inferior.  
+Una vez completado ese paso previo, tendremos que cubrir diferentes campos:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 6 de 61 
+ 
+ Guardar  Botón de guardado tras las modificaciones 
+que realices en el formulario. Determinadas 
+modificaciones se graban de forma 
+automática.  
+ 
+ Eliminar  Cuando quieras proceder a la eliminación 
+del formulario es este el icono a utilizar.  
+ 
+ Copiar a 
+portapapeles  Utilizando esta funcionalidad copias al 
+portapapeles toda la información contenida 
+en la tabla del formulario.  
+ Exportar a Excel  Al igual que la funcionalidad anterior puedes 
+exportar directamente los datos de la tabla 
+del formulario a una hoja de cálculo.  
+ 
+ Exportar como 
+página HTML  En este caso exportas todas las columnas 
+incluso las que no están visibles a formato 
+Web.  
+ 
+ Añadir un registro  En determinados formularios tienes la 
+posibilidad de añadir más líneas a las tablas y 
+lo puedes hacer a través de esta opción.  
+ 
+ Guardar  A través de esta funcionalidad puedes 
+guardar una configuración por defecto a 
+visualizar cada vez que accedes al 
+formulario. Esta configuración afecta a la 
+posición, ordenación y filtros de  la tabla del 
+formulario.  
+ 
+ Gráficas a la carta  Puedes crear todo tipo de gráficos sobre la 
+información de las tablas según los modelos 
+predefinidos y guardarlo como predefinido 
+para recuperarlo a posteriori.  
+ 
+ Configurar 
+columnas visibles  Puedes definir que columnas, por defecto, 
+quieres ver en las tablas.  
+ 
+ Impresión de 
+informes  Puedes imprimir el formulario a través de la 
+impresión avanzada de informes.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 6 de 61 
+ 
+ Guardar  Botón de guardado tras las modificaciones 
+que realices en el formulario. Determinadas 
+modificaciones se graban de forma 
+automática.  
+ 
+ Eliminar  Cuando quieras proceder a la eliminación 
+del formulario es este el icono a utilizar.  
+ 
+ Copiar a 
+portapapeles  Utilizando esta funcionalidad copias al 
+portapapeles toda la información contenida 
+en la tabla del formulario.  
+ Exportar a Excel  Al igual que la funcionalidad anterior puedes 
+exportar directamente los datos de la tabla 
+del formulario a una hoja de cálculo.  
+ 
+ Exportar como 
+página HTML  En este caso exportas todas las columnas 
+incluso las que no están visibles a formato 
+Web.  
+ 
+ Añadir un registro  En determinados formularios tienes la 
+posibilidad de añadir más líneas a las tablas y 
+lo puedes hacer a través de esta opción.  
+ 
+ Guardar  A través de esta funcionalidad puedes 
+guardar una configuración por defecto a 
+visualizar cada vez que accedes al 
+formulario. Esta configuración afecta a la 
+posición, ordenación y filtros de  la tabla del 
+formulario.  
+ 
+ Gráficas a la carta  Puedes crear todo tipo de gráficos sobre la 
+información de las tablas según los modelos 
+predefinidos y guardarlo como predefinido 
+para recuperarlo a posteriori.  
+ 
+ Configurar 
+columnas visibles  Puedes definir que columnas, por defecto, 
+quieres ver en las tablas.  
+ 
+ Impresión de 
+informes  Puedes imprimir el formulario a través de la 
+impresión avanzada de informes.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 6/15 www.imatia.com  
+Familia Puertas  
+La familia Puertas está formada por los siguientes parámetros.  
+Dentro del “Tipo de acabado” se tienen los siguientes valores:  
+ 
+Se quiere  establecer la restricción siguiente:  
+Si se elige  el tipo de acabado “Barnizado”, la puerta no puede llevar los parámetros “Color” y “Base”.  
+Para ello se debe  ir a la pestaña de Restricciones.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 6/14 www.imatia.com  Descripción : se describe el gasto para el que se configura esa línea.  
+Tipo : se inserta el tipo de gasto en función de lo que haya configurado previamente en las tablas 
+maestras.  
+Subtipo : se inserta el subtipo de coste en función de la configuración previa en las tablas maestras.  
+Valor : sirve para aplicar un valor fijo . 
+Porcentaje : campo porcentual que le afectará al coste que selecciones en el campo porcentaje  
+Campo porcentaje : desplegable donde seleccionas entre los costes básicos  (coste materia prima, 
+coste mano de obra y coste máquina)  
+Coste transporte : check informativo.  
+ 
+Podemos visualizar los costes en los siguientes accesos de Elastic:  
+Artículos. Pestaña de Costes.  
+ 
+Producción. Familias de producción.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 7 de 61 
+ 
+ Columnas a sumar  Para facilitar la gestión de la información 
+activando esta funcionalidad defines que 
+columnas quieres sumar al final de la tabla.  
+ 
+Mover artículo a la 
+configuración  Provoca que los artículos seleccionados se 
+incluyan en la tabla del formulario.  
+ Quitar artículo de la 
+configuración  Provoca que los artículos seleccionados se 
+eliminen de la tabla del formulario.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 7 de 61 
+ 
+ Columnas a sumar  Para facilitar la gestión de la información 
+activando esta funcionalidad defines que 
+columnas quieres sumar al final de la tabla.  
+ 
+Mover artículo a la 
+configuración  Provoca que los artículos seleccionados se 
+incluyan en la tabla del formulario.  
+ Quitar artículo de la 
+configuración  Provoca que los artículos seleccionados se 
+eliminen de la tabla del formulario.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 7/15 www.imatia.com  
+ 
+1. Lo primero que se debe hacer es cubrir la  descripción de la restricción , este es un campo de 
+texto libre  y sirve para identificar la restricción.  
+2. En la parte superior hay un check llamado “Reutilizable”, esto permite que la restricción  se pueda 
+utilizar en otra familia.  
+3. Una vez cubierto esto, se le debe dar al botón de “ Generar  condición”.  
+La condición en este caso sería:  
+El parámetro “Tipo de acabado” seleccionado es “Barnizado”.  
+Restricciones
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 7/14 www.imatia.com  
+Artículos. Despiece de artículo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 8 de 61
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 8 de 61
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 8/15 www.imatia.com  
+Condiciones  
+Para crear una condición, se debe seleccionar el parámetro en la columna de Subproceso, un operador 
+y el valor del parámetro. Una vez terminado se hace click en la paloma verde.  
+• Subproceso : Selección del parámetro.  
+• Operador : Símbolo matemático (mayor o igual, menor, igual, etc)  
+• Valor : Selección del valor del parámetro.  
+• Expresión : Condición final.  
+Una vez creada la Restricción con su Descripción y Condición, se establecen los valores admitidos o 
+restringidos.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 8/14 www.imatia.com  
+ 
+En los documentos de ventas se visualiza por defecto el coste estándar del artículo. Este coste se utiliza 
+para el cálculo de los márgenes. Por propiedad se puede modificar este coste para utilizar cualquiera de 
+los siguientes:  
+• Coste estándar  
+• Coste último entrada  
+• Coste promedio  
+Este coste es configurable en cada documento (presupuesto, pedido, albarán o factura)  
+ 
+Todo lo comentado anteriormente hace referencia a la configuración de los costes teóricos de los 
+artículos.  
+Los costes reales se pueden visualizar en cada una de las fabricaciones de los artículos intermedios y 
+finales.  
+Estos costes se calculan en base a los tiempos de fabricación y los costes de las operaciones.  
+Para configurar el coste de las operaciones debemos ir a Producción >> Instalaciones.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 9 de 61 
+ 
+Una de las partes más importantes a configurar en Elastic  es la creación de las familias de los artículos 
+dados de alta en el sistema. Las familias, son una agrupación lo más homogénea posible de los artículos 
+dados de alta en el sistema, permitiendo la simplificación del trabajo al agruparlos por característica s 
+comunes. Un criterio a seguir sería que los artículos se agrupasen en función de su funcionalidad, 
+facilidad de uso y/o de la información que se va a obtener en los informes. P. ej., que estén agrupado por 
+marcas, por modelos, por tipología, etc.  
+El hecho de crear familias, cobra mayor importancia si los artículos están parametrizados, ya que este 
+hecho es el que determina la configuración de una familia. Si se decide generar los artículos por 
+parámetros, además de asociar que parámetros se quiere que intervenga en su generación, hay que 
+decidir si son obligatorios o no, números de dígitos reservados, si se va a utilizar el valor del parámetro 
+para construir el código y la descripción, así configuraciones tales como el orden en el que se quiere que 
+aparezcan, etc.  
+Esta pestaña se divide en dos apartados, Familias  y Artículos . Esto s son los grupos  más importante s de 
+la ventana Familias de artículos.  A cada uno de ellos le corresponde una o varias subpestañas:  
+- Activas : engloba las familias en uso  
+- De ventas : agrupa las familias de ventas  
+- De compras : agrupa las familias de compras  
+- De producción : agrupa las familias de producción  
+- Obsoletas : agrupa las familias que están en desuso  
+- Grupos : engloba a las familias  como si fuera una categoría superior, se suele usar en listados.  
+- Artículos : pestaña de artículos de l cliente  
+- Agrupaciones : Agrupación de artículos bajo un nombre  
+ 
+En este apartado vamos a ver cómo  crear una familia  y que influye en su funcionamiento . Tal y como 
+mencionamos al principio, vamos a explicar los parámetros a  medida que vamos creando la familia .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 9 de 61 
+ 
+Una de las partes más importantes a configurar en Elastic  es la creación de las familias de los artículos 
+dados de alta en el sistema. Las familias, son una agrupación lo más homogénea posible de los artículos 
+dados de alta en el sistema, permitiendo la simplificación del trabajo al agruparlos por característica s 
+comunes. Un criterio a seguir sería que los artículos se agrupasen en función de su funcionalidad, 
+facilidad de uso y/o de la información que se va a obtener en los informes. P. ej., que estén agrupado por 
+marcas, por modelos, por tipología, etc.  
+El hecho de crear familias, cobra mayor importancia si los artículos están parametrizados, ya que este 
+hecho es el que determina la configuración de una familia. Si se decide generar los artículos por 
+parámetros, además de asociar que parámetros se quiere que intervenga en su generación, hay que 
+decidir si son obligatorios o no, números de dígitos reservados, si se va a utilizar el valor del parámetro 
+para construir el código y la descripción, así configuraciones tales como el orden en el que se quiere que 
+aparezcan, etc.  
+Esta pestaña se divide en dos apartados, Familias  y Artículos . Esto s son los grupos  más importante s de 
+la ventana Familias de artículos.  A cada uno de ellos le corresponde una o varias subpestañas:  
+- Activas : engloba las familias en uso  
+- De ventas : agrupa las familias de ventas  
+- De compras : agrupa las familias de compras  
+- De producción : agrupa las familias de producción  
+- Obsoletas : agrupa las familias que están en desuso  
+- Grupos : engloba a las familias  como si fuera una categoría superior, se suele usar en listados.  
+- Artículos : pestaña de artículos de l cliente  
+- Agrupaciones : Agrupación de artículos bajo un nombre  
+ 
+En este apartado vamos a ver cómo  crear una familia  y que influye en su funcionamiento . Tal y como 
+mencionamos al principio, vamos a explicar los parámetros a  medida que vamos creando la familia .
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 9/15 www.imatia.com  
+Restricción  
+Valores : En esta pestaña se configuran los valores de parámetros que se permiten seleccionar. Si 
+queremos que todos los valores de un parámetro sean seleccionables , no es necesario añadirlo.  
+Por ejemplo:  
+Si una vez seleccionado el “Tipo de acabado” – “Barnizado”, solamente se puede seleccionar “ Grado  de 
+brillo” – “Satinado”, se debe añadir de la siguiente manera.  
+ 
+Restricciones  
+Si por el contrario se permiten todos los valores, no es necesario añadirlo.  
+Sin valor:  Sirve para añadir los parámetros que no se permiten utilizar si se cumple la condición.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 9/14 www.imatia.com  
+En las operaciones se define:  
+• Coste hora hombre  
+• Coste hora máquina  
+• Coste hora hombre setup: coste específico para el setup de la máquina o puesto de trabajo.  
+• Coef. trab: Multiplicador en función de la eficiencia del trabajador.  
+• Coef maq:  Multiplicador en función de la eficiencia de la máquina.  
+Nota:  
+A mayores a nivel de artículo se permite configurar un “Coste fijo” de operación. Por ejemplo, si queremos 
+incrementar el coste de un artículo debido a su dificultad de fabricación.  
+Los costes reales se visualizan en cada una de las fabricaciones parciales y en los listados que se 
+comentan en el siguiente punto:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 10 de 61 
+ 
+ La diferencia más remarcable entre una familia paramétrica y una que no lo es, son sus artículos.  Cuando 
+una familia es paramétrica, sus artículos funcionan en base a reglas preestablecidas . 
+Para crear  una familia  nos iremos a Almacén >> Familias de artículos . Aqu í vemos dos partes bien 
+diferenciadas, la cabecera y una serie de subpestañas:  
+- Configuración  
+- Artículos  
+- Parámetros  
+- Costes  
+- Características  
+- Administración  
+- Almacén  
+- Producción  
+- Calidad  
+- Ficheros adjuntos  
+- Multiidioma  
+ 
+Aquí s e pueden ver  los datos básicos de una familia.  Los datos obligatorios son el código de la familia, 
+la descripción y el almacén . En este caso vamos a crear una familia de neumáticos y todo s los pasos 
+necesarios para su buen funcionamiento.  
+ 
+*Nota:  es conveniente definir que almacén y subalmacén de entrada o salida es el de por defecto de 
+cualquier artículo de esa familia. Si no se indica lo contrario en el albarán, cuando se produzca la entrada 
+o salida , lo hará de estos subalmacenes. Lo mismo para los consumos y altas de producción.  
+ 
+ Campo  Descripción  CABECERA  Código  familia  El código puede ser tan to un número como una letra . 
+Descripción  Nombre de la familia  
+Grupo  Check que permite añadir dicha familia a una 
+categoría superior para sacar listados.  
+Obsoleta  Check  para marcar la familia como inactiva  
+Almacén  Almacén donde se encuentran los artículos de dicha 
+familia  
+Sub. entrada  Subalmacén al que  entrarán los artículos por defecto . 
+Aparecerá cubierto por defecto, si el campo almacén 
+tiene un  subalmacén  configurado .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 10 de 61 
+ 
+ La diferencia más remarcable entre una familia paramétrica y una que no lo es, son sus artículos.  Cuando 
+una familia es paramétrica, sus artículos funcionan en base a reglas preestablecidas . 
+Para crear  una familia  nos iremos a Almacén >> Familias de artículos . Aqu í vemos dos partes bien 
+diferenciadas, la cabecera y una serie de subpestañas:  
+- Configuración  
+- Artículos  
+- Parámetros  
+- Costes  
+- Características  
+- Administración  
+- Almacén  
+- Producción  
+- Calidad  
+- Ficheros adjuntos  
+- Multiidioma  
+ 
+Aquí s e pueden ver  los datos básicos de una familia.  Los datos obligatorios son el código de la familia, 
+la descripción y el almacén . En este caso vamos a crear una familia de neumáticos y todo s los pasos 
+necesarios para su buen funcionamiento.  
+ 
+*Nota:  es conveniente definir que almacén y subalmacén de entrada o salida es el de por defecto de 
+cualquier artículo de esa familia. Si no se indica lo contrario en el albarán, cuando se produzca la entrada 
+o salida , lo hará de estos subalmacenes. Lo mismo para los consumos y altas de producción.  
+ 
+ Campo  Descripción  CABECERA  Código  familia  El código puede ser tan to un número como una letra . 
+Descripción  Nombre de la familia  
+Grupo  Check que permite añadir dicha familia a una 
+categoría superior para sacar listados.  
+Obsoleta  Check  para marcar la familia como inactiva  
+Almacén  Almacén donde se encuentran los artículos de dicha 
+familia  
+Sub. entrada  Subalmacén al que  entrarán los artículos por defecto . 
+Aparecerá cubierto por defecto, si el campo almacén 
+tiene un  subalmacén  configurado .
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 10/15 www.imatia.com  En este caso si seleccionamos el valor “Barnizado”, no se permite seleccionar “Base” ni “Color”, para ello 
+la configuración debe quedar así.  
+ 
+Restricciones  
+Relaciones : Sirve para asociar valores por defecto de parámetros a la condición. Si al seleccionar el valor 
+“Barnizado”, se quiere que el “Tipo de Poro” sea por defecto “Abierto”, la configuración sería la siguiente:
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 10/14 www.imatia.com  
+ 
+Nota : En las fabricaciones parciales se visualiza una comparativa de los costes teóricos con los reales.  
+ 
+Elastic permite configurar los costes en función de diferentes propiedades . 
+DECIMALES  
+DECIMALES_COSTE : Número de decimales que se muestran para las columnas de coste  
+– Valor 3  
+ 
+ALMACÉN  
+CALCULATE_MACHINE_COSTE_WITH_SERVICE_ITEM_COST: Indica si se suma el coste del artículo de 
+servicio al coste máquina del artículo (para subcontratación / operaciones externas)  – Valor Si/No 
+COSTES_CALCULO_AUTOMATIC : Indica que los costes de los artículos serán recalculados de forma 
+automática si se detecta un cambio en su composición, operaciones relacionadas, etc... – Valor Si/No 
+COSTES_COLUMNA_MATERIA_PRIMA : Indicamos lo que queremos que se ponga en la columna de 
+coste de materia prima de los artículos de almacén cuando se hacen entradas de almacén.  
+Depende de que esté activada la propiedad COSTES_SOBREESCRIBIR_COST_MATERIA_PRIMA " 
+Valor:  
+• Coste máximo  
+• Coste máximo con coste movimiento  
+• Coste medio  
+• Coste medio con coste movimiento  
+• Coste mínimo  
+• Coste mínimo con coste movimiento
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 11 de 61 
+ 
+ Sub. Salida  Subalmacén por defecto al que irán los artículos 
+cuando vayan a salir del almacén , si el campo 
+almacén tiene un subalmacén  configurado . 
+Observaciones  Comentarios que se pueden guardar sobre una familia  CONFIGURACIÓN  
+Código  Aquí se selecciona como se generarán los artículos 
+que configuremos para la familia.  (identificador, 
+código interno, contados, con tador configurable)  
+Un. medida  Unidad de medida que tendrán por defecto los 
+artículos  
+ 
+En esta  se configuran los aspectos principales por los que se debe regir cada familia.  
+Uno de los más importantes, es marcar si la familia es de servicios o no, entendiéndose como "De 
+servicios" todas aquellas familias que no generan movimientos contra el almacén (por lo que la opción 
+obligatoria de marcar almacén se desactiva).  
+Las familias solamente se crean para tres ámbitos: ventas, compras y producción, por lo que se debe 
+marcar a cuál o cuáles pertenece, pudiendo ser los tres. El uso principal de marcar el ámbito es filtrar la 
+información cuando usas el correspondiente módul o, de forma que ves solo las familias necesarias.  
+ 
+A la hora de crear y configurar la familia es muy importante decidir si el código se va a generar por 
+parámetros o no. Únicamente se debe marca la opción "sin parámetros" en el caso de que se esté 
+completamente seguro de que la familia ni lleva, ni llevará  en el futuro parámetros, si no se debe 
+marcar  "Código por parámetros"  aunque no se configuren. Esto permitirá en un futuro parametrizar las 
+familias reutilizando los artículos existentes y no perder los históricos de información.  
+*Nota:  Si una familia se crea sin parámetros, pero se decide más adelante que sí debe llevar, hay que 
+darla de baja y volver a crearla, ya que es una acción irreversible.  
+*Nota:  La propia familia es un parámetro, lo que permite que, en el caso de haber dudas, (p.ej., en una 
+implantación) en la que se sabe que los parámetros se van a usar, pero no en ese momento, el sistema
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 11 de 61 
+ 
+ Sub. Salida  Subalmacén por defecto al que irán los artículos 
+cuando vayan a salir del almacén , si el campo 
+almacén tiene un subalmacén  configurado . 
+Observaciones  Comentarios que se pueden guardar sobre una familia  CONFIGURACIÓN  
+Código  Aquí se selecciona como se generarán los artículos 
+que configuremos para la familia.  (identificador, 
+código interno, contados, con tador configurable)  
+Un. medida  Unidad de medida que tendrán por defecto los 
+artículos  
+ 
+En esta  se configuran los aspectos principales por los que se debe regir cada familia.  
+Uno de los más importantes, es marcar si la familia es de servicios o no, entendiéndose como "De 
+servicios" todas aquellas familias que no generan movimientos contra el almacén (por lo que la opción 
+obligatoria de marcar almacén se desactiva).  
+Las familias solamente se crean para tres ámbitos: ventas, compras y producción, por lo que se debe 
+marcar a cuál o cuáles pertenece, pudiendo ser los tres. El uso principal de marcar el ámbito es filtrar la 
+información cuando usas el correspondiente módul o, de forma que ves solo las familias necesarias.  
+ 
+A la hora de crear y configurar la familia es muy importante decidir si el código se va a generar por 
+parámetros o no. Únicamente se debe marca la opción "sin parámetros" en el caso de que se esté 
+completamente seguro de que la familia ni lleva, ni llevará  en el futuro parámetros, si no se debe 
+marcar  "Código por parámetros"  aunque no se configuren. Esto permitirá en un futuro parametrizar las 
+familias reutilizando los artículos existentes y no perder los históricos de información.  
+*Nota:  Si una familia se crea sin parámetros, pero se decide más adelante que sí debe llevar, hay que 
+darla de baja y volver a crearla, ya que es una acción irreversible.  
+*Nota:  La propia familia es un parámetro, lo que permite que, en el caso de haber dudas, (p.ej., en una 
+implantación) en la que se sabe que los parámetros se van a usar, pero no en ese momento, el sistema
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 11/15 www.imatia.com  
+Restricciones  
+Nota: Esta configuración está pendiente de revisión.  
+Familias : Sirve para asociar esta Restricción directamente a otras familias.  
+ 
+A continu ación, se muestra un ejemplo de creación  de un artículo  en una familia parametrizable .  
+ 
+Parámetros de familia Puerta s
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 11/14 www.imatia.com  • Ultima alta  
+• Ultima alta con coste movimiento  
+Nota : el coste movimiento se indica en este campo al realizar movimientos manuales.  
+ 
+COSTES_SOBREESCRIBIR_COSTE_MATERIA_PRIMA : Propiedad que determina si se sobrescribe o no el 
+coste de materia prima de los costes activos del artículo con los movimientos de almacén. Propiedad a 
+true se sobrescribe Propiedad a false no se sobrescribe – Valor Si/No 
+COSTES_USAR_PRECIO_COMPRA_COMO_COSTE_MATERIA_PRIMA : Propiedad que usará como coste 
+de materia prima el precio de compra de la tarifa por defecto del proveedor que tenga asociado ese 
+artículo por defecto. – Valor Si/ No 
+OVERWRITE_SERVICE_ITEM_RAW_MATERIAL_COST: Indicará si  se sobrescribe  el coste de materia 
+prima en artículos de servicio. Dependiente de la propiedad 
+SERVICE_ITEM_RAW_MATERIAL_COST_COLUMN.  – Valor Si/No 
+SERVICE_ITEM_RAW_MATERIAL_COST_COLUMN: Indica qué algoritmo utilizar para calcular el coste de 
+materia prima para artículos de servicio.  
+– Valor MEDIUM_PRICE : promedio de los precios de facturas de compras del artículo . 
+ 
+PRODUCCIÓN  
+CALCULAR_SETUP_CON_MANO_DE_OBRA : Indica si es necesario tener en cuenta el coste de setup  para  
+el coste total de la fabricación. – Valor Si/No 
+ENABLED_INCREASE_ASSIGNED_RELATED_ORDERS_CONSUMPTION_COST : Incrementa los costes de 
+la fabricación parcial que da de alta, que no se ha fabricado por el sistema de seguimiento de lotes, 
+teniendo en cuenta los consumos en las fabricaciones parciales de las órdenes paralelas. – Valor Si/No 
+ENABLED_INCREASE_ASSIGNED_RELATED_ORDERS_EMPLOYEE_COST :  Aumenta los costes 
+de empleado de la fabricación parcial que da de alta, que no se ha fabricado por el sistema de
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 12 de 61 
+ 
+ la usa como parámetros y en "regenerar código y descripción", permite meter parámetros, aunque la 
+familia se haya creado.  
+ 
+El código del artículo se genera por los valores de los parámetros. Si se crea una familia por parámetros, 
+no se crea un contador por lo que se desactivan los campos.  
+Hay tres formas de crear el código del artículo:  
+• Identificador:  el código es asignado por el usuario.  
+• Código interno:  es el sistema el que le da un código a los artículos.  
+• Contador:  es el sistema el que da los códigos, pero siguiendo la configuración del contador 
+definido en  Aplicación >> Configuración >> Configuración de contadores.  
+• Contador configurable:  se configuran contadores personalizados para cada familia para generar 
+los artículos dentro de la familia si estos no se van a crear por parámetro, sino que serán 
+artículos de código y descripción asignadas por el usuario. Se activan los campos de prefijo , 
+sufijo y longitud, para que el usuario edite el contador.  
+*Nota:  En el campo  "Valor"  se indica el próximo valor con el que se quiere que comience a dar de alta.  
+Otro aspecto a tener en cuenta es la unidad o unidades con las que trabajarán los artículos de una familia. 
+Este aspecto también determina la homogeneidad del grupo creado y si este tiene más de una unidad. 
+En el campo obligatorio, "Un.  medida" se indica la unidad principal de la familia. Seleccionando "Propagar 
+unidades" se consigue que cuando se añade un artículo nuevo, automáticamente se le asigna la unidad 
+principal. Si no se selecciona, el usuario deberá seleccionar la unidad corresp ondiente manualment e. 
+También se usa si se trabaja un mismo artículo,  pero en varias unidades.  
+Si la familia es trazable se marca la casilla de  "Trazable" . Que la familia se marque como trazable implica 
+que todos y cada uno de los artículos que la forman son trazables. Si alguno no lo fuese, la familia se 
+considera  "No trazable"  y es dentro del propio artículo donde se marca que ese sí lo es.  La configuración 
+de la trazabilidad se hará mediante Lote, Lote producto o Nº de serie.  
+Si el usuario quiere que no se controlen los stocks de los artículos de una familia, debe seleccionar la 
+opción de "Familia ficticia". Esta opción vincula la familia con producción por lo que, si se activa esta 
+opción solo es posible que el ámbito seleccio nado sea el de producción.  
+ 
+En esta pestaña vamos a ver como añadir artículos a la familia , tanto de forma paramétrica como de 
+forma  genérica.  
+ 
+Para crear un nuevo artículo tenemos que añadir un registro  y esto nos desplegará un a ventana. E sta 
+ventana podemos verla de dos maneras diferentes  si la familia es paramétrica o no.  
+El check de  Tarificado aparece marcado cuando le ponemos un precio o cuando asignamos una tarifa.  
+Respecto a los artículos, lo hablaremos con más detalle en su correspondiente apartado.  
+*Nota:  No puede existir un artículo si no pertenece a una familia.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 12 de 61 
+ 
+ la usa como parámetros y en "regenerar código y descripción", permite meter parámetros, aunque la 
+familia se haya creado.  
+ 
+El código del artículo se genera por los valores de los parámetros. Si se crea una familia por parámetros, 
+no se crea un contador por lo que se desactivan los campos.  
+Hay tres formas de crear el código del artículo:  
+• Identificador:  el código es asignado por el usuario.  
+• Código interno:  es el sistema el que le da un código a los artículos.  
+• Contador:  es el sistema el que da los códigos, pero siguiendo la configuración del contador 
+definido en  Aplicación >> Configuración >> Configuración de contadores.  
+• Contador configurable:  se configuran contadores personalizados para cada familia para generar 
+los artículos dentro de la familia si estos no se van a crear por parámetro, sino que serán 
+artículos de código y descripción asignadas por el usuario. Se activan los campos de prefijo , 
+sufijo y longitud, para que el usuario edite el contador.  
+*Nota:  En el campo  "Valor"  se indica el próximo valor con el que se quiere que comience a dar de alta.  
+Otro aspecto a tener en cuenta es la unidad o unidades con las que trabajarán los artículos de una familia. 
+Este aspecto también determina la homogeneidad del grupo creado y si este tiene más de una unidad. 
+En el campo obligatorio, "Un.  medida" se indica la unidad principal de la familia. Seleccionando "Propagar 
+unidades" se consigue que cuando se añade un artículo nuevo, automáticamente se le asigna la unidad 
+principal. Si no se selecciona, el usuario deberá seleccionar la unidad corresp ondiente manualment e. 
+También se usa si se trabaja un mismo artículo,  pero en varias unidades.  
+Si la familia es trazable se marca la casilla de  "Trazable" . Que la familia se marque como trazable implica 
+que todos y cada uno de los artículos que la forman son trazables. Si alguno no lo fuese, la familia se 
+considera  "No trazable"  y es dentro del propio artículo donde se marca que ese sí lo es.  La configuración 
+de la trazabilidad se hará mediante Lote, Lote producto o Nº de serie.  
+Si el usuario quiere que no se controlen los stocks de los artículos de una familia, debe seleccionar la 
+opción de "Familia ficticia". Esta opción vincula la familia con producción por lo que, si se activa esta 
+opción solo es posible que el ámbito seleccio nado sea el de producción.  
+ 
+En esta pestaña vamos a ver como añadir artículos a la familia , tanto de forma paramétrica como de 
+forma  genérica.  
+ 
+Para crear un nuevo artículo tenemos que añadir un registro  y esto nos desplegará un a ventana. E sta 
+ventana podemos verla de dos maneras diferentes  si la familia es paramétrica o no.  
+El check de  Tarificado aparece marcado cuando le ponemos un precio o cuando asignamos una tarifa.  
+Respecto a los artículos, lo hablaremos con más detalle en su correspondiente apartado.  
+*Nota:  No puede existir un artículo si no pertenece a una familia.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 12/15 www.imatia.com  
+Creación de artículo por parámetros  
+ 
+Artículo final creado  
+ 
+Elastic permite crear artículos directamente desde presupuestos y pedidos de ventas. Para ello dentro 
+del documento se debe pulsar el botón de “ Configurador ”.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 12/14 www.imatia.com  seguimiento de lotes, teniendo en cuenta los consumos en las fabricaciones parciales de las órdenes 
+paralelas. – Valor Si/No 
+ENABLED_INCREASE_ASSIGNED_RELATED_ORDERS_OPERATION_FIXED_COST : Incrementa los costes 
+de la fabricación parcial que da de alta, teniendo en cuenta los costes fijos de operación en las 
+fabricaciones parciales de las órdenes paralelas – Valor Si/No 
+ENABLED_INCREASE_CONSUMPTION_COSTS : Costes de producción. Incluye el coste de los consumos 
+en los costes del artículo fabricado. Se calcula como: Sumatorio de los consumos / cantidad fabricada 
+– Valor Si/No 
+ENABLED_INCREASE_EMPLOYEE_COST  : Costes de producción. Incluye el coste de empleado 
+en los costes del artículo fabricado. Se calcula como: (tiempo x coste empleado hora) /cantidad 
+fabricada. – Valor Si/No 
+ENABLED_INCREASE_MACHINE_COST : Costes de producción. Incluye el coste máquina en los costes 
+del artículo fabricado. Se calcula como: (tiempo x coste maquina hora) /cantidad fabricada. – Valor Si/No 
+ENABLED_INCREASE_MONITORING_CONSUMPTION_COSTS : Incrementa los costes de la fabricación 
+parcial que da de alta, si se ha fabricado por el sistema de seguimiento de lotes, teniendo en cuenta los 
+consumos en las fabricaciones parciales de las órdenes paralelas. – Valor Si/ No 
+ENABLED_INCREASE_MONITORING_EMPLOYEE_COSTS : Aumenta los costes de empleado de la 
+fabricación parcial que da de alta, si se ha fabricado por el sistema de seguimiento de lotes, teniendo en 
+cuenta los consumos en las fabricaciones parciales de las órdenes paralelas. – Valor Si/ No 
+ENABLED_INCREASE_OPERATION_FIXED_COST : Costes de producción . Incluye el coste fijo de 
+operación teniendo en cuenta la configuración del despiece – Valor Si/No 
+ENABLED_INCREASE_RELATED_ORDERS_CONSUMPTION_COST : Incrementa el coste de materia prima 
+teniendo en cuenta los costes de órdenes paralelas cuyos detalles no están marcados para generar 
+fabricaciones parciales. – Valor Si/No 
+ENABLED_INCREASE_RELATED_ORDERS_EMPLOYEE_COST : Incrementa el coste de empleado 
+teniendo en cuenta los tiempos de empleado de órdenes paralelas cuyos detalles no están marcados 
+para generar fabricaciones parciales. – Valor Si/No 
+ENABLED_INCREASE_UNASSIGNED_CONSUMPTION_COST : Incrementa el coste de materia prima 
+teniendo en cuenta los consumos de la orden no asignados a ninguna fabricación parcial. Este coste se 
+reparte proporcionalmente entre todas las fabricaciones parciales de la orden. – Valor Si/No 
+ENABLED_INCREASE_UNASSIGNED_EMPLOYEE_COST : Incrementa el coste de empleado teniendo en 
+cuenta los consumos de la orden no asignados a ninguna fabricación parcial. Este coste se reparte 
+proporcionalmente entre todas las fabricaciones parciales de la orden. – Valor Si/No 
+ 
+VENTAS  
+COST_TO_USE_FOR_COST_HOUR_CALCULATION : Indica que coste de los configurados en la aplicación 
+se usarán para calcular el coste/hora de los proyectos, el coste indicado en la remuneración del 
+empleado o el coste genérico.  
+Valor:  
+• Coste empleado  
+• Coste genérico  
+Nota :
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 13 de 61 
+ 
+En esta venta podemos ver los parámetros de los que dispone est a familia  (lo veremos en la siguiente 
+pestaña)  los cuales tendremos que completar  para crear dicho artículo . También se puede ver en la parte 
+inferior que tiene dos tarifas  disponibles. Aquí podemos seleccionar una de ellas por defecto o ponerle 
+un precio a mano.  Todos estos campos se explicarán en el apartado de Parámetros  
+ 
+Una vez se pulse el check verde de la esquina superior derecha,  nos abrirá la ventana de detalles del 
+artículo  (se explicará en el apartado de artículos)  Aquí podemos destacar tres campos:  
+- Código : campo que podremos cubrir y se verá  en las tablas  
+- Descripción : al ser por parámetros viene cubierta según lo indicado en la ventana anterior  
+- Código interno : este código se forma a partir de los parámetros y no es editable. Se configura 
+cuando se añaden dichos parámetros a la familia.  
+ 
+Si no se pulsa el  añadir registro (cruz verde) no se creará el artículo.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 13 de 61 
+ 
+En esta venta podemos ver los parámetros de los que dispone est a familia  (lo veremos en la siguiente 
+pestaña)  los cuales tendremos que completar  para crear dicho artículo . También se puede ver en la parte 
+inferior que tiene dos tarifas  disponibles. Aquí podemos seleccionar una de ellas por defecto o ponerle 
+un precio a mano.  Todos estos campos se explicarán en el apartado de Parámetros  
+ 
+Una vez se pulse el check verde de la esquina superior derecha,  nos abrirá la ventana de detalles del 
+artículo  (se explicará en el apartado de artículos)  Aquí podemos destacar tres campos:  
+- Código : campo que podremos cubrir y se verá  en las tablas  
+- Descripción : al ser por parámetros viene cubierta según lo indicado en la ventana anterior  
+- Código interno : este código se forma a partir de los parámetros y no es editable. Se configura 
+cuando se añaden dichos parámetros a la familia.  
+ 
+Si no se pulsa el  añadir registro (cruz verde) no se creará el artículo.
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 13/15 www.imatia.com  
+Pedido de ventas  
+Se abrirá la siguiente ventana, donde hay que seleccionar la familia  y tarifa  del artículo a crear : 
+ 
+Configurador  
+El sistema establece un control por si este ya existe en el sistema, si al añadir el artículo, este no existe, 
+propondrá crearlo.  
+Selección de artículo con parámetro con check comodín activado.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 13/14 www.imatia.com  Coste genérico:  
+ 
+Coste empleado:  
+ 
+COSTE_ARTICULO_EN_PRESUPUESTO:  Indica que valor de coste se cargará cuando se añade un 
+artículo en un presupuesto de ventas  
+Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+COSTE_ARTICULO_EN_PEDIDO:  Indica que coste se cargará cuando se añade un artículo en un pedido 
+de ventas.  
+Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+COSTE_ARTICULO_EN_ALBARAN:  Indica que coste se cargará cuando se introduce un artículo en un 
+albarán de ventas.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 14 de 61 
+ 
+Cuando añadimos un artículo genérico, a diferencia de añadir un artículo  paramétrico, solo teneos que 
+completar una descripción como campo obligatorio.  Es recomendable crear un código para su 
+identificación, ya que los nombres pueden ser iguales.  
+  
+Esta pestaña se divide a su vez en tres subpestañas:  
+- Parámetros  
+- Restricciones  
+- Fórmulas.  
+La información relativa a esta pestaña la ampliaremos en la ventana de Parámetros . 
+ 
+En esta pestaña se pueden ver y asignar todos los parámetros relacionados con la familia. Para añadir 
+un registro , solo tenemos que pulsar el desplegable y seleccionar uno de los parámetros creados en 
+Almacén >> Parámetros . 
+Tras esto tendremos que cubrir cuantos dígitos queremos que aparezcan en nuestro código externo en 
+referencia al parámetro. (Toda esta información la ampliaremos más adelante)
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 14 de 61 
+ 
+Cuando añadimos un artículo genérico, a diferencia de añadir un artículo  paramétrico, solo teneos que 
+completar una descripción como campo obligatorio.  Es recomendable crear un código para su 
+identificación, ya que los nombres pueden ser iguales.  
+  
+Esta pestaña se divide a su vez en tres subpestañas:  
+- Parámetros  
+- Restricciones  
+- Fórmulas.  
+La información relativa a esta pestaña la ampliaremos en la ventana de Parámetros . 
+ 
+En esta pestaña se pueden ver y asignar todos los parámetros relacionados con la familia. Para añadir 
+un registro , solo tenemos que pulsar el desplegable y seleccionar uno de los parámetros creados en 
+Almacén >> Parámetros . 
+Tras esto tendremos que cubrir cuantos dígitos queremos que aparezcan en nuestro código externo en 
+referencia al parámetro. (Toda esta información la ampliaremos más adelante)
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 14/15 www.imatia.com  
+Parámetros atributo  
+ 
+Pedido de ventas  
+Se abrirá la siguiente pestaña  
+1. Se dará la posibilidad de editar el código, sino creará el que está por defecto definido en la 
+familia.  
+2. Se permite establece unidad de venta de tarifa y precio.  
+3. Se permite modificar la fecha de alta y la descripción del artículo creado.
+
+---
+
+# Elastic_Módulo de Almacén. Modelo de costes - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Modelo de costes.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 14/14 www.imatia.com  Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+COSTE_ARTICULO_EN_FACTURA:  Indica que coste se cargará cuando se introduce un artículo en una 
+factura de ventas.  
+Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+FORCED_RECALCULATION_ITEM_COST_ON_SEND_SALES_ESTIMATE_TO_ORDER:  Indica si se debe 
+forzar el recálculo del coste del artículo al mandar una línea del presupuesto de ventas a un pedido – 
+Valor Si/No 
+FORCED_RECALCULATION_ITEM_COST_ON_SEND_SALES_ORDER_TO_DELIVERYNOTE:  Indica si se 
+debe forzar el recálculo del coste del artículo al mandar una línea del pedido de ventas a un albarán – 
+Valor Si/No 
+FORCED_RECALCULATION_ITEM_COST_ON_SEND_SALES_DELIVERYNOTE_TO_INVOIC:  Indica si se 
+debe forzar el recálculo del coste del artículo al mandar una línea del albarán de ventas a una factura – 
+Valor Si/No 
+ 
+Para consultar los costes en Elastic  se dispone de los siguientes listados : 
+• Costes por programación : Sumatorio de todos los costes de las fabricaciones parciales de la 
+programación.  
+• Costes por fabricaciones : Desglose de los costes de cada fabricación parcial de los diferentes 
+artículos en las programaciones. Permite comparar costes teóricos con reales.  
+• Costes de producción por artículo : Sumatorio de los costes de fabricación de un artículo en un 
+determinado periodo de tiempo.  
+• Valoración de stock:  Desglose de los costes de los artículos en stock, así como el promedio y el 
+de última entrada.  
+• Valoración de lotes : Desglose de los costes teóricos de los lotes.  
+• Coste artículos: Desglose de los costes teóricos de los artículos, así como el promedio y el de 
+última entrada.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 15 de 61 
+ 
+Esta subpestaña nos indica posibles restricciones entre parámetros como puede ser  por ejemplo “Si la 
+velocidad es mayor de 100km/h el diámetro es mínimo de 18”  
+ 
+Tienen un funcionamiento parecido a las restricciones .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 15 de 61 
+ 
+Esta subpestaña nos indica posibles restricciones entre parámetros como puede ser  por ejemplo “Si la 
+velocidad es mayor de 100km/h el diámetro es mínimo de 18”  
+ 
+Tienen un funcionamiento parecido a las restricciones .
+
+---
+
+# Elastic_Módulo de Almacén. Configuración de parámetros - 
+
+**Origen:** `build\sources\almacen\Elastic_Módulo de Almacén. Configuración de parámetros.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 15/15 www.imatia.com  
+Tarifa de ventas.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 16 de 61 
+ 
+En esta pestaña  se asocian modelos de costes, configurados previamente en el sistema a una familia, 
+para que se aplique a los artículos cuando se mueven por el sistema.  Se permite tener varios modelos 
+de costes configurados para que no se tengan que introducir manualmente.  
+El check de no recalcular costes , si está marcado, nos indica que al realizar movimientos, cambios de 
+tarifa… no nos cambia el coste de los artículos de la familia.  
+ 
+*Nota:  Aunque no se pretenda tener un modelo de costes de una familia, el obligatorio introducir un 
+modelo básico.  
+*Nota:  Lo lógico es crear el modelo de costes antes de los artículos para que todos ellos lleven asociado 
+ese modelo, si no se debe cambian manualmente una vez introducidos.  
+*Nota:  No es posible eliminar el modelo de costes de una familia. Por lo tanto, se debe marcar en la 
+columna "Activo" aquel coste que se vaya a utilizar. Si esto se cambia, el coste solo cambia para los 
+nuevos artículos de la familia.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 16 de 61 
+ 
+En esta pestaña  se asocian modelos de costes, configurados previamente en el sistema a una familia, 
+para que se aplique a los artículos cuando se mueven por el sistema.  Se permite tener varios modelos 
+de costes configurados para que no se tengan que introducir manualmente.  
+El check de no recalcular costes , si está marcado, nos indica que al realizar movimientos, cambios de 
+tarifa… no nos cambia el coste de los artículos de la familia.  
+ 
+*Nota:  Aunque no se pretenda tener un modelo de costes de una familia, el obligatorio introducir un 
+modelo básico.  
+*Nota:  Lo lógico es crear el modelo de costes antes de los artículos para que todos ellos lleven asociado 
+ese modelo, si no se debe cambian manualmente una vez introducidos.  
+*Nota:  No es posible eliminar el modelo de costes de una familia. Por lo tanto, se debe marcar en la 
+columna "Activo" aquel coste que se vaya a utilizar. Si esto se cambia, el coste solo cambia para los 
+nuevos artículos de la familia.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 17 de 61 
+ 
+En esta pestaña se introducen las características que tengan los artículos de una familia, en vez de 
+añadirse en las observaciones. Si las características son genéricas, se meten cualquier característica 
+que se quiera y si las características son fijas, se reservan unos c ampos (P. ej.: título 1= potencia).  
+Las características se usan en función de las necesidades, con la desventaja de que las fijas son para 
+todas las necesidades y las variables para las que se quiera ya que se mete manualmente.  
+*Nota:  Se permite tener las fijas para todas e ir cambiando las características variables.  
+ 
+En esta pestaña se divide en dos subpestañas, Cuentas contables e IVA . Ambas subpestañas se usan 
+para  relacionar dicha familia de artículos con sus cuentas contables  y tipo de IVA.  
+ 
+En esta subpestaña vamos a  añadir una o varias cuenta s contable s, tanto para compras como para 
+ventas, de esta manera, a la hora de generar asientos desde las facturas, el sistema detecta si las familias 
+tienen subcuenta propia, seleccionándola en el asiento.  Para que los movimientos de un artículo de esa 
+familia vayan a otra subcuenta, hay que asignarla dentro del propio artículo. De esta manera, la cuenta 
+configurada sería para toda la familia  excepto para ese artículo.  
+ 
+Para crearlas añadiremos un registro donde nos abrirá  una nueva ventana donde poder buscar 
+subcuentas de dos formas:  
+- Mediante tipo y subtipo:  aquí tendremos que marcar un check que hará que solo aparezcan 
+subcuentas con  tipo y subtipo, limitando así la búsqueda.  
+ 
+- Todas : así aparecen todas las cuentas contables.  
+ 
+Aquí podemos añadir que tipo de IVA queremos que tengan los artículos.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 17 de 61 
+ 
+En esta pestaña se introducen las características que tengan los artículos de una familia, en vez de 
+añadirse en las observaciones. Si las características son genéricas, se meten cualquier característica 
+que se quiera y si las características son fijas, se reservan unos c ampos (P. ej.: título 1= potencia).  
+Las características se usan en función de las necesidades, con la desventaja de que las fijas son para 
+todas las necesidades y las variables para las que se quiera ya que se mete manualmente.  
+*Nota:  Se permite tener las fijas para todas e ir cambiando las características variables.  
+ 
+En esta pestaña se divide en dos subpestañas, Cuentas contables e IVA . Ambas subpestañas se usan 
+para  relacionar dicha familia de artículos con sus cuentas contables  y tipo de IVA.  
+ 
+En esta subpestaña vamos a  añadir una o varias cuenta s contable s, tanto para compras como para 
+ventas, de esta manera, a la hora de generar asientos desde las facturas, el sistema detecta si las familias 
+tienen subcuenta propia, seleccionándola en el asiento.  Para que los movimientos de un artículo de esa 
+familia vayan a otra subcuenta, hay que asignarla dentro del propio artículo. De esta manera, la cuenta 
+configurada sería para toda la familia  excepto para ese artículo.  
+ 
+Para crearlas añadiremos un registro donde nos abrirá  una nueva ventana donde poder buscar 
+subcuentas de dos formas:  
+- Mediante tipo y subtipo:  aquí tendremos que marcar un check que hará que solo aparezcan 
+subcuentas con  tipo y subtipo, limitando así la búsqueda.  
+ 
+- Todas : así aparecen todas las cuentas contables.  
+ 
+Aquí podemos añadir que tipo de IVA queremos que tengan los artículos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 18 de 61 
+ 
+Esta es otra de las pestañas más importantes , aquí podemos ver el estado d esde las existencias, hasta 
+donde está cada artículo . Esta pestaña se divide a su vez en dos 5 subpestañas y una serie de checks . 
+ 
+Checks:  
+- Entrada en cuarentena :  seleccionando este check, los artículos de la familia entrarían en 
+cuarentena directamente . 
+- Permitir stock negativo : permite que haya stocks negativos en el almacén por movimientos.  
+- Permitir stock nega tivo expediciones : permite que haya stocks negativos en el almacén por 
+ventas, por ejemplo, si vendemos un artículo sabiendo que va a llegar una reposición.  
+ 
+En la subpestaña  "Existencias" , se muestra la cantidad de artículos que hay en la familia.  
+ 
+Ahora vamos a explicar las columnas más destacables.  
+ Campo  Descripción  EXISTENCIAS  Stock total  Cantidad actual de material en el almacén.  
+Cant. disponible  Su resultado viene de: ( Stock  total +  Cant. pdte. Recibir) 
+– Cantidades reservadas  
+Cantidad reservada  Cantidad total reservada por ventas y producción  
+Cant. pdte. Recibir  Cantidad que nos llega debido a compras o fabricaciones  
+ 
+En esta sub pestaña muestra lotes
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 18 de 61 
+ 
+Esta es otra de las pestañas más importantes , aquí podemos ver el estado d esde las existencias, hasta 
+donde está cada artículo . Esta pestaña se divide a su vez en dos 5 subpestañas y una serie de checks . 
+ 
+Checks:  
+- Entrada en cuarentena :  seleccionando este check, los artículos de la familia entrarían en 
+cuarentena directamente . 
+- Permitir stock negativo : permite que haya stocks negativos en el almacén por movimientos.  
+- Permitir stock nega tivo expediciones : permite que haya stocks negativos en el almacén por 
+ventas, por ejemplo, si vendemos un artículo sabiendo que va a llegar una reposición.  
+ 
+En la subpestaña  "Existencias" , se muestra la cantidad de artículos que hay en la familia.  
+ 
+Ahora vamos a explicar las columnas más destacables.  
+ Campo  Descripción  EXISTENCIAS  Stock total  Cantidad actual de material en el almacén.  
+Cant. disponible  Su resultado viene de: ( Stock  total +  Cant. pdte. Recibir) 
+– Cantidades reservadas  
+Cantidad reservada  Cantidad total reservada por ventas y producción  
+Cant. pdte. Recibir  Cantidad que nos llega debido a compras o fabricaciones  
+ 
+En esta sub pestaña muestra lotes
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 19 de 61 
+ 
+Esta subpestaña muestra todos los movimientos de los artículos y su dirección.  Para ver claramente que 
+tipo de movimiento es se divide a su vez en subpestañas:  
+ 
+En esta pestaña vemos las  recepciones que tenemos de artículos , en el almacén que configuramos a la 
+hora de crear la familia . También puede aparecer un almacén diferente si está configurado en dicho 
+artículo.  
+ 
+En esta pestaña vemos las salidas  que tenemos de artículos, en el almacén que configuramos a la hora 
+de crear la familia  y en su ubicación concreta . También puede aparecer un almacén diferente si está 
+configurado en dicho artículo.  
+ 
+En esta pestaña vemos los movimientos de artículos entre almacenes.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 19 de 61 
+ 
+Esta subpestaña muestra todos los movimientos de los artículos y su dirección.  Para ver claramente que 
+tipo de movimiento es se divide a su vez en subpestañas:  
+ 
+En esta pestaña vemos las  recepciones que tenemos de artículos , en el almacén que configuramos a la 
+hora de crear la familia . También puede aparecer un almacén diferente si está configurado en dicho 
+artículo.  
+ 
+En esta pestaña vemos las salidas  que tenemos de artículos, en el almacén que configuramos a la hora 
+de crear la familia  y en su ubicación concreta . También puede aparecer un almacén diferente si está 
+configurado en dicho artículo.  
+ 
+En esta pestaña vemos los movimientos de artículos entre almacenes.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 20 de 61 
+ 
+En esta subpestaña se pueden añadir o eliminar artículos a mano , sin un proceso. Esto se puede hacer 
+por ejemplo cuando se estropeó un material y hay que darlo de baja  
+ 
+Aquí vemos tanto entradas, salidas, traspasos y regularizaciones
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 20 de 61 
+ 
+En esta subpestaña se pueden añadir o eliminar artículos a mano , sin un proceso. Esto se puede hacer 
+por ejemplo cuando se estropeó un material y hay que darlo de baja  
+ 
+Aquí vemos tanto entradas, salidas, traspasos y regularizaciones
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 21 de 61 
+ 
+Cuando se crean artículos nuevos en una familia y se añade una unidad nueva para ellos, la unidad 
+añadida es únicamente para estos últimos. Si se desea que la unidad añadida se le asigne a todos los 
+artículos, incluidos los que ya estaban creados con anter ioridad, se debe usar la acción "Asignar unidad 
+a artículos".  
+ 
+Si se añade un modelo de coste y los artículos ya tenían un modelo creado, se permite sobreescribir el 
+antiguo modelo por uno nuevo a todos los artículos.  
+ 
+Para agilizar la creación de una familia, se permite duplicar todos sus datos e información, excepto la de 
+los artículos.  
+ 
+En esta pestaña  se va a detallar el funcionamiento de los parámetros en Elastic Business, así como su 
+configuración y preparación de datos para su carga.  
+Los parámetros se definen como identificadores que permiten generar configuraciones únicas en los 
+artículos. La creación de artículos mediante parámetros sirve para generar el código interno y 
+descripción de este.  
+En Elastic se accede mediante la siguiente Almacén >> Parámetros  y éstos se establecen por FAMILIAS .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 21 de 61 
+ 
+Cuando se crean artículos nuevos en una familia y se añade una unidad nueva para ellos, la unidad 
+añadida es únicamente para estos últimos. Si se desea que la unidad añadida se le asigne a todos los 
+artículos, incluidos los que ya estaban creados con anter ioridad, se debe usar la acción "Asignar unidad 
+a artículos".  
+ 
+Si se añade un modelo de coste y los artículos ya tenían un modelo creado, se permite sobreescribir el 
+antiguo modelo por uno nuevo a todos los artículos.  
+ 
+Para agilizar la creación de una familia, se permite duplicar todos sus datos e información, excepto la de 
+los artículos.  
+ 
+En esta pestaña  se va a detallar el funcionamiento de los parámetros en Elastic Business, así como su 
+configuración y preparación de datos para su carga.  
+Los parámetros se definen como identificadores que permiten generar configuraciones únicas en los 
+artículos. La creación de artículos mediante parámetros sirve para generar el código interno y 
+descripción de este.  
+En Elastic se accede mediante la siguiente Almacén >> Parámetros  y éstos se establecen por FAMILIAS .
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 22 de 61 
+ 
+Cada parámetro está formado por una serie de valores. Para crear un nuevo parámetro tendremos que 
+cubrir primero una serie de dato s, primero hay que definir la configuración básica del parámetro.  
+En cabecera se muestran los siguientes campos:  
+• Código : codificación numérica del parámetro.  
+• Acrónimo : se utiliza como abreviatura de la descripción.  
+• Descripción : descripción del parámetro.  
+• Unidades : permite asociar una unidad al parámetro.  
+• Tipo : este puede ser explícito ( parámetros que tienen valores infinitos. En este caso, no es 
+necesario cargar valores previamente, ya que este se informa en el momento de crear el artículo. 
+Esto nos permite tener parámetros tipo dimensiones sin precargar el rango infinito de valores 
+posi bles) o implícito ( parámetros que tienen un rango de valores finitos posibles. Dichos valores 
+serán definidos en la tabla Valores ). 
+ 
+Para que se genere un código  interno  y una descripción de forma automática, se debe seleccionar la 
+casilla “ En código"  y “En descripción” . 
+Para que se muestren las unidades, se debe seleccionar la casilla  "Mostrar unidades" . 
+En la casilla  "Separar descripción" , se consigue que no haya espacios entre parámetro y parámetro.  
+Para que se pinte el valor de un parámetro, antes o después, se debe escribir en las casillas  "Símbolo 
+anterior"  y "Símbolo posterior" . 
+ 
+Si seleccionamos el tipo implícito, se habilitarán los botones de inserción, donde permitirá añadir los 
+valores de los parámetros. Estos valores de parámetros tienen tres columnas:  
+• Valor : indica el valor  del parámetro, este aparecerá en el código del artículo si así lo 
+configuramos.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 22 de 61 
+ 
+Cada parámetro está formado por una serie de valores. Para crear un nuevo parámetro tendremos que 
+cubrir primero una serie de dato s, primero hay que definir la configuración básica del parámetro.  
+En cabecera se muestran los siguientes campos:  
+• Código : codificación numérica del parámetro.  
+• Acrónimo : se utiliza como abreviatura de la descripción.  
+• Descripción : descripción del parámetro.  
+• Unidades : permite asociar una unidad al parámetro.  
+• Tipo : este puede ser explícito ( parámetros que tienen valores infinitos. En este caso, no es 
+necesario cargar valores previamente, ya que este se informa en el momento de crear el artículo. 
+Esto nos permite tener parámetros tipo dimensiones sin precargar el rango infinito de valores 
+posi bles) o implícito ( parámetros que tienen un rango de valores finitos posibles. Dichos valores 
+serán definidos en la tabla Valores ). 
+ 
+Para que se genere un código  interno  y una descripción de forma automática, se debe seleccionar la 
+casilla “ En código"  y “En descripción” . 
+Para que se muestren las unidades, se debe seleccionar la casilla  "Mostrar unidades" . 
+En la casilla  "Separar descripción" , se consigue que no haya espacios entre parámetro y parámetro.  
+Para que se pinte el valor de un parámetro, antes o después, se debe escribir en las casillas  "Símbolo 
+anterior"  y "Símbolo posterior" . 
+ 
+Si seleccionamos el tipo implícito, se habilitarán los botones de inserción, donde permitirá añadir los 
+valores de los parámetros. Estos valores de parámetros tienen tres columnas:  
+• Valor : indica el valor  del parámetro, este aparecerá en el código del artículo si así lo 
+configuramos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 23 de 61 
+ 
+ • Descripción : indica la descripción  del valor del parámetro, aparecerá en la descripción del 
+artículo.  
+• Acrónimo : si el valor tiene acrónimo, este se usará en lugar de la descripción . 
+ 
+Adicionalmente, se permite configurar grupos  de parámetros: es útil cuando existe un uso compartido 
+de valores, agilizando creación de éstos.  
+ 
+Las familias pueden marcarse con el check “Código por parámetros” o “Sin parámetros”. En Almacén >> 
+Activas  >> Configuración .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 23 de 61 
+ 
+ • Descripción : indica la descripción  del valor del parámetro, aparecerá en la descripción del 
+artículo.  
+• Acrónimo : si el valor tiene acrónimo, este se usará en lugar de la descripción . 
+ 
+Adicionalmente, se permite configurar grupos  de parámetros: es útil cuando existe un uso compartido 
+de valores, agilizando creación de éstos.  
+ 
+Las familias pueden marcarse con el check “Código por parámetros” o “Sin parámetros”. En Almacén >> 
+Activas  >> Configuración .
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 24 de 61 
+ 
+Al seleccionar  el check  “Código por parámetros” se establece que la creación de los artículos vendrá 
+definida por la configuración de los parámetros asociados a dicha familia.  
+ 
+*Nota:  Por defecto todas las familias independientemente del check marcado, tienen por defecto el 
+parámetro “familia” por requerimientos de estructura de datos.  
+ 
+Una vez asociados los parámetros a una familia, configuramos el comportamiento de cada uno ellos en 
+esa familia.  Estos datos vienen precargados  según la configuración de este . Para cada uno veremos los 
+siguientes campos:
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 24 de 61 
+ 
+Al seleccionar  el check  “Código por parámetros” se establece que la creación de los artículos vendrá 
+definida por la configuración de los parámetros asociados a dicha familia.  
+ 
+*Nota:  Por defecto todas las familias independientemente del check marcado, tienen por defecto el 
+parámetro “familia” por requerimientos de estructura de datos.  
+ 
+Una vez asociados los parámetros a una familia, configuramos el comportamiento de cada uno ellos en 
+esa familia.  Estos datos vienen precargados  según la configuración de este . Para cada uno veremos los 
+siguientes campos:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 25 de 61 
+ 
+ • Valor por defecto : dentro de los valores se puede definir por defecto uno de ellos. Por ejemplo, 
+para el parámetro “longitud” puede establecerse un valor por defecto de 20 cm. Si la longitud es 
+otra, se modifica en el momento de la creación del artículo.  
+• Obligatorio : indicar si este parámetro es obligatorio o no cuando se crea el artículo.  
+• En código:  indica que el “Valor del parámetro” aparecerá en el código interno  del artículo creado.  
+• En descripción:  indica que el “Acrónimo” del valor del parámetro aparecerá en la descripción del 
+artículo o, en su defecto”, la “Descripción” del valor del parámetro.  
+• Atributo:  check para indicar que se va a utilizar el campo “Comodín atributo”. Aplicable sólo a los 
+parámetros implícitos. No aplica en los explícitos. Esto check indica que el parámetro podrá ser 
+seleccionada en pedidos y programaciones a la hora de añadir el artí culo. Sirve para simplificar 
+la creación de artículos ya que solamente se crearán según necesidad.  
+• Comodín atributo: campo alfanumérico para utilizar en la generación del código interno 
+generado si se desea poner una información adicional al contador numérico de artículos, por 
+ejemplo, un sufijo.  
+• Bloquear en configuración : bloquea la edición de “valor” y “descripción” del parámetro durante la 
+creación del artículo.  
+• Valores predefinidos : campo numérico donde se establece un valor por defecto. Solo se utiliza 
+en parámetros explícitos.  
+• Multiplicador : multiplicador del campo “valores predeterminados”. El resultado se aplica al 
+código interno del artículo generado.  
+• Símbolo anterior : campo para añadir lo que se desee antes del valor del parámetro  en la 
+descripción del artículo . 
+• Símbolo posterior : campo para añadir lo que se desee después del valor del parámetro  en la 
+descripción del artículo .  
+• Dígitos en código : número de dígitos que conforman el valor del parámetro.  
+• Orden en código : posición del valor del parámetro en el código del artículo.  
+• Orden en descripción : posición del valor del parámetro en la descripción del artículo.  
+• Mostrar unidades : muestra la unidad de medida de l parámetro después de su valor en la 
+descripción del artículo . 
+• Separar descripción : añade un espacio al final del valor del parámetro en  la descripción del 
+artículo . 
+Dentro de una familia se pueden asociar valores específicos de un parámetro general, por ejemplo:  
+El parámetro general “Tipo de madera” está compuesto por los siguientes valores:  
+• Pino  
+• Eucalipto  
+• Roble  
+• Castaño  
+La familia definida como “Puertas de comedor” solamente lleva en sus puertas el tipo de madera “Pino”, 
+por lo tanto, a la hora de configurar ese parámetro en la familia, se debe añadir en la parte inferior, como 
+se ve en la imagen.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 25 de 61 
+ 
+ • Valor por defecto : dentro de los valores se puede definir por defecto uno de ellos. Por ejemplo, 
+para el parámetro “longitud” puede establecerse un valor por defecto de 20 cm. Si la longitud es 
+otra, se modifica en el momento de la creación del artículo.  
+• Obligatorio : indicar si este parámetro es obligatorio o no cuando se crea el artículo.  
+• En código:  indica que el “Valor del parámetro” aparecerá en el código interno  del artículo creado.  
+• En descripción:  indica que el “Acrónimo” del valor del parámetro aparecerá en la descripción del 
+artículo o, en su defecto”, la “Descripción” del valor del parámetro.  
+• Atributo:  check para indicar que se va a utilizar el campo “Comodín atributo”. Aplicable sólo a los 
+parámetros implícitos. No aplica en los explícitos. Esto check indica que el parámetro podrá ser 
+seleccionada en pedidos y programaciones a la hora de añadir el artí culo. Sirve para simplificar 
+la creación de artículos ya que solamente se crearán según necesidad.  
+• Comodín atributo: campo alfanumérico para utilizar en la generación del código interno 
+generado si se desea poner una información adicional al contador numérico de artículos, por 
+ejemplo, un sufijo.  
+• Bloquear en configuración : bloquea la edición de “valor” y “descripción” del parámetro durante la 
+creación del artículo.  
+• Valores predefinidos : campo numérico donde se establece un valor por defecto. Solo se utiliza 
+en parámetros explícitos.  
+• Multiplicador : multiplicador del campo “valores predeterminados”. El resultado se aplica al 
+código interno del artículo generado.  
+• Símbolo anterior : campo para añadir lo que se desee antes del valor del parámetro  en la 
+descripción del artículo . 
+• Símbolo posterior : campo para añadir lo que se desee después del valor del parámetro  en la 
+descripción del artículo .  
+• Dígitos en código : número de dígitos que conforman el valor del parámetro.  
+• Orden en código : posición del valor del parámetro en el código del artículo.  
+• Orden en descripción : posición del valor del parámetro en la descripción del artículo.  
+• Mostrar unidades : muestra la unidad de medida de l parámetro después de su valor en la 
+descripción del artículo . 
+• Separar descripción : añade un espacio al final del valor del parámetro en  la descripción del 
+artículo . 
+Dentro de una familia se pueden asociar valores específicos de un parámetro general, por ejemplo:  
+El parámetro general “Tipo de madera” está compuesto por los siguientes valores:  
+• Pino  
+• Eucalipto  
+• Roble  
+• Castaño  
+La familia definida como “Puertas de comedor” solamente lleva en sus puertas el tipo de madera “Pino”, 
+por lo tanto, a la hora de configurar ese parámetro en la familia, se debe añadir en la parte inferior, como 
+se ve en la imagen.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 26 de 61 
+ 
+Esto permite reducir el número de parámetros, ya que permite seleccionar únicamente los valores 
+deseados en función de la configuración de la familia.  
+ 
+A continuación, se muestra un ejemplo de creación de un artículo en una familia parametrizable.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 26 de 61 
+ 
+Esto permite reducir el número de parámetros, ya que permite seleccionar únicamente los valores 
+deseados en función de la configuración de la familia.  
+ 
+A continuación, se muestra un ejemplo de creación de un artículo en una familia parametrizable.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 27 de 61 
+ 
+Elastic permite crear artículos directamente desde presupuestos y pedidos de ventas. Para ello dentro 
+del documento se debe pulsar el botón de “Configurador”.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 27 de 61 
+ 
+Elastic permite crear artículos directamente desde presupuestos y pedidos de ventas. Para ello dentro 
+del documento se debe pulsar el botón de “Configurador”.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 28 de 61 
+ 
+Se abrirá la siguiente ventana, donde hay que seleccionar la familia y tarifa del artículo a crear:  
+ 
+El sistema establece un control por si este ya existe en el sistema, si al añadir el artículo, este no existe, 
+propondrá crearlo.  
+Selección de artículo con parámetro con check atributo activado.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 28 de 61 
+ 
+Se abrirá la siguiente ventana, donde hay que seleccionar la familia y tarifa del artículo a crear:  
+ 
+El sistema establece un control por si este ya existe en el sistema, si al añadir el artículo, este no existe, 
+propondrá crearlo.  
+Selección de artículo con parámetro con check atributo activado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 29 de 61 
+ 
+Se abrirá la siguiente pestaña  
+1. Se dará la posibilidad de editar el código, sino creará el que está por defecto definido en la 
+familia.  
+2. Se permite establece unidad de venta de tarifa y precio.  
+3. Se permite modificar la fecha de alta y la descripción del artículo creado.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 29 de 61 
+ 
+Se abrirá la siguiente pestaña  
+1. Se dará la posibilidad de editar el código, sino creará el que está por defecto definido en la 
+familia.  
+2. Se permite establece unidad de venta de tarifa y precio.  
+3. Se permite modificar la fecha de alta y la descripción del artículo creado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 30 de 61 
+ 
+Las restricciones sirven para poder definir la creación de artículos de una manera más precisa.  
+Si un parámetro es dependiente del valor de otro parámetro, esto se puede configurar mediante 
+restricciones de uso. Para ello vamos a ver un ejemplo.  
+La familia Puertas está formada por los siguientes parámetros :
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 30 de 61 
+ 
+Las restricciones sirven para poder definir la creación de artículos de una manera más precisa.  
+Si un parámetro es dependiente del valor de otro parámetro, esto se puede configurar mediante 
+restricciones de uso. Para ello vamos a ver un ejemplo.  
+La familia Puertas está formada por los siguientes parámetros :
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 31 de 61 
+ 
+Dentro del “Tipo de acabado” se tienen los siguientes valores:  
+ 
+Se quiere establecer la restricción siguiente:  
+Si se elige el tipo de acabado “Barnizado”, la puerta no puede llevar los parámetros “Color” y “Base”.  
+Para ello se debe ir a la pestaña de Restricciones.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 31 de 61 
+ 
+Dentro del “Tipo de acabado” se tienen los siguientes valores:  
+ 
+Se quiere establecer la restricción siguiente:  
+Si se elige el tipo de acabado “Barnizado”, la puerta no puede llevar los parámetros “Color” y “Base”.  
+Para ello se debe ir a la pestaña de Restricciones.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 32 de 61 
+ 
+1. Lo primero que se debe hacer es cubrir la descripción de la restricción, este es un campo de 
+texto libre y sirve para identificar la restricción.  
+2. En la parte superior hay un check llamado “Reutilizable”, esto permite que la restricción se pueda 
+utilizar en otra familia.  
+3. Una vez cubierto esto, se le debe dar al botón de “Generar condición”.  
+La condición en este caso sería:  
+El parámetro “Tipo de acabado” seleccionado es “Barnizado”.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 32 de 61 
+ 
+1. Lo primero que se debe hacer es cubrir la descripción de la restricción, este es un campo de 
+texto libre y sirve para identificar la restricción.  
+2. En la parte superior hay un check llamado “Reutilizable”, esto permite que la restricción se pueda 
+utilizar en otra familia.  
+3. Una vez cubierto esto, se le debe dar al botón de “Generar condición”.  
+La condición en este caso sería:  
+El parámetro “Tipo de acabado” seleccionado es “Barnizado”.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 33 de 61 
+ 
+Para crear una condición, se debe seleccionar el parámetro en la columna de Subproceso, un operador 
+y el valor del parámetro. Una vez terminado se hace click en la check  verde.  
+• Subproceso : Selección del parámetro.  
+• Operador : Símbolo matemático (mayor o igual, menor, igual, etc)  
+• Valor : Selección del valor del parámetro.  
+• Expresión : Condición final.  
+Una vez creada la Restricción con su Descripción y Condición, se establecen los valores admitidos o 
+restringidos.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 33 de 61 
+ 
+Para crear una condición, se debe seleccionar el parámetro en la columna de Subproceso, un operador 
+y el valor del parámetro. Una vez terminado se hace click en la check  verde.  
+• Subproceso : Selección del parámetro.  
+• Operador : Símbolo matemático (mayor o igual, menor, igual, etc)  
+• Valor : Selección del valor del parámetro.  
+• Expresión : Condición final.  
+Una vez creada la Restricción con su Descripción y Condición, se establecen los valores admitidos o 
+restringidos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 34 de 61 
+ 
+Restricción  
+ 
+En esta subpestaña se configuran los valores de parámetros que se permiten seleccionar. Si queremos 
+que todos los valores de un parámetro sean seleccionables, no es necesario añadirlo.  
+Por ejemplo:  
+Si una vez seleccionado el “Tipo de acabado” – “Barnizado”, solamente se puede seleccionar “Grado de 
+brillo” – “Satinado”, se debe añadir de la siguiente manera.  
+ 
+Restricciones  
+Si por el contrario se permiten todos los valores, no es necesario añadirlo.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 34 de 61 
+ 
+Restricción  
+ 
+En esta subpestaña se configuran los valores de parámetros que se permiten seleccionar. Si queremos 
+que todos los valores de un parámetro sean seleccionables, no es necesario añadirlo.  
+Por ejemplo:  
+Si una vez seleccionado el “Tipo de acabado” – “Barnizado”, solamente se puede seleccionar “Grado de 
+brillo” – “Satinado”, se debe añadir de la siguiente manera.  
+ 
+Restricciones  
+Si por el contrario se permiten todos los valores, no es necesario añadirlo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 35 de 61 
+ 
+Esta subpestaña s irve para añadir los parámetros que no se permiten utilizar si se cumple la condición.  
+En este caso si seleccionamos el valor “Barnizado”, no se permite seleccionar “Base” ni “Color”, para ello 
+la configuración debe quedar así.  
+ 
+Restricciones  
+ 
+En esta subpestaña se pueden  asociar valores por defecto de parámetros a la condición.  
+Si al seleccionar el valor “Barnizado”, se quiere que el “Tipo de Poro” sea por defecto “Abierto”, la 
+configuración sería la siguiente:
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 35 de 61 
+ 
+Esta subpestaña s irve para añadir los parámetros que no se permiten utilizar si se cumple la condición.  
+En este caso si seleccionamos el valor “Barnizado”, no se permite seleccionar “Base” ni “Color”, para ello 
+la configuración debe quedar así.  
+ 
+Restricciones  
+ 
+En esta subpestaña se pueden  asociar valores por defecto de parámetros a la condición.  
+Si al seleccionar el valor “Barnizado”, se quiere que el “Tipo de Poro” sea por defecto “Abierto”, la 
+configuración sería la siguiente:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 36 de 61 
+ 
+Restricciones  
+ 
+En esta subpestaña se asocian  restricci ones directamente a otras familias.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 36 de 61 
+ 
+Restricciones  
+ 
+En esta subpestaña se asocian  restricci ones directamente a otras familias.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 37 de 61 
+ 
+En este apartado nos encontramos con la posibilidad de generar códigos nuevos para artículos creados 
+por parámetros.  Podemos diferenciar dos partes, una cabecera y una tabla donde seleccionar el artículo 
+paramétrico.  
+ 
+Aquí tenemos tres campos que se deben tener en cuenta:  
+ 
+• Familia : campo  desplegable con todas las familias paramétricas . 
+• Generar Código : check que al marcarlo nos cambiará el código del artículo seleccionado.  
+• Generar Descr ipción : check que al marcarlo nos cambiará el código del artículo seleccionado.  
+Una vez seleccionado los campos a mo dificar, pulsaremos el botón de Regenerar, el cual nos muestra 
+un mensaje de confirmación  que nos mantendrá los cambios de forma permanente.  
+ 
+Aquí vemos los campos del artículo paramétrico . Dividido en:  
+• Código interno  
+• Código  
+• Descripción  
+• Obsoleto  
+• Borrar  
+ 
+En este ejemplo vamos a  regenera r la descripción, por lo tanto,  nos quitará todo lo que hayamos añadido 
+previamente nosotros a mayores.  
+1) Aquí añadimos la palabra Neumático a la descripción del artículo.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 37 de 61 
+ 
+En este apartado nos encontramos con la posibilidad de generar códigos nuevos para artículos creados 
+por parámetros.  Podemos diferenciar dos partes, una cabecera y una tabla donde seleccionar el artículo 
+paramétrico.  
+ 
+Aquí tenemos tres campos que se deben tener en cuenta:  
+ 
+• Familia : campo  desplegable con todas las familias paramétricas . 
+• Generar Código : check que al marcarlo nos cambiará el código del artículo seleccionado.  
+• Generar Descr ipción : check que al marcarlo nos cambiará el código del artículo seleccionado.  
+Una vez seleccionado los campos a mo dificar, pulsaremos el botón de Regenerar, el cual nos muestra 
+un mensaje de confirmación  que nos mantendrá los cambios de forma permanente.  
+ 
+Aquí vemos los campos del artículo paramétrico . Dividido en:  
+• Código interno  
+• Código  
+• Descripción  
+• Obsoleto  
+• Borrar  
+ 
+En este ejemplo vamos a  regenera r la descripción, por lo tanto,  nos quitará todo lo que hayamos añadido 
+previamente nosotros a mayores.  
+1) Aquí añadimos la palabra Neumático a la descripción del artículo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 38 de 61 
+ 
+2) Pulsamos el botón Regenerar.  
+3) Al haber regenerado únicamente  nos quita la palabra neumático, ya que el resto lo generó 
+paramétricamente  
+  
+En este apartado vamos a explicar como crear un modelo de costes.  En Elastic,  si se quiere llevar un 
+control de costes, es necesario crear un modelo de costes para la empresa y asociarlo a las familias 
+correspondientes.  Para ello nos iremos a Almacén >> Modelo de costes  y se configurará según necesidad 
+de la empresa. Hay varias posibilidades  
+1. Trabajar con un modelo básico : la empresa establece un coste estándar para cada un o de los 
+artículos y un periodo de tiempo determinado. Es responsabilidad de l cliente mantenerlo y 
+actualizarlo cuando sea necesario.  Este modelo consiste en que el coste estándar se calcula 
+en base a una configuración sobre los costes de materia prima , mano de obra  y maquinaria  
+dependiendo del proceso productivo de la empresa. El coste de materia prima se puede 
+configurar para que sea uno concreto, una media de la s entradas , o que sea la tarifa de un 
+proveedor y que se actualice según se modifique dicha tarifa.  
+2. Modelo con sobrecostes : para las empresas que necesiten un modelo que contemple costes 
+más allá de los básicos de materia prima, mano de obra o coste máquina, el sistema permite 
+configurar un modelo de costes con la posibilidad de añadir sobrecostes configurables por la 
+empresa. E stos modelos de costes extras pueden ser partidas fijas o variables, calculado 
+sobre materia prima, mano de obra y maquinaria. Esto  permite tener varios modelos con 
+comportamientos diferentes para distintas familias.  
+ 
+Para crear cualquier  modelo de costes  nos iremos a Almacén >> Modelo de costes  y una vez ahí  
+añadiremos un nuevo registro , donde por ahora solo tenemos que cubrir los campos que están en la 
+cabecera .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 38 de 61 
+ 
+2) Pulsamos el botón Regenerar.  
+3) Al haber regenerado únicamente  nos quita la palabra neumático, ya que el resto lo generó 
+paramétricamente  
+  
+En este apartado vamos a explicar como crear un modelo de costes.  En Elastic,  si se quiere llevar un 
+control de costes, es necesario crear un modelo de costes para la empresa y asociarlo a las familias 
+correspondientes.  Para ello nos iremos a Almacén >> Modelo de costes  y se configurará según necesidad 
+de la empresa. Hay varias posibilidades  
+1. Trabajar con un modelo básico : la empresa establece un coste estándar para cada un o de los 
+artículos y un periodo de tiempo determinado. Es responsabilidad de l cliente mantenerlo y 
+actualizarlo cuando sea necesario.  Este modelo consiste en que el coste estándar se calcula 
+en base a una configuración sobre los costes de materia prima , mano de obra  y maquinaria  
+dependiendo del proceso productivo de la empresa. El coste de materia prima se puede 
+configurar para que sea uno concreto, una media de la s entradas , o que sea la tarifa de un 
+proveedor y que se actualice según se modifique dicha tarifa.  
+2. Modelo con sobrecostes : para las empresas que necesiten un modelo que contemple costes 
+más allá de los básicos de materia prima, mano de obra o coste máquina, el sistema permite 
+configurar un modelo de costes con la posibilidad de añadir sobrecostes configurables por la 
+empresa. E stos modelos de costes extras pueden ser partidas fijas o variables, calculado 
+sobre materia prima, mano de obra y maquinaria. Esto  permite tener varios modelos con 
+comportamientos diferentes para distintas familias.  
+ 
+Para crear cualquier  modelo de costes  nos iremos a Almacén >> Modelo de costes  y una vez ahí  
+añadiremos un nuevo registro , donde por ahora solo tenemos que cubrir los campos que están en la 
+cabecera .
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 39 de 61 
+ 
+En la cabecera tenemos tres campos:  
+• Descripción : nombre del modelo  
+• Fecha inicio : fecha de inicio del  modelo  
+• Fecha fin : fecha hasta que tendrá vigencia el modelo  
+Las pestañas en las que se divide son:  
+• Partidas : aquí se añaden los costes que necesitemos para el modelo con sobre costes . 
+• Familias : en esta pestaña vemos todas las familias que usan este modelo de costes  
+• Artículos:  en esta pestaña vemos todos los artículos que usan este modelo de costes  
+ 
+Para crear el modelo de costes básicos, nos iremos a la pestaña familias. Al añadir una familia a este 
+modelo, nos desplegará una venta na donde podremos seleccionar que familia queremos añadir .  
+*Nota:  esto también se puede hacer dentro de cada familia en Almacén  >> Familia de artículos >> Activas  
+ 
+Una vez añadida  la familia deseada, marcaremos el check Activo para usar por defecto esta tarifa . 
+Pueden añadirse tantas familias como queramos.  
+ 
+Tras esto , entraremos en los detalles de la familia y añadiremos los artículos  deseados de  dicha familia.  
+*Nota:  Recordemos que no se puede tener artículos sin familia.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 39 de 61 
+ 
+En la cabecera tenemos tres campos:  
+• Descripción : nombre del modelo  
+• Fecha inicio : fecha de inicio del  modelo  
+• Fecha fin : fecha hasta que tendrá vigencia el modelo  
+Las pestañas en las que se divide son:  
+• Partidas : aquí se añaden los costes que necesitemos para el modelo con sobre costes . 
+• Familias : en esta pestaña vemos todas las familias que usan este modelo de costes  
+• Artículos:  en esta pestaña vemos todos los artículos que usan este modelo de costes  
+ 
+Para crear el modelo de costes básicos, nos iremos a la pestaña familias. Al añadir una familia a este 
+modelo, nos desplegará una venta na donde podremos seleccionar que familia queremos añadir .  
+*Nota:  esto también se puede hacer dentro de cada familia en Almacén  >> Familia de artículos >> Activas  
+ 
+Una vez añadida  la familia deseada, marcaremos el check Activo para usar por defecto esta tarifa . 
+Pueden añadirse tantas familias como queramos.  
+ 
+Tras esto , entraremos en los detalles de la familia y añadiremos los artículos  deseados de  dicha familia.  
+*Nota:  Recordemos que no se puede tener artículos sin familia.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 40 de 61 
+ 
+Al haber añadido el artículo buscado , podemos  imputarle un coste , aunque la mejor manera de hacerlo 
+es desde la pestaña de artículos.  
+  
+En la pestaña de artículos nos aparecerán todos los artículos que tienen el modelo de costes  asignado. 
+Para imputarle un coste puede hacerse desde la propia tabla, aunque es mejor  hacerlo desde sus detalles 
+ya que se ve más claro . 
+Al entrar en los detalles se nos despliega una ventana con los costes principales y otros costes  (modelo 
+sobrecostes) . La suma de ambos conforma el coste estándar del producto.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 40 de 61 
+ 
+Al haber añadido el artículo buscado , podemos  imputarle un coste , aunque la mejor manera de hacerlo 
+es desde la pestaña de artículos.  
+  
+En la pestaña de artículos nos aparecerán todos los artículos que tienen el modelo de costes  asignado. 
+Para imputarle un coste puede hacerse desde la propia tabla, aunque es mejor  hacerlo desde sus detalles 
+ya que se ve más claro . 
+Al entrar en los detalles se nos despliega una ventana con los costes principales y otros costes  (modelo 
+sobrecostes) . La suma de ambos conforma el coste estándar del producto.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 41 de 61 
+ 
+Una vez aquí “empieza” el Modelo de sobrecostes . 
+Para imputar “Otros costes” tenemos que añadirlos en la tabla inferior. Para ello tenemos que realizar 
+una configuración previa  en Tablas maestras >> Tipo de partida de costes  y Subtipo de partidas de coste  
+añadir el tipo de coste que queramos.  
+Una vez completado ese paso previo , tendremos que cubrir diferentes campos:  
+ 
+• Descripción : se describe el gasto para el que se configura esa líne a. 
+• Tipo:  se inserta el tipo de gasto en función de lo que haya configurado previamente en las 
+tablas maestras.  
+• Subtipo:  se inserta el subtipo de coste en función de la configuración previa en las tablas 
+maestras.  
+• Valor:  sirve para aplicar un valor fijo sobre el coste cuando entre (en este caso la materia prima 
+son 10€ y el porcentaje es el 50% , entonces aquí saldrá el resultado ) 
+• Porcentaje:  campo porcentual que le afectará al coste  que selecciones  en el campo porcentaje  
+• Campo porcentaje:  desplegable donde seleccionas entre los costes básicos  
+• Coste transporte:  
+ 
+*Nota:  En el modelo de coste estándar, el tipo y subtipo se utiliza con el fin de poder filtrar a futuro la 
+información y clasificar los costes y poder sacar un listado  
+Coste almacen y subproductos
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 41 de 61 
+ 
+Una vez aquí “empieza” el Modelo de sobrecostes . 
+Para imputar “Otros costes” tenemos que añadirlos en la tabla inferior. Para ello tenemos que realizar 
+una configuración previa  en Tablas maestras >> Tipo de partida de costes  y Subtipo de partidas de coste  
+añadir el tipo de coste que queramos.  
+Una vez completado ese paso previo , tendremos que cubrir diferentes campos:  
+ 
+• Descripción : se describe el gasto para el que se configura esa líne a. 
+• Tipo:  se inserta el tipo de gasto en función de lo que haya configurado previamente en las 
+tablas maestras.  
+• Subtipo:  se inserta el subtipo de coste en función de la configuración previa en las tablas 
+maestras.  
+• Valor:  sirve para aplicar un valor fijo sobre el coste cuando entre (en este caso la materia prima 
+son 10€ y el porcentaje es el 50% , entonces aquí saldrá el resultado ) 
+• Porcentaje:  campo porcentual que le afectará al coste  que selecciones  en el campo porcentaje  
+• Campo porcentaje:  desplegable donde seleccionas entre los costes básicos  
+• Coste transporte:  
+ 
+*Nota:  En el modelo de coste estándar, el tipo y subtipo se utiliza con el fin de poder filtrar a futuro la 
+información y clasificar los costes y poder sacar un listado  
+Coste almacen y subproductos
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 42 de 61 
+ 
+ Los artículos dentro de una familia también pueden no tener el mismo comportamiento que el resto de 
+la familia, y tener su propio modelo de costes. Para cambiar el modelo de un artículo . El coste estándar 
+que resultaría para un artículo es la suma de los costes principales (materia prima, mano de obra, 
+máquina y el fijo de operaciones) más otros costes, que son la aplicación de los costes configurados en 
+el modelo de costes.  
+ 
+Esta pestaña f unciona como los otros costes del artículo. Para añadir un coste fijo o variable de forma 
+genérica  a todos los artículos.  
+Cuando actualizamos un modelo de costes, para que los cambios se apliquen sobre los artículos que 
+utilizan dicho modelo ejecutaremos el proceso "Actualizar artículos" pulsando sobre la acción en la rueda 
+de acciones.  Posteriormente refrescaremos la tabla.
+ 
+Este proceso actualizará las partidas de los artículos con los nuevos valores y las recalculará para que 
+los nuevos cambios imputen en el coste total del artículo. Desde la entrada de familias de producción 
+dentro de la versión también cabe la posibilidad e recalcular costes de artículos.  
+ 
+Las empresas  dadas de alta en elastic,  deben crear y configurar las instalaciones en las que 
+está, o estará, ubicada su mercancía. De esta manera, se controla la entrada y salida de 
+material y como consecuencia las existencias totales en el almacén. Para a cceder  nos iremos 
+a Almacén >> Instalaciones .  
+La configuración de las instalaciones dependerá de cómo esté organizada la empresa, por 
+lo que se permiten crear almacenes, subalmacenes, zonas y ubicaciones. En todos los casos,
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 42 de 61 
+ 
+ Los artículos dentro de una familia también pueden no tener el mismo comportamiento que el resto de 
+la familia, y tener su propio modelo de costes. Para cambiar el modelo de un artículo . El coste estándar 
+que resultaría para un artículo es la suma de los costes principales (materia prima, mano de obra, 
+máquina y el fijo de operaciones) más otros costes, que son la aplicación de los costes configurados en 
+el modelo de costes.  
+ 
+Esta pestaña f unciona como los otros costes del artículo. Para añadir un coste fijo o variable de forma 
+genérica  a todos los artículos.  
+Cuando actualizamos un modelo de costes, para que los cambios se apliquen sobre los artículos que 
+utilizan dicho modelo ejecutaremos el proceso "Actualizar artículos" pulsando sobre la acción en la rueda 
+de acciones.  Posteriormente refrescaremos la tabla.
+ 
+Este proceso actualizará las partidas de los artículos con los nuevos valores y las recalculará para que 
+los nuevos cambios imputen en el coste total del artículo. Desde la entrada de familias de producción 
+dentro de la versión también cabe la posibilidad e recalcular costes de artículos.  
+ 
+Las empresas  dadas de alta en elastic,  deben crear y configurar las instalaciones en las que 
+está, o estará, ubicada su mercancía. De esta manera, se controla la entrada y salida de 
+material y como consecuencia las existencias totales en el almacén. Para a cceder  nos iremos 
+a Almacén >> Instalaciones .  
+La configuración de las instalaciones dependerá de cómo esté organizada la empresa, por 
+lo que se permiten crear almacenes, subalmacenes, zonas y ubicaciones. En todos los casos,
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 43 de 61 
+ 
+ la empresa puede querer que sus instalaciones sean instalaciones físicas, las cuales están 
+claramente definidas (p. ej.: almacén de Vigo, almacén de Tui, etc.), o bien, que sus 
+instalaciones sean instalaciones lógicas (p. ej.: almacén materia prima, almacé n productos 
+terminados, etc.). En cualquier caso, el usuario  debe decidir en base a qué tipo de 
+instalaciones va a configurar la empresa.  
+ 
+El primer nivel de configuración de las instalaciones es dar de alta un  almacén, ya que los 
+subalmacenes, zonas y ubicaciones no se pueden crear sin crear el almacén primero. Para 
+crear un almacén  pulsaremos “Añadir registro” y nos desplegará una ventana emergente 
+donde diferenciamos una cabecera y 5 subpestañas : 
+• Subalmacenes  
+• Ubicaciones  
+• Zonas  
+• Estrategias  
+• Mapeado almacén  
+ 
+Se muestran los datos de identificación del almacén seleccionado.  
+ 
+ Campo  Descripción  CABECERA  Código  Código de identificación del almacén seleccionado.  
+Desc. Almacén  Descripción o nombre de identificación del almacén 
+seleccionado.  
+Dirección  Dirección del almacén seleccionado.  
+Localidad  Localidad del almacén seleccionado.  
+Provincia  Provincia del almacén seleccionado.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 43 de 61 
+ 
+ la empresa puede querer que sus instalaciones sean instalaciones físicas, las cuales están 
+claramente definidas (p. ej.: almacén de Vigo, almacén de Tui, etc.), o bien, que sus 
+instalaciones sean instalaciones lógicas (p. ej.: almacén materia prima, almacé n productos 
+terminados, etc.). En cualquier caso, el usuario  debe decidir en base a qué tipo de 
+instalaciones va a configurar la empresa.  
+ 
+El primer nivel de configuración de las instalaciones es dar de alta un  almacén, ya que los 
+subalmacenes, zonas y ubicaciones no se pueden crear sin crear el almacén primero. Para 
+crear un almacén  pulsaremos “Añadir registro” y nos desplegará una ventana emergente 
+donde diferenciamos una cabecera y 5 subpestañas : 
+• Subalmacenes  
+• Ubicaciones  
+• Zonas  
+• Estrategias  
+• Mapeado almacén  
+ 
+Se muestran los datos de identificación del almacén seleccionado.  
+ 
+ Campo  Descripción  CABECERA  Código  Código de identificación del almacén seleccionado.  
+Desc. Almacén  Descripción o nombre de identificación del almacén 
+seleccionado.  
+Dirección  Dirección del almacén seleccionado.  
+Localidad  Localidad del almacén seleccionado.  
+Provincia  Provincia del almacén seleccionado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 44 de 61 
+ 
+ País País del almacén seleccionado.  
+C. Postal  Código postal del almacén seleccionado.  
+ 
+ Campo  Descripción  CHECKS  Almacén reservas  si se marca este check, este almacén será donde se 
+hagan las reservas de material de venta.  
+De baja  Almacén en desuso  
+No permitir negativos 
+en traspasos  Chec k que no permite que quede stock negativo al 
+traspasar artículos de un almacén a otro.  
+Almacén pendientes  si se marca este check, este almacén será donde 
+entrará el material de compras y producción.  
+Por defecto  Aparecerá siempre como elección este almacén  
+Consigna de compras  Almacén espec ífico para mantener los artículos que se 
+hayan comprado pero que aun pertenezcan al 
+proveedor . No seleccionar proveedor, hará que sea 
+para todos  
+Proveedor  Desplegable donde se puede seleccionar el 
+proveedor y esto hará que le afecte el almacén 
+únicamente  
+Consigna de ventas  Almacén específico para mantener los artículos que se 
+hayan vendido pero que pertenezcan al cliente y 
+estén en nuestro almacén. No seleccionar cliente, hará 
+que sea para todos  
+Cliente  Desplegable donde se puede seleccionar el cliente y 
+esto hará que le afecte el almacén únicamente  
+ 
+En la casilla "por defecto", se marca un almacén que se precargue por defecto en los documentos de 
+ventas para validar el stock disponible. Por lo tanto, esta casilla es únicamente para la consulta de la 
+disponibilidad de stock en el almacén. Si no se marc a, a la hora de hacer un pedido, el stock disponible 
+del que informa el sistema es el de todos los almacenes de los que dispone la empresa.  
+ 
+Para una mayor capacidad de control del material del que dispone la empresa, se pueden 
+crea r subalmacenes dentro del almacén  y darles propiedades a los mismos.  Al añadir un 
+subalmacén nuevo nos despliega una ventana donde especificar  ciertos campos
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 44 de 61 
+ 
+ País País del almacén seleccionado.  
+C. Postal  Código postal del almacén seleccionado.  
+ 
+ Campo  Descripción  CHECKS  Almacén reservas  si se marca este check, este almacén será donde se 
+hagan las reservas de material de venta.  
+De baja  Almacén en desuso  
+No permitir negativos 
+en traspasos  Chec k que no permite que quede stock negativo al 
+traspasar artículos de un almacén a otro.  
+Almacén pendientes  si se marca este check, este almacén será donde 
+entrará el material de compras y producción.  
+Por defecto  Aparecerá siempre como elección este almacén  
+Consigna de compras  Almacén espec ífico para mantener los artículos que se 
+hayan comprado pero que aun pertenezcan al 
+proveedor . No seleccionar proveedor, hará que sea 
+para todos  
+Proveedor  Desplegable donde se puede seleccionar el 
+proveedor y esto hará que le afecte el almacén 
+únicamente  
+Consigna de ventas  Almacén específico para mantener los artículos que se 
+hayan vendido pero que pertenezcan al cliente y 
+estén en nuestro almacén. No seleccionar cliente, hará 
+que sea para todos  
+Cliente  Desplegable donde se puede seleccionar el cliente y 
+esto hará que le afecte el almacén únicamente  
+ 
+En la casilla "por defecto", se marca un almacén que se precargue por defecto en los documentos de 
+ventas para validar el stock disponible. Por lo tanto, esta casilla es únicamente para la consulta de la 
+disponibilidad de stock en el almacén. Si no se marc a, a la hora de hacer un pedido, el stock disponible 
+del que informa el sistema es el de todos los almacenes de los que dispone la empresa.  
+ 
+Para una mayor capacidad de control del material del que dispone la empresa, se pueden 
+crea r subalmacenes dentro del almacén  y darles propiedades a los mismos.  Al añadir un 
+subalmacén nuevo nos despliega una ventana donde especificar  ciertos campos
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 45 de 61 
+ 
+ Campo  Descripción  CHECKS  Código subalmacén  Campo numérico o alfabético donde ponerle un 
+código del subalmac én 
+Desc . Subalmacén  Nombre del subalmacén  
+De baja  Check para dar de baja el subalmacén  
+Entrada por defecto  Al marcar este ch eck hará que la mercancía entre por 
+defecto a dicho almacén  
+Salida por defecto  Al marcar este check hará que, cuando salga la 
+merca ncía, salga  por defecto por dicho almacén  
+ 
+Dentro del propio subalmacén, podemos ver las ubicaciones propias de l mismo  y también se 
+pueden crea r. 
+ 
+Las ubicaciones son regiones con un espacio definido y finito, donde ubicar más 
+concretamente material dentro de un almacén o subalmacén. Las ubicaciones permiten 
+tener el stock almacenado en dichos espacios finitos, siguiendo una estrategia, o bien por 
+peso, por  capacidad, o incluso por ambas.  
+Para crearla podemos hacerlo de dos formas diferentes, como vimos en el punto anterior, 
+desde los subalmacenes o desde la propia pestaña de ubicaciones . Depende desde donde 
+lo hagamos tendrá una jerarqu ía u otra.  
+1. Ubicación dentro de un almacén  
+En este caso se creará desde la pestaña de Ubicaciones .  Aquí se creó una ubicación dentro 
+del propio almacén.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 45 de 61 
+ 
+ Campo  Descripción  CHECKS  Código subalmacén  Campo numérico o alfabético donde ponerle un 
+código del subalmac én 
+Desc . Subalmacén  Nombre del subalmacén  
+De baja  Check para dar de baja el subalmacén  
+Entrada por defecto  Al marcar este ch eck hará que la mercancía entre por 
+defecto a dicho almacén  
+Salida por defecto  Al marcar este check hará que, cuando salga la 
+merca ncía, salga  por defecto por dicho almacén  
+ 
+Dentro del propio subalmacén, podemos ver las ubicaciones propias de l mismo  y también se 
+pueden crea r. 
+ 
+Las ubicaciones son regiones con un espacio definido y finito, donde ubicar más 
+concretamente material dentro de un almacén o subalmacén. Las ubicaciones permiten 
+tener el stock almacenado en dichos espacios finitos, siguiendo una estrategia, o bien por 
+peso, por  capacidad, o incluso por ambas.  
+Para crearla podemos hacerlo de dos formas diferentes, como vimos en el punto anterior, 
+desde los subalmacenes o desde la propia pestaña de ubicaciones . Depende desde donde 
+lo hagamos tendrá una jerarqu ía u otra.  
+1. Ubicación dentro de un almacén  
+En este caso se creará desde la pestaña de Ubicaciones .  Aquí se creó una ubicación dentro 
+del propio almacén.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 46 de 61 
+ 
+ Campo  Descripción  UBICACIONES  Cód. Ubicación  Campo alfanumérico donde indicar la ubicación  
+Capacidad  Unidades posibles en una ubicación  
+Peso máximo (kg)  Peso máximo que soporta la ubicación  
+Bloqueo de entradas  Check para indicar que no pueden entrar las 
+mercancías desde esta ubicación.  
+Bloqueo de salidas  Check para indicar que no pueden salir las mercancías 
+desde esta ubicación.  
+De baja  Check para marcar una ubicación deshabilitada  
+Motivo de bloqueo  Desplegable donde indicar por qué bloqueamos una 
+ubicación  
+ 
+La capacidad es relativa, no tiene unidad, permitiendo introducir cargas adimensionales. Van 
+referenciadas al factor ocupación, definido en el  artículo  cuando se crea. Por lo tanto, la 
+capacidad indica las unidades que acepta una ubicación determinada.  
+El peso máximo (kg), permite configurar el peso máximo que soporta una ubicación. Se 
+chequea solo desde las  órdenes de ubicación . Los movimientos de almacén normales no 
+controlan esta limitación.  
+*Nota:  El peso del artículo se configura cuando se da de alta un artículo.  Ver Alta artículos.  
+*Nota:  Las ubicaciones de entrada se seleccionan en las órdenes de preparación  y las  de 
+salida se seleccionan en las órdenes de ubicación.  
+ 
+2. Ubicación dentro de un subalmacén  
+En este caso se creará desde el detalle del subalmacén .  Aquí se creó una ubicación dentro 
+del propio subalmacén.  Esta ubicación también aparecerá en la correspondiente pestaña 
+de Ubicaciones .
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 46 de 61 
+ 
+ Campo  Descripción  UBICACIONES  Cód. Ubicación  Campo alfanumérico donde indicar la ubicación  
+Capacidad  Unidades posibles en una ubicación  
+Peso máximo (kg)  Peso máximo que soporta la ubicación  
+Bloqueo de entradas  Check para indicar que no pueden entrar las 
+mercancías desde esta ubicación.  
+Bloqueo de salidas  Check para indicar que no pueden salir las mercancías 
+desde esta ubicación.  
+De baja  Check para marcar una ubicación deshabilitada  
+Motivo de bloqueo  Desplegable donde indicar por qué bloqueamos una 
+ubicación  
+ 
+La capacidad es relativa, no tiene unidad, permitiendo introducir cargas adimensionales. Van 
+referenciadas al factor ocupación, definido en el  artículo  cuando se crea. Por lo tanto, la 
+capacidad indica las unidades que acepta una ubicación determinada.  
+El peso máximo (kg), permite configurar el peso máximo que soporta una ubicación. Se 
+chequea solo desde las  órdenes de ubicación . Los movimientos de almacén normales no 
+controlan esta limitación.  
+*Nota:  El peso del artículo se configura cuando se da de alta un artículo.  Ver Alta artículos.  
+*Nota:  Las ubicaciones de entrada se seleccionan en las órdenes de preparación  y las  de 
+salida se seleccionan en las órdenes de ubicación.  
+ 
+2. Ubicación dentro de un subalmacén  
+En este caso se creará desde el detalle del subalmacén .  Aquí se creó una ubicación dentro 
+del propio subalmacén.  Esta ubicación también aparecerá en la correspondiente pestaña 
+de Ubicaciones .
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 47 de 61 
+ 
+Las zonas abarcan una región  de subalmacenes,  ubicaciones  y zonas . Es una forma más de 
+organización de almacenes.  
+Para crear una zona lo primero es añadir un nuevo registro que desplegará una ventana.  Dicha ventana 
+tiene dos campos obligatorio s, insertar un código y una descripción de la zona.  Una vez cubiertos y 
+creada la zona nos aparecerán tres nuevos botones:  
+• Subalmacenes  
+• Ubicaciones  
+• Zonas  
+ 
+Una vez que están creadas las instalaciones de la empresa, se debe configurar que estrategias de 
+ubicación y de picking seguirán los artículos en el almacén, en caso de que se quiera trabajar con 
+capacidades finitas. Se debe entender que la carga (lo que o cupa la mercancía) frente a la capacidad (lo 
+que se puede ocupar) debe ser adecuada .  
+Para configurar una estrategia de ubicación y picking , tenemos dos pestañas para hacerlo:  
+1. Pestaña Orden de selección:  en esta pestaña se configuran las reglas que debe seguir un 
+artículo a la hora de ubicarse en el almacén.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 47 de 61 
+ 
+Las zonas abarcan una región  de subalmacenes,  ubicaciones  y zonas . Es una forma más de 
+organización de almacenes.  
+Para crear una zona lo primero es añadir un nuevo registro que desplegará una ventana.  Dicha ventana 
+tiene dos campos obligatorio s, insertar un código y una descripción de la zona.  Una vez cubiertos y 
+creada la zona nos aparecerán tres nuevos botones:  
+• Subalmacenes  
+• Ubicaciones  
+• Zonas  
+ 
+Una vez que están creadas las instalaciones de la empresa, se debe configurar que estrategias de 
+ubicación y de picking seguirán los artículos en el almacén, en caso de que se quiera trabajar con 
+capacidades finitas. Se debe entender que la carga (lo que o cupa la mercancía) frente a la capacidad (lo 
+que se puede ocupar) debe ser adecuada .  
+Para configurar una estrategia de ubicación y picking , tenemos dos pestañas para hacerlo:  
+1. Pestaña Orden de selección:  en esta pestaña se configuran las reglas que debe seguir un 
+artículo a la hora de ubicarse en el almacén.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 48 de 61 
+ 
+En ella destacamos 4 formas de hacerlos en función de los botones que se nos abrieron en la ventana:  
+• Usar ubicaciones fijas : se define que la primera estrategia a seguir es usar en primer lugar las 
+ubicaciones fijas que están definidas a nivel artículo, de modo que será ahí el primer sitio a 
+donde irían los artículos.  
+*Nota:  Las ubicaciones fijas por las que pasará un artículo están predefinidas en la ficha del mismo .  
+• Zona : el artículo puede ubicarse en conjunto de ubicaciones o subalmace nes definidos  en la 
+zona configurada en el sistema.  
+• Subalmacenes : se asocian los subalmacenes donde se ubicará el artículo.  
+• Última entrada :  
+Hay tres comportamientos a seguir en cada línea configurada en el orden de selección. Todos ellos son 
+posibles a la vez, en todas las combinaciones.  
+• Completar : se configura para que el sistema intente siempre llenar una ubicación con la 
+máxima cantidad de artículos posible. Permite partir incluso los lotes para completar el 
+espacio.  
+• Mezclar artículos : el sistema permite mezclar en una misma ubicación artículos diferentes.  
+• Permitir mezclar cuarentena : el sistema permite que los artículos se mezclen en la misma 
+ubicación que los artículos que están en cuarentena.  
+Nota:  Cuando se trabaja con estrategias, es recomendable configurar a mayores un almacén genérico 
+donde ubicar los artículos, cuando estos no son capaces de ubicarse en ningún sitio.  
+2. Pestaña Artículos:  tras definir un orden de selección, se deben asociar los artículos que se 
+quiere que sigan esa estrategia, configurando así su comportamiento de entrada o salida del 
+sistema. Como se ha mencionado anteriormente, las ubicaciones fijas de los artículos se 
+definen en la ficha del artículo.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 48 de 61 
+ 
+En ella destacamos 4 formas de hacerlos en función de los botones que se nos abrieron en la ventana:  
+• Usar ubicaciones fijas : se define que la primera estrategia a seguir es usar en primer lugar las 
+ubicaciones fijas que están definidas a nivel artículo, de modo que será ahí el primer sitio a 
+donde irían los artículos.  
+*Nota:  Las ubicaciones fijas por las que pasará un artículo están predefinidas en la ficha del mismo .  
+• Zona : el artículo puede ubicarse en conjunto de ubicaciones o subalmace nes definidos  en la 
+zona configurada en el sistema.  
+• Subalmacenes : se asocian los subalmacenes donde se ubicará el artículo.  
+• Última entrada :  
+Hay tres comportamientos a seguir en cada línea configurada en el orden de selección. Todos ellos son 
+posibles a la vez, en todas las combinaciones.  
+• Completar : se configura para que el sistema intente siempre llenar una ubicación con la 
+máxima cantidad de artículos posible. Permite partir incluso los lotes para completar el 
+espacio.  
+• Mezclar artículos : el sistema permite mezclar en una misma ubicación artículos diferentes.  
+• Permitir mezclar cuarentena : el sistema permite que los artículos se mezclen en la misma 
+ubicación que los artículos que están en cuarentena.  
+Nota:  Cuando se trabaja con estrategias, es recomendable configurar a mayores un almacén genérico 
+donde ubicar los artículos, cuando estos no son capaces de ubicarse en ningún sitio.  
+2. Pestaña Artículos:  tras definir un orden de selección, se deben asociar los artículos que se 
+quiere que sigan esa estrategia, configurando así su comportamiento de entrada o salida del 
+sistema. Como se ha mencionado anteriormente, las ubicaciones fijas de los artículos se 
+definen en la ficha del artículo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 49 de 61 
+ 
+Desde Gestión de almacén  se controla el stock que hay en cada uno de los almacenes, subalmacenes , 
+ubicaciones  y sus movimientos . Desde el árbol situado a la izquierda  podemos ver los diferentes 
+almacenes de la empresa  y seleccionar cual es el que necesitamos.  Este desplegable, a medida que 
+vamos aumentando niveles, podemos ver que van cambiando l a apariencia de la ventana según sea un 
+almacén, un subalmacén o una ubicación.  
+La ventana de “Gestión de almacén se divide en cabecera y 7 pestañas:  
+• Existencias totales  
+• Lotes  
+• Existencias  
+• Movimientos  
+• Subalmacenes  
+• Ubicaciones
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 49 de 61 
+ 
+Desde Gestión de almacén  se controla el stock que hay en cada uno de los almacenes, subalmacenes , 
+ubicaciones  y sus movimientos . Desde el árbol situado a la izquierda  podemos ver los diferentes 
+almacenes de la empresa  y seleccionar cual es el que necesitamos.  Este desplegable, a medida que 
+vamos aumentando niveles, podemos ver que van cambiando l a apariencia de la ventana según sea un 
+almacén, un subalmacén o una ubicación.  
+La ventana de “Gestión de almacén se divide en cabecera y 7 pestañas:  
+• Existencias totales  
+• Lotes  
+• Existencias  
+• Movimientos  
+• Subalmacenes  
+• Ubicaciones
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 50 de 61 
+ 
+ • Alarma stocks  
+ 
+En este apartado  aparecerán los datos que hayamos configurado en el almacén ( Almacén >> 
+Instalaciones ) 
+ Campo  Descripción  CABECERA  Código  Código de identificación del almacén seleccionado  
+Dirección  Dirección del almacén seleccionado.  
+País País del almacén seleccionado.  
+C. Postal  Código postal del almacén seleccionado.  
+De baja  Almacén en desuso  
+Por defecto  Aparecerá siempre como elección este almacén  
+Ocupación (%)  Indicador que muestra como de lleno está el almacén.  
+Desc. Almacén  Descripción o nombre de identificación del almacén 
+seleccionado.  
+Localidad  Localidad del almacén seleccionado.  
+Provincia  Provincia del almacén seleccionado.  
+Consigna de compras  Almacén específico para mantener los artículos que se 
+hayan comprado pero que aun pertenezcan al 
+proveedor. No seleccionar proveedor, hará que sea 
+para todos
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 50 de 61 
+ 
+ • Alarma stocks  
+ 
+En este apartado  aparecerán los datos que hayamos configurado en el almacén ( Almacén >> 
+Instalaciones ) 
+ Campo  Descripción  CABECERA  Código  Código de identificación del almacén seleccionado  
+Dirección  Dirección del almacén seleccionado.  
+País País del almacén seleccionado.  
+C. Postal  Código postal del almacén seleccionado.  
+De baja  Almacén en desuso  
+Por defecto  Aparecerá siempre como elección este almacén  
+Ocupación (%)  Indicador que muestra como de lleno está el almacén.  
+Desc. Almacén  Descripción o nombre de identificación del almacén 
+seleccionado.  
+Localidad  Localidad del almacén seleccionado.  
+Provincia  Provincia del almacén seleccionado.  
+Consigna de compras  Almacén específico para mantener los artículos que se 
+hayan comprado pero que aun pertenezcan al 
+proveedor. No seleccionar proveedor, hará que sea 
+para todos
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 51 de 61 
+ 
+ Proveedor  Desplegable donde se puede seleccionar el 
+proveedor y esto hará que le afecte el almacén 
+únicamente  
+Consigna de ventas  Almacén específico para mantener los artículos que se 
+hayan vendido pero que pertenezcan al cliente y 
+estén en nuestro almacén. No seleccionar cliente, hará 
+que sea para todos  
+Clientes  Desplegable donde se puede seleccionar el cliente y 
+esto hará que le afecte el almacén únicamente  
+ 
+En esta pestaña podemos ver todos los artículos que están dentro del almacén  Central, estén en 
+subalmacenes, el propio almacén  o ubicaciones.  
+Si entramos en los detalles del mismo , podremos ver exactamente donde se encuentra cada uno de los 
+artículos . 
+ 
+En esta pestaña veremos todos los artículos con lotes asociados.  
+ 
+En esta pestaña veremos todos los artículos que están en el propio almacén Central. Como podemos 
+ver, la cantidad es mucho menos que las existencias totales.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 51 de 61 
+ 
+ Proveedor  Desplegable donde se puede seleccionar el 
+proveedor y esto hará que le afecte el almacén 
+únicamente  
+Consigna de ventas  Almacén específico para mantener los artículos que se 
+hayan vendido pero que pertenezcan al cliente y 
+estén en nuestro almacén. No seleccionar cliente, hará 
+que sea para todos  
+Clientes  Desplegable donde se puede seleccionar el cliente y 
+esto hará que le afecte el almacén únicamente  
+ 
+En esta pestaña podemos ver todos los artículos que están dentro del almacén  Central, estén en 
+subalmacenes, el propio almacén  o ubicaciones.  
+Si entramos en los detalles del mismo , podremos ver exactamente donde se encuentra cada uno de los 
+artículos . 
+ 
+En esta pestaña veremos todos los artículos con lotes asociados.  
+ 
+En esta pestaña veremos todos los artículos que están en el propio almacén Central. Como podemos 
+ver, la cantidad es mucho menos que las existencias totales.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 52 de 61 
+ 
+En esta pestaña  se pueden ver todos los movimientos de todos los artículos  y se divide en las siguientes 
+subpestañas : 
+• Entradas  
+• Salidas  
+• Traspasos  
+• Regularizaciones  
+• Resumen de movimientos  
+ 
+En Gestión de almacén por empresa dispone de las mismas funcionalidades que en el apartado Gestión 
+de almacén . Como podemos ver en este caso, se divide en dos pestañas  Existencias y Resumen de 
+movimientos.  
+ 
+En esta pestaña podemos ver el stock de artículos que tenemos , la situación en la que se encuentran  y 
+exactamente en que almacén están.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 52 de 61 
+ 
+En esta pestaña  se pueden ver todos los movimientos de todos los artículos  y se divide en las siguientes 
+subpestañas : 
+• Entradas  
+• Salidas  
+• Traspasos  
+• Regularizaciones  
+• Resumen de movimientos  
+ 
+En Gestión de almacén por empresa dispone de las mismas funcionalidades que en el apartado Gestión 
+de almacén . Como podemos ver en este caso, se divide en dos pestañas  Existencias y Resumen de 
+movimientos.  
+ 
+En esta pestaña podemos ver el stock de artículos que tenemos , la situación en la que se encuentran  y 
+exactamente en que almacén están.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 53 de 61 
+ 
+En esta pestaña se pueden ver todos los movimientos que realiza la empresa  por orden cronológico y 
+con la descripción de cada almacén y subalmacén.  
+ 
+Como mencionamos anteriormente, esta ventana es igual a la de gestión de almacén  y como se puede 
+ver, también tiene un árbol desplegable hasta la  última jerarquía.  También podremos ver todo lo relativo 
+al artículo, su estado y su recorrido en diferentes almacenes .  
+Sus pestañas son:  
+- Existencias totales  
+- Lotes  
+- Existencias  
+- Movimientos  
+- Resumen de movimientos  
+- Alarma stocks
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 53 de 61 
+ 
+En esta pestaña se pueden ver todos los movimientos que realiza la empresa  por orden cronológico y 
+con la descripción de cada almacén y subalmacén.  
+ 
+Como mencionamos anteriormente, esta ventana es igual a la de gestión de almacén  y como se puede 
+ver, también tiene un árbol desplegable hasta la  última jerarquía.  También podremos ver todo lo relativo 
+al artículo, su estado y su recorrido en diferentes almacenes .  
+Sus pestañas son:  
+- Existencias totales  
+- Lotes  
+- Existencias  
+- Movimientos  
+- Resumen de movimientos  
+- Alarma stocks
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 54 de 61 
+ 
+Esta ventana nos permite llevar un control de las existencias desde el punto de vista de cada 
+artículo, y no desde el de cada almacén como en Gestión de almacenes .  
+En el árbol navegamos  por las distintas familias de artículos, viendo la configuración y los 
+stocks que pertenecen a cada una de ellas y a cada uno de los artículos que las componen.  
+Básicamente se trata de un formulario de consulta, que ayuda a la gestión de las existencias, 
+pero sin dar la opción de modificarlas.  En la parte superior se muestra una cabecera de datos 
+de seguimiento y, en la inferior, se reparten la información y las funcionalidades en siete  
+pestañas.  
+• Existencias  
+• Lotes  
+• Movimientos  
+• Configuración  
+• Desglose de stock  
+• Estrategias  (no disponible en la familia)  
+• Ubicaciones fijas  (no disponible en la familia)  
+ 
+Proporciona los datos sobre las instalaciones que ocupan los artículos de la familia 
+seleccionada  y sobre la forma en que se comportan los artículos ante variaciones en las 
+cantidades pendientes y reservadas.  
+La cabecera es similar, pero no idéntica, si se trabaja sobre una familia o sobre un artículo 
+concreto. Para una familia, se observan los siguientes campos:
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 54 de 61 
+ 
+Esta ventana nos permite llevar un control de las existencias desde el punto de vista de cada 
+artículo, y no desde el de cada almacén como en Gestión de almacenes .  
+En el árbol navegamos  por las distintas familias de artículos, viendo la configuración y los 
+stocks que pertenecen a cada una de ellas y a cada uno de los artículos que las componen.  
+Básicamente se trata de un formulario de consulta, que ayuda a la gestión de las existencias, 
+pero sin dar la opción de modificarlas.  En la parte superior se muestra una cabecera de datos 
+de seguimiento y, en la inferior, se reparten la información y las funcionalidades en siete  
+pestañas.  
+• Existencias  
+• Lotes  
+• Movimientos  
+• Configuración  
+• Desglose de stock  
+• Estrategias  (no disponible en la familia)  
+• Ubicaciones fijas  (no disponible en la familia)  
+ 
+Proporciona los datos sobre las instalaciones que ocupan los artículos de la familia 
+seleccionada  y sobre la forma en que se comportan los artículos ante variaciones en las 
+cantidades pendientes y reservadas.  
+La cabecera es similar, pero no idéntica, si se trabaja sobre una familia o sobre un artículo 
+concreto. Para una familia, se observan los siguientes campos:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 55 de 61 
+ 
+ Campo  Descripción  CABECERA  
+FAMILIA  Código  familia  Campo alfanumérico  de identificación de la familia.  
+Familia  Familia a la que pertenece el artículo.  
+Observaciones  Campo que permite introducir cualquier observación 
+relativa a la familia.  
+ 
+Cuando se trabaja en un artículo en concreto, la cabecera que se muestra es la siguiente:  
+ 
+ Campo  Descripción  CABECERA ARTÍCULO  Familia  Familia a la que pertenece el artículo.  
+Tipo de artículo  Combo en el que seleccionar una clasificación para el 
+artículo.  
+Código interno  Código del artículo generado por parámetros.  
+Código  Código del artículo configurable y editable.  
+Descripción  Descripción del artículo.  
+Fecha de alta  Fecha en que se ha dado de alta el artículo.  
+Unidad de medida  Unidad de medida del artículo.  
+Obsoleto  Check que indica si es un artículo antiguo.  
+Borrar  Check que indica que es un artículo erróneo.  
+Código anterior  Código antiguo en aplicaciones anteriores.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 55 de 61 
+ 
+ Campo  Descripción  CABECERA  
+FAMILIA  Código  familia  Campo alfanumérico  de identificación de la familia.  
+Familia  Familia a la que pertenece el artículo.  
+Observaciones  Campo que permite introducir cualquier observación 
+relativa a la familia.  
+ 
+Cuando se trabaja en un artículo en concreto, la cabecera que se muestra es la siguiente:  
+ 
+ Campo  Descripción  CABECERA ARTÍCULO  Familia  Familia a la que pertenece el artículo.  
+Tipo de artículo  Combo en el que seleccionar una clasificación para el 
+artículo.  
+Código interno  Código del artículo generado por parámetros.  
+Código  Código del artículo configurable y editable.  
+Descripción  Descripción del artículo.  
+Fecha de alta  Fecha en que se ha dado de alta el artículo.  
+Unidad de medida  Unidad de medida del artículo.  
+Obsoleto  Check que indica si es un artículo antiguo.  
+Borrar  Check que indica que es un artículo erróneo.  
+Código anterior  Código antiguo en aplicaciones anteriores.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 56 de 61 
+ 
+Esta pestaña p roporciona información agregada de los stocks de cada uno de los artículos 
+pertenecientes a la familia seleccionada en el árbol.  
+Se muestran aquellos artículos que tengan alguno de los campos referentes a stock global, 
+cantidad pendiente de recibir o cantidad reservada, distinto de cero.  
+ 
+ Nota:  haciendo clic dos veces sobre una línea de la tabla se abre una ventana en la que 
+se detalla la gestión del artículo elegido (Desglose de stocks).  
+ 
+Permite visualizar los diferentes movimientos que se han llevado a cabo con los artículos de la 
+familia. Para que la gestión resulte más cómoda, se han separado todas estas operaciones 
+en distintas subpestañas : 
+• Entradas  
+• Salidas  
+• Traspasos  
+• Regularizaciones  
+ 
+Permite ver todas las entradas de material que se han realizado contra el almacén para los 
+artículos de la familia seleccionada.  
+ 
+ Campo  Descripción
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 56 de 61 
+ 
+Esta pestaña p roporciona información agregada de los stocks de cada uno de los artículos 
+pertenecientes a la familia seleccionada en el árbol.  
+Se muestran aquellos artículos que tengan alguno de los campos referentes a stock global, 
+cantidad pendiente de recibir o cantidad reservada, distinto de cero.  
+ 
+ Nota:  haciendo clic dos veces sobre una línea de la tabla se abre una ventana en la que 
+se detalla la gestión del artículo elegido (Desglose de stocks).  
+ 
+Permite visualizar los diferentes movimientos que se han llevado a cabo con los artículos de la 
+familia. Para que la gestión resulte más cómoda, se han separado todas estas operaciones 
+en distintas subpestañas : 
+• Entradas  
+• Salidas  
+• Traspasos  
+• Regularizaciones  
+ 
+Permite ver todas las entradas de material que se han realizado contra el almacén para los 
+artículos de la familia seleccionada.  
+ 
+ Campo  Descripción
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 57 de 61 
+ 
+ENTRADAS  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Fecha  Fecha en que ha tenido lugar el movimiento de 
+material.  
+Desc.Almacén  Almacén en el que se ha producido la entrada.  
+Desc. Subalmacén  Subalmacén  en el que se ha producido la entrada.  
+Cód. Ubicación  Ubicación en la que se ha producido la entrada.  
+Subtipo  Tipo de entrada en el almacén: alta de material, 
+entrada de proveedores, entrada de fabricación,…  
+Unidades  Cantidad del artículo en el movimiento.  
+Un. Medida  Unidad de medida del artículo.  
+Documento  Documento del que ha derivado la entrada: albarán, 
+orden de fabricación,…  
+Etiqueta  Número de la etiqueta cuando se controla el 
+movimiento a través de códigos en etiquetas.  
+Coste  Coste asociado al movimiento de material.  
+Subpestaña Salidas  
+Muestra las salidas del almacén de artículos, de la familia seleccionada, que ya han tenido 
+lugar.  
+ 
+ Campo  Descripción  SALIDAS  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 57 de 61 
+ 
+ENTRADAS  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Fecha  Fecha en que ha tenido lugar el movimiento de 
+material.  
+Desc.Almacén  Almacén en el que se ha producido la entrada.  
+Desc. Subalmacén  Subalmacén  en el que se ha producido la entrada.  
+Cód. Ubicación  Ubicación en la que se ha producido la entrada.  
+Subtipo  Tipo de entrada en el almacén: alta de material, 
+entrada de proveedores, entrada de fabricación,…  
+Unidades  Cantidad del artículo en el movimiento.  
+Un. Medida  Unidad de medida del artículo.  
+Documento  Documento del que ha derivado la entrada: albarán, 
+orden de fabricación,…  
+Etiqueta  Número de la etiqueta cuando se controla el 
+movimiento a través de códigos en etiquetas.  
+Coste  Coste asociado al movimiento de material.  
+Subpestaña Salidas  
+Muestra las salidas del almacén de artículos, de la familia seleccionada, que ya han tenido 
+lugar.  
+ 
+ Campo  Descripción  SALIDAS  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 58 de 61 
+ 
+ Fecha  Fecha en que ha tenido lugar el movimiento de 
+material.  
+Almacén  Almacén en el que se ha producido el movimiento.  
+Subalmacén  Subalmacén en el que se ha producido el movimiento.  
+Ubicación  Ubicación en la que se ha producido el movimiento.  
+Subtipo  Tipo de salida del almacén: baja de material, salida a 
+clientes, salidas a fabricación,…  
+Unidades  Cantidad del artículo en el movimiento.  
+Un. medida  Combo en el que seleccionar la unidad en que se mide 
+el artículo.  
+Documento  Documento que ha provocado la salida: albarán, 
+orden de fabricación,…  
+Etiqueta  Número de la etiqueta cuando se controla el 
+movimiento a través de códigos en etiquetas.  
+Coste  Coste asociado al movimiento de material.  
+Subpestaña Regularizaciones  
+En esta pestaña se muestran las regularizaciones que se han realizado para cada uno de los 
+artículos de la familia contra el almacén.  
+La tabla que se muestra es similar a las de los movimientos de entrada y salida de materiales 
+del almacén.  
+ 
+ Campo  Descripción  REGULARIZACIONES  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Fecha  Fecha en que ha tenido lugar el movimiento de 
+material.  
+Desc. Almacén  Almacén en el que se produce la regularización.  
+Desc. Subalmacén  Subalmacén en el que se ha producido la 
+regularización.  
+Cód. Ubicación  Ubicación en la que se ha producido la regularización.  
+Unidades  Cantidad de artículo que hay en almacén después de 
+la regularización.  
+Un. medida  Unidad del artículo en que se hace la regularización.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 58 de 61 
+ 
+ Fecha  Fecha en que ha tenido lugar el movimiento de 
+material.  
+Almacén  Almacén en el que se ha producido el movimiento.  
+Subalmacén  Subalmacén en el que se ha producido el movimiento.  
+Ubicación  Ubicación en la que se ha producido el movimiento.  
+Subtipo  Tipo de salida del almacén: baja de material, salida a 
+clientes, salidas a fabricación,…  
+Unidades  Cantidad del artículo en el movimiento.  
+Un. medida  Combo en el que seleccionar la unidad en que se mide 
+el artículo.  
+Documento  Documento que ha provocado la salida: albarán, 
+orden de fabricación,…  
+Etiqueta  Número de la etiqueta cuando se controla el 
+movimiento a través de códigos en etiquetas.  
+Coste  Coste asociado al movimiento de material.  
+Subpestaña Regularizaciones  
+En esta pestaña se muestran las regularizaciones que se han realizado para cada uno de los 
+artículos de la familia contra el almacén.  
+La tabla que se muestra es similar a las de los movimientos de entrada y salida de materiales 
+del almacén.  
+ 
+ Campo  Descripción  REGULARIZACIONES  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Fecha  Fecha en que ha tenido lugar el movimiento de 
+material.  
+Desc. Almacén  Almacén en el que se produce la regularización.  
+Desc. Subalmacén  Subalmacén en el que se ha producido la 
+regularización.  
+Cód. Ubicación  Ubicación en la que se ha producido la regularización.  
+Unidades  Cantidad de artículo que hay en almacén después de 
+la regularización.  
+Un. medida  Unidad del artículo en que se hace la regularización.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 59 de 61 
+ 
+ Documento  Documento del que ha derivado la regularización.  
+Etiqueta  Número de la etiqueta cuando se controla el 
+movimiento a través de códigos en etiquetas.  
+Coste  Coste asociado al movimiento de material.  
+Pestaña Configuración  
+Permite ver y definir  los límites del stock de cada uno de los artículos en cada almacén.  
+ 
+ Campo  Descripción  CONFIGURACIÓN  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Desc. Almacén  Almacén en el que se aplicará la configuración.  
+Empresa  Empresa en la que se aplicará esta configuración por 
+artículo.  
+Stock mínimo  Mínima cantidad del artículo que debe existir en stock.  
+Stock máximo  Máxima cantidad del artículo que debe existir en stock.  
+Lote  Cantidad a fabricar en caso de que la cantidad del 
+artículo se encuentre por debajo del Stock mínimo.  
+ 
+ Nota:  al hacer doble clic sobre una línea, se muestra una pantalla con todos los detalles 
+de la misma.  
+Pestaña Ubicaciones  
+Proporciona información sobre la configuración de cada artículo de la familia con respecto 
+a las diferentes ubicaciones en que se puede alojar. Permite, a su vez, definir estas 
+características para cada artículo.  
+ 
+ Campo  Descripción  UBIC
+ACIO
+NES 
+Identificador  Número de identificación del artículo generado 
+automáticamente.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 59 de 61 
+ 
+ Documento  Documento del que ha derivado la regularización.  
+Etiqueta  Número de la etiqueta cuando se controla el 
+movimiento a través de códigos en etiquetas.  
+Coste  Coste asociado al movimiento de material.  
+Pestaña Configuración  
+Permite ver y definir  los límites del stock de cada uno de los artículos en cada almacén.  
+ 
+ Campo  Descripción  CONFIGURACIÓN  Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Desc. Almacén  Almacén en el que se aplicará la configuración.  
+Empresa  Empresa en la que se aplicará esta configuración por 
+artículo.  
+Stock mínimo  Mínima cantidad del artículo que debe existir en stock.  
+Stock máximo  Máxima cantidad del artículo que debe existir en stock.  
+Lote  Cantidad a fabricar en caso de que la cantidad del 
+artículo se encuentre por debajo del Stock mínimo.  
+ 
+ Nota:  al hacer doble clic sobre una línea, se muestra una pantalla con todos los detalles 
+de la misma.  
+Pestaña Ubicaciones  
+Proporciona información sobre la configuración de cada artículo de la familia con respecto 
+a las diferentes ubicaciones en que se puede alojar. Permite, a su vez, definir estas 
+características para cada artículo.  
+ 
+ Campo  Descripción  UBIC
+ACIO
+NES 
+Identificador  Número de identificación del artículo generado 
+automáticamente.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 60 de 61 
+ 
+ Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Ubicación  Descripción de la ubicación que sigue esta 
+configuración para este artículo.  
+Orden  Orden que tiene el artículo en la ubicación a la hora de 
+almacenarlo junto a otros.  
+Capacidad  Cantidad máxima de artículo que se puede alojar en la 
+ubicación.  
+ 
+ Nota:  al hacer doble clic sobre una línea, se muestra una pantalla con todos los detalles 
+de la misma.  
+Pestaña Desglose de stocks  
+Permite consultar información detallada de cómo se encuentran repartidas las existencias del 
+artículo en las distintas instalaciones de almacenaje.  
+ 
+ Campo  Descripción  DESGLOSE  Empresa  Empresa que gestiona el stock.  
+Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Un. medida  Combo en el que seleccionar la unidad en que se mide 
+el artículo.  
+Desc. Almacén  Almacén en el que se encuentra el material.  
+Desc. Subalmacén  Subalmacén en el que se encuentra el material.  
+Cód. ubicación  Ubicación en la que se encuentra el material.  
+St. Ubic.  Cantidad del artículo en stock en la ubicación anterior.  
+Capacidad  Capacidad de la ubicación para albergar este 
+artículo.  
+Stock subalmacén  Cantidad de este artículo almacenada en el 
+subalmacén indicado. Incluye las ubicaciones 
+pertenecientes a este subalmacén.  
+Stock global  Cantidad de este artículo almacenada en el almacén 
+indicado. Incluye todos los subalmacenes y 
+ubicaciones del almacén.
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 60 de 61 
+ 
+ Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Ubicación  Descripción de la ubicación que sigue esta 
+configuración para este artículo.  
+Orden  Orden que tiene el artículo en la ubicación a la hora de 
+almacenarlo junto a otros.  
+Capacidad  Cantidad máxima de artículo que se puede alojar en la 
+ubicación.  
+ 
+ Nota:  al hacer doble clic sobre una línea, se muestra una pantalla con todos los detalles 
+de la misma.  
+Pestaña Desglose de stocks  
+Permite consultar información detallada de cómo se encuentran repartidas las existencias del 
+artículo en las distintas instalaciones de almacenaje.  
+ 
+ Campo  Descripción  DESGLOSE  Empresa  Empresa que gestiona el stock.  
+Identificador  Número de identificación del artículo generado 
+automáticamente.  
+Código  Número de identificación definido por el usuario que, 
+dependiendo de la configuración de la aplicación, 
+puede ser igual al identificador o al código interno.  
+Descripción  Denominación del artículo.  
+Un. medida  Combo en el que seleccionar la unidad en que se mide 
+el artículo.  
+Desc. Almacén  Almacén en el que se encuentra el material.  
+Desc. Subalmacén  Subalmacén en el que se encuentra el material.  
+Cód. ubicación  Ubicación en la que se encuentra el material.  
+St. Ubic.  Cantidad del artículo en stock en la ubicación anterior.  
+Capacidad  Capacidad de la ubicación para albergar este 
+artículo.  
+Stock subalmacén  Cantidad de este artículo almacenada en el 
+subalmacén indicado. Incluye las ubicaciones 
+pertenecientes a este subalmacén.  
+Stock global  Cantidad de este artículo almacenada en el almacén 
+indicado. Incluye todos los subalmacenes y 
+ubicaciones del almacén.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 61 de 61 
+ 
+ Cantidad reservada  Cantidad que se encuentra reservada para 
+fabricaciones lanzadas y pedidos de ventas.  
+Cantidad pendiente 
+de recibir  Cantidad que se ha solicitado mediante un pedido de 
+compra y que está pendiente de recibir o que se ha  
+mandado fabricar y está en proceso.  
+Stock mínimo  Mínima cantidad del artículo que debe existir en stock 
+en la instalación indicada.  
+Stock máximo  Máxima cantidad del artículo que debe existir en stock 
+en la instalación indicada.  
+ 
+La ventana de procesos se divide en dos apartados Stock de seguridad y Etiquetas . 
+ 
+Utilizando esta funcionalidad podemos hacer que Elastic Business nos calcule los stocks mínimos de 
+nuestro almacén en base a los datos de los que dispone.  
+En este caso, el stock mínimo se calcula en base a las ventas/consumos diarios del período que el 
+usuario decida, el plazo de entrega del proveedor y el coeficiente de la tasa de servicio del artículo. Este 
+coeficiente es opcional, y en caso de no tenerlo se utilizará el valor 1.  
+Ejemplo: Vamos a utilizar el artículo 60108001  EFILUX 360 FT y utilizamos las ventas del año 2017 (7647 
+ud.) y suponiendo que el proveedor tiene un plazo de entrega de 30 días.  
+Seleccionamos el artículo sobre el que queremos realizar el cálculo
+
+---
+
+# Elastic_Business_Módulo de almacén - 
+
+**Origen:** `build\sources\almacen\Elastic_Business_Módulo de almacén.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Manual de Usuario Módulo de Almacén  
+  
+elastic® B USINESS   Pág. 61 de 61 
+ 
+ Cantidad reservada  Cantidad que se encuentra reservada para 
+fabricaciones lanzadas y pedidos de ventas.  
+Cantidad pendiente 
+de recibir  Cantidad que se ha solicitado mediante un pedido de 
+compra y que está pendiente de recibir o que se ha  
+mandado fabricar y está en proceso.  
+Stock mínimo  Mínima cantidad del artículo que debe existir en stock 
+en la instalación indicada.  
+Stock máximo  Máxima cantidad del artículo que debe existir en stock 
+en la instalación indicada.  
+ 
+La ventana de procesos se divide en dos apartados Stock de seguridad y Etiquetas . 
+ 
+Utilizando esta funcionalidad podemos hacer que Elastic Business nos calcule los stocks mínimos de 
+nuestro almacén en base a los datos de los que dispone.  
+En este caso, el stock mínimo se calcula en base a las ventas/consumos diarios del período que el 
+usuario decida, el plazo de entrega del proveedor y el coeficiente de la tasa de servicio del artículo. Este 
+coeficiente es opcional, y en caso de no tenerlo se utilizará el valor 1.  
+Ejemplo: Vamos a utilizar el artículo 60108001  EFILUX 360 FT y utilizamos las ventas del año 2017 (7647 
+ud.) y suponiendo que el proveedor tiene un plazo de entrega de 30 días.  
+Seleccionamos el artículo sobre el que queremos realizar el cálculo
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 1/2 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento del cálculo  de stock de s eguridad  en elastic 
+Business, así como su configuración y preparación de datos para su carga.  
+ 
+Para reali zar el cálculo de stock de s eguridad, se debe acceder a : Módulo Almacén >>> Procesos >>> 
+Stock de seguridad  
+Utilizando esta funcionalidad podemos hacer que elastic Business nos calcule los stocks mínimos de 
+nuestro almacén en base a los datos de los que dispone.  
+En este caso, el stock mínimo se calcula en base a las ventas/consumos diarios del período que el 
+usuario decida, el plazo de entrega del proveedor y el coeficiente de la tasa de servicio del artículo. Este 
+coeficiente es opcional, y en caso de no tenerlo se utilizará el valor 1.  
+Ejemplo: Vamos a utilizar el artículo 60108001 EFILUX  360 FT y utilizamos las ventas del año 2017 
+(7647 ud.) y suponiendo que el proveedor tiene un plazo de entrega de 30 días.  
+Seleccionamos el artículo sobre el que queremos realizar el cálculo  
+ 
+Pulsamos el botón calcular y nos pide que seleccionemos el período que queremos utilizar para el 
+cálculo, en este caso el 2017. Tenemos la opción de decidir descartar ciertos meses para que no los 
+tenga en cuenta.  
+ 
+Una vez seleccionado el período, pulsamos el botón calcular y nos da un stock de seguridad de 629. Y 
+en este momento podemos decidir volcar ese valor sobre la configuración del artículo o editar el 
+resultado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 2/2 www.imatia.com  
+Por lo tanto, la fórmula que se utiliza para el cálculo es (ventas_consumos_periodo / días_periodo) * 
+plazo_entrega * coeficiente, en este caso (7647 ud./365 días) * 30 días * 1=629  
+Mediante la propiedad CALCULAR_STOCKS_MINIMOS_DESGLOSANDO_POR_MES se muestran unos 
+filtros u otros para el formulario de calcular el stock de seguridad de los artículos seleccionados.  
+Si la propiedad está activada se muestran checks con los meses a tener en cuenta para calcular el 
+stock de seguridad (como se puede en las imágenes anteriores) - Si la propiedad está desactivada se 
+muestran un campo "Nº de meses" para indicar cuantos meses a  tener en cuenta para el cálculo y dos 
+checks para indicar si excluir los meses con más o menos consumos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 1/14 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento y configuración de los modelos de costes 
+en Elastic.  
+ 
+1. Modelo básico : la empresa establece un coste estándar para cada uno de los artículos y un 
+periodo de tiempo determinado. Es responsabilidad del cliente mantenerlo y actualizarlo cuando 
+sea necesario. Este modelo consiste en que el coste estándar se calcula en base a un a 
+configuración sobre los costes de materia prima, mano de obra y maquinaria dependiendo del 
+proceso productivo de la empresa. El coste de materia prima se puede configurar para que sea 
+uno concreto, una media de las entradas, o que sea la tarifa de un pro veedor y que se actualice 
+según se modifique dicha tarifa.  
+  
+2. Modelo con sobrecostes : para las empresas que necesiten un modelo que contemple costes 
+más allá de los básicos de materia prima, mano de obra o coste máquina, el sistema permite 
+configurar un modelo de costes con la posibilidad de añadir sobrecostes configurables por la 
+empresa . Estos modelos de costes extras pueden ser partidas fijas o variables, calculado sobre 
+materia prima, mano de obra y maquinaria.  
+ 
+Para crear cualquier modelo de costes nos iremos a Almacén >> Modelo de costes y una vez ahí 
+añadiremos un nuevo registro, donde por ahora solo tenemos que cubrir los campos que están en la 
+cabecera.  
+ 
+En la cabecera tenemos tres campos:  
+• Descripción: nombre del modelo  
+• Fecha inicio: fecha de inicio del modelo  
+• Fecha fin: fecha hasta que tendrá vigencia el modelo  
+Las pestañas en las que se divide son:  
+Partidas : aquí se añaden los costes que necesitemos para el modelo con sobrecostes.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 2/14 www.imatia.com  Familias : en esta pestaña vemos todas las familias que usan este modelo de costes  
+Artículos : en esta pestaña vemos todos los artículos que usan este modelo de costes  
+ 
+Para crear el modelo de costes básicos, nos iremos a la pestaña familias. Al añadir una familia a este 
+modelo, nos desplegará una ventana donde podremos seleccionar que familia queremos añadir.  
+ 
+Nota : esto también se puede hacer dentro de cada familia en Almacén >> Familia de artículos >> 
+Activas  
+Una vez añadida la familia deseada, marcaremos el check Activo para usar por defecto est e modelo de 
+costes . Pueden añadirse tantas familias como queramos  y tantos modelos de costes a las familias.  
+ 
+Tras esto, entraremos en los detalles de la familia y añadiremos los artículos  de la familia al modelo de 
+costes.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 3/14 www.imatia.com  
+Al haber añadido el artículo buscado, podemos imputarle un coste, aunque la mejor manera de hacerlo 
+es desde la pestaña de artículos.  
+ 
+En la pestaña de artículos nos aparecerán todos los artículos que tienen el modelo de costes asignado. 
+Para imputarle un coste puede hacerse desde la propia tabla, aunque es mejor hacerlo desde sus 
+detalles ya que se ve más claro.  
+Al entrar en los detalles se nos despliega una ventana con los costes principales y otros costes 
+(modelo sobrecostes).
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 4/14 www.imatia.com  
+ 
+Costes principales  
+• El coste estándar  es la suma de "coste materia prima" + "coste mano de obra" + "coste 
+máquina" + "coste fijo operaciones" + "otros costes"  
+• Coste fijo operaciones : un valor fijo que se puede configurar a mano.  
+• Coste máquina : valor fijo que se puede configurar.  
+• Coste mano de obra : valor fijo que se puede configurar.  
+• Coste materia prima : valor fijo que se puede configurar.  Varía en función de la propiedad 
+configurada para su cálculo.  
+• Otros costes : es la suma de lo que haya configurado en la tabla de "Otros costes". Son las 
+partidas del modelo de coste.  
+Los siguientes dos campos son meramente informativos y forman parte del coste de materia prima, 
+estos aplican a productos intermedios y finales.  
+• Costes materia prima subproductos : es la suma de los costes de materia prima de los 
+subproductos.  
+• Otros costes subproductos : es la suma de los otros costes de los subproductos.  
+Costes en almacén:  
+• Promedio:  se calcula como el coste medio de los movimientos de entrada (entrada por 
+proveedor o por fabricación) realizados vista un año para atrás desde la fecha actual.  
+• Última entrada : coste de última entrada del material.  
+ 
+En esta pestaña se configuran diferentes valores de costes que queremos añadir al artículo en función 
+de diferentes variables. Sirve para la configuración de modelos con sobrecoste.  Los diferentes tipos y
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 5/14 www.imatia.com  subtipos se configuran en las Tablas maestras >> Tipo de partida de costes y Subtipo de partidas de 
+coste. Son simplemente campos informativos y clasificatorios.  
+Por ejemplo, si queremos imputar un % del coste de la materia prima al artículo en función del 
+transporte, debemos crear la partida “Transporte”, esta configurarla con un % en función del Campo 
+porcentaje  “Materia prima”.  
+ 
+Cuando actualizamos un modelo de costes, para que los cambios se apliquen sobre los artículos que 
+utilizan dicho modelo ejecutaremos el proceso "Actualizar artículos" pulsando sobre la acción en la 
+rueda de acciones. Posteriormente refrescaremos la tabla.  
+ 
+Este proceso actualizará las partidas de los artículos con los nuevos valores y las recalculará para que 
+los nuevos cambios imputen en el coste total del artículo. Desde la entrada de familias de producción 
+dentro de la versión también cabe la posibilidad en recalcular costes de artículos.  
+ 
+Para imputar “Otros costes” tenemos que añadirlos en la tabla inferior.  
+Una vez completado ese paso previo, tendremos que cubrir diferentes campos:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 6/14 www.imatia.com  Descripción : se describe el gasto para el que se configura esa línea.  
+Tipo : se inserta el tipo de gasto en función de lo que haya configurado previamente en las tablas 
+maestras.  
+Subtipo : se inserta el subtipo de coste en función de la configuración previa en las tablas maestras.  
+Valor : sirve para aplicar un valor fijo . 
+Porcentaje : campo porcentual que le afectará al coste que selecciones en el campo porcentaje  
+Campo porcentaje : desplegable donde seleccionas entre los costes básicos  (coste materia prima, 
+coste mano de obra y coste máquina)  
+Coste transporte : check informativo.  
+ 
+Podemos visualizar los costes en los siguientes accesos de Elastic:  
+Artículos. Pestaña de Costes.  
+ 
+Producción. Familias de producción.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 7/14 www.imatia.com  
+Artículos. Despiece de artículo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 8/14 www.imatia.com  
+ 
+En los documentos de ventas se visualiza por defecto el coste estándar del artículo. Este coste se utiliza 
+para el cálculo de los márgenes. Por propiedad se puede modificar este coste para utilizar cualquiera de 
+los siguientes:  
+• Coste estándar  
+• Coste último entrada  
+• Coste promedio  
+Este coste es configurable en cada documento (presupuesto, pedido, albarán o factura)  
+ 
+Todo lo comentado anteriormente hace referencia a la configuración de los costes teóricos de los 
+artículos.  
+Los costes reales se pueden visualizar en cada una de las fabricaciones de los artículos intermedios y 
+finales.  
+Estos costes se calculan en base a los tiempos de fabricación y los costes de las operaciones.  
+Para configurar el coste de las operaciones debemos ir a Producción >> Instalaciones.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 9/14 www.imatia.com  
+En las operaciones se define:  
+• Coste hora hombre  
+• Coste hora máquina  
+• Coste hora hombre setup: coste específico para el setup de la máquina o puesto de trabajo.  
+• Coef. trab: Multiplicador en función de la eficiencia del trabajador.  
+• Coef maq:  Multiplicador en función de la eficiencia de la máquina.  
+Nota:  
+A mayores a nivel de artículo se permite configurar un “Coste fijo” de operación. Por ejemplo, si queremos 
+incrementar el coste de un artículo debido a su dificultad de fabricación.  
+Los costes reales se visualizan en cada una de las fabricaciones parciales y en los listados que se 
+comentan en el siguiente punto:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 10/14 www.imatia.com  
+ 
+Nota : En las fabricaciones parciales se visualiza una comparativa de los costes teóricos con los reales.  
+ 
+Elastic permite configurar los costes en función de diferentes propiedades . 
+DECIMALES  
+DECIMALES_COSTE : Número de decimales que se muestran para las columnas de coste  
+– Valor 3  
+ 
+ALMACÉN  
+CALCULATE_MACHINE_COSTE_WITH_SERVICE_ITEM_COST: Indica si se suma el coste del artículo de 
+servicio al coste máquina del artículo (para subcontratación / operaciones externas)  – Valor Si/No 
+COSTES_CALCULO_AUTOMATIC : Indica que los costes de los artículos serán recalculados de forma 
+automática si se detecta un cambio en su composición, operaciones relacionadas, etc... – Valor Si/No 
+COSTES_COLUMNA_MATERIA_PRIMA : Indicamos lo que queremos que se ponga en la columna de 
+coste de materia prima de los artículos de almacén cuando se hacen entradas de almacén.  
+Depende de que esté activada la propiedad COSTES_SOBREESCRIBIR_COST_MATERIA_PRIMA " 
+Valor:  
+• Coste máximo  
+• Coste máximo con coste movimiento  
+• Coste medio  
+• Coste medio con coste movimiento  
+• Coste mínimo  
+• Coste mínimo con coste movimiento
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 11/14 www.imatia.com  • Ultima alta  
+• Ultima alta con coste movimiento  
+Nota : el coste movimiento se indica en este campo al realizar movimientos manuales.  
+ 
+COSTES_SOBREESCRIBIR_COSTE_MATERIA_PRIMA : Propiedad que determina si se sobrescribe o no el 
+coste de materia prima de los costes activos del artículo con los movimientos de almacén. Propiedad a 
+true se sobrescribe Propiedad a false no se sobrescribe – Valor Si/No 
+COSTES_USAR_PRECIO_COMPRA_COMO_COSTE_MATERIA_PRIMA : Propiedad que usará como coste 
+de materia prima el precio de compra de la tarifa por defecto del proveedor que tenga asociado ese 
+artículo por defecto. – Valor Si/ No 
+OVERWRITE_SERVICE_ITEM_RAW_MATERIAL_COST: Indicará si  se sobrescribe  el coste de materia 
+prima en artículos de servicio. Dependiente de la propiedad 
+SERVICE_ITEM_RAW_MATERIAL_COST_COLUMN.  – Valor Si/No 
+SERVICE_ITEM_RAW_MATERIAL_COST_COLUMN: Indica qué algoritmo utilizar para calcular el coste de 
+materia prima para artículos de servicio.  
+– Valor MEDIUM_PRICE : promedio de los precios de facturas de compras del artículo . 
+ 
+PRODUCCIÓN  
+CALCULAR_SETUP_CON_MANO_DE_OBRA : Indica si es necesario tener en cuenta el coste de setup  para  
+el coste total de la fabricación. – Valor Si/No 
+ENABLED_INCREASE_ASSIGNED_RELATED_ORDERS_CONSUMPTION_COST : Incrementa los costes de 
+la fabricación parcial que da de alta, que no se ha fabricado por el sistema de seguimiento de lotes, 
+teniendo en cuenta los consumos en las fabricaciones parciales de las órdenes paralelas. – Valor Si/No 
+ENABLED_INCREASE_ASSIGNED_RELATED_ORDERS_EMPLOYEE_COST :  Aumenta los costes 
+de empleado de la fabricación parcial que da de alta, que no se ha fabricado por el sistema de
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 12/14 www.imatia.com  seguimiento de lotes, teniendo en cuenta los consumos en las fabricaciones parciales de las órdenes 
+paralelas. – Valor Si/No 
+ENABLED_INCREASE_ASSIGNED_RELATED_ORDERS_OPERATION_FIXED_COST : Incrementa los costes 
+de la fabricación parcial que da de alta, teniendo en cuenta los costes fijos de operación en las 
+fabricaciones parciales de las órdenes paralelas – Valor Si/No 
+ENABLED_INCREASE_CONSUMPTION_COSTS : Costes de producción. Incluye el coste de los consumos 
+en los costes del artículo fabricado. Se calcula como: Sumatorio de los consumos / cantidad fabricada 
+– Valor Si/No 
+ENABLED_INCREASE_EMPLOYEE_COST  : Costes de producción. Incluye el coste de empleado 
+en los costes del artículo fabricado. Se calcula como: (tiempo x coste empleado hora) /cantidad 
+fabricada. – Valor Si/No 
+ENABLED_INCREASE_MACHINE_COST : Costes de producción. Incluye el coste máquina en los costes 
+del artículo fabricado. Se calcula como: (tiempo x coste maquina hora) /cantidad fabricada. – Valor Si/No 
+ENABLED_INCREASE_MONITORING_CONSUMPTION_COSTS : Incrementa los costes de la fabricación 
+parcial que da de alta, si se ha fabricado por el sistema de seguimiento de lotes, teniendo en cuenta los 
+consumos en las fabricaciones parciales de las órdenes paralelas. – Valor Si/ No 
+ENABLED_INCREASE_MONITORING_EMPLOYEE_COSTS : Aumenta los costes de empleado de la 
+fabricación parcial que da de alta, si se ha fabricado por el sistema de seguimiento de lotes, teniendo en 
+cuenta los consumos en las fabricaciones parciales de las órdenes paralelas. – Valor Si/ No 
+ENABLED_INCREASE_OPERATION_FIXED_COST : Costes de producción . Incluye el coste fijo de 
+operación teniendo en cuenta la configuración del despiece – Valor Si/No 
+ENABLED_INCREASE_RELATED_ORDERS_CONSUMPTION_COST : Incrementa el coste de materia prima 
+teniendo en cuenta los costes de órdenes paralelas cuyos detalles no están marcados para generar 
+fabricaciones parciales. – Valor Si/No 
+ENABLED_INCREASE_RELATED_ORDERS_EMPLOYEE_COST : Incrementa el coste de empleado 
+teniendo en cuenta los tiempos de empleado de órdenes paralelas cuyos detalles no están marcados 
+para generar fabricaciones parciales. – Valor Si/No 
+ENABLED_INCREASE_UNASSIGNED_CONSUMPTION_COST : Incrementa el coste de materia prima 
+teniendo en cuenta los consumos de la orden no asignados a ninguna fabricación parcial. Este coste se 
+reparte proporcionalmente entre todas las fabricaciones parciales de la orden. – Valor Si/No 
+ENABLED_INCREASE_UNASSIGNED_EMPLOYEE_COST : Incrementa el coste de empleado teniendo en 
+cuenta los consumos de la orden no asignados a ninguna fabricación parcial. Este coste se reparte 
+proporcionalmente entre todas las fabricaciones parciales de la orden. – Valor Si/No 
+ 
+VENTAS  
+COST_TO_USE_FOR_COST_HOUR_CALCULATION : Indica que coste de los configurados en la aplicación 
+se usarán para calcular el coste/hora de los proyectos, el coste indicado en la remuneración del 
+empleado o el coste genérico.  
+Valor:  
+• Coste empleado  
+• Coste genérico  
+Nota :
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 13/14 www.imatia.com  Coste genérico:  
+ 
+Coste empleado:  
+ 
+COSTE_ARTICULO_EN_PRESUPUESTO:  Indica que valor de coste se cargará cuando se añade un 
+artículo en un presupuesto de ventas  
+Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+COSTE_ARTICULO_EN_PEDIDO:  Indica que coste se cargará cuando se añade un artículo en un pedido 
+de ventas.  
+Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+COSTE_ARTICULO_EN_ALBARAN:  Indica que coste se cargará cuando se introduce un artículo en un 
+albarán de ventas.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 14/14 www.imatia.com  Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+COSTE_ARTICULO_EN_FACTURA:  Indica que coste se cargará cuando se introduce un artículo en una 
+factura de ventas.  
+Valor:  
+• Coste estándar  
+• Coste promedio  
+• Coste última entrada  
+FORCED_RECALCULATION_ITEM_COST_ON_SEND_SALES_ESTIMATE_TO_ORDER:  Indica si se debe 
+forzar el recálculo del coste del artículo al mandar una línea del presupuesto de ventas a un pedido – 
+Valor Si/No 
+FORCED_RECALCULATION_ITEM_COST_ON_SEND_SALES_ORDER_TO_DELIVERYNOTE:  Indica si se 
+debe forzar el recálculo del coste del artículo al mandar una línea del pedido de ventas a un albarán – 
+Valor Si/No 
+FORCED_RECALCULATION_ITEM_COST_ON_SEND_SALES_DELIVERYNOTE_TO_INVOIC:  Indica si se 
+debe forzar el recálculo del coste del artículo al mandar una línea del albarán de ventas a una factura – 
+Valor Si/No 
+ 
+Para consultar los costes en Elastic  se dispone de los siguientes listados : 
+• Costes por programación : Sumatorio de todos los costes de las fabricaciones parciales de la 
+programación.  
+• Costes por fabricaciones : Desglose de los costes de cada fabricación parcial de los diferentes 
+artículos en las programaciones. Permite comparar costes teóricos con reales.  
+• Costes de producción por artículo : Sumatorio de los costes de fabricación de un artículo en un 
+determinado periodo de tiempo.  
+• Valoración de stock:  Desglose de los costes de los artículos en stock, así como el promedio y el 
+de última entrada.  
+• Valoración de lotes : Desglose de los costes teóricos de los lotes.  
+• Coste artículos: Desglose de los costes teóricos de los artículos, así como el promedio y el de 
+última entrada.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 1/15 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento de los parámetros en Elastic Business, así 
+como su configuración y preparación de datos para su carga.  
+ 
+Los parámetros se definen como identificadores  que permiten generar configuraciones únicas en los 
+artículos.  La creación de artículos mediante parámetros sirve para generar el código interno y descripción 
+de este.  
+En Elastic se accede mediante la siguiente ruta: Almacén >> Parámetros  y éstos se establecen por 
+FAMILIAS . 
+ 
+Cada parámetro está formado por una serie de valores . Antes de añadir éstos, primero hay que definir la 
+configuración básica del parámetro.  
+En cabecera se muestran los siguientes campos:  
+• Código : codificación  del parámetro.  
+• Acrónimo : se utiliza como abreviatura de la descripción.  
+• Descripción : descripción  del parámetro.  
+• Unidades : permite asociar una unidad al parámetro.  
+• Tipo : este puede ser expl ícito ( el parámetro  no está formado por una lista de valores, sino que 
+estos son libres durante la creación del artículo , estos solo pueden ser numéricos ) o implícito 
+(uno de los valores del parámetro es el que forma parte de la configuración del artículo) . 
+Si seleccionamos el tipo implícito, se habilitarán los botones de inserción, donde permitirá añadir los 
+valores de los parámetros.  Estos valores de parámetros tiene n tres columnas : 
+• Valor : indica el valor  del parámetro, este aparecerá en el código del artículo si así lo 
+configuramos.  
+• Descripción : indica la descripción  del valor del parámetro, aparecerá en la descripción del 
+artículo.  
+• Acrónimo : si el valor tiene acrónimo, este se usará en lugar de la descripción .
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 2/15 www.imatia.com  
+Tabla de parámetro s 
+ 
+Tabla de valores de parámetro s 
+ 
+Adicionalmente,  se permite configurar grupos  de parámetros : es útil cuando existe un uso compartido  
+de valores , agilizando creación de éstos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 3/15 www.imatia.com  
+ 
+Las familias pueden  marcarse con el check “Código por  parámetros” o “Sin parámetros”.  
+Al seleccionar “Código por parámetros” se establece que la creación de los artículos vendrá definida por 
+la configuración de los parámetros asociados a dicha familia.  
+ 
+Parámetros de familia  
+Nota: Por defecto todas las familias independientemente del check marcado, tiene n por defecto el parámetro “familia ” 
+por requerimientos  de estructura de datos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 4/15 www.imatia.com  Una vez asociados los parámetros a una familia, configuramos el comportamiento de cada uno ellos en 
+esa familia . Para cada uno veremos los siguientes campos : 
+ 
+Configuración de parámetros en familia  
+• Valor por defecto : dentro de los valores se puede definir por defecto uno de ellos.  Por ejemplo, 
+para el parámetro “longitud” puede establecerse un valor por defecto de 20 cm . Si la longitud es 
+otra, se modifica  en el momento de la creación del artículo.  
+• Obligatorio : indicar si este parámetro es  obligatorio o no cuando se crea el artículo . 
+• En código:  indica que el “Valor del parámetro” aparecerá en el código  interno  del artículo creado.  
+• En descripción:  indica que el “Acrónimo” del valor del parámetro aparecerá en la descripción del 
+artículo  o, en su defecto”, la “Descripción” del valor del parámetro.  
+• Atributo:  check para indicar que se va a utilizar el campo “Comodín atributo” . Aplicable  sólo a  los 
+parámetros explícitos.  No aplica en los  implícitos.  Esto check indica que el parámetro podrá ser 
+seleccionada en pedidos y programaciones a la hora de añadir el artículo. Sirve para simplicar la 
+creación de artículos ya que solamente se crearán según necesidad.  
+• Comodín atributo:  campo alfanumérico  para utilizar  en la generación del  código interno 
+generado  si se desea poner una información adicional al contador numérico de artículos , por 
+ejemplo, un sufijo . 
+• Bloquear en configuración : bloquea la edición de “valor” y “descripción” del parámetro durante la 
+creación del artículo.  
+• Valores predefinidos : campo numérico donde se establece un valor por defecto. Solo se utiliza 
+en parámetros  explícitos.  
+• Multiplicador : multipli cador  del campo  “valor es predeterminado s”. El resultado  se aplica al 
+código interno del artículo generado.  
+• Símbolo anterior : campo para añadir lo que se desee antes del valor del parámetro  en la 
+descripción del artículo . 
+• Símbolo posterior : campo para añadir lo que se desee después del valor del parámetro  en la 
+descripción del artículo .  
+• Dígitos en código : número de dígitos que conforman el valor del parámetro.  
+• Orden en código : posición del valor del parámetro en el código del artículo.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 5/15 www.imatia.com  • Orden en descripción : posición del valor del parámetro en la descripción del artículo.  
+• Mostrar unidades : muestra la unidad de medida de l parámetro después de su valor en la 
+descripción del artículo . 
+• Separar descripción : añade un espacio al final del valor del parámetro  en la descripción del 
+artículo . 
+Dentro de una familia se pueden asociar valores específicos de un parámetro  general , por ejemplo:  
+El parámetro general  “Tipo de madera ” está compuesto por los siguientes valores:  
+• Pino  
+• Eucalipto  
+• Roble  
+• Castaño  
+La familia definida como “Puertas de comedor” solamente lleva en sus puertas el tipo de madera “Pino ”, 
+por lo tanto , a la hora de configurar ese parámetro en la familia, se debe añadir en la parte inferior , como 
+se ve en  la imagen.  
+ 
+Parámetros de familia.  
+Esto permite reducir el número de parámetros, ya que permite seleccionar únicamente los valores 
+deseados en función de la configuración de la familia.  
+ 
+Las restricciones sirven para poder definir la creación de artículos de una manera más precisa.  
+Si un parámetro es dependiente del valor de otro parámetro, esto se puede configurar mediante 
+restricciones de uso.  
+A continuación, un ejemplo:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 6/15 www.imatia.com  
+Familia Puertas  
+La familia Puertas está formada por los siguientes parámetros.  
+Dentro del “Tipo de acabado” se tienen los siguientes valores:  
+ 
+Se quiere  establecer la restricción siguiente:  
+Si se elige  el tipo de acabado “Barnizado”, la puerta no puede llevar los parámetros “Color” y “Base”.  
+Para ello se debe  ir a la pestaña de Restricciones.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 7/15 www.imatia.com  
+ 
+1. Lo primero que se debe hacer es cubrir la  descripción de la restricción , este es un campo de 
+texto libre  y sirve para identificar la restricción.  
+2. En la parte superior hay un check llamado “Reutilizable”, esto permite que la restricción  se pueda 
+utilizar en otra familia.  
+3. Una vez cubierto esto, se le debe dar al botón de “ Generar  condición”.  
+La condición en este caso sería:  
+El parámetro “Tipo de acabado” seleccionado es “Barnizado”.  
+Restricciones
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 8/15 www.imatia.com  
+Condiciones  
+Para crear una condición, se debe seleccionar el parámetro en la columna de Subproceso, un operador 
+y el valor del parámetro. Una vez terminado se hace click en la paloma verde.  
+• Subproceso : Selección del parámetro.  
+• Operador : Símbolo matemático (mayor o igual, menor, igual, etc)  
+• Valor : Selección del valor del parámetro.  
+• Expresión : Condición final.  
+Una vez creada la Restricción con su Descripción y Condición, se establecen los valores admitidos o 
+restringidos.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 9/15 www.imatia.com  
+Restricción  
+Valores : En esta pestaña se configuran los valores de parámetros que se permiten seleccionar. Si 
+queremos que todos los valores de un parámetro sean seleccionables , no es necesario añadirlo.  
+Por ejemplo:  
+Si una vez seleccionado el “Tipo de acabado” – “Barnizado”, solamente se puede seleccionar “ Grado  de 
+brillo” – “Satinado”, se debe añadir de la siguiente manera.  
+ 
+Restricciones  
+Si por el contrario se permiten todos los valores, no es necesario añadirlo.  
+Sin valor:  Sirve para añadir los parámetros que no se permiten utilizar si se cumple la condición.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 10/15 www.imatia.com  En este caso si seleccionamos el valor “Barnizado”, no se permite seleccionar “Base” ni “Color”, para ello 
+la configuración debe quedar así.  
+ 
+Restricciones  
+Relaciones : Sirve para asociar valores por defecto de parámetros a la condición. Si al seleccionar el valor 
+“Barnizado”, se quiere que el “Tipo de Poro” sea por defecto “Abierto”, la configuración sería la siguiente:
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 11/15 www.imatia.com  
+Restricciones  
+Nota: Esta configuración está pendiente de revisión.  
+Familias : Sirve para asociar esta Restricción directamente a otras familias.  
+ 
+A continu ación, se muestra un ejemplo de creación  de un artículo  en una familia parametrizable .  
+ 
+Parámetros de familia Puerta s
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 12/15 www.imatia.com  
+Creación de artículo por parámetros  
+ 
+Artículo final creado  
+ 
+Elastic permite crear artículos directamente desde presupuestos y pedidos de ventas. Para ello dentro 
+del documento se debe pulsar el botón de “ Configurador ”.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 13/15 www.imatia.com  
+Pedido de ventas  
+Se abrirá la siguiente ventana, donde hay que seleccionar la familia  y tarifa  del artículo a crear : 
+ 
+Configurador  
+El sistema establece un control por si este ya existe en el sistema, si al añadir el artículo, este no existe, 
+propondrá crearlo.  
+Selección de artículo con parámetro con check comodín activado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 14/15 www.imatia.com  
+Parámetros atributo  
+ 
+Pedido de ventas  
+Se abrirá la siguiente pestaña  
+1. Se dará la posibilidad de editar el código, sino creará el que está por defecto definido en la 
+familia.  
+2. Se permite establece unidad de venta de tarifa y precio.  
+3. Se permite modificar la fecha de alta y la descripción del artículo creado.
+
+---
+
+# elastic_business_modulo_almacen - 
+
+**Origen:** `docs\assets\source-pdfs\almacen\elastic_business_modulo_almacen.pdf`
+**Módulo:** almacen
+
+
+
+## Texto extraído
+
+Pág. 15/15 www.imatia.com  
+Tarifa de ventas.
+
+---
+
+## Próximos pasos
+
+1. ✓ Revisar y corriegir el texto
+2. ⏳ Reorganizar en secciones temáticas
+3. ⏳ Extraer tablas y formatear correctamente
+4. ⏳ Agregar imágenes desde `docs/assets/pdf-images/almacen/`
+5. ⏳ Crear estructura final con archivos temáticos
+6. ⏳ Actualizar tabla de contenidos
+
+## Módulo: almacen
+
+**PDF original:** `build/sources/almacen/`
+**Raw files:** `docs/_raw/almacen/`
+**Assets:** `docs/assets/pdf-images/almacen/`

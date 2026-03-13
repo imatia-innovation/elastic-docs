@@ -1,0 +1,884 @@
+# LABORAL - Contenido extraído de PDF
+
+> **Nota:** Esta es una extracción automática de PDF a Markdown. 
+> Requiere revisión y reorganización manual según estructura deseada.
+
+**Estadísticas:**
+- Páginas procesadas: 27
+- Tamaño del contenido: 37616 caracteres
+
+## Contenido extraído
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 1/11 www.imatia.com  1. Introducción  ................................ ................................ ................................ ................................ ..........  1 
+2. Empleados  ................................ ................................ ................................ ................................ ............  1 
+3. Calendario y vacaciones  ................................ ................................ ................................ ......................  4 
+4. Listados  ................................ ................................ ................................ ................................ ................  7 
+5. Portal del empleado  ................................ ................................ ................................ .............................  8 
+ 
+El presente documento tiene como finalidad explicar el func ionamiento del módulo de laboral con 
+respecto a la configuración  y carga  de empleados, calendario y vacaciones, así como el portal del 
+empleado.  
+ 
+En esta entrada del módulo se dan de alta y configuran los empleados de la empresa, permitiendo 
+gestionar toda su información.  
+En este formulario se muestra,  por un lado, una cabecera con filtros y una parte inferior con el listado de 
+empleados.  
+En el formulario principal se muestra:  
+• Cabecera con filtros:  
+o Empresa: permite seleccionar la empresa de la que se desean consultar los empleados.  
+o Departamento: permite filtrar por el departamento del que se quiere consultar la 
+información.  
+• Listado de empleados en dos pestañas:  
+o De alta: todos los empleados activos en el sistema.  
+o De baja: empleados que ya no pertenecen a la empresa.
+
+---
+
+# Elastic_Módulo de Laboral. Hojas de gasto - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Hojas de gasto.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 1/5 www.imatia.com  
+En este documento vamos a detallar como  crear  Hoja s de gasto s. Basándonos en la s configuraciones  
+actuales de  las hojas de gasto , realizaremos una explicación de cómo  será el  proceso para llevar a cabo 
+la creación  de una y todas las configuraciones relacionadas.  
+ 
+Para comenzar,  se han  configurado  dos nuevos tipos de asientos contables que se pueden ver en 
+Aplicación >> Configuración >> Configuración de asientos contables.  
+• LAB. Hojas de gastos  
+• LAB. Remesas hojas de gastos.  
+ 
+Se creará una hoja de gasto y se irá explicando cada uno de sus apartados. La hoja de gasto se encuentra 
+en Laboral >> Hojas de gastos.  
+La cabecera se compone de:  
+• Empleados : Muestra un desplegable con los empleados.  
+• Forma de pago : Campo informativo de la hoja de gasto , este se arrastra a la columna de Forma 
+de pago al insertar gastos.  
+• Concepto : Descripción  de la hoja de gasto  
+El cuerpo tiene 3 pestañas:  
+• Gastos : Aquí se introducen todas las líneas de la hoja de gasto . 
+o Banco del empleado : En el caso particular  de BMC no aplica.  
+o Banco empresa : En este campo de cubrirá la tarjeta VISA del empleado  cuando la forma 
+de Pago sea VISA.  Las subcuentas contables de las VISA deben estar configuradas con 
+el tipo CBG.  
+ 
+Columnas:  
+ 
+o F. gasto : Fecha con la que se quiere registrar el gasto.  
+o Desc. Gasto : Este campo se muestra en la impresión de la hoja  y describe brevemente 
+el motivo de la línea de gasto.  
+o Cantidad : Se introduce como multiplicador del precio . Se creó esta posibilidad para los 
+precios que se introducen en los tipos de categoría. En este ejemplo se puede ver que 
+hay un 2 en las comidas por el n úmero de menús  o 100 por los kilómetros con el coche.  
+o Cuenta  gasto : Campo que se cubre por defecto una vez  se introduce la categoría.  
+o Tarjeta : Campo no obligatorio donde se pondrá la tarjeta con la que se pagó.  Una vez 
+que el campo de Cuenta bancaria se añade la tarjeta , no es necesario cubrir este campo.  
+o Categoría : Se muestra un desplegable con las categorías que se hayan creado con 
+anterioridad en las tablas maestras.  
+o Precio : Precio unitario  definido en la categoría.  
+o Importe : Cantidad x Precio.
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 1/11 www.imatia.com  
+El presente documento tiene como finalidad explicar el funcionamiento del módulo laboral, vacaciones 
+y el cuadrante  de Elastic Business.  
+El módulo de laboral es el módulo dedicado a la gestión del capital humano de la empresa, así como los 
+datos genéricos  de esta.  En este se recoge toda la información de los empleados, como calendario de 
+trabajo, formación, vacaciones, etc. 
+Permite  definir diferentes turnos de trabajo y establecer un cuadrante  por equipos . Así mismo permite 
+gestionar los activos de los empleados como pueden ser los portátiles, móviles de empresa, etc.  
+Así mismo es posible gestionar los diferentes gastos de los empleados, así como su gestión bancaria.  
+ 
+Este apartado es uno de los primeros que se debe configurar en Elastic para el correcto funcionamiento 
+de la aplicación, ya que es donde se recogen los datos básicos  de la empresa o empresas.  
+El formulario posee dos secciones diferencias:  
+• En la parte superior se encuentra la cabecera de datos de la empresa. Además, se permite 
+insertar un logo de la empresa.  
+• En la parte inferior se sitúan un conjunto de pestañas.  
+ 
+Empresas y centros de trabajo
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 2/11 www.imatia.com  
+Empleados  
+ 
+Desde el formulario de búsqueda, una vez localizado el empleado, se puede acceder a él mediante 
+seleccionando sobre el detalle. El formulario posee dos secciones perfectamente diferenciadas  
+En la parte superior se encuentra la cabecera del empleado.  
+En la parte inferior se sitúa un conjunto de pestañas, donde se muestran los datos e información 
+referentes al empleado.  
+En la cabecera se encuentran los datos principales del empleado. Los datos obligatorios son el nombre, 
+apellidos y DNI. También se pueden insertar datos como el código del empleado el departamento, un 
+comercial asociado o un código de tarjeta.  
+En la parte inferior se visualizan las siguientes pestañas:  
+• Datos personales:  esta pestaña se divide en dos subpestañas:  
+o Información de contacto:  se insertan los datos personales del empleado, tales como la 
+dirección, los datos de contacto y la posibilidad de añadir un contacto alternativo, como 
+un familiar.  
+o Otros:  se insertan los datos del IBAN el empleado y más datos personales como la 
+fecha y lugar de nacimiento, estado civil, etc. Se puede adjuntar la firma del empleado.  
+ 
+• Experiencia laboral:  se añade la experiencia laboral del empleado. Se abrirá una ventana donde 
+insertar la empresa, las fechas y el puesto.  
+ 
+• Formación:  se divide en tres subpestañas:  
+o Estudios académicos:  permite insertar la formación académica del empleado.  
+o Formación complementaria:  permite añadir con detalle la formación adicional que tiene 
+el empleado, permitiendo añadir las fechas de la formación, las horas, las horas por días, 
+los días y la nota obtenida.  
+o Idiomas:  permite añadir idiomas con su respectivo nivel.  
+ 
+• Contratación:  se divide en tres subpestañas:  
+o Contratos:  en esta pestaña se añaden los contratos que ha tenido o tiene el empleado 
+en la empresa. Es obligatorio indicar la fecha en la comienza en contrato. Se pueden 
+añadir todo tipo de datos como el tipo de jornada, en tipo de contrato, el proyecto al que 
+perte necen, etc.  
+o Remuneraciones :  permite añadir los datos de la remuneración del empleado, 
+incluyendo las fechas de la remuneración, el número de pagas, % IRPF; grupo de 
+cotización, % de jornada, etc.  
+o Categorías:  permite añadir categorías profesionales del empleado en la empresa.  
+ 
+• Calendario:  un empleado debe tener asignado el calendario. Para añadir un calendario al 
+empleado .
+
+---
+
+# Elastic_Módulo de Laboral. Hojas de gasto - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Hojas de gasto.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 2/5 www.imatia.com  
+ 
+Hoja de ga sto – Contado  
+ 
+Para la correcta utilización en el caso de BMC, se deben ocultar las siguientes columnas ya que no 
+aplican:  
+• Forma de pago  
+• Tarjeta  
+ 
+Hoja de gasto - Tarjeta  
+ 
+• Adjuntos: Se permite  adjuntar documentación . 
+• Apuntes: Módulo de contabilización.
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 2/11 www.imatia.com  
+En la cabecera se encuentran los datos principales de la empresa. Se insertan datos como la dirección, 
+el teléfono, la web, etc. La empresa principal se debe marca con el check de "Por defecto", haciendo que 
+sea la empresa que se precargue en todos los for mularios de la aplicación.  
+En la parte inferior se visualizan las siguientes pestañas:  
+• Básico:  se muestran los datos del representante de la empresa, así como datos administrativos 
+(Código CNAE, delegación, etc.). Además, se permite añadir una firma como imagen e 
+información adicional que no se contemple y se desee reflejar.  
+• Centros:  en esta pestaña se dan de alta todos los centros físicos que tiene la empresa. Para dar 
+de alta el centro se debe insertar el nombre del centro. También se puede añadir la dirección, los 
+datos de contacto y los datos bancarios del centro. Además, se puede n asociar los empleados 
+a su centro correspondiente.  
+• Cuentas bancarias:  en esta pestaña se añaden todas las cuentas bancarias de la empresa. Se 
+puede configurar una cuenta por defecto para ventas y otra por defecto para compras que se 
+precarguen en los formularios correspondientes. Además, se permiten configurar otros datos 
+como la dirección bancaria  de la entidad, que la cuenta se muestre en el C43, el saldo manual, 
+etc. 
+• Clientes:  en esta pestaña se pueden asociar tanto clientes como clientes potenciales de la 
+empresa. Cuando se crean las sus fichas y se le añade la empresa ya se muestran en esta 
+sección.  
+• Proveedores:  en esta pestaña se asocian los proveedores de la empresa. Cuando se crea la ficha 
+del proveedor y se le añade la empresa ya se muestra en esta sección.  
+• Divisiones comerciales:  si la empresa tiene diferentes divisiones comerciales debe darlas de alta 
+en esta pestaña.  
+Se debe insertar el nombre y la descripción de la división. También se pueden añadir otros datos como 
+la dirección, teléfono, etc.  
+• Departamentos : en esta pestaña se dan de alta todos los departamentos de la empresa.  
+• Configuración : se divide en varias subpestañas:  
+o Series:  de las series dadas de alta en el sistema, se pueden asociar las que se deseen a 
+la empresa.  
+o Adicional:  se pueden configurar los días de pago y rappels para la empresa.  
+Gestión de cobros : se permite configurar una plantilla de correo para los cobros de la 
+empresa. Se puede seleccionar un email de salida, un asunto y las impresiones 
+configuradas.  
+o Envío de facturas:  se permite configurar una plantilla de correo para los para el envío de 
+facturas de la empresa. Se puede seleccionar un email de salida, un asunto, una 
+impresión de las configuradas y hasta automatizar el proceso de envío para que se 
+ejecute a una hora c oncreta.  
+Certificados : en esta pestaña se adjunta el certificado digital de la empresa. Se puede marcar el 
+certificado con un check para que sea el utilizado en el envío al SII.  
+ 
+Este apartado sirve para la gestión del grupo empresarial.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 3/11 www.imatia.com  Nota:  Para añadir un calendario es necesario que esté creado.  Ver punto 3.  
+Nota:  El calendario también se puede añadir al empleado desde el propio calendario cuando se crea. De 
+hecho, esto es lo más recomendable para añadir un calendario masivamente a varios empleados y no 
+tener que ir uno a uno.  
+Una vez asignado el calendario al empleado, se accede a él seleccionándolo. Una vez dentro del 
+calendario, se muestra dividido en dos pestañas:  
+• Vacaciones:  desde esta subpestaña se añaden las vacaciones del empleado.  Ver punto 3.  
+Para insertar las vacaciones solo es necesario poner el periodo de fechas y Elastic añade el número 
+de días de vacaciones cogidos teniendo en cuenta los fines de semana y festivos configurados en 
+el calendario laboral. El número de días de vacaciones y asu ntos propios disponibles también se 
+arrastran de la configuración del calendario.  
+Nota:  Si se dispone del Portal de empleados de Elastic, no es necesario añadir aquí las vacaciones puesto 
+que el empleado es el que las pide desde el portal y se muestran en esta parte directamente.  
+• Incidencias:  las incidencias son todos aquellos días de ausencia del empleado que no sean 
+vacaciones. Por ejemplo, ausencias por enfermedad, días de baja, permisos de 
+paternidad/maternidad, etc. Para añadir incidencias, se deben añadir los días de incidencia, las 
+fechas y el tipo de incidencia.  
+• Centros de trabajo:  si la empresa tiene dados de alta varios centros de trabajo, desde esta 
+pestaña se le pueden asignar al empleado.  
+• Cuentas contables:  en esta pestaña se añaden las cuentas contables del empleado.  
+• Ficheros adjuntos:  en toda la aplicación donde exista esta pestaña, se pueden asociar 
+documentos digitalizados. Se pueden capturar directamente desde un origen a destino, o 
+arrastrarlos a la pestaña y adjuntarlos directamente. Permite también, escanear directamente 
+un docum ento y que se adjunte directamente a la pestaña.  
+Los empleados no se pueden borrar de la aplicación, por lo que cuando un empleado deja de formar 
+parte de la empresa se debe dar de baja añadiendo una fecha de baja.
+
+---
+
+# Elastic_Módulo de Laboral. Hojas de gasto - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Hojas de gasto.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 3/5 www.imatia.com  
+ 
+Hoja de gastos - Apuntes contable para contado  
+ 
+Hoja de gastos - Apuntes contables para VISA  
+ 
+Para terminar,  se irá a la remesa de gastos  Laboral >> Remesas de gastos. Des de aquí se puede 
+agrupar las hojas de gasto para su contabilización. En la cabecera se visualiza : 
+• Forma de pago : Se selecciona la forma de pago para la remesa, para BMC debe usarse 
+Transferencia TR . 
+• Descripción : Nombre que se verá de la remesa .
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 3/11 www.imatia.com  
+Grupo de empresas  
+ 
+En esta entrada del módulo se dan de alta y configuran los empleados de la empresa, permitiendo 
+gestionar toda su información.  
+En este formulario se muestra,  por un lado, una cabecera con filtros y una parte inferior con el listado de 
+empleados.  
+En la cabecera se muestran dos filtros: el filtro "Empresa" donde se puede seleccionar la empresa de la 
+que se desean consultar los empleados y el filtro "Departamento" para filtrar por el departamento del que 
+se quiere consultar la información  
+En la parte inferior del formulario hay dos pestañas:  
+• De alta:  se muestran todos los empleados dados de alta en el sistema.  
+• De baja:  se muestran todos los empleados que ya no pertenecen a la empresa y que han sido 
+marcados como de baja.  
+ 
+Empleados  
+ 
+Desde el formulario de búsqueda, una vez localizado el empleado, se puede acceder a él mediante 
+seleccionando sobre el detalle. El formulario posee dos secciones perfectamente diferenciadas  
+En la parte superior se encuentra la cabecera del empleado . 
+En la parte inferior se sitúa un conjunto de pestañas, donde se muestran los datos e información 
+referentes al empleado.  
+En la cabecera se encuentran los datos principales del empleado. Los datos obligatorios son el nombre, 
+apellidos y DNI. También se pueden insertar datos como el código del empleado el departamento, un 
+comercial asociado o un código de tarjeta.  
+En la parte inferior se visualizan las siguientes pestañas:  
+• Datos personales:  esta pestaña se divide en dos subpestañas:  
+o Información de contacto:  se insertan los datos personales del empleado, tales como la 
+dirección, los datos de contacto y la posibilidad de añadir un contacto alternativo, como 
+un familiar.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 4/11 www.imatia.com  
+Para acceder a la configuración del calendario se debe acceder por Aplicación >> Configuración >> 
+Configuración calendarios.  
+ 
+Aplicación. Configuración calendarios.
+
+---
+
+# Elastic_Módulo de Laboral. Hojas de gasto - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Hojas de gasto.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 4/5 www.imatia.com  
+Básico – Remesa de gastos  
+ 
+El cuerpo está formado por:  
+• Básico  
+Aquí se selecciona el banco deseado  donde se cargará la remesa.  
+• Hojas de gasto  
+Aquí se añaden las hojas de gasto que queremos incluir en la remesa.  Para ello se tiene que pulsar el 
+icono que está del recuadro rojo.  
+ 
+Hojas de gastos – Remesa de gastos  
+ 
+• Apuntes  
+Una vez se cubra la fecha de envío al banco  se podrá cubrir la fecha de pago . Se crea el apunte 
+contable una vez esta última esté cubierta .
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 4/11 www.imatia.com  o Otros:  se insertan los datos del IBAN el empleado y más datos personales como la 
+fecha y lugar de nacimiento, estado civil, etc. Se puede adjuntar la firma del empleado.  
+• Experiencia laboral:  se añade la experiencia laboral del empleado. Se abrirá una ventana donde 
+insertar la empresa, las fechas y el puesto.  
+• Formación:  se divide en tres subpestañas:  
+o Estudios académicos:  permite insertar la formación académica del empleado.  
+o Formación complementaria:  permite añadir con detalle la formación adicional que tiene 
+el empleado, permitiendo añadir las fechas de la formación, las horas, las horas por días, 
+los días y la nota obtenida.  
+o Idiomas:  permite añadir idiomas con su respectivo nivel.  
+• Contratación:  se divide en tres subpestañas:  
+o Contratos:  en esta pestaña se añaden los contratos que ha tenido o tiene el empleado 
+en la empresa. Es obligatorio indicar la fecha en la comienza en contrato. Se pueden 
+añadir todo tipo de datos como el tipo de jornada, en tipo de contrato, el proyecto al que 
+perte necen, etc.  
+o Remuneraciones :  permite añadir los datos de la remuneración del empleado, 
+incluyendo las fechas de la remuneración, el número de pagas, % IRPF; grupo de 
+cotización, etc.  
+o Categorías:  permite añadir categorías profesionales del empleado en la empresa.  
+• Calendario:  un empleado debe tener asignado el calendario. Para añadir un calendario al 
+empleado . 
+Nota:  Para añadir un calendario es necesario que esté creado. Para crear un calendario, acceder 
+a Configuración de calendario.  
+Nota:  El calendario también se puede añadir al empleado desde el propio calendario cuando se crea. De 
+hecho, esto es lo más recomendable para añadir un calendario masivamente a varios empleados y no 
+tener que ir uno a uno.  
+Una vez asignado el calendario al empleado, se accede a él seleccionándolo. Una vez dentro del 
+calendario, se muestra dividido en dos pestañas:  
+• Vacaciones:  desde esta subpestaña se añaden las vacaciones del empleado.  
+Para insertar las vacaciones solo es necesario poner el periodo de fechas y Elastic añade el número 
+de días de vacaciones cogidos teniendo en cuenta los fines de semana y festivos configurados en 
+el calendario laboral. El número de días de vacaciones y asu ntos propios disponibles también se 
+arrastran de la configuración del calendario.  
+Nota:  Si se dispone del Portal de empleados de Elastic, no es necesario añadir aquí las vacaciones puesto 
+que el empleado es el que las pide desde el portal y se muestran en esta parte directamente.  
+• Incidencias:  las incidencias son todos aquellos días de ausencia del empleado que no sean 
+vacaciones. Por ejemplo, ausencias por enfermedad, días de baja, permisos de 
+paternidad/maternidad, etc. Para añadir incidencias, se deben añadir los días de incidencia, las 
+fechas y el tipo de incidencia.  
+• Centros de trabajo:  si la empresa tiene dados de alta varios centros de trabajo, desde esta 
+pestaña se le pueden asignar al empleado.  
+• Cuentas contables:  en esta pestaña se añaden las cuentas contables del empleado.  
+• Ficheros adjuntos:  en toda la aplicación donde exista esta pestaña, se pueden asociar 
+documentos digitalizados. Se pueden capturar directamente desde un origen a destino, o 
+arrastrarlos a la pestaña y adjuntarlos directamente. Permite también, escanear directamente 
+un docum ento y que se adjunte directamente a la pestaña.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 5/11 www.imatia.com  Aquí se creará el calendario laboral del año o los diferentes calendarios que se quieran gestionar.  
+La configuración del calendario en la aplicación tiene dos funciones, una administrativa y una de gestión 
+de la  producción . Se pueden determinar las horas disponibles del personal o de las secciones de 
+la empresa  para determinar la capacidad de la empresa a nivel productivo. Así, con la funcionalidad del 
+calendario, se crean calendarios maestros de vacaciones o personalizados y se asocian a un tipo de 
+trabajadores o a cada uno el suyo.  
+Desde el formulario de búsqueda, una vez seleccionado el calendario deseado, se muestran dos 
+secciones diferenciadas.  
+Cabecera de datos:  descripción y año del calendario.  
+ 
+Calendarios  
+ 
+Pestañas:  
+• Días festivos:  se añaden todos los días festivos del año y se describe el nombre y tipo (si es 
+nacional, autonómico o local)  
+ 
+Días festivos  
+ 
+• Jornadas:  se describe el tipo de jornada laboral y las fechas de inicio y fin que abarca.
+
+---
+
+# Elastic_Módulo de Laboral. Hojas de gasto - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Hojas de gasto.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 5/5 www.imatia.com  
+Apuntes – Remesa de gastos
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 5/11 www.imatia.com  Los empleados no se pueden borrar de la aplicación, por lo que cuando un empleado deja de formar 
+parte de la empresa se debe dar de baja añadiendo una fecha de baja.  
+ 
+En esta entrada se permite configurar equipos de empleados . Para ello es obligatorio definir el 
+departamento y el nombre del equipo.  
+Una vez creado, se asignarán los empleados y un responsable si de desea.  
+Los equipos una vez creados pueden  ser utilizados en la gestión de turnos y cuadrante.  
+ 
+Listados de equipos  
+ 
+Dentro del apartado de Turnos se configura, asignan empleados/equipos y se genera el cuadrante de 
+turnos, previa configuración de este . Se distinguen los siguientes apartados:  
+ 
+En la configuración de turnos distinguimos las siguientes pestañas:  
+• Tipos de horas:  Aquí se define el tipo de hora para el c álculo de las horas de trabajo . Se debe 
+indicar el código y la descripción del tipo de hora a crear. Se puede definir un color para que la 
+visualización sea más sencilla, a mayores hay checks informativos, que son los siguientes:  
+o Imputable.  
+o Trabajo.  
+o Flexible.  
+o Hora extra.  
+o Descanso.  
+Estos estados únicamente son informativos y no tienen implicación en su configuración.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 6/11 www.imatia.com  
+Jornadas  
+ 
+• Vacaciones:  se añaden periodos vacacionales, y se indican el número de días de vacaciones que 
+tendrán los  empleados  y si esos días contabilizan como laborables.  
+ 
+Vacaciones  
+• Empleados:  se añaden empleados a un calendario creado para gestionar sus vacaciones e 
+incidencias. Se indican que días tiene disponibles según el calendario, cuales hay solicitado y, 
+los días que se le han aceptado.  
+ 
+Empleados  
+ 
+• Secciones:  también se añaden secciones de la  empresa  al calendario  (parte productiva) .
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 6/11 www.imatia.com  
+Tipos de horas  
+• Tipo de registro de turno: Aquí se define el tipo del turno que se desea, por ejemplo,  sea turno de 
+mañana, tarde o noche. Se configuran las horas de trabajo.  
+ 
+Tipo registro de turno  
+• Turno: Aquí se configura el modelo del turno, este puede ser semanal, definiendo día a día un 
+turno específico o rotativo.  
+ 
+Turno semanal /rotativo  
+• Grupo de turnos: Aquí se define el grupo de turnos, este permite agrupar varios tipos de turnos 
+dándole un orden  de cumplimiento.  
+ 
+Grupo de turnos
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 7/11 www.imatia.com  
+Secciones  
+ 
+En Elastic se da la posibilidad de consultar varios listados relativos a la jornada laboral, vacaciones, etc:  
+• Vacaciones/incidencias : Este listado se utiliza para consultar el número de días de vacaciones 
+totales, asignados, pendientes y asignados sin disfrutar que tiene un empleado. También 
+muestra los días de incidencias que pueda tener.  
+• Tabla de vacaciones/incidencias : Este listado se utiliza para consultar las vacaciones e 
+incidencias que tienen los empleados en un periodo de tiempo determinado , pero en formato 
+tabla . Es obligatorio poner un rango de fechas para el que se quiere consultar.  
+• Incidencias laborales . En este listado se pueden validar las vacaciones.  
+• Situación empleados : Este listado muestra datos relativos a la antigüedad del empleado, tipo de 
+contrato , etc.  
+• Formación complementaria : Este listado muestra datos relativos a la formación del empleado.  
+• Horas por empleado : Este listado se utiliza para consultar las horas teóricas y las horas 
+registradas por empleado, así como los días de vacaciones, días laborables, etc.  
+• Registro de jornada por empleado : Este listado se utiliza para comparar el tiempo total frente al 
+tiempo teórico por empleado, así como, las horas al día frente al tiempo total.  
+• Control de jornada anual : Este listado se utiliza para comprar el tiempo total frente al teórico,  
+pero a nivel anual.
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 7/11 www.imatia.com  
+El apartado de asignación de turno sirve para asignar  empleados a  grupo s de turno específico s. 
+En la cabecera lo primero que se debe hacer es seleccionar el calendario laboral al cuál se le quiere hacer 
+la asignación de  empleados a  grupos de turno s. 
+Distinguimos dos pestañas:  
+• Generación semanal:  Al seleccionar el botón de asignación de turnos, se nos abrirá un formulario 
+de asignación de empleados , en la parte superior elegimos el grupo de turno que deseamos y 
+movemos los empleados.  
+ 
+Generación semanal  
+ 
+• Asignación de turnos rotativos: Esta pestaña sirve para asociar los empleados directamente a 
+grupos de turnos si estos están configurados en turnos rotativos, por lo tanto,  es independiente 
+a la semana del año.  
+ 
+Asignación de turnos rotativos  
+ 
+El apartado de cuadrante sirve para la generación de esta previa configuración  de diferentes parámetros 
+que veremos a continuación:  
+En primer lugar, distinguimos dos pestañas:  
+Cuadrante : Pestaña principal donde se visualizan diferentes filtros  y parámetros de generación:  
+• Filtros básicos
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 8/11 www.imatia.com  
+El Portal del empleado de Elastic dispone tanto de versión web como versión móvil.  
+Para acceder al portal del empleado, el usuario debe loguearse con usuario y contraseña configurable en 
+la ficha del empleado.  
+ 
+Portal de empleado. Pantalla de login.  
+ 
+Laboral. Ficha de empleado.
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 8/11 www.imatia.com  En la parte superior se visualizan filtros básicos, estos permiten filtrar por el estado de los empleados 
+(de baja, de alta o todos) , por el departamento o por los equipos si estos fueron configurados 
+previamente.  
+También se permite filtrar entre fechas, este filtro es únicamente visual y no afecta al cálculo de la 
+generación del cuadrante.  
+El check de Mostrar filas con totales permite modificar la vista actual añadiendo en la parte inferior un 
+sumatorio de las horas trabajas.  
+• Parámetros de generación  
+Los parámetros de generación son aquellos que afectan a la generación del cuadrante , estos son los 
+siguientes:  
+o Fechas desde gen. y fecha hasta gen.:  Estas fechas se utilizan para delimitar el cálculo . 
+o Escalón por equipo  y tamaño escalón : El escalón es el desplazamiento de turnos entre 
+personas con el mismo turno. En la captura adjuntada se puede apreciar que hay un 
+desplazamiento de dos días entre los turnos de las personas de diferentes equipos.  A la 
+hora de la generación del cuadrante, este se genera en base a los equipos  de los 
+empleados . El check indicia si el escalón se genera entre equipo o entre personas.  
+o Permitir fechas pasadas : Permite generar el cuadrante para fechas pasadas a la actual.  
+o Sobreescribir asing. manuales:  Si se asignan manualmente vacaciones o días de 
+incidencias, al estar marcado este check y generar el cuadrante, estos se sobrescribirán.  
+o Reducir días incidencia  y reducir incidencias totales : Estos campos indican si se quiere 
+que rellene con empleados de refuerzo para reducir el número de días que presentan 
+incidencia o si se prefiere reducir el número de incidencias totales.  
+ 
+Configuración: En esta pestaña se define n las configuraciones específicas para la generación del 
+cuadrante, estas son las siguientes:  
+o Empleados por turno:  Indica cuantos empleados debe haber por turno.  
+o Idioma por turno : Indica el número mínimo de empleados con un idioma específico que 
+debe haber por día.  
+o Empleados por turno y día:  Indica cuantos  empleados (especificando el tipo)  debe haber  
+en turno y día.  
+o Tamaño escalón por grupo de turno :  
+o Refuerzo de empleados:  Indica el tipo de empleado que puede sustituir a otro si este no 
+tiene disponibilidad para trabajar.  
+ 
+Para acceder a la configuración del calendario se debe acceder por Aplicación >> Configuración >> 
+Configura ción  calendarios .  
+Aquí se creará el calendario laboral del año o los diferentes calendarios que se quieran gestionar.  
+La configuración del calendario en la aplicación tiene dos funciones, una administrativa y una de gestión 
+de la  producción . Se pueden determinar las horas disponibles del personal o de las secciones de 
+la empresa  para determinar la capacidad de la empresa a nivel productivo. Así, con la funcionalidad del 
+calendario, se crean calendarios maestros de vacaciones o personalizados y se asocian a un tipo de 
+trabajadores o a cada uno el suyo.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 9/11 www.imatia.com  
+Portal de empleado. General  
+ 
+La interfaz a nivel web cuenta con los siguientes apartados:  
+• General : Donde se recoge toda la información del trabajador, alimentado por los datos de Elastic.  
+• Formación:  Tanto académica como profesional, también alimentando por los datos de Elastic.  
+• Vacaciones : En este apartado el empleado puede solicitar las vacaciones, en la configuración de 
+este apartado en Elastic, se da la opción de que las vacaciones se aprueben directamente, o por 
+el contrario que sea otra persona la que las valide.  
+ 
+Portal de empleado. Vacaciones  
+ 
+• Calendario : Se muestra el calendario laboral de la empresa, este previamente se carga en Elastic, 
+con los festivos locales, autonómicos y nacionales. También se pueden configurar vacaciones 
+a nivel de empresa. Esta información se muestra mediante un código de colore s los festivos, 
+vacaciones aceptadas y vacaciones pendientes de aprobar
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 9/11 www.imatia.com  Desde el formulario de búsqueda, una vez seleccionado el calendario deseado, se muestran dos 
+secciones diferenciadas.  
+En la parte superior se encuentra la cabecera de datos del calendario.  
+En la parte inferior un conjunto de cinco pestañas, donde se muestran los datos de tipo administrativos 
+y de gestión del calendario.  
+ 
+Calendarios  
+ 
+Aquí están los datos obligatorios donde se describe el calendario que se va a crear y a qué año pertenece.  
+En la parte inferior del formulario aparecen cinco pestañas con las distintas opciones para configurar el 
+calendario.  
+Días festivos:  se añaden todos los días festivos del año y se describe el nombre y tipo (si es nacional, 
+autonómico o local)  
+ 
+Días festivos  
+ 
+Jornadas:  se describe el tipo de jornada laboral y las fechas de inicio y fin que abarca.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 10/11 www.imatia.com  
+ 
+Portal de empleado. Calendario  
+ 
+• Registro de jornada : Aquí se hará el registro de la jornada de cada empleado. Se divide en dos 
+partes, Acumulado y Desglose . El Acumulado nos muestra los cómputos totales de horas por 
+mes y puede generarse un P DF de estas. En el Desglose se mostrarán los registros de las 
+jornadas . Para que se muestre el tiempo teórico en horas en necesario que el empleado tenga 
+un contrato en vigor. Además, estas se calculan también en base al % de jornada que el 
+empleado tenga configurado en su remuneración.  
+ 
+Portal de empleado. Registro de jornada.
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 10/11 www.imatia.com  
+Jornadas  
+ 
+Vacaciones:  se añaden periodos vacacionales, y se indican  el número de días de vacaciones que tendrán 
+los empleados  y si esos días contabilizan como laborables.  
+ 
+Vacaciones  
+Empleados:  se añaden empleados a un calendario creado para gestionar sus vacaciones e incidencias. 
+Se indican que días tiene disponibles según el calendario, cuales hay solicitado y, los días que se le han 
+aceptado.  
+ 
+Empleados  
+ 
+Secciones:  también se añaden secciones de la  empresa  al calendario.
+
+---
+
+# Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Empleados, vacaciones, calendario y portal del empleado.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 11/11 www.imatia.com  
+Empleado. Remuneración.
+
+---
+
+# Elastic_Módulo de Laboral. Vacaciones y cuadrante - 
+
+**Origen:** `build\sources\laboral\Elastic_Módulo de Laboral. Vacaciones y cuadrante.pdf`
+**Módulo:** laboral
+
+
+
+## Texto extraído
+
+Pág. 11/11 www.imatia.com  
+Secciones
+
+---
+
+## Próximos pasos
+
+1. ✓ Revisar y corriegir el texto
+2. ⏳ Reorganizar en secciones temáticas
+3. ⏳ Extraer tablas y formatear correctamente
+4. ⏳ Agregar imágenes desde `docs/assets/pdf-images/laboral/`
+5. ⏳ Crear estructura final con archivos temáticos
+6. ⏳ Actualizar tabla de contenidos
+
+## Módulo: laboral
+
+**PDF original:** `build/sources/laboral/`
+**Raw files:** `docs/_raw/laboral/`
+**Assets:** `docs/assets/pdf-images/laboral/`

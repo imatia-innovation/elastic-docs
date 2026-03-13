@@ -1,0 +1,319 @@
+# CRM - Contenido extraído de PDF
+
+> **Nota:** Esta es una extracción automática de PDF a Markdown. 
+> Requiere revisión y reorganización manual según estructura deseada.
+
+**Estadísticas:**
+- Páginas procesadas: 10
+- Tamaño del contenido: 13714 caracteres
+
+## Contenido extraído
+
+# Elastic_Módulo de CRM - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 1/5 www.imatia.com  
+En este documento la idea es resumir lo comentado en la reunión del día 28.  En primer lugar, dimos un 
+pequeño vistazo en el módulo del CRM sobre todo en el apartado de las tareas, después revisamos el 
+portal del empleado, este ya está integrado con Elasti c. A continuación, especificamos un poco más a 
+profundidad las diferentes opciones que tiene:  
+ 
+El Módulo de CRM de elastic BUSINESS, permite registrar y gestionar los contactos realizados con 
+terceros bien sean personas físicas o empresas, así como llevar un control de todas las oportunidades 
+de negocio abiertas con ellas.  
+Este módulo está íntimamente relacionado con Clientes, Proveedores y contactos que puedan existir en 
+elastic BUSINESS, así como con Clientes Potenciales o contactos libres, no asignados a cuentas.  
+También permite realizar cartera de cuentas y contactos por usuario, de manera que se pueden 
+programar tareas para el usuario en relación con sus cuentas. También se permite la creación de avisos 
+sobre las tareas programadas, así como llevar a cabo accione s de Marketing y control de gastos.  
+Se pueden crear segmentos de cuentas y contactos y asociarlos a eventos (campañas y oportunidades) 
+para envío masivo de mails.  
+ 
+Las cuentas hacen referencia a todos los clientes, clientes potenciales, proveedores y proveedores 
+potenciales que podemos tener en el sistema dados de alta.  
+En estos diferentes tipos de cuentas podemos configurar la siguiente información.  
+• Visualización agrupada de las cuentas por categorías.  
+• Gestión de datos básicos de las cuentas.  
+• Se pueden asociar y dar de alta múltiples contactos. Relacionar contactos libres con cuentas.  
+• Se puede dar de alta múltiples direcciones, números de teléfono y mails asociados a la cuenta.  
+• Desde las cuentas se pueden crear y gestionar presupuestos y pedidos.  
+• Asociar usuarios a la cuenta para crear carteras comerciales personalizadas.  
+• Asignar y gestionar tareas de una cuenta. Crear tareas recurrentes de una cuenta, determinando 
+el tipo de tarea y su frecuencia de realización.  
+• Gestión (Alta, consulta y modificación) de oportunidades asociadas a una cuenta.  
+• Gestión (Alta, consulta y modificación) de campañas / eventos asociados a una cuenta.  
+• Se pueden adjuntar ficheros a una cuenta.
+
+---
+
+# Elastic_Módulo de CRM_Portal de empleados - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM_Portal de empleados.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 1/5 www.imatia.com  
+ 
+El Módulo de CRM de elastic BUSINESS, permite registrar y gestionar los contactos realizados con 
+terceros bien sean personas físicas o empresas, así como llevar un control de todas las oportunidades 
+de negocio abiertas con ellas.  
+Este módulo está íntimamente relacionado con Clientes, Proveedores y contactos que puedan existir en 
+elastic BUSINESS, así como con Clientes Potenciales o contactos libres, no asignados a cuentas.  
+También permite realizar cartera de cuentas y contactos por usuario, de manera que se pueden 
+programar tareas para el usuario en relación con sus cuentas. También se permite la creación de avisos 
+sobre las tareas programadas, así como llevar a cabo accione s de Marketing y control de gastos.  
+Se pueden crear segmentos de cuentas y contactos y asociarlos a eventos (campañas y oportunidades) 
+para envío masivo de mails.  
+ 
+Las cuentas hacen referencia a todos los clientes, clientes potenciales, proveedores y proveedores 
+potenciales que podemos tener en el sistema dados de alta.  
+En estos diferentes tipos de cuentas podemos configurar la siguiente información.  
+• Visualización agrupada de las cuentas por categorías.  
+• Gestión de datos básicos de las cuentas.  
+• Se pueden asociar y dar de alta múltiples contactos. Relacionar contactos libres con cuentas.  
+• Se puede dar de alta múltiples direcciones, números de teléfono y mails asociados a la cuenta.  
+• Desde las cuentas se pueden crear y gestionar presupuestos y pedidos.  
+• Asociar usuarios a la cuenta para crear carteras comerciales personalizadas.  
+• Asignar y gestionar tareas de una cuenta. Crear tareas recurrentes de una cuenta, determinando 
+el tipo de tarea y su frecuencia de realización.  
+• Gestión (Alta, consulta y modificación) de oportunidades asociadas a una cuenta.  
+• Gestión (Alta, consulta y modificación) de campañas / eventos asociados a una cuenta.  
+• Se pueden adjuntar ficheros a una cuenta.  
+ 
+Los contactos engloban a todos esas relaciones comerciales que se desean añadir al sistema, estos 
+pueden estar relacionados a una cuenta (puede ser su comercial, gerente, etc) o ser individuales (un 
+freelance que conocemos en una feria, por ejemplo)  
+En los contactos podemos configurar la siguiente información:  
+• Se pueden asignar múltiples direcciones, números de teléfono y mails.  
+• Asignar usuarios a cuentas para el control de cartera comercial.  
+• Asignar y gestionar tareas a una cuenta. Asignar y gestionar tareas recurrentes de una cuenta, 
+determinando el tipo de tarea y su frecuencia en días.  
+• Clasificación por estado de las tareas de una cuenta (pendiente, finalizada y recurrente) filtradas 
+por usuario, tipo y subtipo de tarea.
+
+---
+
+# Elastic_Módulo de CRM - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 2/5 www.imatia.com  
+Los contactos engloban a todos esas relaciones comerciales que se desean añadir al sistema, estos 
+pueden estar relacionados a una cuenta (puede ser su comercial, gerente, etc) o ser individuales (un 
+freelance que conocemos en una feria, por ejemplo)  
+En los contactos podemos configurar la siguiente información:  
+• Se pueden asignar múltiples direcciones, números de teléfono y mails.  
+• Asignar usuarios a cuentas para el control de cartera comercial.  
+• Asignar y gestionar tareas a una cuenta. Asignar y gestionar tareas recurrentes de una cuenta, 
+determinando el tipo de tarea y su frecuencia en días.  
+• Clasificación por estado de las tareas de una cuenta (pendiente, finalizada y recurrente) filtradas 
+por usuario, tipo y subtipo de tarea.  
+ 
+La segmentación nos sirve para identificar y organizar grupos de cuentas que comparten ciertas 
+características, para así poder definir de forma correcta una estrategia de marketing adecuada a ellos, 
+unos objetivos… etc. Nos proporciona una ventaja competit iva y posibilidad de conseguir que estos 
+clientes/proveedores potenciales se conviertan en definitivos.  
+Gestión (Alta, consulta y modificación) de segmentos comerciales. Posibilidad de asignar grupos de 
+cuentas y contactos a los segmentos.  
+Ayudas a través de filtros para configurar el contenido de los segmentos.  
+Posibilidad de dar de baja segmentos obsoletos.  
+ 
+A modo resumen, en el módulo de CRM nos da la posibilidad de utilizar las siguientes funcionalidades.  
+Eventos y Campañas : Un evento lo podemos definir como un suceso importante y programado, y una 
+campaña como conjunto de actos o esfuerzos corporativos en un periodo de tiempo, con el fin de 
+conseguir un objetivo determinado  
+Oportunidades : Una de las partes más importantes e interesantes del CRM, nos permite realizar un 
+seguimiento y evolución de esta, concretando la probabilidad de éxito de los productos ofertados y la 
+previsión de ingresos si llega a materializarse.  
+Previsión : Nos permite visualizar de forma agrupada las previsiones de las campañas y oportunidades 
+que hemos definido previamente.  
+Tareas : El módulo nos permite programar tareas (llamadas, visitas, visitas no planificadas, mails, etc)
+
+---
+
+# Elastic_Módulo de CRM_Portal de empleados - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM_Portal de empleados.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 2/5 www.imatia.com  
+La segmentación nos sirve para identificar y organizar grupos de cuentas que comparten ciertas 
+características, para así poder definir de forma correcta una estrategia de marketing adecuada a ellos, 
+unos objetivos… etc. Nos proporciona una ventaja competit iva y posibilidad de conseguir que estos 
+clientes/proveedores potenciales se conviertan en definitivos.  
+Gestión (Alta, consulta y modificación) de segmentos comerciales. Posibilidad de asignar grupos de 
+cuentas y contactos a los segmentos.  
+Ayudas a través de filtros para configurar el contenido de los segmentos.  
+Posibilidad de dar de baja segmentos obsoletos.  
+ 
+A modo resumen, en el módulo de CRM nos da la posibilidad de utilizar las siguientes funcionalidades.  
+Eventos y Campañas : Un evento lo podemos definir como un suceso importante y programado, y una 
+campaña como conjunto de actos o esfuerzos corporativos en un periodo de tiempo, con el fin de 
+conseguir un objetivo determinado  
+Oportunidades : Una de las partes más importantes e interesantes del CRM, nos permite realizar un 
+seguimiento y evolución de esta, concretando la probabilidad de éxito de los productos ofertados y la 
+previsión de ingresos si llega a materializarse.  
+Previsión : Nos permite visualizar de forma agrupada las previsiones de las campañas y oportunidades 
+que hemos definido previamente.  
+Tareas : El módulo nos permite programar tareas (llamadas, visitas, visitas no planificadas, mails, etc)  
+ 
+Agenda : Calendario que agrupa eventos, campañas, tareas, etc.
+
+---
+
+# Elastic_Módulo de CRM - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 3/5 www.imatia.com  
+Agenda : Calendario que agrupa eventos, campañas, tareas, etc.  
+ 
+El Portal del empleado de Elastic dispone tanto de versión web como versión móvil .  
+ 
+La interfaz a nivel web cuenta con los siguientes apartados:  
+• General : Donde se recoge toda la información del trabajador, alimentado por los datos de Elastic.  
+• Formación:  Tanto académica como profesional, también alimentando por los datos de Elastic.
+
+---
+
+# Elastic_Módulo de CRM_Portal de empleados - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM_Portal de empleados.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 3/5 www.imatia.com  
+El Portal del empleado de Elastic dispone tanto de versión web como versión móvil .  
+ 
+La interfaz a nivel web cuenta con los siguientes apartados:  
+• General : Donde se recoge toda la información del trabajador, alimentado por los datos de Elastic.  
+• Formación:  Tanto académica como profesional, también alimentando por los datos de Elastic.  
+• Vacaciones : En este apartado el empleado puede solicitar las vacaciones, en la configuración de 
+este apartado en Elastic, se da la opción de que las vacaciones se aprueben directamente, o por 
+el contrario  que sea otra persona la que las valide.  
+ 
+• Calendario : Se muestra el calendario laboral de la empresa, este previamente se carga en Elastic, 
+con los festivos locales, autonómicos y nacionales. También se pueden configurar vacaciones 
+a nivel de empresa.  Esta información se muestra mediante un código de colores los festivos, 
+vacaciones aceptadas y vacaciones pendientes de aprobar
+
+---
+
+# Elastic_Módulo de CRM - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 4/5 www.imatia.com  • Vacaciones : En este apartado el empleado puede solicitar las vacaciones, en la configuración de 
+este apartado en Elastic, se da la opción de que las vacaciones se aprueben directamente, o por 
+el contrario  que sea otra persona la que las valide.  
+ 
+• Calendario : Se muestra el calendario laboral de la empresa, este previamente se carga en Elastic, 
+con los festivos locales, autonómicos y nacionales. También se pueden configurar vacaciones 
+a nivel de empresa.  Esta información se muestra mediante un código de colores los festivos, 
+vacaciones aceptadas y vacaciones pendientes de aprobar  
+ 
+• Registro de jornada : Aquí se hará el registro de la jornada de cada empleado. Se divide en dos 
+partes, Acumulado y Desglose . El Acumulado nos muestra los cómputos totales de horas por 
+mes  y puede generarse un PFS de estas.  En el Desglose  se mostrarán los registros de las 
+jornadas
+
+---
+
+# Elastic_Módulo de CRM_Portal de empleados - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM_Portal de empleados.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 4/5 www.imatia.com  
+• Registro de jornada : Aquí se hará el registro de la jornada de cada empleado. Se divide en dos 
+partes, Acumulado y Desglose . El Acumulado nos muestra los cómputos totales de horas por 
+mes  y puede generarse un PFS de estas.  En el Desglose  se mostrarán los registros de las 
+jornadas  
+ 
+Elastic dispone de un módulo de configuración  de turnos  
+Elastic dispone de u n módulo de configuración de Turnos, donde se pueden configurar diferentes turnos 
+en función de las horas de trabajo y días, así como un cuadrante de turnos rotativos.  
+• Turnos : Este es un ejemplo de cómo quedaría la configuración de turnos en Elastic .
+
+---
+
+# Elastic_Módulo de CRM - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 5/5 www.imatia.com  
+ 
+Elastic dispone de un módulo de configuración  de turnos  
+Elastic dispone de u n módulo de configuración de Turnos, donde se pueden configurar diferentes turnos 
+en función de las horas de trabajo y días, así como un cuadrante de turnos rotativos.  
+• Turnos : Este es un ejemplo de cómo quedaría la configuración de turnos en Elastic .
+
+---
+
+# Elastic_Módulo de CRM_Portal de empleados - 
+
+**Origen:** `build\sources\crm\Elastic_Módulo de CRM_Portal de empleados.pdf`
+**Módulo:** crm
+
+
+
+## Texto extraído
+
+Pág. 5/5 www.imatia.com
+
+---
+
+## Próximos pasos
+
+1. ✓ Revisar y corriegir el texto
+2. ⏳ Reorganizar en secciones temáticas
+3. ⏳ Extraer tablas y formatear correctamente
+4. ⏳ Agregar imágenes desde `docs/assets/pdf-images/crm/`
+5. ⏳ Crear estructura final con archivos temáticos
+6. ⏳ Actualizar tabla de contenidos
+
+## Módulo: crm
+
+**PDF original:** `build/sources/crm/`
+**Raw files:** `docs/_raw/crm/`
+**Assets:** `docs/assets/pdf-images/crm/`

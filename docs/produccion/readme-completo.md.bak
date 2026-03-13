@@ -1,0 +1,1409 @@
+# PRODUCCION - Contenido extraído de PDF
+
+> **Nota:** Esta es una extracción automática de PDF a Markdown. 
+> Requiere revisión y reorganización manual según estructura deseada.
+
+**Estadísticas:**
+- Páginas procesadas: 42
+- Tamaño del contenido: 71347 caracteres
+
+## Contenido extraído
+
+# Elastic_Módulo de Producción. Explicación de tipos de programaciones, checks y stocks mínimos - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Explicación de tipos de programaciones, checks y stocks mínimos.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 1/2 www.imatia.com  
+ 
+Plan maestro:  A raíz de lo que esté añadido en la pestaña de Pedidos y Detalles de pedidos, se añadirán 
+los artículos correspondientes en la pestaña de Plan Maestro, a raíz de estos el sistema calcula las 
+necesidades.  
+Necesidades parciales:  Este botón se utiliza para calcular únicamente las necesidades de ciertas 
+familias, para ello se necesita una configuración previa indicando que solamente se quieren calcular 
+necesidades de estas familias.  
+Necesidades:  Calcula las necesidades (materiales) para la fabricación de los artículos que se encuentra 
+en la pestaña de Plan Maestro.  
+Plan Maestro + Necesidades:  Combinación de la primera opción y la segunda, se suele utilizar una vez 
+se añadan los pedidos o detalles de pedidos a la programación.  
+ 
+Previsión:  Este check hace que no aparezca en el listado de necesidades de compra . 
+Ignorar stock : Si se marca este check , al añadir un artículo  al plan maestro, no tiene en cuenta las 
+unidade s del almacén. El cálculo  de necesidades se realiza ignorando lo que hay en el almacén . (Ejemplo : 
+si tenemos 50 unidades en stock y necesitamos 100, no tendrá en cuentas el stock del articulo y nos 
+fabricará 100 ). 
+Ignorar necesidades de stock : Al tener este check activado, el cálculo de necesidades no realizará un 
+barrido en el almacén comprobando que artículos tengan un stock mínimo configurado . 
+Preparad a: Si se marca este check, lo que hace es meterla en una cola en la que se van generando las 
+necesidades y plan maestro automáticamente.  
+Programación diaria : Si se marca este che ck, se c rea una programación  de forma diaria  donde meterá 
+todas las órdenes.  
+Reservar al generar : Al tener marcado el check, c uando se genere la programación , se reserva 
+automáticamente el material para esta . 
+Orden por operación : Al tener marcado el check, s e generará una orden por cada operación que 
+tengamos en nuestros despieces y se incluirán en ella todos los artículos afectados por esa operación.  
+Orden por línea:  Al tener marcado el check, s e generará una orden diferente por cada detalle de pedido 
+que incluyamos en nuestra programación .
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 1/35 www.imatia.com  1. Introducción  ................................ ................................ ................................ ................................ ..........  2 
+2. Instalaciones  ................................ ................................ ................................ ................................ ........  3 
+2.1 Dar de alta una sección  ................................ ................................ ................................ ................................ . 3 
+2.1.1  Máquinas.  ................................ ................................ ................................ ................................ ...............  4 
+2.1.2  Empleados  ................................ ................................ ................................ ................................ .............  4 
+2.1.3  Operaciones  ................................ ................................ ................................ ................................ ...........  4 
+2.1.4  Documentos  ................................ ................................ ................................ ................................ ..........  5 
+3. Grupos de operaciones  ................................ ................................ ................................ ........................  6 
+4. Utillajes ................................ ................................ ................................ ................................ ..................  7 
+4.1 Tipos de Utillaje  ................................ ................................ ................................ ................................ ...............  7 
+4.2 Creación de Utillajes Activos y de baja  ................................ ................................ ................................ ....... 8 
+4.2.1  Artículos ................................ ................................ ................................ ................................ ..................  9 
+4.2.2  Documentos  ................................ ................................ ................................ ................................ ........  11 
+4.3 Documentos.  ................................ ................................ ................................ ................................ ..................  12 
+5. Grupos de programación  ................................ ................................ ................................ ...................  12 
+5.1 Empresas  ................................ ................................ ................................ ................................ ........................  13 
+5.2 Almacenes  ................................ ................................ ................................ ................................ ......................  14 
+5.3 Fábricas  ................................ ................................ ................................ ................................ ..........................  14 
+5.4 Puntos de control  ................................ ................................ ................................ ................................ ..........  14 
+5.5 Configuración  ................................ ................................ ................................ ................................ ................  15 
+6. Puntos de control  ................................ ................................ ................................ ...............................  15 
+7. Familias de producción  ................................ ................................ ................................ ......................  16 
+7.1 Configuración de familias producción  ................................ ................................ ................................ ...... 16 
+7.2 Configuración de despiece de artículo. ................................ ................................ ................................ ..... 16 
+7.3 Despiece  ................................ ................................ ................................ ................................ .........................  17 
+7.4 Despiece manual  ................................ ................................ ................................ ................................ ...........  17 
+7.5 Despiece de operaciones  ................................ ................................ ................................ ............................  19 
+7.6 Despiece stocks  ................................ ................................ ................................ ................................ ............  20
+
+---
+
+# Elastic_Módulo de Producción.Configuración de despieces - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción.Configuración de despieces.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 1/5 www.imatia.com  
+En el presente documento se va a detallar el funcionamiento de los despieces  en Elastic, así como su 
+configuración . 
+ 
+En Elastic las familias de artículos se pueden diferenciar por su tipologiá, estas pueden ser de ventas, 
+compras, producción o servicios. Una misma familia puede ser de varios tipos a la vez. En el caso de las 
+familias de artículos que se van a utilizar en  producción, hay que especificar su comportamiento 
+mediante los siguientes checks, estos se encuentran en Almacén >> Familias de artículos, dentro de una 
+de ellas pestaña de Producción.  
+• Planificab le: debe estar marcado si los artículos se van a fabricar , tanto bajo pedido como por 
+stock . Permite que sean seleccionables en el Plan Maestro.  
+• En programación:  debe estar marcado para que los artículos de esta familia se tengan en cuenta 
+para el cálculo de necesidades, independientemente que estos sean materiales de otros 
+artículos o son artículos que se fabrican propiamente.  
+A mayores se distinguen los siguientes checks:  
+• Ignorar stock:  cuando se calculan las necesidades se tiene siempre en cuenta el stock. Si lo que 
+se quiere es que no se tenga en cuenta el mismo y se calculen las necesidades dando como 
+resultado una compra o fabricación, se debe marcar esta casilla.  
+• Necesidades parciales:  se selecciona para evitar que, al calcular las necesidades, se calcule de 
+todo el material que compone el artículo a fabricar. De esta manera se permite reducir el cálculo 
+de necesidades únicamente a las familias que se necesite.  
+En Elastic se define dos niveles de versiones de despiece.  
+Dentro de una familia existe n n versiones de despiece s, y dentro de esta, cada artículo puede tener 
+únicamente una versi ón de despiece. Es decir,  para que un artículo tenga varias versiones de despieces, 
+es necesario  que la familia tenga ese mismo número de versiones de despieces.  
+Para crear una nueva versión de despiece para una familia esto se hace desde la pestaña de Producción, 
+en Almacén >> Familias de artículos, al seleccionar una familia.  
+ 
+Para configurar el despiece de un artículo, debemos ir a la siguiente ruta.  
+Almacén >> Familias de artículo >> Artículo >> Producción.  
+Dentro de la configuración del despiece del artículo se diferencia entra la cabecera y las pestañas 
+inferiores.
+
+---
+
+# Elastic_Módulo de Producción. Explicación de tipos de programaciones, checks y stocks mínimos - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Explicación de tipos de programaciones, checks y stocks mínimos.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 2/2 www.imatia.com  Orden por artículo:  Al tener marcado el check, s e generará una orden diferente por cada artículo añadido 
+en el plan maestro.  
+Mono -articulo:  Al tener marcado el check, hará p rogramaciones de un solo artículo.  
+ 
+Para configurar el stock mínimo de los artículos tendremos que irnos a Almacenes >> Familia de artículos 
+>> Artículos >> Detalle de artículos.  Una vez seleccionado el artículo deseado, nos iremos a la pestaña 
+del almacén y luego a la configuración de stock. Ahí podremos ponerle el stock mínimo que queremos 
+que tenga ese producto.  
+Con relación a esto, cuando en una programación que tiene el check de ignorar necesidades de stock 
+desmarcado calculamos las necesidades, el sistema hará un barrido buscando que artículos tienen una 
+configuración de stock mínimo. Si este es inferior al val or que tenga configurado, calculará las 
+necesidades para cubrirlo.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 2/35 www.imatia.com  7.7 Despiece inverso  ................................ ................................ ................................ ................................ ...........  20 
+8. Programaciones  ................................ ................................ ................................ ................................ . 21 
+8.1.1  Datos de programación  ................................ ................................ ................................ .....................  22 
+8.1.2  Pestañas  ................................ ................................ ................................ ................................ ...............  23 
+8.1.3  Acciones  ................................ ................................ ................................ ................................ ...............  23 
+8.2 Órdenes.  ................................ ................................ ................................ ................................ ..........................  24 
+8.2.1  Datos de cabecera  ................................ ................................ ................................ ..............................  24 
+8.2.2  Pestañas  ................................ ................................ ................................ ................................ ...............  25 
+8.3 Stock mínimo.  ................................ ................................ ................................ ................................ ...............  27 
+9. Costes  ................................ ................................ ................................ ................................ .................  28 
+10. Modelo estándar  ................................ ................................ ................................ ................................  28 
+10.1.1  Pestañas  ................................ ................................ ................................ ................................ ...............  29 
+10.2 Modelo con partidas.  ................................ ................................ ................................ ................................ .... 29 
+10.2.1  Tipos de costes  ................................ ................................ ................................ ................................ ... 30 
+11. Seguimiento de órdenes.  ................................ ................................ ................................ ...................  31 
+12. Listados  ................................ ................................ ................................ ................................ ..............  34 
+12.1 Costes por programación ................................ ................................ ................................ ............................  34 
+12.2 Costes por fabricaciones  ................................ ................................ ................................ .............................  35 
+12.3 Control de fichajes  ................................ ................................ ................................ ................................ ........  35 
+ 
+El Módulo Producción de elastic® BUSINESS contempla todo el ciclo productivo, desde la definición de 
+las instalaciones, pasando por la creación del Plan Maestro (PM) de producción y cálculo de las 
+necesidades tanto de compra como de producción (Despiece) h asta la generación, lanzamiento y 
+seguimiento de las órdenes de producción.  
+Además, se encuentra perfectamente integrado con los Módulos Compras, Ventas y Almacén, por lo que 
+constituye la herramienta perfecta para una gestión integrada y eficaz.  
+A través de este Módulo, se definen todas las instalaciones productivas con un elevado nivel de detalle. 
+Además, cada fábrica se estructura por Líneas y Secciones, asignando las Máquinas, Empleados y 
+Operaciones de un modo realmente intuitivo.  
+El Módulo permite la gestión de la producción por Grupos (Conjuntos de empresas compuestas por las 
+fábricas y almacenes que configures), lo que permite la gestión de estas unidades de un modo integrado.  
+elastic® BUSINESS calcula automáticamente las necesidades de compra y producción, según los 
+pedidos incorporados en cada programación dando lugar al Plan Maestro de Producción. Además, te
+
+---
+
+# Elastic_Módulo de Producción.Configuración de despieces - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción.Configuración de despieces.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 2/5 www.imatia.com  
+Despiece  del artículo  
+ 
+Muestra todo el árbol de despiece de un artículo, incluyendo artículos intermedios  y operaciones . 
+ 
+Despiece  
+ 
+Si los artículos han sido creados únicamente con un código y una descripción, sin parámetros, de forma 
+que, el despiece tanto de los materiales como de las operaciones para cada artículo se deben hacer de 
+forma manual.  
+Si la generación de código y descripción se ha creado en base a parámetros, pero los despieces de 
+materiales y operaciones se hacen manualmente.  
+En ambos casos, la configuración a seguir es la misma . 
+En el despiece de materiales lo que se trata es de ir desgranando todos los materiales que componen el 
+proceso productivo de un artículo. Los materiales serán materias primas o productos intermedios
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 3/35 www.imatia.com  permite la creación de versiones de artículos de producción totalmente configurables, agrupados por 
+familias.  
+ 
+Para empezar a trabajar con el Módulo de Producción, lo primero que debes hacer es acceder al menú 
+Instalaciones, para definir la fábrica y toda su estructura organizativa.  
+Dentro de esta estructura organizativa se incluyen las líneas, secciones de producción asociadas a las 
+mismas y, ya con más detalle las máquinas, empleados y operaciones de la sección.  
+La estructura organizativa en elastic sigue el siguiente nivel.  
+Fábrica >> Línea >> Sección >> Operación/máquina.  
+Lo primero que se debe hacer es crear cada una de estas estructuras. En la fábrica elastic permite definir 
+el coste hora empleado. Este coste hora empleado aplicará a todas las operaciones dadas de alta en 
+esta fábrica, sin embargo, en cada operación se puede definir un coste hora empleado.  
+ 
+Como la fábrica y la línea en elastic son únicamente elementos clasificatorios, vamos a omitir una 
+explicación de cómo  darlos de alta.  
+Sin embargo,  en la sección hay configuración que debe ser explicada.  
+ 
+En la configuración básica de la sección se puede asignar un responsable, definir diferentes colores, dar 
+de baja y ocultar en el planificador. Estas opciones están orientadas a los menús de carga y capacidad, 
+que se comentarán más adelante.  
+En la parte inferior se puede definir una configuración de subcontratación, si esta sección es específica 
+de operaciones de subcontratación. Para indicar que es de subcontratación hay que marcar el check de 
+“Sección externa”.  
+Se le puede asociar un proveedor, de manera que,  por defecto, toda operación asociada y servicio, sea 
+tratado por ese proveedor. Esto se tratará en el documento explicativo de subcontratación.  
+En la parte inferior distinguimos 4 pestañas:  
+• Máquinas
+
+---
+
+# Elastic_Módulo de Producción.Configuración de despieces - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción.Configuración de despieces.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 3/5 www.imatia.com  dependiendo del caso. A cada componente que conforma el despiece, se le debe hacer su despiece 
+también y así sucesivamente hasta completar todos los pasos del desglose total de fabricación del 
+artículo.  
+Cuando se inserta un artículo se abre una ventana en la que configurar su despiece. Aquí se selecciona 
+el artículo, la versión y la cantidad como datos obligatorios. Además de imputar la cantidad, se permite 
+también imputar el desperdicio según las necesid ades, el tipo de consumo y, el almacén y subalmacén 
+del que se debe hacer dicho consumo.  
+Hay dos formas de configurar el tipo de consumo: en automático o en manual. En el consumo manual, 
+al realizar seguimiento la operación a través de una fabricación parcial, los consumos de dichos 
+materiales tienen que ser insertados manualmente por el usuar io, mientras que, en el automático, los 
+consumos se realizan automáticamente, según lo configurado en el despiece.  
+ 
+Por ejemplo, si un artículo fuese una lata de conserva: la lata tendría configurado el consumo automático, 
+ya que sabemos que se va a gastar una lata en hacer una unidad de ese artículo. Sin embargo, el 
+contenido de la lata sería un consumo manual, ya que no sabemos de antemano cual va a ser el consumo 
+exacto del material.  
+ 
+Despiece  
+ 
+En el despiece de operaciones se van desgranando todas las operaciones que componen el proceso 
+productivo de un artículo. Para configurar las operaciones, se debe imputar el tiempo de setup así como 
+el tiempo unitario de fabricación, ambos en minutos.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 4/35 www.imatia.com  • Empleados  
+• Operaciones  
+• Documentos.  
+ 
+En la actualidad las máquinas de elastic no tienen ninguna funcionalidad. Se puede definir con un código, 
+descripción y dentro de ellas diferentes órganos.  (Añadir activos).  
+ 
+En esta pestaña se asocian todos los empleados pertenecientes a la sección. Esto permite que dentro 
+de menú de planificación  de órdenes se pueda agilizar la gestión de empleados al tenerlos organizados 
+en secciones.  A los empleados solamente se les mostrarán las órdenes (en seguimiento de órdenes) de 
+las secciones a las que estén asociados  
+ 
+En la pestaña de Operaciones se crean las operaciones que los operarios realizarán en la sección.  
+Al hacer doble clic sobre una operación, se abre una ventana emergente donde se pueden ver datos 
+relacionados con la operación en cuestión.  
+Las operaciones pueden  reunir las siguientes características : 
+1. Operaciones de consumo – Son operaciones que durante su proceso consumen algún material.  
+2. Operaciones de alta en producción – Son operaciones finales que dan de alta el artículo en el 
+sistema, en la cantidad indicada en la fabricación.  
+3. Operaciones simples – Son operaciones que no consumen ni dan de alta en el sistema, pero que 
+aportan coste al producto.  
+Para distinguir estas operaciones, se utilizan dos check a nivel de operación – artículo, es decir, que en 
+función del artículo en que se encuentren, pueden configurarse de una manera o de otra.  
+• Alta. Prod – Check que indica que  la operación da de alta en el sistema el artículo fabricado. En 
+los despieces de los artículos únicamente se puede definir una única operación con ese check 
+activado.  
+• Consumo – Check que indica que la operación consume material. Dentro de un mismo despiece, 
+si solamente existe una operación con ese check marcado no es necesario indicar el material a 
+consumir (Estará indicando en otra pestaña, denominada “Despiece manual ”). Si por el contrario 
+hay más de una operación marcada con el check de Consumo, es necesario indicar que material 
+se consumirá en cada una de ellas.  
+ 
+Dentro de la operación a nivel general, se configuran los siguientes apartados.  
+• Código operación: Código de identificación de la operación.  
+• Descripción :  Descripción de cada una de las operaciones.  
+• Coef. trab: Indica el coeficiente de participación del operario en la operación  
+• Coef. maq: Indica el coeficiente de participación de la máquina en la operación, puede darse el 
+caso de que para una misma operación haya dos máquinas funcionando, en este caso el 
+coeficiente sería 2.  
+• Coste hora hombre:  Coste en euros de la hora de mano de obra para esa operación.  
+• Coste hora máquina : Coste en euros de la hora de máquina para esa operación.  
+• Orden por línea en esta operación: Check para separar en distintas órdenes las distintas líneas 
+que de producción que tengan asignada esta operación.
+
+---
+
+# Elastic_Módulo de Producción.Configuración de despieces - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción.Configuración de despieces.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 4/5 www.imatia.com  Se permite introducir la relación entre tiempo máquina y trabajador (coeficiente), así como si la operación 
+se quiere que sea controlable y realice el consumo, o el alta de producción.  
+ 
+Operaciones  
+Dentro de la operación se distinguen las siguientes pestañas:  
+Consumos : Se especifica el material consumido . Por defecto en la configuración de operaciones, si hay 
+únicamente una operación marcada con el check de “Consumo” esta consumirá todo el material 
+asociado al despiece. Si hay dos o más operaciones marcadas con ese check, es necesario especificar 
+el mater ial que se va a consumir en cada una de ellas.  
+Utillaje : se muestran todos los utillajes asociados a la operación.  
+Ensayos : aquí aparecerán los registros de calidad asociados a la operación.  
+Registros de fabricación :  aquí aparecerán los registros de fabricación asociados a la operación.  
+Recursos : documentación relativa al despiece del ar tículo, esta puede ser fotografías, manuales,  etc. 
+ 
+Muestra el despiece del artículo  de forma en que se visualizan la cantidad reservada, cantidad disponible, 
+cantidad pendiente de recibir y un desglose de los stocks.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 5/35 www.imatia.com  • Id. Punto de control: Combo para seleccionar el punto de control asociado a esta operación si 
+procede.  
+• Tipo de operación: Clasificación de operaciones, se puede dar de alta en el mismo combo de 
+selección.  
+• Ocultar en seguimiento: Check para ocultar en planificación y seguimiento de órdenes esta 
+operación . 
+• Operación de ficticios: Check para añadir automáticamente esta operación a artículos ficticios 
+que no tengan ninguna configurada.  
+A su vez también s e puede definir de manera automática los almacenes donde , en función de la 
+característica de la operación, se de alta los artículos o consuma material.  
+Las operaciones se pueden configurar como operaciones de subcontratación. Para ello debe marcarse 
+el check de “Operación externa” . A esta operación se le puede asignar un proveedor por defecto, y artículo 
+de servicio por defecto . Esta información se precargará en  el Módulo de Compras >> Subcontratación.  
+Los tiempos de operación para la fabricación de un artículo se deben configurar en los despieces, no en 
+el maestro de operaciones.  
+ 
+En esta pestaña se puede adjuntar documentos informativos relativos a la sección, como manuales de 
+maquinaria, por ejemplo.
+
+---
+
+# Elastic_Módulo de Producción.Configuración de despieces - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción.Configuración de despieces.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 5/5 www.imatia.com  
+Despiece stocks  
+ 
+Muestra en que artículo se utiliza el artículo actual como material . 
+ 
+Despiece inverso
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 6/35 www.imatia.com  
+El apartado de grupos de operaciones sirve para la combinación de varias operaciones en una misma. 
+Para ello habrá que ir a Producción >> Grupo de operaciones . 
+ 
+Lo primero que se debe hacer es añadir un código y una descripción para la operación que vamos a 
+crear. Tras especificar estos y clicar en el símbolo de añadir se podrán incluir las operaciones que 
+deseemos combinar en el siguiente menú.  
+ 
+Por último, deberemos especificar qué acciones queremos que se realicen con cada una de las 
+operaciones mediante un check. Estos checks son:  
+- Consumo:  esta operación consume materiales  
+- Alta producción:  esta operación dará de alta el articulo final (solo puede estar marcado en una 
+columna)  
+- No generar orden:  no genera operaciones
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 7/35 www.imatia.com  
+ 
+Otro apartado importante en el módulo de Producción  son los Utillajes . Para dar de alta los utillajes en el módulo, nos 
+iremos a Producción >> Utillajes . Desde este apartado se mantiene el control de los utillajes de producción. Existen 
+cuatro pestañas desde las cuales consultar diferentes datos relacionados con todos los utillajes:  
+- Utillaje activo : aquí vemos los utillajes que está usando la empresa  
+- Utillaje de baja : aquí vemos los utillajes dejó de usar la empresa por motivos diferentes  
+- Tipos : muestra la diferente clasificación de utillajes según diversos criterios.  
+- Documentos : se recogen todos los documentos informativos que se asocian a los utillajes, como puede 
+ser un método de instalación o de uso.  
+ 
+Para empezar, se tienen que dar de alta los tipos de utillajes que se usarán en la producción, esto hará 
+que se puedan clasificar y ordenar según cual sea su uso. Para añadir un tipo hay que acudir a la pestaña 
+de Tipos  y darle al botón de  Añadir registro.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 8/35 www.imatia.com  
+ 
+Aquí únicamente se tiene que completar con el código  y la descripción  del tipo de utillaje, ya que son los 
+campos obligatorios. Una vez hecho, se añadirá el registro.  
+ 
+Una vez se han creado los tipos en los que se agruparán los utillajes, se procede a crearlos. Para añadir 
+un utillaje , hay que acudir a la pestaña de  Utillaje activo  y darle al botón de  Añadir registro , esto desplegará 
+una ventana emergente con diversos datos a cubrir.  
+ 
+Los datos más destacables son:  
+- Código:  campo obligatorio  
+- Descripción:  campo obligatorio  
+- Tipo:  desplegable donde seleccionar a que tipo pertenece el utillaje  
+- Nº de unidades:  Cantidad de utillajes disponibles  
+- Peso: cuanto pesa el utillaje  
+- Bloqueado:  este check permite no mostrar el utillaje en futuros desplegables. No lo manda a 
+Utillaje de baja  
+- Fecha de baja:  fecha en la que el utillaje pasa a estar de baja
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 9/35 www.imatia.com  
+ 
+*Nota:  para poder asignar artículos y documentos a un utillaje tiene que estar insertado en el registro 
+primero.  
+En los detalles del utillaje, se pueden ver dos pestañas Artículos  y Documentos  
+ 
+En esta pestaña se muestran los artículos que se pueden asociar a utillajes. Para poder asociarlos 
+mediante filtros, se deben tener en cuenta unas consideraciones previas:  
+ 
+La familia debe tener marcado el check de producción. Como se puede ver no todas son de producción. 
+Esto se selecciona, en los detalles de las familias en la pestaña de configuración.  
+ 
+En la pestaña de producción del artículo, debe tener asignada una o varias operaciones.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 10/35 www.imatia.com  
+ 
+Una vez tenido en cuenta estas consideraciones, se puede proceder a asignar una articulo al utillaje. 
+Añadiendo un nuevo registro en la pestaña artículos, se despliega una venta emergente con diversos 
+filtros:  
+- Familia  
+- Operación  
+- Versión  
+- Artículo  
+ 
+Tras haber filtrado si se necesita, habrá que darle a buscar y nos mostrará los artículos. Una vez 
+seleccionados, se añadirán pulsando el botón aceptar
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 11/35 www.imatia.com  
+ 
+En esta pestaña se muestran los documentos que se podrán añadir a cada utillaje como pueden ser 
+manuales o guías de funcionamiento.  
+Si están dentro de los artículos se pueden añadir registros y sino se puede arrastrar el propio documento 
+a la tabla.  
+ 
+Funcionalidades actuales:  
+Control de calibración por fecha y frecuencia.  
+Orientado a herramientas que usan los operarios en diferentes operaciones.  
+No tenemos:  
+En el maestro de operaciones no se puede asociar el utillaje.  
+No hay histórico de calibraciones.  
+Control de vida útil, tanto en utillajes usados por operarios como aquellos que usan las máquinas  
+Asociación utillaje - máquina.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 12/35 www.imatia.com  
+ 
+Esta pestaña puede completarse en cualquier momento y  recoge  todos los documentos informativos que se 
+asocian a los utillajes , tanto si es por artículo como por utillaje.  
+ 
+Una vez definida la estructura de tus instalaciones, vamos a aprender a definir en este apartado los 
+Grupos de programación .  
+Un Grupo de programación  es un conjunto de elementos (empresa, almacenes y fábricas) que son 
+gestionados como una unidad productiva . Para elastic es necesario que exista un grupo de 
+programación para el correcto funcionamiento del módulo de producción.  
+ 
+Para añadir un Grupo de programación se completa el campo obligatorio “Descripción” y habrá que darle 
+al botón de Insertar  en la esquina superior derecha. Una vez hecho esto se podrá comenzar a completar 
+las pestañas inferiores:
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 13/35 www.imatia.com  
+Ahora se debe añadir información en las pestañas : 
+- Empresas.  
+- Almacenes . 
+- Fábricas.  
+- Puntos de control.  
+- Configuración.  
+ 
+Para todas estas pestañas se utiliza el mismo procedimiento: Presionamos el botón de Añadir, escogemos 
+el valor que queramos asignar y volvemos a presionar el botón de añadir en la ventana emergente.  
+ 
+Esta pestaña se completa automáticamente con la empresa que se tenga marcada por defecto.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 14/35 www.imatia.com  Se pueden añadir tantas empresas como tenga el ERP. Si se desea eliminar una empresa que se haya 
+metido, tendremos que entrar en los detalles y pulsar el icono eliminar que se encuentra arriba a la 
+derecha.  
+ 
+En esta pestaña se selecciona el almacén, donde se desarrollarán las programaciones correspondientes. 
+Pueden seleccionarse varios.  
+ 
+Al igual que en el punto anterior podemos seleccionar que fábrica desarrolla la actividad.  
+ 
+Podemos establecer acciones concretas para controlar las producciones. Esto serán mensajes 
+meramente informativos para que se tengan en cuenta. No pararán producciones ni tendrá una 
+influencia directa en la producción, solo son avisos.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 15/35 www.imatia.com  
+ 
+En esta pestaña se puede generar emails para avisos de programaciones. P odemos establecer múltiples 
+opcione s, p ara añadir cualquiera de estas se necesitará  primero seleccionar plan y necesidades 
+automáticas tras esto podremos añadir las demás opciones si fuesen útiles para nuestro grupo de 
+programación.  
+ 
+Un ejemplo de uso, sería cuando se tiene dos centros productivos en la misma instalaciones, donde se 
+hace necesario distinguirlos para la generación de las programaciones , o también dos líneas de 
+producción en el mismo centro con gestión muy diferenciada.  
+ 
+Un punto de control  es una etapa clave dentro del proceso productivo donde se registran datos 
+relevantes para el seguimiento, control y optimización de la producción. Estos puntos permiten 
+monitorear el avance de los productos, registrar consumos de materiales, tiempos de tr abajo, calidad, 
+entre otros aspectos fundamentales para la gestión eficient e.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 16/35 www.imatia.com  
+ 
+Estos puntos de control se pueden asociar por grupo de programación y directamente a nivel de 
+operación, de manera que aparezcan automáticamente en las programaciones donde se realice esa 
+operación.  
+¿?¿?¿?¿?¿?¿?¿?¿ Que aporta esto en la gestión de la producción?  Revisar Cerdeimar.  Completar con la 
+xwiki.  
+ 
+En Elastic las familias de artículos se pueden diferenciar por su tipología , estas pueden ser de ventas, 
+compras, producción o servicios. Una misma familia puede ser de varios tipos a la vez. En el caso de las 
+familias de artículos que se van a utilizar en producción, hay que especificar su comportamiento 
+mediante los siguientes checks, estos se encuentran en Almacén >> Familias de artículos, dentro de una 
+de ellas pestaña de Producción.  
+• Planificab le: debe estar marcado si los artículos se van a fabricar, tanto bajo pedido como por 
+stock. Permite que sean seleccionables en el Plan Maestro.  
+• En programación:  debe estar marcado para que los artículos de esta familia se tengan en cuenta 
+para el cálculo de necesidades, independientemente que estos sean materiales de otros 
+artículos o son artículos que se fabrican propiamente.  
+A mayores se distinguen los siguientes checks:  
+• Ignorar stock:  cuando se calculan las necesidades se tiene siempre en cuenta el stock. Si lo que 
+se quiere es que no se tenga en cuenta el mismo y se calculen las necesidades dando como 
+resultado una compra o fabricación, se debe marcar esta casilla.  
+• Necesidades parciales:  se selecciona para evitar que, al calcular las necesidades, se calcule de 
+todo el material que compone el artículo a fabricar. De esta manera se permite reducir el cálculo 
+de necesidades únicamente a las familias que se necesite.  
+En Elastic se define dos niveles de versiones de despiece.  
+Dentro de una familia existen n versiones de despieces, y dentro de esta, cada artículo puede tener 
+únicamente una versión de despiece. Es decir, para que un artículo tenga varias versiones de despieces, 
+es necesario que la familia tenga ese mismo número d e versiones de despieces.  
+Para crear una nueva versión de despiece para una familia esto se hace desde la pestaña de Producción, 
+en Almacén >> Familias de artículos, al seleccionar una familia.  
+ 
+Para configurar el despiece de un artículo, debemos ir a la siguiente ruta.  
+Almacén >> Familias de artículo >> Artículo >> Producción.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 17/35 www.imatia.com  Dentro de la configuración del despiece del artículo se diferencia entra la cabecera y las pestañas 
+inferiores.  
+ 
+Despiece del artículo  
+ 
+Muestra todo el árbol de despiece de un artículo, incluyendo artículos intermedios y operaciones.  
+ 
+Despiece  
+ 
+Si los artículos han sido creados únicamente con un código y una descripción, sin parámetros, de forma 
+que, el despiece tanto de los materiales como de las operaciones para cada artículo se deben hacer de 
+forma manual.  
+Si la generación de código y descripción se ha creado en base a parámetros, pero los despieces de 
+materiales y operaciones se hacen manualmente.  
+En ambos casos, la configuración a seguir es la misma.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 18/35 www.imatia.com  En el despiece de materiales lo que se trata es de ir desgranando todos los materiales que componen el 
+proceso productivo de un artículo. Los materiales serán materias primas o productos intermedios 
+dependiendo del caso. A cada componente que conforma el d espiece, se le debe hacer su despiece 
+también y así sucesivamente hasta completar todos los pasos del desglose total de fabricación del 
+artículo.  
+Cuando se inserta un artículo se abre una ventana en la que configurar su despiece. Aquí se selecciona 
+el artículo, la versión y la cantidad como datos obligatorios. Además de imputar la cantidad, se permite 
+también imputar el desperdicio según las necesid ades, el tipo de consumo y, el almacén y subalmacén 
+del que se debe hacer dicho consumo.  
+Hay dos formas de configurar el tipo de consumo: en automático o en manual. En el consumo manual, 
+al realizar seguimiento la operación a través de una fabricación parcial, los consumos de dichos 
+materiales tienen que ser insertados manualmente por el usuar io, mientras que, en el automático, los 
+consumos se realizan automáticamente, según lo configurado en el despiece.  
+ 
+Por ejemplo, si un artículo fuese una lata de conserva: la lata tendría configurado el consumo automático, 
+ya que sabemos que se va a gastar una lata en hacer una unidad de ese artículo. Sin embargo, el 
+contenido de la lata sería un consumo manual, ya que no sabemos de antemano cual va a ser el consumo 
+exacto del material.  
+ 
+Despiece
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 19/35 www.imatia.com  
+En el despiece de operaciones se van desgranando todas las operaciones que componen el proceso 
+productivo de un artículo. Para configurar las operaciones, se debe imputar el tiempo de setup así como 
+el tiempo unitario de fabricación, ambos en minutos.  
+Se permite introducir la relación entre tiempo máquina y trabajador (coeficiente), así como si la operación 
+se quiere que sea controlable y realice el consumo, o el alta de producción. Dentro de la operación se 
+pueden configurar a mayores de los campos generales comentados en el apartado 2.13 , los siguientes 
+campos:  
+• Coste fijo operación:  Coste que se puede añadir a mayores en la operación – artículo . Puede ser 
+debido a su excesiva dificultad o mayor requerimiento de cualificación del operario que haga 
+que se quiera reflejar esta casuística en el coste del artículo.  
+• T.setup (min) : Tiempo teórico para la preparación de la máquina para la realización de la 
+operación.  
+• T. fabricación un (min) : Tiempo teóricos para la realización de la operación.  
+• No generar orden:  Check que sirve para indicar que esta operación no genere una orden de 
+fabricación.  
+• Descripción operación:  Campo informativo para añadir comentarios en la operación – artículo.  
+• Generar traspaso:  Check que permite que automáticamente una vez completada la operación , 
+generar una orden de traspaso del artículo fabricado a el almacén y subalmacén configurados.  
+• Observaciones.  
+ 
+Operaciones
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 20/35 www.imatia.com  Dentro de la operación se distinguen las siguientes pestañas:  
+Consumos : Se especifica el material consumido. Por defecto en la configuración de operaciones, si hay 
+únicamente una operación marcada con el check de “Consumo” esta consumirá todo el material 
+asociado al despiece. Si hay dos o más operaciones marcadas con ese che ck, es necesario especificar 
+el material que se va a consumir en cada una de ellas.  
+Utillaje : se muestran todos los utillajes asociados a la operación.  
+Ensayos : aquí aparecerán los registros de calidad asociados a la operación.  
+Registros de fabricación :  aquí aparecerán los registros de fabricación asociados a la operación.  
+Recursos : documentación relativa al despiece del artículo, esta puede ser fotografías, manuales, etc.  
+ 
+Muestra el despiece del artículo de forma en que se visualizan la cantidad reservada, cantidad disponible, 
+cantidad pendiente de recibir y un desglose de los stocks.  
+ 
+Despiece stocks  
+ 
+Muestra en que artículo se utiliza el artículo actual como material.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 21/35 www.imatia.com  
+Despiece inverso  
+ 
+Este punto es uno de los más importantes del módulo de producción. En esta sección, comienzas el 
+proceso de planificación de la producción, generando el Plan Maestro (PM) y a partir de él las 
+necesidades. La aplicación te genera, además, sugerencias de com pras por la parte de material 
+necesario para producir y/o vender y sugerencias de fabricación dependiendo del stock que tengas en 
+almacén para satisfacer las necesidades de los pedidos y de las cantidades pendientes y reservadas.  
+Desde aquí, también generarás las órdenes de producción contra los distintos centros productivos y 
+llevarás control de tiempos . 
+ 
+En la parte superior se puede definir lo siguiente:
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 22/35 www.imatia.com  • Programación:  Código de la programación, se puede editar durante la creación de la 
+programación, si no se modifica, se establece por contador.  
+• Estado:  Diferentes estados en los que se encuentra una programación. Estos se dividen en:  
+o Generada: Estado estándar de la programación al crearse.  
+o Completa: Estado que se marca automáticamente al completarse todas las órdenes de 
+fabricación, o en su defecto al cubrir la F.  completa.  
+o Cerrada: Estado que se marca automáticamente al cubrir la F. cierre.  
+• Grupo:  Grupo de programación.  
+• Creador:  usuario que crea la programación.  
+ 
+• F. prev. inicio:  Fecha que se establece indicando un inicio de plan maestro.  
+• F. hasta:  Fecha que se establece indicando una previsión de fin del plan maestro.  
+• F. inicio plan maestro:  Fecha que se cubre automáticamente al calcular el plan maestro en el 
+botón de acción.  
+• F. fin plan maestro:  Fecha que se cubre automáticamente al finalizar el cálculo del plan maestro 
+en el botón de acción.  
+• F. inicio cálc . nec: Fecha que se cubre automáticamente al calcular las necesidades en el botón 
+de acción.  
+• F. fin cálc. nec:  Fecha que se cubre automáticamente al finalizar el cálculo de las necesidades 
+en el botón de acción.  
+• F. completa:  Fecha que se cubre automáticamente al completar tod as las órdenes. Se puede 
+cubrir manualmente.  
+• F. cierre:  Fecha que se cubre manualmente.  
+• Ignorar stock:  Si se marca este check, al añadir un artículo al plan maestro, no tiene en cuenta 
+las unidades del almacén. El cálculo de necesidades se realiza ignorando lo que hay en el 
+almacén. (Ejemplo: si tenemos 50 unidades en stock y necesitamos 100, no tendrá en cuentas 
+el stock del articulo y nos fabricará 100).  
+• Ignorar necesidades de stock:  Al tener este check activado, el cálculo de necesidades no 
+realizará un barrido en el almacén comprobando que artículos tengan un stock mínimo 
+configurado.  
+• Preparada: Si se marca este check, lo que hace es meterla en una cola en la que se van 
+generando las necesidades y plan maestro automáticamente.  
+• Programación diaria: Si se marca este check, se crea una programación de forma diaria donde 
+meterá todas las órdenes.  
+• Reservar al generar:  Al tener marcado el check, cuando se genere la programación, se reserva 
+automáticamente el material para esta.  
+• Orden por operación: Al tener marcado el check, s e generará una orden por cada operación que 
+tengamos en nuestros despieces y se incluirán en ella todos los artículos afectados por esa 
+operación.  
+• Orden por línea:  Al tener marcado el check, s e generará una orden diferente por cada detalle de 
+pedido que incluyamos en nuestra programación . 
+• Orden por artículo:  Al tener marcado el check, s e generará una orden diferente por cada artículo 
+añadido en el plan maestro.  
+• Mono -articulo:  Al tener marcado el check, hará programaciones de un solo artículo.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 23/35 www.imatia.com  
+Documentos : En esta pestaña se pueden asociar, pedidos, presupuestos completos o detalles de estos. 
+A raíz de estos detalles o documentos asociados, el sistema calculará los artículos a añadir al plan 
+maestro y sus necesidades.  
+Detalles documentos:  En esta pestaña se muestran las líneas de los documentos asociados en la 
+pestaña de Documentos.  
+Plan maestro:  En esta pestaña se añad irán los artículos de los documentos asociados a la programación 
+de los cuales se calcularán las necesidades.  
+Necesidades:  Indica las necesidades para la realización del plan Maestro. Tanto las de producción como 
+las de compras. Para que un artículo aparezca en el despiece tiene que pertenecer a una familia que 
+pueda entrar en programación.  
+Necesidades negativas:  En esta pestaña se mostrarán las necesidades negativas , son las generadas de 
+documentos o artículos que se han añadido con signo negativo.  
+Puntos de control:  Además del número de pedido, aparecerán tantas columnas como puntos de control 
+tengamos definidos en la aplicación para ese grupo de programación.  
+Las celdas correspondientes cambiarán de color según el siguiente código:  
+• Gris: El pedido no tiene que pasar por ese punto de control.  
+• Rojo: El pedido tiene que pasar por ese punto de control, pero aún no ha pasado ningún artículo 
+del pedido por él.  
+• Amarillo: Algún artículo del pedido ha pasado por ese punto. Aparece también la cantidad que 
+ha pasado respecto a la cantidad total que tiene que pasar.  
+• Verde: El pedido ha pasado totalmente por ese punto de control.  
+Órdenes:  En esta pestaña se generan las órdenes de fabricación de la programación, se genera una orden 
+por cada operación. En función de los checks puede variar.  
+Detalles de órdenes:  Órdenes de fabricación con más información que la mostrada en la pestaña de 
+Órdenes.  Desglosados los detalles de las órdenes, ya que en una puede haber varios detalles.  
+Activos fijos:  Pestaña donde se asocian activos fijos, para registro de costes . 
+ 
+Plan maestro:  A raíz de lo que esté añadido en la pestaña de Pedidos y Detalles de pedidos, se añadirán 
+los artículos correspondientes en la pestaña de Plan Maestro, a raíz de estos el sistema calcula las 
+necesidades.  
+Necesidades parciales:  Este botón se utiliza para calcular únicamente las necesidades de ciertas 
+familias, para ello se necesita una configuración previa indicando que solamente se quieren calcular 
+necesidades de estas familias.  
+Necesidades:  Calcula las necesidades (materiales) para la fabricación de los artículos que se encuentra 
+en la pestaña de Plan Maestro.  
+Plan Maestro + Necesidades:  Combinación de la primera opción y la segunda, se suele utilizar una vez 
+se añadan los pedidos o detalles de pedidos a la programación.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 24/35 www.imatia.com  
+Las necesidades de producción generan distintas órdenes de producción en función de las listas de 
+materiales y operaciones de los artículos pertenecientes a una programación -subprogramación. Dichas 
+órdenes se lanzan y distribuyen por el taller.  
+Las órdenes se generan en un estado latente que permite realizar variaciones en la programación. Una 
+vez lanzadas realizan las reservas de materiales y establecen las cantidades pendientes de recibir de 
+cada material y, a partir de este momento ya no se pe rmiten variaciones de la programación. De todas 
+formas, se pueden introducir “cuñas” de fabricación o simplemente fabricar cantidades distintas de las 
+planificadas.  
+Para el registro de las fabricaciones se utilizan las fabricaciones parciales. A medida que éstas se van 
+produciendo, se dan de alta los artículos en el almacén y se descuentan automáticamente los consumos. 
+También existe la opción de realizar este proceso  de forma manual.  
+El avance de la producción, registrado en las órdenes, se puede seguir de manera intuitiva y visual en la 
+pestaña de Puntos de control de las programaciones y pedidos.  
+Para el seguimiento y consulta de las órdenes se dispone de diferentes entradas en el árbol de órdenes. 
+Por secciones, por pedidos, por programaciones. También puedes buscar directamente la orden si 
+conoces sus datos.  
+ 
+Una vez generadas las órdenes de fabricación , podemos acceder a ellas tanto desde la pestaña de 
+órdenes, como desde la pestaña de “Detalles de órdenes”.  
+ 
+Una orden se puede gestionar en diferentes estados, estos son:
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 25/35 www.imatia.com  • G – Generada: Estado automático al crearse al orden.  
+• L – Lanzada: Estado que se da cuando se lanza la orden, para ello se debe pulsar el botón de 
+Lanzar de la pestaña de órdenes, o dentro de la propia orden.  
+• C – Completa: Estado que se da cuando se completan todos los detalles de fabricación de la 
+orden.  
+Dentro de la orden, en la parte superior se distingue información relativa a la operación, sección, estado, 
+etc. 
+En la parte derecha hay un desglose de fechas relativas a los diferentes procesos de la orden.  
+• Lanzamiento: Fecha en la que se lanza la orden.  
+• Modificación: Fecha de la última modificación.  
+• Impresión: Fecha en la que se imprime.  
+• Inicio previsto: Fecha que se cubre manualmente.  
+• Fin previsto: Fecha que se cubre manualmente.  
+• Inicio real: Fecha que se cubre automáticamente cuando un operario empieza a imputar tiempos 
+en la orden.  
+• Fin real: Fecha que se cubre automáticamente cuando un operario finaliza la imputación de 
+tiempos en la orden y la fabricación.  
+• F. movimiento: Fecha que se cubre si la orden genera una orden de traspaso.  
+ 
+Dentro de una orden dis tinguimos las siguientes pestañas:  
+Destalles de órdenes : En esta pestaña se agrupan todos los detalles (artículos) que tienen una orden 
+generada a raíz del plan maestro y necesidades. Las ordenes se generan a raíz de las operaciones que 
+tienen los artículos en los despieces. Esta agrupación de detalles se ve influenciada por los checks de 
+“orden por artículo”, “orden por línea ”, “orden por operación” . 
+Subórdenes : Pestaña donde agrupar en otro nivel las órdenes.  
+Empleados : Pestaña donde se registran los empleados que participan en la orden.  En esta pestaña 
+también se registran los tiempos de imputación a cada una de las fabricaciones parciales . 
+Fabricaciones parciales : En esta pestaña se registran cada una de las imputaciones de fabricaciones 
+que realizan los operarios. Estas imputaciones pueden realizarse tanto en esta misma pestaña, como a 
+través de la pantalla de Seguimiento de órdenes. Esta última, es la que utilizarán los operarios en sus 
+puestos de trabajo para la imputación de tiempos y consumo de materiales.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 26/35 www.imatia.com  
+ Dentro de la fabricación parcial se distinguen las siguientes pestañas:  
+• Consumos : En esta pestaña se recogen todos los consumos realizados en la fabricación.  
+• Tiempos : En esta pestaña se desglosan los tiempos reales de imputación de los operarios.  
+ 
+• Costes : Desglose de costes, tanto teóricos como reales. Esto permite realizar una comparativa 
+de costes.  Los costes se definirán en un apartado concreto.  
+ 
+• Calidad : Pestaña que agrupa los registros de calidad configurados para el despiece o para la 
+operación.  
+ 
+Consumos : En la pestaña de consumos se muestran los consumos realizados en las fabricaciones 
+parciale s. Es la pestaña donde se muestran los consumos reales de la orden.  El sistema permite añadir 
+tantos consumos planificados (los que se deberían realizar directamente en las fabricaciones , recogidos 
+en la pestaña de Materiales ) o consumos no planificados.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 27/35 www.imatia.com  
+En los consumos se puede añadir un desperdicio, este desperdicio se incluirá en los costes de materia 
+prima utilizada para la fabricación, así como se descontará del stock del material consumido.  
+Materiales : En esta pestaña se recogen todos los materiales que se van a consumir teóricamente en la 
+orden. Se toman de los despieces de los artículos.  
+ 
+Para configurar el stock mínimo de los artículos tendremos que irnos a Almacenes >> Familia de artículos 
+>> Artículos >> Detalle de artículos.  Una vez seleccionado el artículo deseado, nos iremos a la pestaña 
+del almacén y luego a la configuración de stock. Ahí podremos ponerle el stock mínimo que queremos 
+que tenga ese producto.  
+Con relación a esto, cuando en una programación que tiene el check de ignorar necesidades de stock 
+desmarcado calculamos las necesidades, el sistema hará un barrido buscando que artículos tienen una 
+configuración de stock mínimo. Si este es inferior al val or que tenga configurado, calculará las 
+necesidades para cubrirlo.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 28/35 www.imatia.com  
+ 
+Elastic, si se quiere llevar un control de costes, es necesario crear un modelo de costes para la empresa 
+y asociarlo a las familias correspondientes. Para ello nos iremos a Almacén >> Modelo de costes y se 
+configurará según necesidad de la empresa. Hay va rias posibilidades  
+Modelo estándar : la empresa establece un coste estándar para cada uno de los artículos y un periodo de 
+tiempo determinado. Es responsabilidad del cliente mantenerlo y actualizarlo cuando sea necesario. Este 
+modelo consiste en que el coste estándar se calcula en base a un a configuración sobre los costes de 
+materia prima, mano de obra y maquinaria dependiendo del proceso productivo de la empresa.  
+Modelo con sobrecostes : para las empresas que necesiten un modelo que contemple costes más allá 
+de los básicos de materia prima, mano de obra o coste máquina, el sistema permite configurar un 
+modelo de costes con la posibilidad de añadir sobrecostes configurables por la empresa . Estos modelos 
+de costes extras pueden ser partidas fijas o variables, calculado sobre materia prima, mano de obra y 
+maquinaria. Esto permite tener varios modelos con comportamientos diferentes para distintas familias.  
+  
+Para crear cualquier modelo de costes nos iremos a Almacén >> Modelo de costes y una vez ahí 
+añadiremos un nuevo registro, donde por ahora solo tenemos que cubrir los campos que están en la 
+cabecera.  
+En la cabecera tenemos tres campos:  
+• Descripción : nombre del modelo  
+• Fecha inicio : fecha de inicio del modelo  
+• Fecha fin : fecha hasta que tendrá vigencia el modelo  
+Las pestañas en las que se divide son:  
+• Partidas : aquí se añaden los costes que necesitemos para el modelo con sobrecostes.  
+• Familias : en esta pestaña vemos todas las familias que usan este modelo de costes  
+• Artículos : en esta pestaña vemos todos los artículos que usan este modelo de costes
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 29/35 www.imatia.com  
+Partidas  
+Esta pestaña funciona como los otros costes del artículo. Para añadir un coste fijo o variable de forma 
+genérica a todos los artículos.  
+Cuando actualizamos un modelo de costes, para que los cambios se apliquen sobre los artículos que 
+utilizan dicho modelo ejecutaremos el proceso "Actualizar artículos" pulsando sobre la acción en la rueda 
+de acciones. Posteriormente refrescaremos la tabla.  
+Familias  
+Para asociar el modelo de costes directamente a una familia de artículos, nos iremos a la pestaña 
+familias. Al añadir una familia a este modelo, nos desplegará una ventana donde podremos seleccionar 
+que familia queremos añadir.  
+*Nota: esto también se puede hacer dentro de cada familia en Almacén >> Familia de artículos >> Activas  
+Una vez añadida la familia deseada, marcaremos el check Activo para usar por defecto este modelo de 
+costes. Pueden añadirse tantas familias como queramos.  
+Tras esto, entraremos en los detalles de la familia y añadiremos los artículos deseados de dicha familia.  
+*Nota: Recordemos que no se puede tener artículos sin familia.  
+Artículos  
+En la pestaña de artículos nos aparecerán todos los artículos que tienen el modelo de costes asignado. 
+Para asociarle un coste puede hacerse desde la propia tabla, aunque es mejor hacerlo desde sus detalles 
+ya que se ve más claro.  
+Al entrar en los detalles se nos despliega una ventana con los costes principales y otros costes (modelo 
+sobrecostes). La suma de ambos conforma el coste estándar del producto.  
+  
+Para imputar “Otros costes” tenemos que añadirlos en la tabla inferior. Para ello tenemos que realizar 
+una configuración previa en Tablas maestras >> Tipo de partida de costes y Subtipo de partidas de coste 
+añadir el tipo de coste que queramos.  
+Una vez completado ese paso previo, tendremos que cubrir diferentes campos:  
+• Descripción : se describe el gasto para el que se configura esa línea.  
+• Tipo : se inserta el tipo de gasto en función de lo que haya configurado previamente en las tablas 
+maestras.  
+• Subtipo : se inserta el subtipo de coste en función de la configuración previa en las tablas 
+maestras.  
+• Valor : sirve para aplicar un valor fijo sobre el coste cuando entre (en este caso la materia prima 
+son 10€ y el porcentaje es el 50%, entonces aquí saldrá el resultado)  
+• Porcentaje : campo porcentual que le afectará al coste que selecciones en el campo porcentaje  
+• Campo porcentaje : desplegable donde seleccionas entre los costes básicos  
+• Coste transporte: check simplemente informativo.  
+ 
+*Nota: En el modelo de coste estándar, el tipo y subtipo se utiliza con el fin de poder filtrar a futuro la 
+información y clasificar los costes y poder sacar un listado
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 30/35 www.imatia.com  Los artículos dentro de una familia también pueden no tener el mismo comportamiento que el resto de 
+la familia, y tener su propio modelo de costes. Para cambiar el modelo de un artículo. El coste estándar 
+que resultaría para un artículo es la suma de los c ostes principales (materia prima, mano de obra, 
+máquina y el fijo de operaciones) más otros costes, que son la aplicación de los costes configurados en 
+el modelo de costes.  
+Este proceso actualizará las partidas de los artículos con los nuevos valores y las recalculará para que 
+los nuevos cambios imputen en el coste total del artículo. Desde la entrada de familias de producción 
+dentro de la versión también cabe la posibilidad en recalcular costes de artículos.  
+ 
+Dentro de la configuración de un artículo hay tres costes que en función de las propiedades del sistema 
+podemos tener en cuenta para el cálculo de los márgenes.  
+El coste estándar  es la suma de "coste materia prima" + "coste mano de obra" + "coste máquina" + "coste 
+fijo operaciones" + "otros costes"  
+• Coste fijo operaciones: un valor fijo que se puede configurar a mano.  
+• Coste máquina:  Coste calculado en función de l coste hora máquina configurado en la operación  
+y el tiempo definido en el despiece del artículo, también es un valor que se puede configurar  
+manualmente .  
+• Coste mano de obra: Coste calculado en función del coste hora hombre configurado en la 
+operación y el tiempo definido en el despiece del artículo, también es un valor que se puede 
+configurar manualmente.  
+• Coste materia prima: valor fijo que se puede configurar. Se actualiza automáticamente en cada 
+entrada de proveedor (albarán de compras).  En los artículos finales e intermedios, es el coste de 
+los artículos hijos.  
+• Otros costes: es la suma de lo que haya configurado en la tabla de "Otros costes". Son las 
+partidas del modelo de coste.  
+• Los siguientes dos campos son meramente informativos y forman parte del coste de materia 
+prima, estos aplican a productos intermedios y finales.  
+• Costes materia prima subproductos: es la suma de los costes de materia prima de los 
+subproductos.  
+• Otros costes subproductos: es la suma de los otros costes de los subproductos.  
+El coste promedio  se calcula como el coste medio de los movimientos de entrada (entrada por proveedor 
+o por fabricación) realizados vista un año para atrás desde la fecha actual.  
+El coste de última entrada  es el coste de la última entrada realizada en el sistema del artículo, esta puede 
+ser por movimiento manual, si tiene coste, un alta de albarán o un alta de producción.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 31/35 www.imatia.com  
+ 
+En esta pantalla, el operario, en su puesto de trabajo seleccionará la  orden en la que empezará a imputar 
+tiempos.  
+Lo primero que se debe hacer es filtrar, si se quiere, en función de los checks que se muestran en la 
+pantalla:  
+• Ver todas: Se muestran todas las órdenes.  
+• En pausa: Solamente se muestran las órdenes en pausa.  
+• En producción: Solamente se muestran las órdenes en las que un operario esté imputando 
+tiempos.  
+Una vez hecho eso, se selecciona el empleado que va a fichar.  
+ 
+El operario selecciona la orden y se abre la siguiente pantalla:
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 32/35 www.imatia.com  
+En elastic se distinguen dos tipos de tiempos de imputación:  
+• Tiempo setup: Es el tiempo que tarda el operario en poner en funcionamiento la máquina.  
+• Tiempo productivo: Es el tiempo que tarda el operario en finalizar el trabajo de la operación.  
+Para empezar a imputar cualquiera de los dos tiempos, se debe pulsar el botón verde de play.  
+Una vez pulsado la pantalla se cerrará para evitar cualquier interrupción errónea, por parte del operario o 
+de un tercero.  
+Cuando el operario finalice la operación o decida pausar (por ejemplo, para el bocadillo), debe volver a 
+acceder con su ficha de empleado.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 33/35 www.imatia.com  
+ 
+Cada vez que el operario rellene la C. fabricada o C. defectuosa y pulse el botón stop, se creará una 
+fabricación parcial en la programación de cuál se generó esta orden.  
+En las órdenes, para que el operario pueda de una manera visual distinguir en que estado se encuentra, 
+se utiliza una tonalidad de colores.  
+• Amarillo: Orden de fabricación sin terminar, donde ya se imputaron tiempos y se fabricó 
+cantidad.  
+• Verde: Orden de fabricación donde un operario actualmente está imputando tiempos.  
+• Azul: Orden de fabricación en pausa.  
+Dentro de la orden el operario puede consultar información asociada a la orden  en los botones laterales:  
+• Lotes:  Lotes asociados al material que se va a consumir en la orden.  
+• Materiales:  Material que se va a consumir en la orden.  
+• Utillajes:  Utillajes asociados a la orden.  
+• Ensayos:  Registros de calidad asociados a la orden.  
+• Registros : Registros de fabricación asociados a la orden.  
+• Documentos: Materia l adjunto a la orden.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 34/35 www.imatia.com  
+En este apartado se va a ver l os listados de  producción má s destacables. Estos se utilizan para consultar 
+toda la información que figura en el módulo de producción y que está disponible en el sistema.  Los 
+listados a explicar son:  
+- Costes por programación  
+- Costes por fabricaciones  
+- Control de fichajes  
+ 
+Este listado se utiliza para consultar los todos los costes teóricos y reales desglosados de 
+una programación  y por tanto visualizar el grado de cumplimiento frente al coste real. Para accede r, 
+Listados >> Listados de programación >> Costes por programación  
+Para que se muestre la información se debe pulsar la lupa de la esquina superior derecha.  
+ 
+Lo más destac able es la comparación que surge de sumar todos los costes teóricos y reales , este coste 
+puede ser unitario o total , como se puede ver en la siguiente imagen.
+
+---
+
+# Elastic_Módulo de Producción. Manual de uso - 
+
+**Origen:** `build\sources\produccion\Elastic_Módulo de Producción. Manual de uso.pdf`
+**Módulo:** produccion
+
+
+
+## Texto extraído
+
+Pág. 35/35 www.imatia.com  
+Este listado se utiliza para consultar todos los  costes  desglosados y al detalle de todas las  órdenes  de 
+fabricación del sistema. Permite comparar el grado de cumplimiento a nivel costes, enfrentando los 
+costes reales desglosados frente a los costes teóricos  desglosados .  Para acceder , Listados >> 
+Listados de programación >> Costes por fabricaciones.  
+Para que se muestre la información se debe pulsar la lupa de la esquina superior derecha.  
+ 
+Para hallar el coste real y coste teórico, se requiere el siguiente cálculo:  
+- Coste teórico  = Coste teórico materia prima + Coste teórico empleado + Coste teórico maquina 
++ Coste teórico fijo operaciones  + Otros costes teóricos  
+Coste teórico  = 17.414€ + 0€ + 0€ + 17,000€ + 0€ = 34.414€  
+ 
+- Coste real  = Coste real materia prima + Coste real empleado + Coste real maquina + Coste real 
+fijo operaciones + Otros costes reales  
+Coste real = 17.414€ + 0€ + 0€ + 24,120€ + 0€ = 41.534€  
+ 
+Este listado se utiliza para consultar todo  lo relacionado con el seguimiento de ordenes de fabricación 
+del sistema. Permite conocer  tanto los tiempos de fabricación de cada una de las programaciones,  
+como  las cantidades fabrica das, las que están pendientes, las rechazadas y las defectuosas . También 
+permite conocer al detalle , donde se está haciendo dicha programación  (Fábrica, línea, sección…) . Para 
+acceder , Listados >> Listados de programación >> Control de fichajes .  
+Para que se muestre la información se debe pulsar la lupa de la esquina superior derecha.
+
+---
+
+## Próximos pasos
+
+1. ✓ Revisar y corriegir el texto
+2. ⏳ Reorganizar en secciones temáticas
+3. ⏳ Extraer tablas y formatear correctamente
+4. ⏳ Agregar imágenes desde `docs/assets/pdf-images/produccion/`
+5. ⏳ Crear estructura final con archivos temáticos
+6. ⏳ Actualizar tabla de contenidos
+
+## Módulo: produccion
+
+**PDF original:** `build/sources/produccion/`
+**Raw files:** `docs/_raw/produccion/`
+**Assets:** `docs/assets/pdf-images/produccion/`

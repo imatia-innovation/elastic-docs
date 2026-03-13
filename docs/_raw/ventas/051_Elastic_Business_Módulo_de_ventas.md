@@ -1,0 +1,40 @@
+# Elastic_Business_Módulo_de_ventas - Página 51
+
+**Origen:** `build\sources\ventas\Elastic_Business_Módulo_de_ventas.pdf`
+**Módulo:** ventas
+
+---
+
+## Texto extraído
+
+ 
+Manual de Usuario Módulo de Ventas  
+   
+ 
+ 
+elastic® B USINESS   Pág. 51 de 84 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+

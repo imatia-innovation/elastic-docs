@@ -1,0 +1,2201 @@
+# FINANZAS - Contenido extraído de PDF
+
+> **Nota:** Esta es una extracción automática de PDF a Markdown. 
+> Requiere revisión y reorganización manual según estructura deseada.
+
+**Estadísticas:**
+- Páginas procesadas: 80
+- Tamaño del contenido: 94250 caracteres
+
+## Contenido extraído
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/38 www.imatia.com  Creación de cuentas contables .
+ 
+Las cuentas contables son el instrumento por el cual se registran todos y cada uno de los movimientos 
+de la empresa a nivel económico.  En este documento explicaremos como acceder a ellas y donde 
+crearlas  
+ 
+Para la creación de una cuenta contable nueva o modificar una ya existente, nos tendremos que ir a  la 
+pestaña de Finanzas >> Au xiliares >> Plan general contable .  
+Cuando se crea el PGC correspondiente, ya se crea la estructura básica de epígrafes o cuentas según la 
+estructura definida por la administración estatal.  Una vez aquí podremos ver en el desplegable de la 
+izquierda  todos los planes identificados según el año del ejercicio y la empresa correspondiente.  Tras 
+seleccionar ambos podremos ver:  
+- Balance de situación  
+- Pérdidas y ganancias  
+ 
+*Nota:  Para poder consultar el Plan General Contable, antes se debe tener creada una empresa y un 
+ejercicio económico . 
+ 
+Una vez seleccionado el grupo donde queremos introducir las cuentas (activo corriente, no corriente, 
+pasivo corriente…)  tendremos que entrar en los detalles y veremos los epígrafes  que la forman . Los 
+grupos vienen dados por defecto y no es recomendable cambiarlos o añadir nuevos, sin embargo , los 
+epígrafes pueden crearse como más convengan .  
+Para crear un nuevo epígrafe tendremos que entrar en los detalles del grupo. Una vez aquí clicaremos en 
+añadir registro (cruz verde) y nos mostrará una ventana desplegable . En esta ventana tendremos que 
+completar los siguientes campos : 
+- Código de balance : Viene completado por defecto  según el código del balance de la cuenta . 
+- Título : nombre que tiene el epígrafe .
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Creación de cuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Creación de cuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/3 www.imatia.com  
+Las cuentas contables son el instrumento por el cual se registran todos y cada uno de los movimientos 
+de la empresa a nivel económico.  En este documento explicaremos como acceder a ellas y donde 
+crearlas  
+ 
+Para la creación de una cuenta contable nueva o modificar una ya existente, nos tendremos que ir a  la 
+pestaña de Finanzas >> Au xiliares >> Plan general contable .  
+Cuando se crea el PGC correspondiente, ya se crea la estructura básica de epígrafes o cuentas según la 
+estructura definida por la administración estatal.  Una vez aquí podremos ver en el desplegable de la 
+izquierda  todos los planes identificados según el año del ejercicio y la empresa correspondiente.  Tras 
+seleccionar ambos podremos ver:  
+- Balance de situación  
+- Pérdidas y ganancias  
+ 
+*Nota:  Para poder consultar el Plan General Contable, antes se debe tener creada una empresa y un 
+ejercicio económico . 
+ 
+Una vez seleccionado el grupo donde queremos introducir las cuentas (activo corriente, no corriente, 
+pasivo corriente…)  tendremos que entrar en los detalles y veremos los epígrafes  que la forman . Los 
+grupos vienen dados por defecto y no es recomendable cambiarlos o añadir nuevos, sin embargo , los 
+epígrafes pueden crearse como más convengan .  
+Para crear un nuevo epígrafe tendremos que entrar en los detalles del grupo. Una vez aquí clicaremos en 
+añadir registro (cruz verde) y nos mostrará una ventana desplegable . En esta ventana tendremos que 
+completar los siguientes campos : 
+- Código de balance : Viene completado por defecto  según el código del balance de la cuenta . 
+- Título : nombre que tiene el epígrafe . 
+- Tipo de línea : aquí se puede sele ccionar si queremos introducir un epígrafe o una cuenta . Si 
+seleccionamos el tipo de  línea Epígrafe, nos abrirá un nuevo campo de código añadido.  Si
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Dimensiones - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Dimensiones.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/4 www.imatia.com  
+Una dimensión es un eje de análisis que sirve para realizar  una contabilidad analítica o por centro de 
+costes. El sistema permite realizar un estudio económico de toda la estructura empresarial, para varios 
+centros de coste.  
+ 
+Una vez que se tiene claro los ejes de análisis, se debe n crear las dimensiones. Para crear una 
+dimensión  se accede a Finanzas >> Dimensiones >> Configuración.  
+Nota:  En caso de dejar de utilizar la dimensión se puede dar de baja. Si ya ha sido utilizada no puede borrarse por 
+integridad de datos.  
+Nota:  Elastic© Business, puede soportar dos tipos diferentes de configuración. Una simple donde el análisis se 
+realiza directamente por la  subcuenta  o existe la posibilidad de que el análisis se realice por la combinación de 
+subcuenta y división.  
+Una vez creada la dimensión, lo siguiente será crear los valores. Los valores son cada una de las áreas 
+de análisis que debe tener la dimensión.  
+ 
+Valores de dimensiones
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/5 www.imatia.com  
+En Elastic la creación de subcuentas contables empieza en Finanzas >> Subcuentas.  
+Una vez en esta pantalla se le clic al icono de inserción y se nos abrirá a la siguiente pantalla.  
+A la hora de configurar las subcuentas contables vemos varios campos en la parte inferior que se 
+explican a continuación:  
+• Parámetros:  recoge la información sobre la configuración a la hora de asociar un valor de IVA a 
+esa cuenta, así como el tipo y subtipo que relacionan la subcuenta a la hora de generar los 
+apuntes contables desde gestión.  
+• Libro Mayor:  muestra los movimientos en la subcuenta en caso de que esta haya 
+tenido  asientos  en el Libro Diario.  
+• Presupuestado:  muestra las cantidades presupuestadas por meses, y la anual de esta 
+subcuenta. Estas cifras pueden editarse directamente en esa pantalla y en el  Plan 
+Presupuestario  
+• Datos del beneficiario:  sirve para relacionar la subcuenta con aquellas personas (físicas o 
+jurídicas) de clientes o proveedores. Al generar un cliente o proveedor se genera 
+automáticamente su subcuenta contable según configuración.  
+ 
+Para crear una subcuenta contable, hay que cumplimentar los campos obligatorios en color amarillo, 
+una vez cubramos los datos confirmamos en la parte superior.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/22 www.imatia.com  1. Introducción  ................................ ................................ ................................ ................................ ..........  1 
+2. Grupos de activos.  ................................ ................................ ................................ ................................  6 
+2.1 Activos en compras  ................................ ................................ ................................ ................................ ........  7 
+2.2 Documentos de compras.  ................................ ................................ ................................ .............................  9 
+2.3 Incremento de coste o valor mediante imputación en albaranes y facturas.  ................................ ... 11 
+2.4 Incremento de coste mediante imputación de horas en proyectos ................................ ....................  15 
+2.5 Incremento de coste mediante imputación de materiales y tiempos en programaciones  ............  17 
+ 
+En este documento tiene que objetivo detallar la gestión de activos en elastic Business.  
+ 
+Activos fijos  
+ 
+Al entrar e n los detalles del activo se puede v er que  en la cabecera se encuentran los datos principales 
+del activo. A la hora de crear un nuevo activo, l os datos obligatorios son el concepto y la empresa.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. IGIC e IVA extranjero (SII) - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. IGIC e IVA extranjero (SII).pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/3 www.imatia.com  
+En el presente documento se va a explicar como  se deben comunicar desde Elastic las facturas con IGIC 
+o IVAs extranjeros al SII.  
+ 
+En Elastic Business si debemos registrar una factura de venta o compra con IVA extranjero o IGIC, 
+primeramente, debemos tener ese IVA creado en la tabla maestra de IVA s (FINANZAS. Tipos de IVA. ). 
+ 
+En este documento haremos un ejemplo con el 7% IGIC canario, pero sería igualmente válido para 
+cualquier tipo de IVA extranjero.  
+El siguiente proveedor canario nos emite una factura de servicios con un IGIC del 7%
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Modelos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Modelos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/1 www.imatia.com  
+En el presente documento se va n a los diferentes Modelos con lo que cuenta Elastic Business.  
+ 
+Modelo 111:  Declaración trimestral de retenciones e ingresos a cuenta del IRPF de rendimientos del 
+trabajo y actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de 
+renta.  
+Modelo 115:  Declaración trimestral de retenciones e ingresos a cuenta del IRPF por rentas o 
+rendimientos procedentes del arrendamiento o subarrendamiento de inmuebles urbanos.  
+Modelo 123:  Retenciones e ingresos a cuenta del IRPF, IRNR e IS sobre determinados rendimientos del 
+capital mobiliario y ganancias patrimoniales.  
+Modelo 180:  Resumen anual del Modelo 115 que incluye las retenciones e ingresos a cuenta del IRPF 
+por rentas o rendimientos procedentes del arrendamiento o subarrendamiento de inmuebles urbanos.  
+Modelo 190:  Resumen anual del Modelo 111, que recoge las retenciones e ingresos a cuenta del IRPF 
+por rendimientos del trabajo, actividades económicas, premios y ciertas ganancias patrimoniales.  
+Modelo 303:  Declaración trimestral del IVA. Este es el modelo de autoliquidación más común entre los 
+empresarios y profesionales para la declaración del IVA.  
+Modelo 340:  Declaración informativa de operaciones incluidas en los libros registro del IVA, aunque 
+actualmente está derogada para la mayoría de los contribuyentes excepto en casos muy específicos.  
+Modelo 347:  Declaración anual de operaciones con terceras personas con las que se ha superado la cifra 
+de 3.005,06 euros durante el año natural.  
+Modelo 349:  Declaración informativa de operaciones intracomunitarias que incluye adquisiciones y 
+entregas de bienes y servicios realizadas entre personas o entidades de diferentes Estados miembros 
+de la UE.  
+Modelo 390:  Resumen anual del IVA que recapitula las operaciones realizadas durante el año que han 
+sido objeto de declaración en el Modelo 303.
+
+---
+
+# Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 1/4 www.imatia.com  
+Una dimensión es un eje de análisis que sirve para realizar  una contabilidad analítica o por centro de 
+costes. El sistema permite realizar un estudio económico de toda la estructura empresarial, para varios 
+centros de coste.  
+ 
+Una vez que se tiene claro los ejes de análisis, se debe n crear las dimensiones. Para crear una 
+dimensión  se accede a Finanzas >> Dimensiones >> Configuración.  
+Una vez creada la dimensión, lo siguiente será crear los valores. Los valores son cada una de las áreas 
+de análisis que debe tener la dimensión.  
+ 
+Valores de dimensiones  
+Creados los valores, se deben configurar las subcuentas para que cuando aparezcan en 
+los asientos  contable, provoquen una distribución automática porcentual del importe entre los distintos 
+valores definidos con anterioridad. Para ello, se deben añadir  todas las subcuentas que participen en 
+dicha distribución.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/38 www.imatia.com  - Tipo de línea : aquí se puede sele ccionar si queremos introducir un epígrafe o una cuenta . Si 
+seleccionamos el tipo de  línea Epígrafe, nos abrirá un nuevo campo de código añadido.  Si 
+seleccionamos el tipo de línea Cuenta, nos abre un nuevo campo para poner el código de la 
+cuenta.  
+- Código  añadido : será un único car acter e irá seguido a los códigos de balance  para que se  cree 
+así el código del epígrafe.  
+- Fórmula : campo para añadir una formula autocalculada.  
+ 
+** Como podemos ver en este ejemplo , al crear el código añadido “G”  el código de nuestro epígrafe es 
+PCG (PC por pasivo corriente)  ** 
+ 
+Para crear una cuenta contable tendremos que acceder a  al epígrafe donde queramos introducirla. Una 
+vez aquí  seguiremos los mismos pasos que con el epígrafe.  Pondremos el título que queramos a la 
+cuenta , en el tipo de línea pondremos cuenta y nos añadirá un campo donde meter el  número de cuenta 
+que queremos que tenga.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Creación de cuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Creación de cuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/3 www.imatia.com  seleccionamos el tipo de línea Cuenta, nos abre un nuevo campo para poner el código de la 
+cuenta.  
+- Código  añadido : será un único car acter e irá seguido a los códigos de balance  para que se  cree 
+así el código del epígrafe.  
+- Fórmula : campo para añadir una formula autocalculada.  
+ 
+** Como podemos ver en este ejemplo , al crear el código añadido “G”  el código de nuestro epígrafe es 
+PCG (PC por pasivo corriente)  ** 
+ 
+Para crear una cuenta contable tendremos que acceder a  al epígrafe donde queramos introducirla. Una 
+vez aquí  seguiremos los mismos pasos que con el epígrafe.  Pondremos el título que queramos a la 
+cuenta , en el tipo de línea pondremos cuenta y nos añadirá un campo donde meter el  número de cuenta 
+que queremos que tenga.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Dimensiones - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Dimensiones.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/4 www.imatia.com  Creados los valores, se deben configurar las subcuentas para que cuando aparezcan en 
+los asientos  contable, provoquen una distribución automática porcentual del importe entre los distintos 
+valores definidos con anterioridad. Para ello, se deben añadir  todas las subcuentas que participen en 
+dicha distribución.  
+ 
+Configuración de subcuentas  
+La configuración de subcuenta puede estar complementada por la división. Esta configuración 
+ampliada, permite a las empresas relacionar de manera automática la subcuenta con un centro de 
+coste, siendo este el departamento o división. Este último pueda esta r asignado previamente a 
+las facturas de venta  o facturas de compras  mediante el campo división, pudiendo así tener un grado 
+más en el control de la distribución automática a través de la división asignada a la factura. Lo normal 
+es que el porcentaje de distribución sea el 100% al valor que coincida con el de la propia div isión, pero 
+el sistema es flexible porque  lo que permite hacer distribuciones porcentuales a los distintos valores de 
+la dimensión independientemente de la división asociada.  
+Nota:  En caso de que se quiera dejar de utilizar un valor de la dimensión, se puede dar de baja. Si ya ha sido 
+utilizada no puede borrarse por integridad de datos.  
+Nota:  Cuando se inserta valor en el porcentaje, el sistema sabe que esa es la parte del importe que debe llevar al 
+valor de la dimensión cuando parece esa subcuenta en juego en los asientos. Automáticamente el check de visible 
+parece marcado. Por el contrario, si se piensa en hacer una distribución manual entre ciertos valores fuera del 
+estándar y según lo que quiera hacer el  usuario , se puede marcar el check de visible. Eso hará que, a pesar de no 
+ponerle distribución porcentual, se visualizará el valor para asignarle manualmente porcentaje de importe en el 
+asiento. Es un tema ergonómico.  
+Nota:  El sistema de dimensiones es compatible con la inserción manual de asientos, los que se meten 
+directamente desde  finanzas . Cada vez que se añade una partida al asiento comprueba si esa subcuenta está  
+definida en alguna configuración y realiza la distribución igualmente.  Esto puede valer para cuentas de dotación, 
+sueldos, etc. de las que nos e inserta factura.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/5 www.imatia.com  Nota: Para agilizar el proceso de creación en la subcuenta, supongamos que queremos crear la cuenta 
+477000001, podemos escribir 477.1 y el sistema automáticamente ajustará los dígitos para dejarlos acorde 
+a la configuración del Plan General Contable.  
+Nota: Cuando se crea una subcuenta contable en un ejercicio, esta se replica en todos los demás ejercicios.  
+ 
+(Este apartado únicamente afectará a las subcuentas contables de los grupos 477 IVA REPERCUTIDO y 
+472 IVA SOPORTADO)  
+• Tipo: En tipo indicamos el tipo de Operación de IVA, este tipo de operación viene definido en la 
+Tabla Maestra de Tipo de Operación de IVA, se utiliza para filtrar el siguiente valor de Tipo IVA.  
+• Tipo IVA: En el Tipo de IVA se define el IVA concreto que se quiere asociar a la subcuenta 
+correspondiente.  
+• Tipo RE: Si se define subcuentas contables que tenga Recargo de Equivalencia este se define 
+en este apartado.  
+ 
+Moneda  (Este apartado afectará a las subcuentas contables que esté definidas en Moneda extranjera)  
+• El check de subcuenta de moneda extranjera activará todos los demás checks y campo de 
+Código divisa.  
+• Código divisa:  En este campo se configura la divisa de la subcuenta, sirve para mostrar el 
+icono correspondiente a la moneda de la divisa seleccionada.  
+• Documento obligatorio en asientos: Indica la obligatoriedad del campo N Documento en los 
+apuntes libres.  
+• Regularización automática en moneda extranjera en el proceso de ajuste de divisas: Ignorar, no 
+se usa para nada.  
+ 
+Aquí se definen el Tipo y Subtipo de las subcuentas, esta configuración afecta a la gestión de las 
+subcuentas en los asientos contables. Sirve para que el sistema identifique las subcuentas que se 
+necesitan a la hora de realizar los apuntes contables, por ejemplo,  las de bancos, las de efectos de 
+clientes/proveedores, etc.  
+La tabla maestra de Tipo es la siguiente:  
+Código tipo  Descripción tipo  
+BC Tipo cuenta caja  
+BCC  Tipo cuenta bancaria  
+BD Tipo cuenta bancaria descuento  
+BG Tipo cuenta gastos bancarios  
+BGC  Tipo cuenta gastos recibos compras  
+BGP  Tipo cuenta gastos del pagaré  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  
+CC Tipo cuenta cliente o proveedor
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/22 www.imatia.com  En las pestañas se pueden  ver: 
+• Básicos:  contiene campos con información básica del activo en cuestión : 
+ 
+o Grupo:  Hace referencia a que grupo de amortización  al que pertenece el activo a 
+amortizar . Est os grupos se pueden crear en Finanzas >> Auxiliares >> Grupos de activos . 
+Estos datos obligatorios son los que aparecerán luego relacionados en los activos fijos.  
+ 
+Actualmente la configuración para la amortización se define en Finanzas >> Auxiliares >> Grupos 
+de activos . 
+ 
+Grupos de activos  
+ 
+o Porcentaje de amortización:  Viene dado por el grupo de amortización,  aunque se puede 
+modificar.  
+o Valor residual : Estimación del valor que tendrá el activo al final de su vida útil.  
+o Subc.  amortización : Muestra la subcuenta de amortización en base  al grupo de 
+amortización seleccionado.  
+o Tipo de amortización:  Define  los plazos de amortización.  
+o Subc . dotación : Subcuenta de gasto asociada al activo.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. IGIC e IVA extranjero (SII) - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. IGIC e IVA extranjero (SII).pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/3 www.imatia.com  
+Para comunicar correctamente esta factura al SII, lo que debemos hacer es seleccionar en la pestaña 
+SII, el tipo de operación 08.  
+ 
+De esta manera, se comunicará la base imponible de la factura, no comunicándose el IGIC.  
+Con respecto a la contabilidad, el modelo de asientos será el mismo que en cualquier otra factura de 
+compras, y la configuración de la subcuenta contable del IVA será la que se configure en Finanzas >> 
+Subcuentas.
+
+---
+
+# Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 2/4 www.imatia.com  
+Configuración de subcuentas  
+La configuración de subcuenta puede estar complementada por la división. Esta configuración 
+ampliada, permite a las empresas relacionar de manera automática la subcuenta con un centro de 
+coste, siendo este el departamento o división. Este último pueda esta r asignado previamente a 
+las facturas de venta  o facturas de compras  mediante el campo división, pudiendo así tener un grado 
+más en el control de la distribución automática a través de la división asignada a la factura. Lo normal 
+es que el porcentaje de distribución sea el 100% al valor que coincida con el de la propia div isión, pero 
+el sistema es flexible porque  lo que permite hacer distribuciones porcentuales a los distintos valores de 
+la dimensión independientemente de la división asociada.  
+Nota:  Elastic© Business, puede soportar dos tipos diferentes de configuración. Una simple donde el análisis se 
+realiza directamente por la  subcuenta  o existe la posibilidad de que el análisis se realice por la combinación de 
+subcuenta y división.  
+Nota:  En caso de que se quiera dejar de utilizar un valor de la dimensión, se puede dar de baja. Si ya ha sido 
+utilizada no puede borrarse por integridad de datos.  
+Nota:  Cuando se inserta valor en el porcentaje, el sistema sabe que esa es la parte del importe que debe llevar al 
+valor de la dimensión cuando parece esa subcuenta en juego en los asientos. Automáticamente el check de visible 
+parece marcado. Por el contrario, si se piensa en hacer una distribución manual entre ciertos valores fuera del 
+estándar y según lo que quiera hacer el  usuario , se puede marcar el check de visible. Eso hará que, a pesar de no 
+ponerle distribución porcentual, se visualizará el valor para asignarle manualmente porcentaje de importe en el 
+asiento. Es un tema ergonómico.  
+Nota:  El sistema de dimensiones es compatible con la inserción manual de asientos, los que se meten 
+directamente desde  finanzas . Cada vez que se añade una partida al asiento comprueba si esa subcuenta está  
+definida en alguna configuración y realiza la distribución igualmente.  Esto puede valer para cuentas de dotación, 
+sueldos, etc. de las que nos e inserta factura.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/38 www.imatia.com  
+En este caso, al crear una nueva cuenta, se concatenará con el código del epígrafe.  
+ 
+Una dimensión es un eje de análisis que sirve para realizar  una contabilidad analítica o por centro de 
+costes. El sistema permite realizar un estudio económico de toda la estructura empresarial, para varios 
+centros de coste.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Creación de cuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Creación de cuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/3 www.imatia.com  
+En este caso, al crear una nueva cuenta, se concatenará con el código del epígrafe.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Dimensiones - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Dimensiones.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/4 www.imatia.com  
+A la hora de contabilizar en una factura una subcuenta que tenga configurad a una dimensión con 
+diferentes valores, automáticamente el sistema  hará el reparto dimensional.  
+ 
+Ejemplo de desglose dimensional  
+Este desglose dimensional es editable, permitiendo modificar los valores de las dimensiones y añadir 
+una nueva si se desea, así como modificar importes y porcentajes.  
+En la subcuenta contable, desde finanzas, también se puede n visualizar las dimensiones y valores 
+asociados a esta. La vista permite filtrar tanto por dimensión, como valor de esta.  
+ 
+Subcuenta contable. Pestaña Libro Mayor. Subpestaña por dimensión.  
+ 
+Dentro del menú Finanzas >> Dimensiones >> Informes  hay dos informes de dimensión. Uno listado de  
+dimensiones y otro del PyG Dimensional.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/5 www.imatia.com  CD Tipo cuenta cliente devolución  
+CR Tipo cuenta retenciones compras  
+DED  Tipo cuenta deudas efectos descontados  
+DNC  Tipo cuenta diferencias negativas de cambio  
+DPC  Tipo cuenta diferencias positivas de cambio  
+DV Tipo cuenta devolucion  
+EC Tipo cuenta efectos comerciales  
+EXP  Tipo cuenta transitoria gastos empleados  
+G Tipo cuenta operaciones de compras  
+IR Tipo cuenta IVA repercutido  
+IS Tipo cuenta IVA soportado  
+PP Tipo cuenta pronto pago ventas  
+PPC  Tipo cuenta pronto pago compras  
+RA Tipo cuenta rappel ventas  
+RC Tipo cuenta rappel compras  
+RE Tipo cuenta recargo equivalencia  
+V Tipo cuenta operaciones de ventas  
+VR Tipo cuenta retenciones ventas  
+ 
+La tabla maestra de los Subtipos es la siguiente:  
+Código tipo  Descripción tipo  Código 
+subtipo  Descripción subtipo  
+BC Tipo cuenta caja  BC Subtipo cuenta caja  
+BCC  Tipo cuenta bancaria  BCC  Subtipo cuenta banco  
+BD Tipo cuenta bancaria descuento  BD Subtipo cuenta banco devoluciones  
+BD Tipo cuenta bancaria descuento  BD2  Subtipo cuenta banco devoluciones 2  
+BD Tipo cuenta bancaria descuento  BD3  Subtipo cuenta banco devoluciones 3  
+BG Tipo cuenta gastos bancarios  BG Subtipo cuenta banco gastos  
+BG Tipo cuenta gastos bancarios  BG2  Subtipo cuenta banco gastos ventas 2  
+BG Tipo cuenta gastos bancarios  BG3  Subtipo cuenta banco gastos ventas 3  
+BG Tipo cuenta gastos bancarios  BG4  Subtipo cuenta banco gastos ventas 4  
+BG Tipo cuenta gastos bancarios  BG5  Subtipo cuenta banco gastos ventas 5  
+BGC  Tipo cuenta gastos recibos compras  BGC  Subtipo cuenta banco gastos compras  
+BGC  Tipo cuenta gastos recibos compras  BGC2  Subtipo cuenta banco gastos compras 2  
+BGC  Tipo cuenta gastos recibos compras  BGC3  Subtipo cuenta banco gastos compras 3  
+BGC  Tipo cuenta gastos recibos compras  BGC4  Subtipo cuenta banco gastos compras 4  
+BGC  Tipo cuenta gastos recibos compras  BGC5  Subtipo cuenta banco gastos compras 5  
+BGP  Tipo cuenta gastos del pagaré  BGP  Subtipo cuenta gatos bancarios pagaré  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI Subtipo cuenta ingresos extraordinarios  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI2 Subtipo cuenta ingresos extraordinarios 2  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI3 Subtipo cuenta ingresos extraordinarios 3  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI4 Subtipo cuenta ingresos extraordinarios 4  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI5 Subtipo cuenta ingresos extraordinarios 5
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/22 www.imatia.com  Formulario de activo. Pestaña básico.  
+• Cambios en importes:  tiene como finalidad registrar todas las modificaciones del importe del 
+activo, quedando reflejada la fecha de este.  
+ 
+Formulario de activo. Pestaña Cambios en importe  
+• Amortización:  aquella información relevante sobre la amortización que no se muestre en la 
+pestaña de Básicos se recoge aquí (estado actual de la amortización y Asientos de 
+amortización).  Aquí se puede ver cuanto queda por amortizar y que cantidad ya se amortizó.  En 
+Finanzas >> Procesos > > Generar asientos >> A mortización  podremos añadir las líneas de 
+amortización .
+
+---
+
+# Elastic_Business_Módulo de Finanzas. IGIC e IVA extranjero (SII) - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. IGIC e IVA extranjero (SII).pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/3 www.imatia.com
+
+---
+
+# Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 3/4 www.imatia.com  
+A la hora de contabilizar en una factura una subcuenta que tenga configurad a una dimensión con 
+diferentes valores, automáticamente el sistema  hará el reparto dimensional.  
+ 
+Ejemplo de desglose dimensional  
+Este desglose dimensional es editable, permitiendo modificar los valores de las dimensiones y añadir 
+una nueva si se desea, así como modificar importes y porcentajes.  
+En la subcuenta contable, desde finanzas, también se puede n visualizar las dimensiones y valores 
+asociados a esta. La vista permite filtrar tanto por dimensión, como valor de esta.  
+ 
+Subcuenta contable. Pestaña Libro Mayor. Subpestaña por dimensión.  
+ 
+Dentro del menú Finanzas >> Dimensiones >> Informes  hay dos informes de dimensión. Uno listado de  
+dimensiones y otro del PyG Dimensional.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 4/38 www.imatia.com  
+Una vez que se tiene claro los ejes de análisis, se debe n crear las dimensiones. Para crear una 
+dimensión  se accede a Finanzas >> Dimensiones >> Configuración.  
+Nota:  En caso de dejar de utilizar la dimensión se puede dar de baja. Si ya ha sido utilizada no puede borrarse por 
+integridad de datos.  
+Nota:  Elastic© Business, puede soportar dos tipos diferentes de configuración. Una simple donde el análisis se 
+realiza directamente por la  subcuenta  o existe la posibilidad de que el análisis se realice por la combinación de 
+subcuenta y división.  
+Una vez creada la dimensión, lo siguiente será crear los valores. Los valores son cada una de las áreas 
+de análisis que debe tener la dimensión.  
+ 
+Valores de dimensiones  
+Creados los valores, se deben configurar las subcuentas para que cuando aparezcan en 
+los asientos  contable, provoquen una distribución automática porcentual del importe entre los distintos 
+valores definidos con anterioridad. Para ello, se deben añadir  todas las subcuentas que participen en 
+dicha distribución.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Dimensiones - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Dimensiones.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 4/4 www.imatia.com  
+En este listado previo filtro de la dimensión, ya que no se puede mostrar varios ejes de análisis a la vez, 
+se ve el desglose mes a mes, acumulado y la desviación con respecto al  presupuesto  si se ha 
+desglosado, de todas las subcuentas con saldo. Es una manera más compleja de ver la información, 
+pero permite ver el desglose por mes, el diferencial resultante y la desviación en una sola línea,  así como 
+el acumulado del todo el año.  
+ 
+Listado dimensiones  
+ 
+En este listado también previo filtro de la dimensión o del rango mensual a analizar, se puede ver el 
+desglose por centro de coste, pero bajo la perspectiva de una PyG. Además, tiene como posibilidad, la 
+visualización del desglose del saldo de la partida a  analizar, ya que se puede acceder al desglose de la 
+subcuenta contable.  
+ 
+Listado PyG Dimensional
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 4/5 www.imatia.com  CR Tipo cuenta retenciones compras  RT Subtipo cuenta retenciones compra  
+CR Tipo cuenta retenciones compras  RT2  Subtipo cuenta retenciones compras 2  
+CR Tipo cuenta retenciones compras  RT3  Subtipo cuenta retenciones compras 3  
+DED  Tipo cuenta deudas efectos descontados  DED  Subtipo cuenta deudas efectos descontados  
+DNC  Tipo cuenta diferencias negativas de cambio  DNC  Subtipo cuenta diferencias negativas de cambio  
+DPC  Tipo cuenta diferencias positivas de cambio  DPC  Subtipo cuenta diferencias positivas de cambio  
+DV Tipo cuenta devolución  DV Subtipo cuenta devoluciones  
+DV Tipo cuenta devolución  DV2  Subtipo cuenta devoluciones ventas 2  
+DV Tipo cuenta devolución  DV3  Subtipo cuenta devoluciones ventas 3  
+EC Tipo cuenta efectos comerciales  C Subtipo cuenta efectos pendientes  
+EC Tipo cuenta efectos comerciales  D Subtipo cuenta efectos devueltos  
+EC Tipo cuenta efectos comerciales  I Subtipo cuenta efectos impagados  
+EC Tipo cuenta efectos comerciales  P Subtipo cuenta efectos pagados  
+EXP  Tipo cuenta transitoria gastos empleados  TR Subtipo cuenta transitoria gastos  
+G Tipo cuenta operaciones de compras  GM Subtipo compras  operaciones compras de servicios  
+G Tipo cuenta operaciones de compras  GME  Subtipo cuenta operaciones compras  de mercaderías  
+G Tipo cuenta operaciones de compras  GMP  Subtipo cuenta operaciones compras de mercaderías 
+(BMC)  
+G Tipo cuenta operaciones de compras  HAC  Subtipo cuenta hacienda acreedora por IVA  
+G Tipo cuenta operaciones de compras  TF Subtipo cuenta transitoria facturas pendientes de 
+recibir  
+IR Tipo cuenta IVA repercutido  IR Subtipo cuenta IVA repercutido  
+IS Tipo cuenta IVA soportado  IS Subtipo cuenta IVA soportado  
+PP Tipo cuenta pronto pago ventas  PP Subtipo cuenta pronto pago ventas  
+PP Tipo cuenta pronto pago ventas  PP2  Subtipo cuenta pronto pago ventas 2  
+PP Tipo cuenta pronto pago ventas  PP3  Subtipo cuenta pronto pago ventas 3  
+PPC  Tipo cuenta pronto pago compras  PPC  Subtipo cuenta pronto pago compras  
+PPC  Tipo cuenta pronto pago compras  PPC2  Subtipo cuenta pronto pago compras 2  
+PPC  Tipo cuenta pronto pago compras  PPC3  Subtipo cuenta pronto pago compras 3  
+RA Tipo cuenta rappel ventas  RA Subtipo cuenta rappel ventas  
+RA Tipo cuenta rappel ventas  RA2  Subtipo cuenta rappel ventas 2  
+RA Tipo cuenta rappel ventas  RA3  Subtipo cuenta rappel ventas 3  
+RC Tipo cuenta rappel compras  RC Subtipo cuenta rappel compras  
+RC Tipo cuenta rappel compras  RC2  Subtipo cuenta rappel compras 2  
+RC Tipo cuenta rappel compras  RC3  Subtipo cuenta rappel compras 3  
+RE Tipo cuenta recargo equivalencia  RE Subtipo cuenta recargo de equivalencia  
+RE Tipo cuenta recargo equivalencia  RE2  Subtipo cuenta recargo equivalencia 2  
+RE Tipo cuenta recargo equivalencia  RE3  Subtipo cuenta recargo equivalencia 3  
+V Tipo cuenta operaciones de ventas  CCFC  Subtipo cuenta de confirming a cobrar  
+V Tipo cuenta operaciones de ventas  CECC  Subtipo cuenta clientes efectos comerciales a cobrar  
+V Tipo cuenta operaciones de ventas  GV Subtipo cuenta de gastos ventas  
+V Tipo cuenta operaciones de ventas  ME Subtipo cuenta operaciones ventas  
+V Tipo cuenta operaciones de ventas  TR Subtipo cuenta de transporte  
+VR Tipo cuenta retenciones ventas  RT Subtipo cuenta retenciones venta
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 4/22 www.imatia.com  Formulario de activo. Pestaña Amortización.  
+ 
+• Documentos asociados : todo presupuesto, pedido, albarán y factura asociada a este activo fijo 
+se ve reflejada en esta pestaña.
+
+---
+
+# Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas_Manual_Módulo_Dimensional.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 4/4 www.imatia.com  
+En este listado previo filtro de la dimensión, ya que no se puede mostrar varios ejes de análisis a la vez, 
+se ve el desglose mes a mes, acumulado y la desviación con respecto al  presupuesto  si se ha 
+desglosado, de todas las subcuentas con saldo. Es una manera más compleja de ver la información, 
+pero permite ver el desglose por mes, el diferencial resultante y la desviación en una sola línea,  así como 
+el acumulado del todo el año.  
+ 
+Listado dimensiones  
+ 
+En este listado también previo filtro de la dimensión o del rango mensual a analizar, se puede ver el 
+desglose por centro de coste, pero bajo la perspectiva de una PyG. Además, tiene como posibilidad, la 
+visualización del desglose del saldo de la partida a  analizar, ya que se puede acceder al desglose de la 
+subcuenta contable.  
+ 
+Listado PyG Dimensional
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 5/38 www.imatia.com  
+Configuración de subcuentas  
+La configuración de subcuenta puede estar complementada por la división. Esta configuración 
+ampliada, permite a las empresas relacionar de manera automática la subcuenta con un centro de 
+coste, siendo este el departamento o división. Este último pueda esta r asignado previamente a 
+las facturas de venta  o facturas de compras  mediante el campo división, pudiendo así tener un grado 
+más en el control de la distribución automática a través de la división asignada a la factura. Lo normal 
+es que el porcentaje de distribución sea el 100% al valor que coincida con el de la propia div isión, pero 
+el sistema es flexible porque  lo que permite hacer distribuciones porcentuales a los distintos valores de 
+la dimensión independientemente de la división asociada.  
+Nota:  En caso de que se quiera dejar de utilizar un valor de la dimensión, se puede dar de baja. Si ya ha sido 
+utilizada no puede borrarse por integridad de datos.  
+Nota:  Cuando se inserta valor en el porcentaje, el sistema sabe que esa es la parte del importe que debe llevar al 
+valor de la dimensión cuando parece esa subcuenta en juego en los asientos. Automáticamente el check de visible 
+parece marcado. Por el contrario, si se piensa en hacer una distribución manual entre ciertos valores fuera del 
+estándar y según lo que quiera hacer el  usuario , se puede marcar el check de visible. Eso hará que, a pesar de no 
+ponerle distribución porcentual, se visualizará el valor para asignarle manualmente porcentaje de importe en el 
+asiento. Es un tema ergonómico.  
+Nota:  El sistema de dimensiones es compatible con la inserción manual de asientos, los que se meten 
+directamente desde  finanzas . Cada vez que se añade una partida al asiento comprueba si esa subcuenta está  
+definida en alguna configuración y realiza la distribución igualmente.  Esto puede valer para cuentas de dotación, 
+sueldos, etc. de las que nos e inserta factura.  
+ 
+A la hora de contabilizar en una factura una subcuenta que tenga configurad a una dimensión con 
+diferentes valores, automáticamente el sistema  hará el reparto dimensional.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Explicación de tipos y subtipos de subcuentas contables.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 5/5 www.imatia.com  VR Tipo cuenta retenciones ventas  RT2  Subtipo cuenta retenciones ventas 2  
+VR Tipo cuenta retenciones ventas  RT3  Subtipo cuenta retenciones ventas 3  
+ 
+No todas las subcuentas necesitan tener un tipo y subtipo configurado, esto depende de que tipo de 
+cuenta estemos configurando.  
+Para el usuario los tipos más importantes son:  
+Tipo G : Operaciones de compras. Se utilizan para las subcuentas de tipo 6, aunque pueda haber otras 
+para la gestión de las compras. En todos los subtipos  
+• Subtipo GM: Subtipo compras operaciones de servicios.  
+• Subtipo GME: Subtipo compras operaciones de mercaderías.  
+• Subtipo GMP: Subtipo compras operaciones de mercaderías (específico para BMC).  
+• Subtipo HAC:  Subtipo cuenta hacienda acreedora por IVA . 
+• Subtipo TF: Subtipo cuenta transitoria facturas pendientes de recibir . 
+Tipo V : Operaciones de ventas. Se utiliza para las subcuentas de tipo 7 aunque puede haber otras para 
+la gestión de las ventas.  
+• Subtipo GV: Para la subcuenta de los gastos específicos de documentos de ventas.  
+• Subtipo ME: Para las subcuentas puramente de Operaciones de ventas (Estas subcuentas son 
+las que se seleccionan en albaranes y facturas para la generación de los apuntes contables)  
+• Subtipo TR: Para la subcuenta de los gastos específicos de transporte.  
+Notas: Los tipos G y V y sus correspondientes subtipos se usan además de para especificar la clase de la 
+subcuenta, el sistema sepa que asiento contable hacer. Es decir, previamente hay un modelo de asiento 
+contable que tiene configurado el tipo GM, GME, GMP, etc.  
+Tipo CC : Tipo de subcuenta de cliente o proveedor (Esta no es necesario configurarla ya que se aplica 
+automáticamente a las subcuentas de clientes y proveedores que se generan automáticamente desde 
+la ficha de cliente y proveedor)  
+Tipo BCC : Para las subcuentas bancarias.  
+• Subtipo BCC: Igual que el tipo.  
+Tipo EC : Para las cuentas de efectos comerciales tanto de clientes como proveedores  
+• Subtipo I: Para las subcuentas de efectos comerciales de proveedores.  
+• Subtipo C: Para las subcuentas de efectos comerciales de clientes.  
+• Subtipo D: Para las subcuentas de efectos comerciales devueltos.  
+• Subtipo P: Para las subcuentas de efectos comerciales pagados.  
+Tipo IS : Para las subcuentas de IVA Soportado.  
+Tipo IR : Para las subcuentas de IVA Repercutido
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 5/22 www.imatia.com  
+Formulario de activo. Pestaña Documentos asociados  
+• Costes y movimientos : se muestran las siguientes subpestañas : 
+ 
+o Facturas:  tiene relación con las facturas en las que aparece el activo . 
+ 
+o Costes : tiene como finalidad mostrar la imputación de coste al activo desde 
+documentos:  
+- Tipo: Se distinguirán:  
+▪ Albarán (de compras)  
+▪ Factura (de compras)  
+▪ Proyectos  
+▪ Programaciones  
+- Documento: Código de los documentos.  
+- Fecha:  
+▪ Albarán y factura: Fecha de contabilización del documento (solo salen costes 
+de los detalles de albaranes y facturas contabilizados que tengan activos 
+asociados y no estén marcados como “Bien de inversión”).  
+▪ Programación: Fecha que se completa en la programación (solo salen datos si 
+está cubierta esta fecha y la programación tiene fabricaciones parciales).  
+▪ Proyecto: Fecha de cierre del proyecto (salen datos independientemente del 
+estado).  
+- Concepto:  
+▪ Albarán: Descripción del detalle del albarán en el cual está asociado el activo.  
+▪ Factura: Descripción del detalle de la factura en la que se asocia el activo.  
+▪ Programación: Vacío  
+▪ Proyecto: Descripción del proyecto.  
+- Importe:  
+▪ Albarán y factura: Importe asociado de la línea de albarán y factura al activo.  
+▪ Programación: Coste total real de la programación  
+▪ Proyecto: Coste total de la imputación de horas de empleados en el proyecto.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 6/38 www.imatia.com  
+Ejemplo de desglose dimensional  
+Este desglose dimensional es editable, permitiendo modificar los valores de las dimensiones y añadir 
+una nueva si se desea, así como modificar importes y porcentajes.  
+En la subcuenta contable, desde finanzas, también se puede n visualizar las dimensiones y valores 
+asociados a esta. La vista permite filtrar tanto por dimensión, como valor de esta.  
+ 
+Subcuenta contable. Pestaña Libro Mayor. Subpestaña por dimensión.  
+ 
+Dentro del menú Finanzas >> Dimensiones >> Informes  hay dos informes de dimensión. Uno listado de  
+dimensiones y otro del PyG Dimensional.  
+ 
+En este listado previo filtro de la dimensión, ya que no se puede mostrar varios ejes de análisis a la vez, 
+se ve el desglose mes a mes, acumulado y la desviación con respecto al  presupuesto  si se ha 
+desglosado, de todas las subcuentas con saldo. Es una manera más compleja de ver la información,
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 6/22 www.imatia.com  o Movimientos:  tiene como finalidad reflejar los incrementos o decrementos contables del 
+activo. Tiene las siguientes columnas:  
+- Fecha: la fecha del movimiento contable.  
+- Concepto: el concepto del apunte contable.  
+- Importe:  valor del importe del apunte contable en la subcuenta del activo.  
+  
+Formulario de activo. Pestaña Costes y movimientos  
+. 
+ 
+En esta ventana veremos los Grupos de activos  en los cuales se engloban los Activos fijos . Es necesario 
+configurarlos previamente al activo fijo ya que es un campo obligatorio en la creación de los mismo .  
+La primer o será  poder especificar si uno de estos grupos de amortización hace referencia a activos en 
+curso, ya que ahora también va a indicar el estado del activo.  
+La segundo será marcar el  check en la tabla de "Activo en curso". Este check servirá para indicar que ese 
+grupo únicamente se usará en activos en curso  y desencadenará lo siguiente:  
+• En la creación de  grupo de activos:  Tras haber reestructurado los campos . Se añadirá  aquí el 
+check para indicar que es un activo en curso . Si este se marca los campos se bloquean  y no 
+tendrá información.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 7/38 www.imatia.com  pero permite ver el desglose por mes, el diferencial resultante y la desviación en una sola línea,  así como 
+el acumulado del todo el año.  
+ 
+Listado dimensiones  
+ 
+En este listado también previo filtro de la dimensión o del rango mensual a analizar, se puede ver el 
+desglose por centro de coste, pero bajo la perspectiva de una PyG. Además, tiene como posibilidad, la 
+visualización del desglose del saldo de la partida a  analizar, ya que se puede acceder al desglose de la 
+subcuenta contable.  
+ 
+Listado PyG Dimensional  
+ 
+En Elastic la creación de subcuentas contables empieza en Finanzas >> Subcuentas.  
+Una vez en esta pantalla se le clic al icono de inserción y se nos abrirá a la siguiente pantalla.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 7/22 www.imatia.com  
+Detalle de los grupos de activos  
+• En el activo:  A la hora de crear un activo, si se selecciona  uno de los grupos que tengan marcado 
+el check de activos en curso, este se activará automáticamente, bloqueando y dejando vacíos 
+los siguientes campos , los cuales, vimos anteriormente que se podían cubrir . 
+ 
+Formulario de activos  
+ 
+En la creación del activo solamente se establecerá  en la parte inferior de Datos de amortización, 
+únicamente como obligatorio el grupo de amortización . Si se selecciona uno que no tenga activado el 
+check de "Activo en curso", se activarán todos los campos.  
+ 
+En el menú de compras , dentro de las líneas de los pedidos, albaranes y facturas, tiene una tabla a nivel 
+detalle para asociar activos a la línea del documento . Una línea de pedido puede estar asociada a varios 
+activos y para cada activo asociado  a la línea del documento, se le podrá indicar que importe asignar al 
+activo.  Dentro de este detalle se ven dos pestañas : 
+• Pestaña de Observaciones  
+Aquí se mostrarán  los detalles que salen  actualmente  en la línea del documento.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 8/38 www.imatia.com  A la hora de configurar las subcuentas contables vemos varios campos en la parte inferior que se 
+explican a continuación:  
+• Parámetros:  recoge la información sobre la configuración a la hora de asociar un valor de IVA a 
+esa cuenta, así como el tipo y subtipo que relacionan la subcuenta a la hora de generar los 
+apuntes contables desde gestión.  
+• Libro Mayor:  muestra los movimientos en la subcuenta en caso de que esta haya 
+tenido  asientos  en el Libro Diario.  
+• Presupuestado:  muestra las cantidades presupuestadas por meses, y la anual de esta 
+subcuenta. Estas cifras pueden editarse directamente en esa pantalla y en el  Plan 
+Presupuestario  
+• Datos del beneficiario:  sirve para relacionar la subcuenta con aquellas personas (físicas o 
+jurídicas) de clientes o proveedores. Al generar un cliente o proveedor se genera 
+automáticamente su subcuenta contable según configuración.  
+ 
+Para crear una subcuenta contable, hay que cumplimentar los campos obligatorios en color amarillo, 
+una vez cubramos los datos confirmamos en la parte superior.  
+Nota: Para agilizar el proceso de creación en la subcuenta, supongamos que queremos crear la cuenta 
+477000001, podemos escribir 477.1 y el sistema automáticamente ajustará los dígitos para dejarlos acorde 
+a la configuración del Plan General Contable.  
+Nota: Cuando se crea una subcuenta contable en un ejercicio, esta se replica en todos los demás ejercicios.  
+ 
+(Este apartado únicamente afectará a las subcuentas contables de los grupos 477 IVA REPERCUTIDO y 
+472 IVA SOPORTADO)  
+• Tipo: En tipo indicamos el tipo de Operación de IVA, este tipo de operación viene definido en la 
+Tabla Maestra de Tipo de Operación de IVA, se utiliza para filtrar el siguiente valor de Tipo IVA.  
+• Tipo IVA: En el Tipo de IVA se define el IVA concreto que se quiere asociar a la subcuenta 
+correspondiente.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 8/22 www.imatia.com  
+Detalle de línea - Observaciones  
+• Pestaña de Activos  fijos : 
+En esta pestaña añadiremos que parte del pedido tiene imputación sobre el activo.  
+ 
+Detalle de línea - Activos fijos  
+Si no se quieren crear nuevos activos, también se tiene la posibilidad de relacionarlo con uno ya existente. 
+Aquí tenemos un botón para asignar activos que ya existen  (Finanzas >> Activos fijos)  
+El formulario tendrá las siguientes columnas : 
+o Código del activo.  
+o Descripción del activo.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 9/38 www.imatia.com  • Tipo RE: Si se define subcuentas contables que tenga Recargo de Equivalencia este se define 
+en este apartado.  
+ 
+Moneda  (Este apartado afectará a las subcuentas contables que esté definidas en Moneda extranjera)  
+• El check de subcuenta de moneda extranjera activará todos los demás checks y campo de 
+Código divisa.  
+• Código divisa:  En este campo se configura la divisa de la subcuenta, sirve para mostrar el 
+icono correspondiente a la moneda de la divisa seleccionada.  
+• Documento obligatorio en asientos: Indica la obligatoriedad del campo N Documento en los 
+apuntes libres.  
+• Regularización automática en moneda extranjera en el proceso de ajuste de divisas: Ignorar, no 
+se usa para nada.  
+ 
+Aquí se definen el Tipo y Subtipo de las subcuentas, esta configuración afecta a la gestión de las 
+subcuentas en los asientos contables. Sirve para que el sistema identifique las subcuentas que se 
+necesitan a la hora de realizar los apuntes contables, por ejemplo,  las de bancos, las de efectos de 
+clientes/proveedores, etc.  
+La tabla maestra de Tipo es la siguiente:  
+Código tipo  Descripción tipo  
+BC Tipo cuenta caja  
+BCC  Tipo cuenta bancaria  
+BD Tipo cuenta bancaria descuento  
+BG Tipo cuenta gastos bancarios  
+BGC  Tipo cuenta gastos recibos compras  
+BGP  Tipo cuenta gastos del pagaré  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  
+CC Tipo cuenta cliente o proveedor  
+CD Tipo cuenta cliente devolución  
+CR Tipo cuenta retenciones compras  
+DED  Tipo cuenta deudas efectos descontados  
+DNC  Tipo cuenta diferencias negativas de cambio  
+DPC  Tipo cuenta diferencias positivas de cambio  
+DV Tipo cuenta devolucion  
+EC Tipo cuenta efectos comerciales  
+EXP  Tipo cuenta transitoria gastos empleados  
+G Tipo cuenta operaciones de compras  
+IR Tipo cuenta IVA repercutido  
+IS Tipo cuenta IVA soportado  
+PP Tipo cuenta pronto pago ventas  
+PPC  Tipo cuenta pronto pago compras
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 9/22 www.imatia.com  o Base imponible  
+o Importe asociado : es un campo editable y tendrá un aviso si se supera la base imponible 
+(tanto de forma individual como con varios act ivos)  
+ 
+Una vez que estos se creen, guardarán la relación con los documentos y si es en una factura 
+automáticamente ya incrementará el valor de este con el importe asociado.  Esto será válido  tanto para 
+activos como para activos en curso.  
+ 
+Como el check de inversión pasa de utilizarse de cabecera a línea, cuando una línea tenga marcado ese 
+check, la contabilización tiene en cuenta la subcuenta contable el activo/activos asociado a esta.  
+Aplica tanto para albaranes de compras como para facturas de compras.  
+Ej: si tenemos un servicio que tenga asociada una subcuenta contable del grupo 6, al no tener marcado 
+ese check  de bien de inversión, la contabilización se hará con la subcuenta contable del servicio. Si el 
+check de inversión está marcado la contabilización se hará con la subcuenta contable del activo.  
+La contabilización de facturas de compras y albaranes de compra supondrá un incremento del valor del 
+activo en cuestión. Este incremento se verá reflejado directamente en el importe del activo, así como en 
+las pestañas de Cambios de importe  y Movimientos
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 10/38 www.imatia.com  RA Tipo cuenta rappel ventas  
+RC Tipo cuenta rappel compras  
+RE Tipo cuenta recargo equivalencia  
+V Tipo cuenta operaciones de ventas  
+VR Tipo cuenta retenciones ventas  
+ 
+La tabla maestra de los Subtipos es la siguiente:  
+Código tipo  Descripción tipo  Código 
+subtipo  Descripción subtipo  
+BC Tipo cuenta caja  BC Subtipo cuenta caja  
+BCC  Tipo cuenta bancaria  BCC  Subtipo cuenta banco  
+BD Tipo cuenta bancaria descuento  BD Subtipo cuenta banco devoluciones  
+BD Tipo cuenta bancaria descuento  BD2  Subtipo cuenta banco devoluciones 2  
+BD Tipo cuenta bancaria descuento  BD3  Subtipo cuenta banco devoluciones 3  
+BG Tipo cuenta gastos bancarios  BG Subtipo cuenta banco gastos  
+BG Tipo cuenta gastos bancarios  BG2  Subtipo cuenta banco gastos ventas 2  
+BG Tipo cuenta gastos bancarios  BG3  Subtipo cuenta banco gastos ventas 3  
+BG Tipo cuenta gastos bancarios  BG4  Subtipo cuenta banco gastos ventas 4  
+BG Tipo cuenta gastos bancarios  BG5  Subtipo cuenta banco gastos ventas 5  
+BGC  Tipo cuenta gastos recibos compras  BGC  Subtipo cuenta banco gastos compras  
+BGC  Tipo cuenta gastos recibos compras  BGC2  Subtipo cuenta banco gastos compras 2  
+BGC  Tipo cuenta gastos recibos compras  BGC3  Subtipo cuenta banco gastos compras 3  
+BGC  Tipo cuenta gastos recibos compras  BGC4  Subtipo cuenta banco gastos compras 4  
+BGC  Tipo cuenta gastos recibos compras  BGC5  Subtipo cuenta banco gastos compras 5  
+BGP  Tipo cuenta gastos del pagaré  BGP  Subtipo cuenta gatos bancarios pagaré  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI Subtipo cuenta ingresos extraordinarios  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI2 Subtipo cuenta ingresos extraordinarios 2  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI3 Subtipo cuenta ingresos extraordinarios 3  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI4 Subtipo cuenta ingresos extraordinarios 4  
+BI Tipo cuenta ingresos extraordinarios recibos ventas  BI5 Subtipo cuenta ingresos extraordinarios 5  
+CR Tipo cuenta retenciones compras  RT Subtipo cuenta retenciones compra  
+CR Tipo cuenta retenciones compras  RT2  Subtipo cuenta retenciones compras 2  
+CR Tipo cuenta retenciones compras  RT3  Subtipo cuenta retenciones compras 3  
+DED  Tipo cuenta deudas efectos descontados  DED  Subtipo cuenta deudas efectos descontados  
+DNC  Tipo cuenta diferencias negativas de cambio  DNC  Subtipo cuenta diferencias negativas de cambio  
+DPC  Tipo cuenta diferencias positivas de cambio  DPC  Subtipo cuenta diferencias positivas de cambio  
+DV Tipo cuenta devolución  DV Subtipo cuenta devoluciones  
+DV Tipo cuenta devolución  DV2  Subtipo cuenta devoluciones ventas 2  
+DV Tipo cuenta devolución  DV3  Subtipo cuenta devoluciones ventas 3  
+EC Tipo cuenta efectos comerciales  C Subtipo cuenta efectos pendientes  
+EC Tipo cuenta efectos comerciales  D Subtipo cuenta efectos devueltos  
+EC Tipo cuenta efectos comerciales  I Subtipo cuenta efectos impagados  
+EC Tipo cuenta efectos comerciales  P Subtipo cuenta efectos pagados
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 10/22 www.imatia.com  
+Documento de compras. Check de bien de inversión  
+ 
+Detalle ampliado  
+ 
+Apunte manual  
+Para el caso de un incremento o decremento del importe de un activo por causas que no tengan que ver 
+con albaranes o facturas de compras, este puede ser un incremento de valor por un proceso productivo 
+de mejora o una perdida por falla de funcionamiento. E n estos casos se hará la modificación del importe 
+mediante asientos contables manuales. En los apuntes manuales se añade un campo de selección de 
+activo, de manera que se guarda una relación entre la subcuenta contable del activo y este.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 11/38 www.imatia.com  EXP  Tipo cuenta transitoria gastos empleados  TR Subtipo cuenta transitoria gastos  
+G Tipo cuenta operaciones de compras  GM Subtipo compras  operaciones compras de servicios  
+G Tipo cuenta operaciones de compras  GME  Subtipo cuenta operaciones compras  de mercaderías  
+G Tipo cuenta operaciones de compras  GMP  Subtipo cuenta operaciones compras de mercaderías 
+(BMC)  
+G Tipo cuenta operaciones de compras  HAC  Subtipo cuenta hacienda acreedora por IVA  
+G Tipo cuenta operaciones de compras  TF Subtipo cuenta transitoria facturas pendientes de 
+recibir  
+IR Tipo cuenta IVA repercutido  IR Subtipo cuenta IVA repercutido  
+IS Tipo cuenta IVA soportado  IS Subtipo cuenta IVA soportado  
+PP Tipo cuenta pronto pago ventas  PP Subtipo cuenta pronto pago ventas  
+PP Tipo cuenta pronto pago ventas  PP2  Subtipo cuenta pronto pago ventas 2  
+PP Tipo cuenta pronto pago ventas  PP3  Subtipo cuenta pronto pago ventas 3  
+PPC  Tipo cuenta pronto pago compras  PPC  Subtipo cuenta pronto pago compras  
+PPC  Tipo cuenta pronto pago compras  PPC2  Subtipo cuenta pronto pago compras 2  
+PPC  Tipo cuenta pronto pago compras  PPC3  Subtipo cuenta pronto pago compras 3  
+RA Tipo cuenta rappel ventas  RA Subtipo cuenta rappel ventas  
+RA Tipo cuenta rappel ventas  RA2  Subtipo cuenta rappel ventas 2  
+RA Tipo cuenta rappel ventas  RA3  Subtipo cuenta rappel ventas 3  
+RC Tipo cuenta rappel compras  RC Subtipo cuenta rappel compras  
+RC Tipo cuenta rappel compras  RC2  Subtipo cuenta rappel compras 2  
+RC Tipo cuenta rappel compras  RC3  Subtipo cuenta rappel compras 3  
+RE Tipo cuenta recargo equivalencia  RE Subtipo cuenta recargo de equivalencia  
+RE Tipo cuenta recargo equivalencia  RE2  Subtipo cuenta recargo equivalencia 2  
+RE Tipo cuenta recargo equivalencia  RE3  Subtipo cuenta recargo equivalencia 3  
+V Tipo cuenta operaciones de ventas  CCFC  Subtipo cuenta de confirming a cobrar  
+V Tipo cuenta operaciones de ventas  CECC  Subtipo cuenta clientes efectos comerciales a cobrar  
+V Tipo cuenta operaciones de ventas  GV Subtipo cuenta de gastos ventas  
+V Tipo cuenta operaciones de ventas  ME Subtipo cuenta operaciones ventas  
+V Tipo cuenta operaciones de ventas  TR Subtipo cuenta de transporte  
+VR Tipo cuenta retenciones ventas  RT Subtipo cuenta retenciones venta  
+VR Tipo cuenta retenciones ventas  RT2  Subtipo cuenta retenciones ventas 2  
+VR Tipo cuenta retenciones ventas  RT3  Subtipo cuenta retenciones ventas 3  
+ 
+No todas las subcuentas necesitan tener un tipo y subtipo configurado, esto depende de que tipo de 
+cuenta estemos configurando.  
+Para el usuario los tipos más importantes son:  
+Tipo G : Operaciones de compras. Se utilizan para las subcuentas de tipo 6, aunque pueda haber otras 
+para la gestión de las compras. En todos los subtipos  
+• Subtipo GM: Subtipo compras operaciones de servicios.  
+• Subtipo GME: Subtipo compras operaciones de mercaderías.  
+• Subtipo GMP: Subtipo compras operaciones de mercaderías (específico para BMC).
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 11/22 www.imatia.com  
+Apunte manual  
+Notas : 
+• Un activo automáticamente incrementará o decrementará su importe mediante apuntes 
+contables.  
+• El usuario es libre de modificar el importe del activo a mano, bajo criterio. Luego debe 
+corresponder estas modificaciones de forma contable.  
+ 
+De igual manera, se permite editar la pestaña de Cambios de importe. El usuario es responsable de luego 
+ajustar estas modificaciones a la contabilidad  
+ 
+La asociación de activos a detalles de  albaranes y  facturas de compras se puede comportar de dos 
+maneras diferentes, primero se debe asociar el activo a la línea.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 12/38 www.imatia.com  • Subtipo HAC:  Subtipo cuenta hacienda acreedora por IVA . 
+• Subtipo TF: Subtipo cuenta transitoria facturas pendientes de recibir . 
+Tipo V : Operaciones de ventas. Se utiliza para las subcuentas de tipo 7 aunque puede haber otras para 
+la gestión de las ventas.  
+• Subtipo GV: Para la subcuenta de los gastos específicos de documentos de ventas.  
+• Subtipo ME: Para las subcuentas puramente de Operaciones de ventas (Estas subcuentas son 
+las que se seleccionan en albaranes y facturas para la generación de los apuntes contables)  
+• Subtipo TR: Para la subcuenta de los gastos específicos de transporte.  
+Notas: Los tipos G y V y sus correspondientes subtipos se usan además de para especificar la clase de la 
+subcuenta, el sistema sepa que asiento contable hacer. Es decir, previamente hay un modelo de asiento 
+contable que tiene configurado el tipo GM, GME, GMP, etc.  
+Tipo CC : Tipo de subcuenta de cliente o proveedor (Esta no es necesario configurarla ya que se aplica 
+automáticamente a las subcuentas de clientes y proveedores que se generan automáticamente desde 
+la ficha de cliente y proveedor)  
+Tipo BCC : Para las subcuentas bancarias.  
+• Subtipo BCC: Igual que el tipo.  
+Tipo EC : Para las cuentas de efectos comerciales tanto de clientes como proveedores  
+• Subtipo I: Para las subcuentas de efectos comerciales de proveedores.  
+• Subtipo C: Para las subcuentas de efectos comerciales de clientes.  
+• Subtipo D: Para las subcuentas de efectos comerciales devueltos.  
+• Subtipo P: Para las subcuentas de efectos comerciales pagados.  
+Tipo IS : Para las subcuentas de IVA Soportado.  
+Tipo IR : Para las subcuentas de IVA Repercutido  
+ 
+1. Introducción  ................................ ................................ ................................ ................................ ........  13 
+2. Grupos de activos.  ................................ ................................ ................................ ..............................  18 
+2.1 Activos en compras  ................................ ................................ ................................ ................................ ...... 19 
+2.2 Documentos de compras.  ................................ ................................ ................................ ...........................  21 
+2.3 Incremento de coste o valor mediante imputación en albaranes y facturas.  ................................ ... 23 
+2.4 Incremento de coste mediante imputación de horas en proyectos  ................................ ...................  27 
+2.5 Incremento de coste mediante imputación de materiales y tiempos en programaciones  ............  29
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 12/22 www.imatia.com  1. Si a la hora de asociar el activo a la línea, marcamos el check de “Bien de inversión”, la subcuenta 
+contable del activo se tendrá en cuenta en la contabilización de l albarán y de  la factura, dando 
+lugar a un incremento del activo de manera automática.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 13/38 www.imatia.com  
+ 
+En este documento tiene que objetivo detallar la gestión de activos en elastic Business.  
+ 
+Activos fijos  
+ 
+Al entrar e n los detalles del activo se puede v er que  en la cabecera se encuentran los datos principales 
+del activo. A la hora de crear un nuevo activo, l os datos obligatorios son el concepto y la empresa.  
+En las pestañas se pueden  ver: 
+• Básicos:  contiene campos con información básica del activo en cuestión : 
+ 
+o Grupo:  Hace referencia a que grupo de amortización  al que pertenece el activo a 
+amortizar . Estos grupos se pueden crear en Finanzas >> Auxiliares >> Grupos de activos . 
+Estos datos obligatorios son los que aparecerán luego relacionados en los activos fijos.  
+ 
+Actualmente la configuración para la amortización se define en Finanzas >> Auxiliares >> Grupos 
+de activos .
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 13/22 www.imatia.com  
+ 
+2. Si a la hora de asociar un activo a la línea, lo que queremos es reflejar que el material adquirido 
+incrementa el coste del activo, pero no contabilizar como “Bien de inversión”, el check de “Bien 
+de inversión” se dejará desmarcado. De esta manera, se refl ejará en el activo un coste derivado 
+del albarán de compras o de la  factura de compras. Para que este coste se vea reflejado en la 
+pestaña de costes del activo, el albarán o  factura debe estar contabilizada. Los costes reflejados 
+en el activo no incrementa r su valor, este únicamente se ve incrementando mediante asientos 
+contables.  Para evitar duplicidad de costes, primero se muestra el coste reflejado del albarán, si 
+este se pasa a factura, se mostrará el de la factura.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 14/38 www.imatia.com  
+Grupos de activos  
+ 
+o Porcentaje de amortización:  Viene dado por el grupo de amortización,  aunque se puede 
+modificar.  
+o Valor residual : Estimación del valor que tendrá el activo al final de su vida útil.  
+o Subc.  amortización : Muestra la subcuenta de amortización en base  al grupo de 
+amortización seleccionado.  
+o Tipo de amortización:  Define  los plazos de amortización.  
+o Subc . dotación : Subcuenta de gasto asociada al activo.  
+Formulario de activo. Pestaña básico.  
+• Cambios en importes:  tiene como finalidad registrar todas las modificaciones del importe del 
+activo, quedando reflejada la fecha de este.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 14/22 www.imatia.com
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 15/38 www.imatia.com  
+Formulario de activo. Pestaña Cambios en importe  
+• Amortización:  aquella información relevante sobre la amortización que no se muestre en la 
+pestaña de Básicos se recoge aquí (estado actual de la amortización y Asientos de 
+amortización).  Aquí se puede ver cuanto queda por amortizar y que cantidad ya se amortizó.  En 
+Finanzas >> Procesos > > Generar asientos >> A mortización  podremos añadir las líneas de 
+amortización .
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 15/22 www.imatia.com  Para los siguientes puntos, se tomará el caso de un activo donde se incrementa su coste mediante 
+facturas de compras, no su importe. Es decir, con el check de “Bien de inversión” desmarcado.  
+ 
+Para poder imputar costes de horas y facturas a través de los proyectos, una vez que este está creado, 
+lo primero que se debe hacer es asociar el activo en cuestión al proyecto.  
+Para ello, se dispone del siguiente campo.  
+ 
+Proyecto  
+Para imputar costes de empleados a los proyectos, lo primero que se debe hacer es crear una orden de 
+trabajo.  
+Una vez creada esta orden de trabajo, se asocian los empleados y se imputan las horas de trabajo.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 16/38 www.imatia.com  Formulario de activo. Pestaña Amortización.  
+ 
+• Documentos asociados : todo presupuesto, pedido, albarán y factura asociada a este activo fijo 
+se ve reflejada en esta pestaña.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 16/22 www.imatia.com  
+ 
+En la parte superior derecha, se desglosa el coste total de los empleados como el coste total de las 
+facturas asociadas.  
+En los activos, únicamente se ve reflejado el coste de los empleados.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 17/38 www.imatia.com  
+Formulario de activo. Pestaña Documentos asociados  
+• Costes y movimientos : se muestran las siguientes subpestañas : 
+ 
+o Facturas:  tiene relación con las facturas en las que aparece el activo . 
+ 
+o Costes : tiene como finalidad mostrar la imputación de coste al activo desde 
+documentos:  
+- Tipo: Se distinguirán:  
+▪ Albarán (de compras)  
+▪ Factura (de compras)  
+▪ Proyectos  
+▪ Programaciones  
+- Documento: Código de los documentos.  
+- Fecha:  
+▪ Albarán y factura: Fecha de contabilización del documento (solo salen costes 
+de los detalles de albaranes y facturas contabilizados que tengan activos 
+asociados y no estén marcados como “Bien de inversión”).  
+▪ Programación: Fecha que se completa en la programación (solo salen datos si 
+está cubierta esta fecha y la programación tiene fabricaciones parciales).  
+▪ Proyecto: Fecha de cierre del proyecto (salen datos independientemente del 
+estado).  
+- Concepto:  
+▪ Albarán: Descripción del detalle del albarán en el cual está asociado el activo.  
+▪ Factura: Descripción del detalle de la factura en la que se asocia el activo.  
+▪ Programación: Vacío  
+▪ Proyecto: Descripción del proyecto.  
+- Importe:  
+▪ Albarán y factura: Importe asociado de la línea de albarán y factura al activo.  
+▪ Programación: Coste total real de la programación  
+▪ Proyecto: Coste total de la imputación de horas de empleados en el proyecto.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 17/22 www.imatia.com  
+Esto es debido a que, si ya en la propia factura se refleja el coste de los materiales adquiridos, al asociar 
+la factura al proyecto, estos costes se duplicarían. Si es necesario hacer una modificación en este punto, 
+indicádnoslo.  
+ 
+En las programaciones se da la posibilidad de poder asociar uno o varios activos. Recomendamos 
+únicamente asociar un activo, damos la posibilidad de asociar varios de cara a desarrollos futuros.  
+Para poder gestionar la imputación de materiales y tiempos, lo primero que se debe hacer es tener un 
+artículo en el maestro de artículos para la generación del plan maestro.  
+En este caso se ha creado el artículo TRABACT - TRABAJOS INTERNOS EN ACTIVOS , este artículo debe 
+estar en una familia de Producción para poder utilizarse en las programaciones.  
+Una vez creado el artículo, se añade en el despiece la operación que hará el consumo de los materiales 
+y en la que se imputarán tiempos de trabajo si se desea.  
+Aprovechando la Sección existente 249 – DISEÑO UTILLAJES, se crea la operación TRI - TRABAJOS 
+INTERNOS UTILLAJE . 
+Esta operación se asocia al despiece del artículo TRABACT - TRABAJOS INTERNOS EN ACTIVOS .
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 18/38 www.imatia.com  o Movimientos:  tiene como finalidad reflejar los incrementos o decrementos contables 
+del activo. Tiene las siguientes columnas:  
+- Fecha: la fecha del movimiento contable.  
+- Concepto: el concepto del apunte contable.  
+- Importe:  valor del importe del apunte contable en la subcuenta del activo.  
+  
+Formulario de activo. Pestaña Costes y movimientos  
+. 
+ 
+En esta ventana veremos los Grupos de activos  en los cuales se engloban los Activos fijos . Es necesario 
+configurarlos previamente al activo fijo ya que es un campo obligatorio en la creación de los mismo .  
+La primer o será  poder especificar si uno de estos grupos de amortización hace referencia a activos en 
+curso, ya que ahora también va a indicar el estado del activo.  
+La segundo será marcar el  check en la tabla de "Activo en curso". Este check servirá para indicar que ese 
+grupo únicamente se usará en activos en curso  y desencadenará lo siguiente:  
+• En la creación de  grupo de activos:  Tras haber reestructurado los campos . Se añadirá  aquí el 
+check para indicar que es un activo en curso . Si este se marca los campos se bloquean  y no 
+tendrá información.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 18/22 www.imatia.com  
+Nota: No debe tener marcado el check de Alta. Prod , ya que únicamente se busca reflejar consumos de 
+materiales.  
+Una vez añadido el artículo al plan maestro, y asociado el activo en que se desean imputar materiales y 
+tiempos, se calculan las necesidades.  
+Se generará una orden de producción, para poder realizar la imputación de materiales y tiempos, esta 
+debe estar lanzada.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 19/38 www.imatia.com  
+Detalle de los grupos de activos  
+• En el activo:  A la hora de crear un activo, si se selecciona  uno de los grupos que tengan marcado 
+el check de activos en curso, este se activará automáticamente, bloqueando y dejando vacíos 
+los siguientes campos , los cuales, vimos anteriormente que se podían cubrir . 
+ 
+Formulario de activos  
+ 
+En la creación del activo solamente se establecerá  en la parte inferior de Datos de amortización, 
+únicamente como obligatorio el grupo de amortización . Si se selecciona uno que no tenga activado el 
+check de "Activo en curso", se activarán todos los campos.  
+ 
+En el menú de compras , dentro de las líneas de los pedidos, albaranes y facturas, tiene una tabla a nivel 
+detalle para asociar activos a la línea del documento . Una línea de pedido puede estar asociada a varios 
+activos y para cada activo asociado  a la línea del documento, se le podrá indicar que importe asignar al 
+activo.  Dentro de este detalle se ven dos pestañas : 
+• Pestaña de Observaciones  
+Aquí se mostrarán  los detalles que salen  actualmente  en la línea del documento.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 19/22 www.imatia.com  
+Para realizar la imputación de materiales y tiempos, se debe ir a la orden y crear una fabricación parcial.  
+En esta fabricación parcial, se puede añadir consumos de materiales e imputar tiempos de trabajador.  
+ 
+Los consumos que se añadan deben de ser “No planificados”. Esta se hará en la pestaña de Consumos 
+dentro de la Fabricación parcial.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 20/38 www.imatia.com  
+Detalle de línea - Observaciones  
+• Pestaña de Activos  fijos : 
+En esta pestaña añadiremos que parte del pedido tiene imputación sobre el activo.  
+ 
+Detalle de línea - Activos fijos  
+Si no se quieren crear nuevos activos, también se tiene la posibilidad de relacionarlo con uno ya existente. 
+Aquí tenemos un botón para asignar activos que ya existen  (Finanzas >> Activos fijos)  
+El formulario tendrá las siguientes columnas : 
+o Código del activo.  
+o Descripción del activo.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 20/22 www.imatia.com  
+ 
+La asociación de tiempos de empleado se puede hacer tanto de forma manual en la pestaña de 
+Empleados, como la pantalla de Seguimiento de órdenes.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 21/38 www.imatia.com  o Base imponible  
+o Importe asociado : es un campo editable y tendrá un aviso si se supera la base imponible 
+(tanto de forma individual como con varios act ivos)  
+ 
+Una vez que estos se creen, guardarán la relación con los documentos y si es en una factura 
+automáticamente ya incrementará el valor de este con el importe asociado.  Esto será válido  tanto para 
+activos como para activos en curso.  
+ 
+Como el check de inversión pasa de utilizarse de cabecera a línea, cuando una línea tenga marcado ese 
+check, la contabilización tiene en cuenta la subcuenta contable el activo/activos asociado a esta.  
+Aplica tanto para albaranes de compras como para facturas de compras.  
+Ej: si tenemos un servicio que tenga asociada una subcuenta contable del grupo 6, al no tener marcado 
+ese check  de bien de inversión, la contabilización se hará con la subcuenta contable del servicio. Si el 
+check de inversión está marcado la contabilización se hará con la subcuenta contable del activo.  
+La contabilización de facturas de compras y albaranes de compra supondrá un incremento del valor del 
+activo en cuestión. Este incremento se verá reflejado directamente en el importe del activo, así como en 
+las pestañas de Cambios de importe  y Movimientos
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 21/22 www.imatia.com  
+ 
+Para que los costes de una programación se reflejen en un activo, se debe dar por completa la 
+programación.  
+ 
+Una vez completada la programación, se reflejará en el activo los costes de esta.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 22/38 www.imatia.com  
+Documento de compras. Check de bien de inversión  
+ 
+Detalle ampliado  
+ 
+Apunte manual  
+Para el caso de un incremento o decremento del importe de un activo por causas que no tengan que ver 
+con albaranes o facturas de compras, este puede ser un incremento de valor por un proceso productivo 
+de mejora o una perdida por falla de funcionamiento. E n estos casos se hará la modificación del importe 
+mediante asientos contables manuales. En los apuntes manuales se añade un campo de selección de 
+activo, de manera que se guarda una relación entre la subcuenta contable del activo y este.
+
+---
+
+# Elastic_Business_Módulo de Finanzas. Gestión de activos - 
+
+**Origen:** `build\sources\finanzas\Elastic_Business_Módulo de Finanzas. Gestión de activos.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 22/22 www.imatia.com
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 23/38 www.imatia.com  
+Apunte manual  
+Notas : 
+• Un activo automáticamente incrementará o decrementará su importe mediante apuntes 
+contables.  
+• El usuario es libre de modificar el importe del activo a mano, bajo criterio. Luego debe 
+corresponder estas modificaciones de forma contable.  
+ 
+De igual manera, se permite editar la pestaña de Cambios de importe. El usuario es responsable de luego 
+ajustar estas modificaciones a la contabilidad  
+ 
+La asociación de activos a detalles de  albaranes y  facturas de compras se puede comportar de dos 
+maneras diferentes, primero se debe asociar el activo a la línea.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 24/38 www.imatia.com  1. Si a la hora de asociar el activo a la línea, marcamos el check de “Bien de inversión”, la subcuenta 
+contable del activo se tendrá en cuenta en la contabilización de l albarán y de  la factura, dando 
+lugar a un incremento del activo de manera automática.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 25/38 www.imatia.com  
+ 
+2. Si a la hora de asociar un activo a la línea, lo que queremos es reflejar que el material adquirido 
+incrementa el coste del activo, pero no contabilizar como “Bien de inversión”, el check de “Bien 
+de inversión” se dejará desmarcado. De esta manera, se refl ejará en el activo un coste derivado 
+del albarán de compras o de la  factura de compras. Para que este coste se vea reflejado en la 
+pestaña de costes del activo, el albarán o  factura debe estar contabilizada. Los costes reflejados 
+en el activo no incrementa r su valor, este únicamente se ve incrementando mediante asientos 
+contables.  Para evitar duplicidad de costes, primero se muestra el coste reflejado del albarán, si 
+este se pasa a factura, se mostrará el de la factura.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 26/38 www.imatia.com
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 27/38 www.imatia.com  Para los siguientes puntos, se tomará el caso de un activo donde se incrementa su coste mediante 
+facturas de compras, no su importe. Es decir, con el check de “Bien de inversión” desmarcado.  
+ 
+Para poder imputar costes de horas y facturas a través de los proyectos, una vez que este está creado, 
+lo primero que se debe hacer es asociar el activo en cuestión al proyecto.  
+Para ello, se dispone del siguiente campo.  
+ 
+Proyecto  
+Para imputar costes de empleados a los proyectos, lo primero que se debe hacer es crear una orden de 
+trabajo.  
+Una vez creada esta orden de trabajo, se asocian los empleados y se imputan las horas de trabajo.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 28/38 www.imatia.com  
+ 
+En la parte superior derecha, se desglosa el coste total de los empleados como el coste total de las 
+facturas asociadas.  
+En los activos, únicamente se ve reflejado el coste de los empleados.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 29/38 www.imatia.com  
+Esto es debido a que, si ya en la propia factura se refleja el coste de los materiales adquiridos, al asociar 
+la factura al proyecto, estos costes se duplicarían. Si es necesario hacer una modificación en este punto, 
+indicádnoslo.  
+ 
+En las programaciones se da la posibilidad de poder asociar uno o varios activos. Recomendamos 
+únicamente asociar un activo, damos la posibilidad de asociar varios de cara a desarrollos futuros.  
+Para poder gestionar la imputación de materiales y tiempos, lo primero que se debe hacer es tener un 
+artículo en el maestro de artículos para la generación del plan maestro.  
+En este caso se ha creado el artículo TRABACT - TRABAJOS INTERNOS EN ACTIVOS , este artículo debe 
+estar en una familia de Producción para poder utilizarse en las programaciones.  
+Una vez creado el artículo, se añade en el despiece la operación que hará el consumo de los materiales 
+y en la que se imputarán tiempos de trabajo si se desea.  
+Aprovechando la Sección existente 249 – DISEÑO UTILLAJES, se crea la operación TRI - TRABAJOS 
+INTERNOS UTILLAJE . 
+Esta operación se asocia al despiece del artículo TRABACT - TRABAJOS INTERNOS EN ACTIVOS .
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 30/38 www.imatia.com  
+Nota: No debe tener marcado el check de Alta. Prod, ya que únicamente se busca reflejar consumos de 
+materiales.  
+Una vez añadido el artículo al plan maestro, y asociado el activo en que se desean imputar materiales y 
+tiempos, se calculan las necesidades.  
+Se generará una orden de producción, para poder realizar la imputación de materiales y tiempos, esta 
+debe estar lanzada.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 31/38 www.imatia.com  
+Para realizar la imputación de materiales y tiempos, se debe ir a la orden y crear una fabricación parcial.  
+En esta fabricación parcial, se puede añadir consumos de materiales e imputar tiempos de trabajador.  
+ 
+Los consumos que se añadan deben de ser “No planificados”. Esta se hará en la pestaña de Consumos 
+dentro de la Fabricación parcial.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 32/38 www.imatia.com  
+ 
+La asociación de tiempos de empleado se puede hacer tanto de forma manual en la pestaña de 
+Empleados, como la pantalla de Seguimiento de órdenes.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 33/38 www.imatia.com  
+ 
+Para que los costes de una programación se reflejen en un activo, se debe dar por completa la 
+programación.  
+ 
+Una vez completada la programación, se reflejará en el activo los costes de esta.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 34/38 www.imatia.com
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 35/38 www.imatia.com  
+En el presente documento se va a explicar como  se deben comunicar desde Elastic las facturas con IGIC 
+o IVAs extranjeros al SII.  
+ 
+En Elastic Business si debemos registrar una factura de venta o compra con IVA extranjero o IGIC, 
+primeramente, debemos tener ese IVA creado en la tabla maestra de IVA s (FINANZAS. Tipos de IVA. ). 
+ 
+En este documento haremos un ejemplo con el 7% IGIC canario, pero sería igualmente válido para 
+cualquier tipo de IVA extranjero.  
+El siguiente proveedor canario nos emite una factura de servicios con un IGIC del 7%
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 36/38 www.imatia.com  
+Para comunicar correctamente esta factura al SII, lo que debemos hacer es seleccionar en la pestaña 
+SII, el tipo de operación 08.  
+ 
+De esta manera, se comunicará la base imponible de la factura, no comunicándose el IGIC.  
+Con respecto a la contabilidad, el modelo de asientos será el mismo que en cualquier otra factura de 
+compras, y la configuración de la subcuenta contable del IVA será la que se configure en Finanzas >> 
+Subcuentas.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 37/38 www.imatia.com  
+ 
+En el presente documento se va n a los diferentes Modelos con lo que cuenta Elastic Business.
+
+---
+
+# elastic_business_modulo_finanzas - 
+
+**Origen:** `docs\assets\source-pdfs\finanzas\elastic_business_modulo_finanzas.pdf`
+**Módulo:** finanzas
+
+
+
+## Texto extraído
+
+Pág. 38/38 www.imatia.com  
+Modelo 111:  Declaración trimestral de retenciones e ingresos a cuenta del IRPF de rendimientos del 
+trabajo y actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de 
+renta.  
+Modelo 115:  Declaración trimestral de retenciones e ingresos a cuenta del IRPF por rentas o 
+rendimientos procedentes del arrendamiento o subarrendamiento de inmuebles urbanos.  
+Modelo 123:  Retenciones e ingresos a cuenta del IRPF, IRNR e IS sobre determinados rendimientos del 
+capital mobiliario y ganancias patrimoniales.  
+Modelo 180:  Resumen anual del Modelo 115 que incluye las retenciones e ingresos a cuenta del IRPF 
+por rentas o rendimientos procedentes del arrendamiento o subarrendamiento de inmuebles urbanos.  
+Modelo 190:  Resumen anual del Modelo 111, que recoge las retenciones e ingresos a cuenta del IRPF 
+por rendimientos del trabajo, actividades económicas, premios y ciertas ganancias patrimoniales.  
+Modelo 303:  Declaración trimestral del IVA. Este es el modelo de autoliquidación más común entre los 
+empresarios y profesionales para la declaración del IVA.  
+Modelo 340:  Declaración informativa de operaciones incluidas en los libros registro del IVA, aunque 
+actualmente está derogada para la mayoría de los contribuyentes excepto en casos muy específicos.  
+Modelo 347:  Declaración anual de operaciones con terceras personas con las que se ha superado la cifra 
+de 3.005,06 euros durante el año natural.  
+Modelo 349:  Declaración informativa de operaciones intracomunitarias que incluye adquisiciones y 
+entregas de bienes y servicios realizadas entre personas o entidades de diferentes Estados miembros 
+de la UE.  
+Modelo 390:  Resumen anual del IVA que recapitula las operaciones realizadas durante el año que han 
+sido objeto de declaración en el Modelo 303.
+
+---
+
+## Próximos pasos
+
+1. ✓ Revisar y corriegir el texto
+2. ⏳ Reorganizar en secciones temáticas
+3. ⏳ Extraer tablas y formatear correctamente
+4. ⏳ Agregar imágenes desde `docs/assets/pdf-images/finanzas/`
+5. ⏳ Crear estructura final con archivos temáticos
+6. ⏳ Actualizar tabla de contenidos
+
+## Módulo: finanzas
+
+**PDF original:** `build/sources/finanzas/`
+**Raw files:** `docs/_raw/finanzas/`
+**Assets:** `docs/assets/pdf-images/finanzas/`
